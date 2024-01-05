@@ -12,63 +12,63 @@ const PopularRoutes = () => {
     {
       id: 1,
       tag: "",
-      img: "/img/rentals/1.png",
-      destination: "Istanbul - New York",
+      img: "/img/rentals/Miami.jpg",
+      destination: "Miami",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "72",
+      price: "250",
       delayAnimation: "100",
     },
     {
       id: 2,
       tag: "",
-      img: "/img/rentals/2.png",
-      destination: "Istanbul - Paris",
+      img: "/img/rentals/Orlando.jpg",
+      destination: "Orlando",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "72",
+      price: "250",
       delayAnimation: "200",
     },
     {
       id: 3,
       tag: "",
-      img: "/img/rentals/3.png",
-      destination: "Istanbul - Antalya",
+      img: "/img/rentals/BsAs.jpg",
+      destination: "Buenos Aires",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "72",
+      price: "250",
       delayAnimation: "300",
     },
     {
       id: 4,
       tag: "",
-      img: "/img/rentals/4.png",
-      destination: "Istanbul - London",
+      img: "/img/rentals/PuntaCana.jpg",
+      destination: "Punta Cana",
       tripType: "Round-trip",
       data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "72",
+      price: "250",
       delayAnimation: "400",
     },
-    {
-      id: 5,
-      tag: "",
-      img: "/img/rentals/1.png",
-      destination: "Istanbul - New York",
-      tripType: "Round-trip",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "72",
-      delayAnimation: "500",
-    },
-    {
-      id: 6,
-      tag: "",
-      img: "/img/rentals/2.png",
-      destination: "Istanbul - Paris",
-      tripType: "Round-trip",
-      data: "Wed, Jun 1 - Sun, Jun 5",
-      price: "72",
-      delayAnimation: "600",
-    },
+    // {
+    //   id: 5,
+    //   tag: "",
+    //   img: "/img/rentals/1.png",
+    //   destination: "Istanbul - New York",
+    //   tripType: "Round-trip",
+    //   data: "Wed, Jun 1 - Sun, Jun 5",
+    //   price: "72",
+    //   delayAnimation: "500",
+    // },
+    // {
+    //   id: 6,
+    //   tag: "",
+    //   img: "/img/rentals/2.png",
+    //   destination: "Istanbul - Paris",
+    //   tripType: "Round-trip",
+    //   data: "Wed, Jun 1 - Sun, Jun 5",
+    //   price: "72",
+    //   delayAnimation: "600",
+    // },
   ];
   return (
     <>
@@ -122,14 +122,14 @@ const PopularRoutes = () => {
                 <h4 className="rentalCard__title text-dark-1 text-18 lh-16 fw-500">
                   <span>{item.destination}</span>
                 </h4>
-                <div className="d-flex items-center text-light-1">
+                {/* <div className="d-flex items-center text-light-1">
                   <div className="text-14">{item.tripType}</div>
                   <div className="size-3 bg-light-1 rounded-full ml-10 mr-10" />
                   <div className="text-14">{item.date}</div>
-                </div>
+                </div> */}
                 <div className="text-light-1  mt-5">
-                  <span className="fw-500 text-dark-1">US${item.price}</span>/
-                  per night
+                From <span className="fw-500 text-dark-1"> US${item.price} </span>
+                  + tax
                 </div>
               </div>
             </Link>
