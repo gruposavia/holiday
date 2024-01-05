@@ -84,7 +84,7 @@ const home_10 = () => {
         {/* End .container */}
       </section>
       {/* Popular Routes Sections */}
-      <section className="layout-pt-lg layout-pb-lg bg-dark-3">
+      <section className="layout-pt-lg layout-pb-lg bg-dark-2">
         <div className="container">
           <div className="row y-gap-40 justify-between text-white">
             <div className="col-xl-5 col-lg-6">
