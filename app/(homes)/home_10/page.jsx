@@ -84,41 +84,6 @@ const home_10 = () => {
         {/* End .container */}
       </section>
       {/* Popular Routes Sections */}
-
-      <section className="layout-pt-md layout-pb-lg">
-        <div className="container">
-          <div className="row justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Top Destinations</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
-                </p>
-              </div>
-            </div>
-            {/* End col-auto */}
-
-            <div className="col-auto">
-              <a
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                More <div className="icon-arrow-top-right ml-15" />
-              </a>
-            </div>
-            {/* End col-auto */}
-          </div>
-          {/* End .row */}
-
-          <div className="relative mt-40 sm:mt-20 js-section-slider">
-            <TopDestinations />
-          </div>
-          {/* End slider  */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End .Top Destinations */}
-
       <section className="layout-pt-lg layout-pb-lg bg-dark-3">
         <div className="container">
           <div className="row y-gap-40 justify-between text-white">
