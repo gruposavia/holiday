@@ -11,8 +11,8 @@ import BlogNavigator from "@/components/blog/blog-details/BlogNavigator";
 import Comments from "@/components/blog/blog-details/Comments";
 
 export const metadata = {
-  title: "Blog Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Blog Single || HolidayAir",
+  description: "HolidayAir",
 };
 
 const BlogSingleDynamic = ({ params }) => {

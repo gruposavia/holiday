@@ -2,8 +2,8 @@ import React from "react";
 import DashboardPage from "../../../../components/dashboard/dashboard/db-settings";
 
 export const metadata = {
-  title: "Settings || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Settings || HolidayAir",
+  description: "HolidayAir",
 };
 
 export default function page() {

@@ -16,8 +16,8 @@ import MapPropertyFinder from "@/components/cruise-single/MapPropertyFinder";
 import GalleryCruiseSlider from "@/components/cruise-single/GalleryCruiseSlider";
 
 export const metadata = {
-  title: "Cruise Single || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Cruise Single || HolidayAir",
+  description: "HolidayAir",
 };
 
 const CruiseSingleV1Dynamic = ({ params }) => {

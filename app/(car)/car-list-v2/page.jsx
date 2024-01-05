@@ -7,8 +7,8 @@ import Sidebar from "@/components/car-list/car-list-v2/Sidebar";
 import CarPropertes from "@/components/car-list/car-list-v2/CarPropertes";
 
 export const metadata = {
-  title: "Car List v2 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Car List v2 || HolidayAir",
+  description: "HolidayAir",
 };
 
 const index = () => {

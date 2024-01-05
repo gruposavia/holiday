@@ -2,8 +2,8 @@ import React from "react";
 import DashboardPage from "../../../../components/dashboard/dashboard/db-wishlist";
 
 export const metadata = {
-  title: "Wishlist || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Wishlist || HolidayAir",
+  description: "HolidayAir",
 };
 
 export default function page() {

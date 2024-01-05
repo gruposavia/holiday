@@ -9,8 +9,8 @@ import ContactForm from "@/components/common/ContactForm";
 import LocationTopBar from "@/components/common/LocationTopBar";
 
 export const metadata = {
-  title: "Contact || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Contact || HolidayAir",
+  description: "HolidayAir",
 };
 
 const Contact = () => {

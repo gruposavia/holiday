@@ -8,8 +8,8 @@ import BlogSidebar from "@/components/blog/blog-sidebar";
 import BlogPagination from "@/components/blog/BlogPagination";
 
 export const metadata = {
-  title: "Blog List V2 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Blog List V2 || HolidayAir",
+  description: "HolidayAir",
 };
 
 const BlogListV2 = () => {
