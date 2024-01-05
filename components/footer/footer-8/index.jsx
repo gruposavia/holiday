@@ -7,7 +7,7 @@ import Subscribe from "./Subscribe";
 
 const index = () => {
   return (
-    <footer className="footer -type-2 bg-dark-3 text-white">
+    <footer className="footer -type-2 bg-dark-1 text-white">
       <div className="container">
         <div className="pt-60 pb-60">
           <div className="row y-gap-40 justify-between xl:justify-start">
