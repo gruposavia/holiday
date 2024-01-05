@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
 import rentalsData from "@/data/rentals";
-import Header11 from "@/components/header/header-11";
+
 import Overview from "@/components/rental-single/Overview";
 import PropertyHighlights from "@/components/rental-single/PropertyHighlights";
 import TopBreadCrumb from "@/components/rental-single/TopBreadCrumb";
@@ -32,7 +32,7 @@ const TourSingleV1Dynamic = ({ params }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
+
       {/* End Header 1 */}
 
       <TopBreadCrumb />
