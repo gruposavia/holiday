@@ -28,10 +28,7 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(homeItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <a href="/">
-            <span className="mr-10">Home</span>
-           {/* // <i className="icon icon-chevron-sm-down" /> */}
-          </a>
+          <Link href="/">Home</Link>
           {/* <ul className="subnav">
             {homeItems.map((menu, i) => (
               <li
@@ -136,7 +133,7 @@ const MainMenu = ({ style = "" }) => {
           </ul>
         </li> */}
 
-        <li className={pathname === "/membership" ? "current" : ""}>
+        <li className={pathname === "/services" ? "current" : ""}>
           <Link href="/services">Services</Link>
         </li>
 
