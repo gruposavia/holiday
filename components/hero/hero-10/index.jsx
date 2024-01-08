@@ -1,4 +1,4 @@
-import FilterSelect from "./FilterSelect";
+import FilterSelect from "./components/FilterSelect";
 import MainFilterSearchBox from "./MainFilterSearchBox";
 
 const Index = () => {
@@ -13,17 +13,14 @@ const Index = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Where do You Want To Fly
+                Fly High, Live More.
               </h1>
               <p className="mt-5" data-aos="fade-up" data-aos-delay="200">
                 Discover amzaing places at exclusive deals
               </p>
               <div data-aos="fade-up" data-aos-delay="300">
-                <div className="row y-gap-20 items-center pt-30">
-                  <FilterSelect />
-                </div>
+                
                 {/* End .row */}
-
                 <MainFilterSearchBox />
                 {/* End filter content */}
               </div>

@@ -12,6 +12,7 @@ import "aos/dist/aos.css";
 import "../styles/index.scss";
 import { Provider } from "react-redux";
 import { store } from "../store/store";
+import Script from 'next/script';
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
@@ -41,6 +42,15 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <main>
+        <Script
+        id=""
+        src="https://ibe.hitit.aero/searchapi.js"
+        strategy="beforeInteractive"
+        onReady={() => {
+          //const api = new CraneSearchAPI('https://ibe.hitit.aero');
+          
+        }}
+      />
           <Provider store={store}>
             {children}
             <SrollTop />
