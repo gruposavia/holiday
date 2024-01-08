@@ -54,12 +54,12 @@ const Header1 = () => {
               <div className="d-flex items-center">
 
                 <div className="d-flex items-center is-menu-opened-hide md:d-none">
-                  <Link
+                  {/* <Link
                     href="/login"
                     className="button px-30 fw-400 text-14 -blue-1 bg-dark-4 h-50 text-white"
                   >
                     Bookings
-                  </Link>
+                  </Link> */}
                   {/* <Link
                     href="/signup"
                     className="button px-30 fw-400 text-14 border-dark-4 -blue-1 h-50 text-dark-4 ml-20"

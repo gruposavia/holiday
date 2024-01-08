@@ -266,7 +266,7 @@ const Destinations = () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Get inspiration for your next trip
+                  Services that will surprise you
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames
