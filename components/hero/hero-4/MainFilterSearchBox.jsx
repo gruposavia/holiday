@@ -1,6 +1,6 @@
 'use client'
 import { useRouter } from "next/navigation";
-import DateSearch from "../DateSearch";
+import DateSearch from "../hero-10/components/DateSearch";
 import GuestSearch from "./GuestSearch";
 import LocationSearch from "./LocationSearch";
 
