@@ -268,9 +268,9 @@ const Destinations = () => {
                 <h2 className="sectionTitle__title">
                   Services that will surprise you
                 </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                {/* <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
