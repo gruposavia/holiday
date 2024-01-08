@@ -22,7 +22,7 @@ const MainFilterSearchBox = () => {
             <button
               key={tab?.id}
               className={`tabs__button px-10
-               py-10 rounded-top-3 fw-600 text-dark-1 js-tabs-button ${tab?.name === currentTab ? "is-tab-el-active underline bg-dark-5 " : ""
+               py-10 rounded-top-3 fw-600 text-dark-1 js-tabs-button ${tab?.name === currentTab ? "is-tab-el-active underline bg-yellow-1" : ""
                 }`}
               onClick={() => dispatch(addCurrentTab(tab?.name))}
             >

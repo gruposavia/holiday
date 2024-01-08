@@ -13,7 +13,7 @@ const Index = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Where do You Want To Fly
+                Fly High, Live More.
               </h1>
               <p className="mt-5" data-aos="fade-up" data-aos-delay="200">
                 Discover amzaing places at exclusive deals
