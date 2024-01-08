@@ -3,12 +3,12 @@
 
 import React, { useState } from "react";
 const counters = [
-  { name: "Adults", defaultValue: 2 },
-  { name: "Children", defaultValue: 1 },
-  { name: "Rooms", defaultValue: 1 },
+  { name: "Adults", defaultValue: 2 , label: '12+'},
+  { name: "Children", defaultValue: 1 , label: '2 - 11'},
+  { name: "Infant", defaultValue: 1 , label: '0 - 2'},
 ];
 
-const Counter = ({ name, defaultValue, onCounterChange }) => {
+const Counter = ({ name, defaultValue, onCounterChange , label }) => {
   const [count, setCount] = useState(defaultValue);
   const incrementCount = () => {
     setCount(count + 1);
@@ -26,9 +26,9 @@ const Counter = ({ name, defaultValue, onCounterChange }) => {
       <div className="row y-gap-10 justify-between items-center">
         <div className="col-auto">
           <div className="text-15 lh-12 fw-500">{name}</div>
-          {name === "Children" && (
-            <div className="text-14 lh-12 text-light-1 mt-5">Ages 0 - 17</div>
-          )}
+
+            <div className="text-14 lh-12 text-light-1 mt-5">Ages {label}</div>
+
         </div>
         {/* End .col-auto */}
         <div className="col-auto">
@@ -65,7 +65,7 @@ const GuestSearch = () => {
   const [guestCounts, setGuestCounts] = useState({
     Adults: 2,
     Children: 1,
-    Rooms: 1,
+    Infant: 1,
   });
   const handleCounterChange = (name, value) => {
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
@@ -82,8 +82,7 @@ const GuestSearch = () => {
         <div className="text-15 text-light-1 ls-2 lh-16">
           <span className="js-count-adult">{guestCounts.Adults}</span> adults -{" "}
           <span className="js-count-child">{guestCounts.Children}</span>{" "}
-          childeren - <span className="js-count-room">{guestCounts.Rooms}</span>{" "}
-          room
+          <span className="js-count-room">{guestCounts.Infant}</span>{" "}
         </div>
       </div>
       {/* End guest */}
@@ -96,6 +95,7 @@ const GuestSearch = () => {
               name={counter.name}
               defaultValue={counter.defaultValue}
               onCounterChange={handleCounterChange}
+              label={counter.label}
             />
           ))}
         </div>

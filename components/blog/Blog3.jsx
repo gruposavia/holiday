@@ -5,7 +5,7 @@ import blogsData from "../../data/blogs";
 const Blog3 = () => {
   return (
     <>
-      {blogsData.slice(0, 3).map((item) => (
+      {blogsData.slice(0, 6).map((item) => (
         <div
           className="col-lg-4 col-sm-6"
           key={item.id}
@@ -29,7 +29,6 @@ const Blog3 = () => {
             </div>
             <div className="mt-20">
               <h4 className="text-dark-1 text-18 fw-500">{item.title}</h4>
-              <div className="text-light-1 text-15 lh-14 mt-5">{item.date}</div>
             </div>
           </Link>
         </div>
