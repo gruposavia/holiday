@@ -2,11 +2,12 @@
 'use client'
 
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 const FlyingToLocation = () => {
   const [searchValue, setSearchValue] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
-
+  const { t } = useTranslation()
   const locationSearchContent = [
     {
       id: 1,
@@ -48,12 +49,12 @@ const FlyingToLocation = () => {
           data-bs-auto-close="true"
           data-bs-offset="0,22"
         >
-          <h4 className="text-15 fw-500 ls-2 lh-16">Flying To</h4>
+          <h4 className="text-15 fw-500 ls-2 lh-16">{t('fly-complete-search:flying-to')}</h4>
           <div className="text-15 text-light-1 ls-2 lh-16">
             <input
               autoComplete="off"
               type="search"
-              placeholder="Where are you going?"
+              placeholder={t('fly-complete-search:going-to')}
               className="js-search js-dd-focus"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}

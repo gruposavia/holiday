@@ -3,10 +3,21 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
+import { useTranslation } from 'react-i18next';
+import i18nConfig from '@/i18nConfig';
 
 const LanguageMegaMenu = ({ textClass }) => {
+  const { i18n } = useTranslation();
+  const currentLocale = i18n.language;
+
+  const router = useRouter();
+  const currentPathname = usePathname();
+
   const [click, setClick] = useState(false);
   const handleCurrency = () => setClick((prevState) => !prevState);
+
 
   const languageContent = [
     { id: 1, language: " 🇺🇸 English", country: "United States", code:'en'},
@@ -30,12 +41,34 @@ const LanguageMegaMenu = ({ textClass }) => {
     // { id: 19, language: "Dutch, French", country: "Belgium" },
     // { id: 20, language: "English", country: "Belize" },
   ];
+const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
+console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", currentLocale)
 
-  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[0]);
+  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[langIndex ]);
+
+
 
   const handleItemClick = (item) => {
     setSelectedCurrency(item);
     setClick(false);
+    const newLocale = item.code;
+    if(newLocale !== currentLocale) {
+      console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", 'ENTREEEEE')
+      router.push(
+        currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
+      );
+    }
+    // if (
+    //   currentLocale === i18nConfig.defaultLocale &&
+    //   !i18nConfig.prefixDefault
+    // ) {
+    //   router.push('/' + currentPathname);
+    // } else {
+    //   router.push(
+    //     currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
+    //   );
+    // }
+    router.refresh();
   };
 
   return (

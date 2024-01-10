@@ -1,13 +1,16 @@
+'use client'
+
+import { useTranslation } from 'react-i18next';
+
 const TestimonialRating = () => {
+  const { t } = useTranslation()
   return (
     <>
       <h2 className="text-30 text-white">
-        What our customers are
-        <br /> saying us?
+        {t('testimonials:title')}
       </h2>
       <p className="text-white mt-20">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius
-        tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo.
+      {t('testimonials:description')}
       </p>
 
       <div className="row y-gap-30 text-white pt-60 lg:pt-40">

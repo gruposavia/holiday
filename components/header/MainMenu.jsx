@@ -1,3 +1,6 @@
+
+'use client'
+
 import Link from "next/link";
 
 import {
@@ -12,13 +15,14 @@ import {
   isActiveLink,
   isActiveParentChaild,
 } from "../../utils/linkActiveChecker";
-
+import { useTranslation } from 'react-i18next';
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const MainMenu = ({ style = "" }) => {
   const pathname = usePathname();
   const [isActiveParent, setIsActiveParent] = useState(false)
+  const { t } = useTranslation();
 
   return (
     <nav className="menu js-navList">
@@ -28,7 +32,7 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(homeItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <Link href="/">Home</Link>
+          <Link href="/">{t('home')}</Link>
           {/* <ul className="subnav">
             {homeItems.map((menu, i) => (
               <li
@@ -133,15 +137,15 @@ const MainMenu = ({ style = "" }) => {
           </ul>
         </li> */}
         <li className={pathname === "/membership" ? "current" : ""}>
-          <Link href="/membership">Memberships</Link>
+          <Link href="/membership">{t('membership')}</Link>
         </li>
         
         <li className={pathname === "/help-center" ? "current" : ""}>
-           <Link href="/help-center">Help center</Link>
+           <Link href="/help-center">{t('help-center')}</Link>
         </li>
 
         <li className={pathname === "/contact" ? "current" : ""}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">{t('contact')}</Link>
         </li>
       </ul>
     </nav>

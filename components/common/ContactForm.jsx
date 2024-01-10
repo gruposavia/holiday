@@ -2,8 +2,11 @@
 'use client'
 
 import React from "react";
+import getConfig from 'next/config';
 
 const ContactForm = () => {
+
+
   const handleSubmit = (event) => {
     event.preventDefault();
     // handle form submission logic here

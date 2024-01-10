@@ -1,0 +1,14 @@
+{
+    "depart": "Depart",
+    "return": "Return",
+    "flying-from": "Flying from",
+    "flying-to": "Flying to",
+    "travelers": "Travelers",
+    "going-from": "Where are you going?",
+    "going-to": "Where are you going?",
+    "button-search": "Search",
+    "adult": "Adult",
+    "child": "Children",
+    "infant": "Infant",
+    "ages": "Ages {{ label }}"
+}
