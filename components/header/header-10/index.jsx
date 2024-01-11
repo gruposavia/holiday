@@ -48,10 +48,10 @@ const Header1 = () => {
                 </div>
                 {/* End header-menu */}
               </div>
+
               {/* End d-flex */}
             </div>
             {/* End col */}
-
             <div className="col-auto">
               <div className="d-flex items-center">
 

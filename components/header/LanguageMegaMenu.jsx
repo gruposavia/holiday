@@ -42,9 +42,9 @@ const LanguageMegaMenu = ({ textClass }) => {
     // { id: 20, language: "English", country: "Belize" },
   ];
 const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
-console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", currentLocale)
+console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", i18n.languages)
 
-  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[langIndex ]);
+  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[0]);
 
 
 
