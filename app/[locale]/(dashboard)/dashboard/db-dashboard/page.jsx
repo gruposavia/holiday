@@ -1,5 +1,5 @@
 import React from "react";
-import DashboardPage from "../../../../components/dashboard/dashboard/db-dashboard";
+//import DashboardPage from "../../../../components/dashboard/dashboard/db-dashboard";
 
 export const metadata = {
   title: "Dashboard || HolidayAir",
@@ -9,7 +9,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <DashboardPage />
+  
     </>
   );
 }
