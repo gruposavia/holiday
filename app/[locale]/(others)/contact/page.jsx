@@ -7,15 +7,24 @@ import Address from "@/components/block/Address";
 import Social from "@/components/common/social/Social";
 import ContactForm from "@/components/common/ContactForm";
 import LocationTopBar from "@/components/common/LocationTopBar";
-
+import initTranslations from '../../../i18n';
+import TranslationsProvider from '../../../../components/TranslationProvider';
 export const metadata = {
   title: "Contact || HolidayAir",
   description: "HolidayAir",
 };
+const i18nNamespaces = [
+  'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
+  'testimonials', 'common', 'popular-routes'
+]
+const Contact = async ({ params: { locale } }) => {
 
-const Contact = () => {
+  const { t, resources } = await initTranslations(locale, i18nNamespaces);
   return (
-    <>
+    <TranslationsProvider      TranslationsProvider
+    namespaces={i18nNamespaces}
+    locale={locale}
+    resources={resources}>
       {/* End Page Title */}
 
       <div className="header-margin"></div>
@@ -103,7 +112,7 @@ const Contact = () => {
 
       <DefaultFooter />
       {/* End Call To Actions Section */}
-    </>
+    </TranslationsProvider>
   );
 };
 

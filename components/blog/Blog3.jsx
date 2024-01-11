@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import blogsData from "../../data/blogs";
 
-const Blog3 = () => {
+const Blog3 = ({t}) => {
   return (
     <>
       {blogsData.slice(0, 6).map((item) => (
@@ -28,7 +28,7 @@ const Blog3 = () => {
               </div>
             </div>
             <div className="mt-20">
-              <h4 className="text-dark-1 text-18 fw-500">{item.title}</h4>
+              <h4 className="text-dark-1 text-18 fw-500">{t(`${item.title}`)}</h4>
             </div>
           </Link>
         </div>

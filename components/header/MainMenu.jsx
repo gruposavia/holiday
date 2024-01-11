@@ -18,11 +18,13 @@ import {
 import { useTranslation } from 'react-i18next';
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { useRouter } from 'next/navigation';
 
 const MainMenu = ({ style = "" }) => {
   const pathname = usePathname();
   const [isActiveParent, setIsActiveParent] = useState(false)
   const { t } = useTranslation();
+  const { locale } = useRouter();
 
   return (
     <nav className="menu js-navList">
@@ -145,7 +147,7 @@ const MainMenu = ({ style = "" }) => {
         </li>
 
         <li className={pathname === "/contact" ? "current" : ""}>
-          <Link href="/contact">{t('contact')}</Link>
+        <Link href={`/${locale}/contact`}>{t('contact')}</Link>
         </li>
       </ul>
     </nav>

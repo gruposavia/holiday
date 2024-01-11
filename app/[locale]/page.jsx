@@ -2,6 +2,7 @@ import Wrapper from "@/components/layout/Wrapper";
 import MainHome from "./(homes)/home_10/page";
 import initTranslations from '../i18n';
 import TranslationsProvider from '../../components/TranslationProvider';
+//import i18nNamespaces from '../../utils/translationsContansts'
 export const metadata = {
   title: "Home || HolidayAir",
   description: "HolidayAir",
@@ -9,7 +10,7 @@ export const metadata = {
 
 const i18nNamespaces = [
   'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials'
+  'testimonials', 'common', 'popular-routes', 'services','block', 'footer'
 ]
 
 export default async function Home({ params: { locale } }) {
@@ -23,7 +24,7 @@ export default async function Home({ params: { locale } }) {
         locale={locale}
         resources={resources}>
         <Wrapper>
-          <MainHome />
+          <MainHome t={t} />
         </Wrapper>
       </TranslationsProvider>
     </>

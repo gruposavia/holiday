@@ -17,9 +17,7 @@ export const metadata = {
   description: "HolidayAir",
 };
 
-const home_10 = async () => {
-
-  //const { t } = await initTranslations(locale, ['home']);
+const Home10 = async ({t}) => {
   return (
     <>
       {/* End Page Title */}
@@ -69,9 +67,9 @@ const home_10 = async () => {
           <div className="row justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Popular Routes</h2>
+                <h2 className="sectionTitle__title">{t('popular-routes:title')}</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                {t('popular-routes:description')}
                 </p>
               </div>
             </div>
@@ -82,7 +80,7 @@ const home_10 = async () => {
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
               >
-                More <div className="icon-arrow-top-right ml-15" />
+                {t('common:more')} <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
           </div>
@@ -97,7 +95,7 @@ const home_10 = async () => {
       </section>
       {/* End popular routes Section */}
 
-      <AppBanner />
+      <AppBanner t={t}/>
       {/* App Banner Section */}
 
       <section className="layout-pt-lg layout-pb-lg">
@@ -106,17 +104,17 @@ const home_10 = async () => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Services that will surprise you
+                {t('services:title')} 
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
+                {t('services:description')} 
                 </p>
               </div>
             </div>
           </div>
           {/* End .row  */}
           <div className="row y-gap-30 pt-40">
-            <Blog />
+            <Blog t={t}/>
           </div>
           {/* End .row */}
         </div>
@@ -124,10 +122,10 @@ const home_10 = async () => {
       </section>
       {/* End blog Section */}
 
-      <Footer8 />
+      <Footer8 t={t}/>
       {/* End Footer Section */}
     </>
   );
 };
 
-export default dynamic(() => Promise.resolve(home_10), { ssr: false });
+export default dynamic(() => Promise.resolve(Home10), { ssr: false });

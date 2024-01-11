@@ -46,15 +46,6 @@ export default function RootLayout({  children}) {
       </head>
       <body>
         <main>
-        <Script
-        id=""
-        src="https://ibe.hitit.aero/searchapi.js"
-        strategy="beforeInteractive"
-        onReady={() => {
-          //const api = new CraneSearchAPI('https://ibe.hitit.aero');
-          
-        }}
-      />
           <Provider store={store}>
             {children}
             <SrollTop />

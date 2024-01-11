@@ -44,7 +44,7 @@ const LanguageMegaMenu = ({ textClass }) => {
 const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
 console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", i18n.languages)
 
-  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[0]);
+  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[langIndex]);
 
 
 
@@ -53,7 +53,6 @@ console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", i18n.languages)
     setClick(false);
     const newLocale = item.code;
     if(newLocale !== currentLocale) {
-      console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", 'ENTREEEEE')
       router.push(
         currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
       );

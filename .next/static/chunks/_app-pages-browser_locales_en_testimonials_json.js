@@ -15,7 +15,7 @@
   \**************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"title":"What our customers are \\t saying us?","description":"TODO: write a description"}');
+module.exports = JSON.parse('{"title":"What our customers are \\t saying us?","description":"TODO: write a description","happy-people":"Happy people","rating":"Overall rating"}');
 
 /***/ })
 

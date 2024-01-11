@@ -5,15 +5,25 @@ import Header10 from "@/components/header/header-10";
 import DefaultFooter from "@/components/footer/default";
 import HelpSearchBlock from "@/components/block/HelpSearchBlock";
 import HelpBlock from "@/components/block/HelpBlock";
+import initTranslations from '../../../i18n';
+import TranslationsProvider from '../../../../components/TranslationProvider';
 
 export const metadata = {
   title: "Help Center || HolidayAir",
   description: "HolidayAir",
 };
 
-const HelpCenter = () => {
+const i18nNamespaces = [
+  'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
+  'testimonials', 'common', 'popular-routes'
+]
+const HelpCenter = async({ params: { locale } }) => {
+  const { t, resources } = await initTranslations(locale, i18nNamespaces);
   return (
-    <>
+    <TranslationsProvider 
+    namespaces={i18nNamespaces}
+    locale={locale}
+    resources={resources}>
       {/* End Page Title */}
 
       <div className="header-margin"></div>
@@ -86,7 +96,7 @@ const HelpCenter = () => {
 
       <DefaultFooter />
       {/* End Call To Actions Section */}
-    </>
+    </TranslationsProvider>
   );
 };
 

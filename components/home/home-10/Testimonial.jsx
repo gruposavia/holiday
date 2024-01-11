@@ -22,9 +22,6 @@ const Testimonial = () => {
           <SwiperSlide key={item.id}>
             <div className="row items-center x-gap-30 y-gap-20">
               <div className="col-auto">
-                <Image width={80} height={80} src={item.avatar} alt="image" />
-              </div>
-              <div className="col-auto">
                 <h5 className="text-16 text-white fw-500">{item.name}</h5>
                 <div className="text-15 text-white lh-15">
                   {item.designation}
