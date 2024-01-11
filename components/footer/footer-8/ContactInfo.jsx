@@ -1,8 +1,8 @@
-const ContactInfo = () => {
+const ContactInfo = ({t}) => {
   const contactContent = [
     {
       id: 1,
-      title: "Toll Free Customer Care",
+      title: t('footer:contact-phone'),
       actionUS: "tel:(+1)786-673-0640",
       textUSCountry: "United State:",
       textUSPhone: "(+1)786-673-0640",
@@ -12,7 +12,7 @@ const ContactInfo = () => {
     },
     {
       id: 2,
-      title: "Need live support?",
+      title: t('footer:need-assistance'),
       action: "mailto:assistance@holidayair.net",
       text: "assistance@holidayair.net",
     },

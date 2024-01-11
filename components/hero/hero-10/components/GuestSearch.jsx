@@ -2,13 +2,15 @@
 'use client'
 
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
+
 const counters = [
-  { name: "Adults", defaultValue: 2 , label: '12+'},
-  { name: "Children", defaultValue: 1 , label: '2 - 11'},
-  { name: "Infant", defaultValue: 1 , label: '0 - 2'},
+  { name: "adult", defaultValue: 2, label: '12+' },
+  { name: "child", defaultValue: 1, label: '2 - 11' },
+  { name: "infant", defaultValue: 1, label: '0 - 2' },
 ];
 
-const Counter = ({ name, defaultValue, onCounterChange , label }) => {
+const Counter = ({ name, defaultValue, onCounterChange, label, t }) => {
   const [count, setCount] = useState(defaultValue);
   const incrementCount = () => {
     setCount(count + 1);
@@ -21,13 +23,14 @@ const Counter = ({ name, defaultValue, onCounterChange , label }) => {
     }
   };
 
+
   return (
     <>
       <div className="row y-gap-10 justify-between items-center">
         <div className="col-auto">
-          <div className="text-15 lh-12 fw-500">{name}</div>
+          <div className="text-15 lh-12 fw-500">{t(`fly-complete-search:${name}`)}</div>
 
-            <div className="text-14 lh-12 text-light-1 mt-5">Ages {label}</div>
+          <div className="text-14 lh-12 text-light-1 mt-5">{t(`fly-complete-search:ages`, { label })}</div>
 
         </div>
         {/* End .col-auto */}
@@ -63,13 +66,14 @@ const Counter = ({ name, defaultValue, onCounterChange , label }) => {
 
 const GuestSearch = () => {
   const [guestCounts, setGuestCounts] = useState({
-    Adults: 2,
-    Children: 1,
-    Infant: 1,
+    adult: 2,
+    child: 0,
+    infant: 0,
   });
   const handleCounterChange = (name, value) => {
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
   };
+  const { t } = useTranslation()
   return (
     <div className="searchMenu-guests px-24 lg:py-20 lg:px-0 js-form-dd js-form-counters">
       <div
@@ -78,11 +82,13 @@ const GuestSearch = () => {
         aria-expanded="false"
         data-bs-offset="0,22"
       >
-        <h4 className="text-15 fw-500 ls-2 lh-16">Travellers</h4>
+        <h4 className="text-15 fw-500 ls-2 lh-16">{t('fly-complete-search:travelers')}</h4>
         <div className="text-15 text-light-1 ls-2 lh-16">
-          <span className="js-count-adult">{guestCounts.Adults}</span> adults -{" "}
-          <span className="js-count-child">{guestCounts.Children}</span>{" "}
-          <span className="js-count-room">{guestCounts.Infant}</span>{" "}
+          {Object.entries(guestCounts).map(([type, count]) => (
+            <span key={`js-count-${type}`} className={`js-count-${type}`}>
+              {count} {' '} {t(`fly-complete-search:${type}`) } {' '}
+            </span>
+          ))}
         </div>
       </div>
       {/* End guest */}
@@ -96,6 +102,7 @@ const GuestSearch = () => {
               defaultValue={counter.defaultValue}
               onCounterChange={handleCounterChange}
               label={counter.label}
+              t={t}
             />
           ))}
         </div>

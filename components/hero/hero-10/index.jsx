@@ -1,7 +1,10 @@
+'use client'
+
 import FilterSelect from "./components/FilterSelect";
 import MainFilterSearchBox from "./MainFilterSearchBox";
-
-const Index = () => {
+import { useTranslation } from 'react-i18next';
+const Index =  () => {
+  const { t } = useTranslation()
   return (
     <section className="masthead -type-10">
       <div className="container-1500">
@@ -13,10 +16,10 @@ const Index = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Fly High, Live More.
+               {t('hero:title')}
               </h1>
               <p className="mt-5" data-aos="fade-up" data-aos-delay="200">
-                Discover amzaing places at exclusive deals
+              {t('hero:subtitle')}
               </p>
               <div data-aos="fade-up" data-aos-delay="300">
                 

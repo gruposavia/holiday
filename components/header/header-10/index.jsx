@@ -7,6 +7,8 @@ import MainMenu from "../MainMenu";
 import MobileMenu from "../MobileMenu";
 import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
 import LanguageMegaMenu from "../LanguageMegaMenu";
+import { useTranslation } from 'react-i18next';
+
 const Header1 = () => {
   const [navbar, setNavbar] = useState(false);
 
@@ -24,7 +26,7 @@ const Header1 = () => {
       window.removeEventListener("scroll", changeBackground);
     };
   }, []);
-
+  
   return (
     <>
       {" "}
@@ -46,26 +48,14 @@ const Header1 = () => {
                 </div>
                 {/* End header-menu */}
               </div>
+
               {/* End d-flex */}
             </div>
             {/* End col */}
-
             <div className="col-auto">
               <div className="d-flex items-center">
 
                 <div className="d-flex items-center is-menu-opened-hide md:d-none">
-                  {/* <Link
-                    href="/login"
-                    className="button px-30 fw-400 text-14 -blue-1 bg-dark-4 h-50 text-white"
-                  >
-                    Bookings
-                  </Link> */}
-                  {/* <Link
-                    href="/signup"
-                    className="button px-30 fw-400 text-14 border-dark-4 -blue-1 h-50 text-dark-4 ml-20"
-                  >
-                    Sign In / Register
-                  </Link> */}
                 </div>
                 <div className="row x-gap-20 items-center xxl:d-none ml-20">
                   <CurrenctyMegaMenu textClass="text-dark-1" />

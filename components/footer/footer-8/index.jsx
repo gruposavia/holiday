@@ -5,7 +5,7 @@ import FooterContent from "./FooterContent";
 import Social from "../../common/social/Social";
 import Subscribe from "./Subscribe";
 
-const index = () => {
+const index = ({t}) => {
   return (
     <footer className="footer -type-2 bg-dark-1 text-white">
       <div className="container">
@@ -14,13 +14,13 @@ const index = () => {
             <div className="col-xl-4 col-lg-6">
               <img src="/img/general/whiteLogo.png" alt="image" />
               <div className="row y-gap-30 justify-between pt-30">
-                <ContactInfo />
+                <ContactInfo t={t}/>
               </div>
               {/* End .row */}
 
               <div className="row x-gap-20 y-gap-15 pt-60">
                 <div className="col-12">
-                  <h5 className="text-16 fw-500">Your all-in-one travel app</h5>
+                  <h5 className="text-16 fw-500">{t('footer:app-title')}</h5>
                 </div>
                 {/* End .col */}
 
@@ -30,7 +30,7 @@ const index = () => {
 
               <div className="mt-60">
                 <h5 className="text-16 fw-500 mb-10">
-                  Follow us on social media
+                 {t('footer:follow-us')}
                 </h5>
                 <div className="d-flex x-gap-20 items-center">
                   <Social />
@@ -43,7 +43,7 @@ const index = () => {
               <div className="row y-gap-30">
                 <div className="col-12">
                   <h5 className="text-16 fw-500 mb-15">
-                    Get Updates &amp; More
+                  {t('footer:updates')}
                   </h5>
                   <Subscribe />
                 </div>

@@ -1,8 +1,8 @@
 module.exports = [
   {
     id: 1,
-    img: "/img/blog/1.png",
-    title: "Be part of the Holiday Air Elite Club.",
+    img: "/img/blog/1.jpg",
+    title: "popular-routes:title-1",
     date: "Jan 06, 2023",
     delayAnimation: "100",
     details: `Be part of the Holiday Air Elite Club`,
@@ -11,8 +11,8 @@ module.exports = [
   },
   {
     id: 2,
-    img: "/img/blog/2.png",
-    title: "Holiday Cargo.",
+    img: "/img/blog/2.jpg",
+    title: "popular-routes:title-2",
     date: "April 06, 2022",
     delayAnimation: "200",
     details: `Holiday Cargo`,
@@ -21,8 +21,8 @@ module.exports = [
   },
   {
     id: 3,
-    img: "/img/blog/3.png",
-    title: "Holiday Air Experience.",
+    img: "/img/blog/3.jpg",
+    title: "popular-routes:title-3",
     date: "Jan 06, 2023",
     delayAnimation: "300",
     details: `For decades, travelers have been escaping to the Catskills — a mountainous region in upstate New York — whenever they’ve needed a reset.`,
@@ -31,8 +31,8 @@ module.exports = [
   },
   {
     id: 4,
-    img: "/img/blog/4.png",
-    title: "Holiday Air baggage information.",
+    img: "/img/blog/4.jpg",
+    title: "popular-routes:title-4",
     date: "April 06, 2022",
     delayAnimation: "400",
     details: `For decades, travelers have been escaping to the Catskills — a mountainous region in upstate New York — whenever they’ve needed a reset.`,
@@ -41,8 +41,8 @@ module.exports = [
   },
   {
     id: 5,
-    img: "/img/blog/5.png",
-    title: "Inflight entertainment.",
+    img: "/img/blog/5.jpg",
+    title: "popular-routes:title-5",
     date: "Jan 06, 2023",
     delayAnimation: "100",
     details: `For decades, travelers have been escaping to the Catskills — a mountainous region in upstate New York — whenever they’ve needed a reset.`,
@@ -51,8 +51,8 @@ module.exports = [
   },
   {
     id: 6,
-    img: "/img/blog/6.png",
-    title: "Collect our Holiday Magazine.",
+    img: "/img/blog/6.jpg",
+    title: "popular-routes:title-6",
     date: "April 06, 2022",
     delayAnimation: "200",
     details: `For decades, travelers have been escaping to the Catskills — a mountainous region in upstate New York — whenever they’ve needed a reset.`,
@@ -61,7 +61,7 @@ module.exports = [
   },
   {
     id: 7,
-    img: "/img/blog/7.png",
+    img: "/img/blog/7.jpg",
     title: "10 European ski destinations you should visit this winter",
     date: "Jan 06, 2023",
     delayAnimation: "300",
@@ -71,7 +71,7 @@ module.exports = [
   },
   {
     id: 8,
-    img: "/img/blog/8.png",
+    img: "/img/blog/8.jpg",
     title: "Booking travel during Corona: good advice in an uncertain time",
     date: "April 06, 2022",
     delayAnimation: "200",
@@ -81,7 +81,7 @@ module.exports = [
   },
   {
     id: 9,
-    img: "/img/blog/9.png",
+    img: "/img/blog/9.jpg",
     title: "Where can I go? 5 amazing countries that are open right now",
     date: "April 06, 2022",
     delayAnimation: "300",
@@ -91,7 +91,7 @@ module.exports = [
   },
   {
     id: 10,
-    img: "/img/blog/1.png",
+    img: "/img/blog/1.jpg",
     title: "10 European ski destinations you should visit this winter",
     date: "April 06, 2022",
     delayAnimation: "100",
@@ -101,7 +101,7 @@ module.exports = [
   },
   {
     id: 11,
-    img: "/img/blog/2.png",
+    img: "/img/blog/2.jpg",
     title: "Where can I go? 5 amazing countries that are open right now",
     date: "April 06, 2022",
     delayAnimation: "200",

@@ -4,9 +4,7 @@ import { useRouter } from "next/navigation";
 import { useSelector, useDispatch } from "react-redux";
 import { addCurrentTab } from "../../../features/hero/findPlaceSlice";
 import FlyCompleteSearch from './components/FlyCompleteSearch'
-
-
-
+import { useTranslation } from 'react-i18next';
 
 
 const MainFilterSearchBox = () => {
@@ -14,6 +12,7 @@ const MainFilterSearchBox = () => {
   const { tabs, currentTab } = useSelector((state) => state.hero) || {};
   const dispatch = useDispatch();
   const Router = useRouter()
+  const { t } = useTranslation()
   return (
     <>
       <div className="tabs -bookmark js-tabs mt-40">
@@ -27,13 +26,13 @@ const MainFilterSearchBox = () => {
               onClick={() => dispatch(addCurrentTab(tab?.name))}
             >
               <i className={`${tab.icon} text-20 mr-10`}></i>
-              {tab?.name}
+              {t(`main-filter-search:${tab?.name}`)}
             </button>
           ))}
         </div>
       </div>
       <div className="mainSearch -col-4 -w-1070 bg-white shadow-1 rounded-4 pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 ">
-        {currentTab === 'Flights' && <FlyCompleteSearch />}
+        {currentTab === 'flights' && <FlyCompleteSearch />}
       </div>
       {/* End .mainSearch */}
     </>
