@@ -36,7 +36,7 @@ export default function FlyCompleteSearch() {
 
     <div className="button-item">
       <button
-        className="mainSearch__submit button -blue-1 py-15 px-35 h-60 col-12 rounded-4 bg-dark-1 text-white"
+        className="mainSearch__submit button -yellow-2 py-15 px-35 h-60 col-12 rounded-4 bg-yellow-1 text-white"
         onClick={() => Router.push("/flight-list-v1")}
       >
         <i className="icon-search text-20 mr-10" />
