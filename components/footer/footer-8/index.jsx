@@ -12,7 +12,7 @@ const index = ({t}) => {
         <div className="pt-60 pb-60">
           <div className="row y-gap-40 justify-between xl:justify-start">
             <div className="col-xl-4 col-lg-6">
-              <img src="/img/general/whiteLogo.png" alt="image" />
+              <img src="/img/general/whiteLogo.png" alt="brand" />
               <div className="row y-gap-30 justify-between pt-30">
                 <ContactInfo t={t}/>
               </div>

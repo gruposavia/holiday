@@ -15,7 +15,7 @@
   \****************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"title":"Popular Routes","description":"These popular destinations have a lot to offer","title-1":"Be part of the Holiday Air Elite Club.","title-2":"Holiday Cargo.","title-3":"Holiday Air Experience.","title-4":"Holiday Air baggage information.","title-5":"Inflight entertainment.","title-6":"Collect our Holiday Magazine."}');
+module.exports = JSON.parse('{"title":"Popular Routes","description":"These popular destinations have a lot to offer","title-1":"Be part of the Holiday Air Elite Club.","details-1":"Exclusive Memberships","title-2":"Holiday Cargo.","details-2":"Non-stop and in less time","title-3":"Holiday Air Experience.","details-3":"Magic in flight","title-4":"Holiday Air baggage information.","details-4":"Carry-on and checked","title-5":"Inflight entertainment.","details-5":"","title-6":"Collect our Holiday Magazine.","details-6":"Evolution in the air"}');
 
 /***/ })
 
