@@ -16,6 +16,7 @@ const LanguageMegaMenu = ({ textClass, locale }) => {
 
   const router = useRouter();
   const currentPathname = usePathname();
+  console.log("🚀 ~ LanguageMegaMenu ~ currentPathname:", currentPathname.includes(locale))
 
   const [click, setClick] = useState(false);
   const handleCurrency = () => setClick((prevState) => !prevState);
@@ -51,13 +52,12 @@ const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
 
 
   const handleItemClick = (item) => {
-    // setSelectedCurrency(item);
-    // setClick(false);
+    setSelectedCurrency(item);
+    setClick(false);
     const newLocale = item.code;
     if(newLocale !== currentLocale) {
-      router.push(
-        currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
-      );
+      if(currentPathname.includes(locale))router.push(currentPathname.replace(`/${currentLocale}`, `/${newLocale}`));
+      else router.push(currentPathname.replace('/', `/${newLocale}`))
     }
     // if (
     //   currentLocale === i18nConfig.defaultLocale &&
