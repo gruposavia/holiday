@@ -1,4 +1,8 @@
+'use client'
+import { useTranslation } from 'react-i18next';
+
 const CallToActions = () => {
+  const {t} = useTranslation()
   return (
     <section className="layout-pt-md layout-pb-md bg-dark-2">
       <div className="container">
@@ -10,10 +14,10 @@ const CallToActions = () => {
               </div>
               <div className="col-auto">
                 <h4 className="text-26 text-white fw-600">
-                  Your Travel Journey Starts Here
+                  {t('common:call-to-action-title')}
                 </h4>
                 <div className="text-white">
-                  Sign up and we`&apos;ll send the best deals to you
+                {t('common:call-to-action-subtitle')}
                 </div>
               </div>
             </div>
@@ -26,14 +30,14 @@ const CallToActions = () => {
                 <input
                   className="bg-white h-60"
                   type="text"
-                  placeholder="Your Email"
+                  placeholder={t('common:your-email')}
                 />
               </div>
               {/* End email input */}
 
               <div>
                 <button className="button -md h-60 bg-blue-1 text-white">
-                  Subscribe
+                {t('common:subscribe')}
                 </button>
               </div>
               {/* End subscribe btn */}

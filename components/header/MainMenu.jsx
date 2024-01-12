@@ -1,3 +1,6 @@
+
+'use client'
+
 import Link from "next/link";
 
 import {
@@ -12,23 +15,27 @@ import {
   isActiveLink,
   isActiveParentChaild,
 } from "../../utils/linkActiveChecker";
-
+import { useTranslation } from 'react-i18next';
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { useRouter } from 'next/navigation';
 
-const MainMenu = ({ style = "" }) => {
+const MainMenu = ({ style = "" , locale }) => {
   const pathname = usePathname();
   const [isActiveParent, setIsActiveParent] = useState(false)
+  const { t } = useTranslation();
+  //const { locale } = useRouter();
+
 
   return (
-    <nav className="menu js-navList">
+     <nav className="menu js-navList">
       <ul className={`menu__nav ${style} -is-active`}>
         <li
           className={`${
             isActiveParentChaild(homeItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <Link href="/">Home</Link>
+          <Link href={`/${locale}/`}>{t('home')}</Link>
           {/* <ul className="subnav">
             {homeItems.map((menu, i) => (
               <li
@@ -132,23 +139,17 @@ const MainMenu = ({ style = "" }) => {
             ))}
           </ul>
         </li> */}
-
-        <li className={pathname === "/services" ? "current" : ""}>
-          <Link href="/services">Services</Link>
-        </li>
-
         <li className={pathname === "/membership" ? "current" : ""}>
-          <Link href="/membership">Memberships</Link>
+          <Link href={`/${locale}/membership`}>{t('membership')}</Link>
         </li>
         
         <li className={pathname === "/help-center" ? "current" : ""}>
-           <Link href="/help-center">Help center</Link>
+           <Link href={`/${locale}/help-center`}>{t('help-center')}</Link>
         </li>
 
         <li className={pathname === "/contact" ? "current" : ""}>
-          <Link href="/contact">Contact</Link>
+        <Link href={`/${locale}/contact`}>{t('contact')}</Link>
         </li>
-
       </ul>
     </nav>
   );

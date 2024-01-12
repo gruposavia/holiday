@@ -3,10 +3,24 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
+import { useTranslation } from 'react-i18next';
+import i18nConfig from '@/i18nConfig';
 
-const LanguageMegaMenu = ({ textClass }) => {
+const LanguageMegaMenu = ({ textClass, locale }) => {
+
+
+  const { i18n, t } = useTranslation();
+  const currentLocale = i18n.language;
+
+  const router = useRouter();
+  const currentPathname = usePathname();
+  console.log("🚀 ~ LanguageMegaMenu ~ currentPathname:", currentPathname.includes(locale))
+
   const [click, setClick] = useState(false);
   const handleCurrency = () => setClick((prevState) => !prevState);
+
 
   const languageContent = [
     { id: 1, language: " 🇺🇸 English", country: "United States", code:'en'},
@@ -30,12 +44,32 @@ const LanguageMegaMenu = ({ textClass }) => {
     // { id: 19, language: "Dutch, French", country: "Belgium" },
     // { id: 20, language: "English", country: "Belize" },
   ];
+const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
 
-  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[0]);
+
+  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[langIndex]);
+
+
 
   const handleItemClick = (item) => {
     setSelectedCurrency(item);
     setClick(false);
+    const newLocale = item.code;
+    if(newLocale !== currentLocale) {
+      if(currentPathname.includes(locale))router.push(currentPathname.replace(`/${currentLocale}`, `/${newLocale}`));
+      else router.push(currentPathname.replace('/', `/${newLocale}`))
+    }
+    // if (
+    //   currentLocale === i18nConfig.defaultLocale &&
+    //   !i18nConfig.prefixDefault
+    // ) {
+    //   router.push('/' + currentPathname);
+    // } else {
+    //   router.push(
+    //     currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
+    //   );
+    // }
+    //router.refresh();
   };
 
   return (
@@ -59,7 +93,7 @@ const LanguageMegaMenu = ({ textClass }) => {
         <div className="currencyMenu__bg" onClick={handleCurrency}></div>
         <div className="langMenu__content bg-white rounded-4">
           <div className="d-flex items-center justify-between px-30 py-20 sm:px-15 border-bottom-light">
-            <div className="text-20 fw-500 lh-15">Select your language</div>
+            <div className="text-20 fw-500 lh-15">{t('common:select-lng')}</div>
             {/* End title */}
             <button className="pointer" onClick={handleCurrency}>
               <i className="icon-close" />

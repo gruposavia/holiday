@@ -1,7 +1,10 @@
-import FilterSelect from "./FilterSelect";
-import MainFilterSearchBox from "./MainFilterSearchBox";
+'use client'
 
-const Index = () => {
+import FilterSelect from "./components/FilterSelect";
+import MainFilterSearchBox from "./MainFilterSearchBox";
+import { useTranslation } from 'react-i18next';
+const Index =  () => {
+  const { t } = useTranslation()
   return (
     <section className="masthead -type-10">
       <div className="container-1500">
@@ -13,17 +16,14 @@ const Index = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Where do You Want To Fly
+               {t('hero:title')}
               </h1>
               <p className="mt-5" data-aos="fade-up" data-aos-delay="200">
-                Discover amzaing places at exclusive deals
+              {t('hero:subtitle')}
               </p>
               <div data-aos="fade-up" data-aos-delay="300">
-                <div className="row y-gap-20 items-center pt-30">
-                  <FilterSelect />
-                </div>
+                
                 {/* End .row */}
-
                 <MainFilterSearchBox />
                 {/* End filter content */}
               </div>
@@ -42,7 +42,7 @@ const Index = () => {
           <div className="row y-gap-30 flex-nowrap">
             <div className="col-auto">
               <img
-                src="/img/masthead/10/1.jpg"
+                src="/img/masthead/10/test1.png"
                 alt="image"
                 className="rounded-16"
               />
@@ -51,7 +51,7 @@ const Index = () => {
 
             <div className="col-auto">
               <img
-                src="/img/masthead/10/2.png"
+                src="/img/masthead/10/test2.jpg"
                 alt="image"
                 className="rounded-16"
               />

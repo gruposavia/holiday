@@ -40,7 +40,7 @@ const index = () => {
                       Find Your Dream Luxury Hotel
                     </h1>
                     <p className="text-white mt-5">
-                      Discover amzaing places at exclusive deals
+                      Discover amazinging places at exclusive deals
                     </p>
                     <div className="d-inline-block">
                       <a

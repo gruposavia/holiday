@@ -7,7 +7,10 @@ import MainMenu from "../MainMenu";
 import MobileMenu from "../MobileMenu";
 import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
 import LanguageMegaMenu from "../LanguageMegaMenu";
-const Header1 = () => {
+import { useTranslation } from 'react-i18next';
+
+const Header1 = ({locale}) => {
+  
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -24,16 +27,16 @@ const Header1 = () => {
       window.removeEventListener("scroll", changeBackground);
     };
   }, []);
-
+  
   return (
-    <>
+    locale && <>
       {" "}
       <header className={`header ${navbar ? "is-sticky bg-white" : ""}`}>
         <div className="header__container header__container-1500 mx-auto px-30 sm:px-20">
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center">
-                <Link href="/" className="header-logo mr-50">
+                <Link href={`/${locale}`} className="header-logo mr-50">
                   <img src="/img/general/lightLogo.png" alt="logo icon" />
                   <img src="/img/general/lightLogo.png" alt="logo icon" />
                 </Link>
@@ -41,31 +44,19 @@ const Header1 = () => {
 
                 <div className="header-menu">
                   <div className="header-menu__content">
-                    <MainMenu style="text-dark-1" />
+                    <MainMenu style="text-dark-1" locale={locale}/>
                   </div>
                 </div>
                 {/* End header-menu */}
               </div>
+
               {/* End d-flex */}
             </div>
             {/* End col */}
-
             <div className="col-auto">
               <div className="d-flex items-center">
 
                 <div className="d-flex items-center is-menu-opened-hide md:d-none">
-                  <Link
-                    href="/login"
-                    className="button px-30 fw-400 text-14 -blue-1 bg-dark-4 h-50 text-white"
-                  >
-                    Bookings
-                  </Link>
-                  {/* <Link
-                    href="/signup"
-                    className="button px-30 fw-400 text-14 border-dark-4 -blue-1 h-50 text-dark-4 ml-20"
-                  >
-                    Sign In / Register
-                  </Link> */}
                 </div>
                 <div className="row x-gap-20 items-center xxl:d-none ml-20">
                   <CurrenctyMegaMenu textClass="text-dark-1" />
@@ -77,7 +68,7 @@ const Header1 = () => {
                   </div>
                   {/* End vertical devider*/}
 
-                  <LanguageMegaMenu textClass="text-dark-1" />
+                  <LanguageMegaMenu textClass="text-dark-1" locale={locale} />
                   {/* End Megamenu for Language */}
                 </div>
                 {/* End d-flex */}
@@ -85,19 +76,12 @@ const Header1 = () => {
                 {/* Start mobile menu icon */}
                 <div className="d-none xl:d-flex x-gap-20 items-center pl-30 text-dark-1">
                   <div>
-                    <Link
-                      href="/login"
-                      className="d-flex items-center icon-user text-inherit text-22"
-                    />
-                  </div>
-                  <div>
                     <button
                       className="d-flex items-center icon-menu text-inherit text-20"
                       data-bs-toggle="offcanvas"
                       aria-controls="mobile-sidebar_menu"
                       data-bs-target="#mobile-sidebar_menu"
                     />
-
                     <div
                       className="offcanvas offcanvas-start  mobile_menu-contnet"
                       tabIndex="-1"
@@ -105,7 +89,7 @@ const Header1 = () => {
                       aria-labelledby="offcanvasMenuLabel"
                       data-bs-scroll="true"
                     >
-                      <MobileMenu />
+                      <MobileMenu locale={locale}/>
                       {/* End MobileMenu */}
                     </div>
                   </div>
