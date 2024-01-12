@@ -20,7 +20,7 @@ const i18nNamespaces = [
 const HelpCenter = async({ params: { locale } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
   return (
-    <TranslationsProvider 
+    t && resources && locale && <TranslationsProvider 
     namespaces={i18nNamespaces}
     locale={locale}
     resources={resources}>
@@ -29,7 +29,7 @@ const HelpCenter = async({ params: { locale } }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header10 />
+      <Header10 locale={locale}/>
       {/* End Header 1 */}
 
       <section className="layout-pt-md">
@@ -94,7 +94,7 @@ const HelpCenter = async({ params: { locale } }) => {
       <CallToActions />
       {/* End Call To Actions Section */}
 
-      <DefaultFooter />
+      <DefaultFooter t={t} />
       {/* End Call To Actions Section */}
     </TranslationsProvider>
   );
