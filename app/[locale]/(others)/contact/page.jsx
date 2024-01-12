@@ -15,13 +15,14 @@ export const metadata = {
 };
 const i18nNamespaces = [
   'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes'
+  'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact'
 ]
 const Contact = async ({ params: { locale } }) => {
 
-  const { t, resources } = await initTranslations(locale, i18nNamespaces);
+  const { t, resources, } = await initTranslations(locale, i18nNamespaces);
+
   return (
-    <TranslationsProvider      TranslationsProvider
+    t && resources && locale && <TranslationsProvider   
     namespaces={i18nNamespaces}
     locale={locale}
     resources={resources}>
@@ -30,10 +31,10 @@ const Contact = async ({ params: { locale } }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header10 />
+      <Header10 locale={locale}/>
       {/* End Header 1 */}
 
-      <LocationTopBar />
+      {/* <LocationTopBar /> */}
       {/* End location top bar section */}
 
       <div className="map-outer">
@@ -50,7 +51,7 @@ const Contact = async ({ params: { locale } }) => {
         <div className="row justify-end">
           <div className="col-xl-5 col-lg-7">
             <div className="map-form px-40 pt-40 pb-50 lg:px-30 lg:py-30 md:px-24 md:py-24 bg-white rounded-4 shadow-4">
-              <div className="text-22 fw-500">Send a message</div>
+              <div className="text-22 fw-500">{t('contact:form-title')}</div>
               <ContactForm />
             </div>
           </div>
@@ -62,22 +63,13 @@ const Contact = async ({ params: { locale } }) => {
         <div className="container">
           <div className="row x-gap-80 y-gap-20 justify-between">
             <div className="col-12">
-              <div className="text-30 sm:text-24 fw-600">Contact Us</div>
+              <div className="text-30 sm:text-24 fw-600">{t('contact:contact-us-title')}</div>
             </div>
-            {/* End .col */}
 
-            <Address />
-            {/* End address com */}
 
-            <div className="col-auto">
-              <div className="text-14 text-light-1">
-                Follow us on social media
-              </div>
-              <div className="d-flex x-gap-20 items-center mt-10">
-                <Social />
-              </div>
-            </div>
-            {/* End .col */}
+
+              <Address t={t}/>
+
           </div>
           {/* End .row */}
         </div>
@@ -86,7 +78,7 @@ const Contact = async ({ params: { locale } }) => {
 
       <section className="layout-pt-lg layout-pb-lg bg-blue-2">
         <div className="container">
-          <div className="row justify-center text-center">
+          {/* <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">Why Choose Us</h2>
@@ -95,10 +87,10 @@ const Contact = async ({ params: { locale } }) => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End .row */}
 
-          <div className="row y-gap-40 justify-between pt-50">
+          <div className="row y-gap-40 justify-between pt-30">
             <WhyChoose />
           </div>
           {/* End .row */}
@@ -107,10 +99,10 @@ const Contact = async ({ params: { locale } }) => {
       </section>
       {/* End Why Choose Us section */}
 
-      <CallToActions />
+      <CallToActions/>
       {/* End Call To Actions Section */}
 
-      <DefaultFooter />
+      <DefaultFooter t={t}/>
       {/* End Call To Actions Section */}
     </TranslationsProvider>
   );

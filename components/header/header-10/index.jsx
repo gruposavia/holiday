@@ -9,7 +9,8 @@ import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
 import LanguageMegaMenu from "../LanguageMegaMenu";
 import { useTranslation } from 'react-i18next';
 
-const Header1 = () => {
+const Header1 = ({locale}) => {
+  
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -28,7 +29,7 @@ const Header1 = () => {
   }, []);
   
   return (
-    <>
+    locale && <>
       {" "}
       <header className={`header ${navbar ? "is-sticky bg-white" : ""}`}>
         <div className="header__container header__container-1500 mx-auto px-30 sm:px-20">
@@ -43,7 +44,7 @@ const Header1 = () => {
 
                 <div className="header-menu">
                   <div className="header-menu__content">
-                    <MainMenu style="text-dark-1" />
+                    <MainMenu style="text-dark-1" locale={locale}/>
                   </div>
                 </div>
                 {/* End header-menu */}
@@ -67,7 +68,7 @@ const Header1 = () => {
                   </div>
                   {/* End vertical devider*/}
 
-                  <LanguageMegaMenu textClass="text-dark-1" />
+                  <LanguageMegaMenu textClass="text-dark-1" locale={locale} />
                   {/* End Megamenu for Language */}
                 </div>
                 {/* End d-flex */}

@@ -17,12 +17,12 @@ export const metadata = {
   description: "HolidayAir",
 };
 
-const Home10 = async ({t}) => {
+const Home10 = async ({t, locale}) => {
   return (
-    <>
+    t && locale && <>
       {/* End Page Title */}
 
-      <Header10 />
+      <Header10 locale={locale}/>
       {/* End Header 5 */}
 
       <Hero10 />

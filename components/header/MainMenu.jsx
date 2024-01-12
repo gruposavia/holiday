@@ -20,21 +20,22 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { useRouter } from 'next/navigation';
 
-const MainMenu = ({ style = "" }) => {
+const MainMenu = ({ style = "" , locale }) => {
   const pathname = usePathname();
   const [isActiveParent, setIsActiveParent] = useState(false)
   const { t } = useTranslation();
-  const { locale } = useRouter();
+  //const { locale } = useRouter();
+
 
   return (
-    <nav className="menu js-navList">
+     <nav className="menu js-navList">
       <ul className={`menu__nav ${style} -is-active`}>
         <li
           className={`${
             isActiveParentChaild(homeItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-          <Link href="/">{t('home')}</Link>
+          <Link href={`/${locale}/`}>{t('home')}</Link>
           {/* <ul className="subnav">
             {homeItems.map((menu, i) => (
               <li
@@ -139,11 +140,11 @@ const MainMenu = ({ style = "" }) => {
           </ul>
         </li> */}
         <li className={pathname === "/membership" ? "current" : ""}>
-          <Link href="/membership">{t('membership')}</Link>
+          <Link href={`/${locale}/membership`}>{t('membership')}</Link>
         </li>
         
         <li className={pathname === "/help-center" ? "current" : ""}>
-           <Link href="/help-center">{t('help-center')}</Link>
+           <Link href={`/${locale}/help-center`}>{t('help-center')}</Link>
         </li>
 
         <li className={pathname === "/contact" ? "current" : ""}>

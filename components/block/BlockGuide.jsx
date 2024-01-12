@@ -29,9 +29,9 @@ const BlockGuide = async () => {
         <div className="col-auto">
           <div className="sectionTitle -md">
             <h2 className="sectionTitle__title">{t(`choose-us:title`)}</h2>
-            <p className=" sectionTitle__text mt-5 sm:mt-0">
+            {/* <p className=" sectionTitle__text mt-5 sm:mt-0">
               {t(`choose-us:subtitle`)}
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

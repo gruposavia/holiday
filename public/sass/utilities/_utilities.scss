@@ -1215,6 +1215,11 @@ $_displays: none, inline-block, block, flex;
     width: 100% !important;
   }
 }
+@include media-below(md) {
+  .md\:w-full {
+    width: 100% !important;
+  }
+}
 
 .w-140 {
   width: 140px;

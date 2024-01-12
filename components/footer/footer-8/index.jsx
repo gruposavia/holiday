@@ -18,9 +18,9 @@ const index = ({t}) => {
               </div>
               {/* End .row */}
 
-              <div className="row x-gap-20 y-gap-15 pt-60">
+              <div className="row x-gap-20 y-gap-15 pt-60 md:d-flex md:justify-center">
                 <div className="col-12">
-                  <h5 className="text-16 fw-500">{t('footer:app-title')}</h5>
+                  <h5 className="text-16 fw-500 md:text-center">{t('footer:app-title')}</h5>
                 </div>
                 {/* End .col */}
 
@@ -60,7 +60,7 @@ const index = ({t}) => {
         {/* End footer top */}
 
         <div className="py-20 border-top-white-15">
-          <Copyright />
+          <Copyright t={t}/>
         </div>
         {/* End footer-copyright */}
       </div>

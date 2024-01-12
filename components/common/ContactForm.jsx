@@ -1,8 +1,7 @@
 
 'use client'
 
-import React from "react";
-import getConfig from 'next/config';
+import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
 
@@ -11,14 +10,14 @@ const ContactForm = () => {
     event.preventDefault();
     // handle form submission logic here
   };
-
+const {t} = useTranslation()
   return (
     <form className="row y-gap-20 pt-20" onSubmit={handleSubmit}>
       <div className="col-12">
         <div className="form-input">
           <input type="text" id="name" required />
           <label htmlFor="name" className="lh-1 text-16 text-light-1">
-            Full Name
+          {t('contact:form-name')}
           </label>
         </div>
       </div>
@@ -26,7 +25,7 @@ const ContactForm = () => {
         <div className="form-input">
           <input type="email" id="email" required />
           <label htmlFor="email" className="lh-1 text-16 text-light-1">
-            Email
+          {t('contact:form-email')}
           </label>
         </div>
       </div>
@@ -34,7 +33,7 @@ const ContactForm = () => {
         <div className="form-input">
           <input type="text" id="subject" required />
           <label htmlFor="subject" className="lh-1 text-16 text-light-1">
-            Subject
+          {t('contact:form-subject')}
           </label>
         </div>
       </div>
@@ -42,7 +41,7 @@ const ContactForm = () => {
         <div className="form-input">
           <textarea id="message" required rows="4"></textarea>
           <label htmlFor="message" className="lh-1 text-16 text-light-1">
-            Your Message
+          {t('contact:form-request-message')}
           </label>
         </div>
       </div>
@@ -51,7 +50,7 @@ const ContactForm = () => {
           type="submit"
           className="button px-24 h-50 -dark-1 bg-blue-1 text-white"
         >
-          Send Message <div className="icon-arrow-top-right ml-15"></div>
+          {t('contact:form-send-button')} <div className="icon-arrow-top-right ml-15"></div>
         </button>
       </div>
     </form>

@@ -8,8 +8,10 @@ import { usePathname } from 'next/navigation';
 import { useTranslation } from 'react-i18next';
 import i18nConfig from '@/i18nConfig';
 
-const LanguageMegaMenu = ({ textClass }) => {
-  const { i18n } = useTranslation();
+const LanguageMegaMenu = ({ textClass, locale }) => {
+
+
+  const { i18n, t } = useTranslation();
   const currentLocale = i18n.language;
 
   const router = useRouter();
@@ -42,15 +44,15 @@ const LanguageMegaMenu = ({ textClass }) => {
     // { id: 20, language: "English", country: "Belize" },
   ];
 const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
-console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", i18n.languages)
+
 
   const [selectedCurrency, setSelectedCurrency] = useState(languageContent[langIndex]);
 
 
 
   const handleItemClick = (item) => {
-    setSelectedCurrency(item);
-    setClick(false);
+    // setSelectedCurrency(item);
+    // setClick(false);
     const newLocale = item.code;
     if(newLocale !== currentLocale) {
       router.push(
@@ -67,7 +69,7 @@ console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", i18n.languages)
     //     currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
     //   );
     // }
-    router.refresh();
+    //router.refresh();
   };
 
   return (
@@ -91,7 +93,7 @@ console.log("🚀 ~ LanguageMegaMenu ~ langIndex:", i18n.languages)
         <div className="currencyMenu__bg" onClick={handleCurrency}></div>
         <div className="langMenu__content bg-white rounded-4">
           <div className="d-flex items-center justify-between px-30 py-20 sm:px-15 border-bottom-light">
-            <div className="text-20 fw-500 lh-15">Select your language</div>
+            <div className="text-20 fw-500 lh-15">{t('common:select-lng')}</div>
             {/* End title */}
             <button className="pointer" onClick={handleCurrency}>
               <i className="icon-close" />
