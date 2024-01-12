@@ -29,6 +29,7 @@ const Blog3 = ({t}) => {
             </div>
             <div className="mt-20">
               <h4 className="text-dark-1 text-18 fw-500">{t(`${item.title}`)}</h4>
+              <p className="text-light-1 text-15 lh-14 mt-5">{t(`${item.details}`)}</p>
             </div>
           </Link>
         </div>

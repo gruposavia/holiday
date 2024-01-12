@@ -15,7 +15,7 @@
   \********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"more":"Más","call-to-action-title":"Tu Viaje Comienza Aquí","call-to-action-subtitle":"Regístrate y te enviaremos las mejores ofertas","your-email":"Tu correo electrónico","subscribe":"Suscribirse","select-lng":"Selecciona tu idioma"}');
+module.exports = JSON.parse('{"more":"Más","call-to-action-title":"Tu Viaje Comienza Aquí","call-to-action-subtitle":"Regístrate y te enviaremos las mejores ofertas","your-email":"Tu correo electrónico","subscribe":"Suscribirse","select-lng":"Selecciona tu idioma","sent-success":"Se envió correctamente","sent-error":"¡Ups! Hubo un error. Por favor, inténtalo de nuevo o contáctanos para obtener asistencia"}');
 
 /***/ })
 

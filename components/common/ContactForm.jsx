@@ -1,55 +1,76 @@
-
-'use client'
-
+'use client';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { sendEmailContact } from '../../lib/senderEmail';
+import { Toaster, toast } from 'sonner';
 
 const ContactForm = () => {
+  const { t } = useTranslation();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
 
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // handle form submission logic here
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
-const {t} = useTranslation()
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setFormData({
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
+    })
+    try {
+      await sendEmailContact(formData.name, formData.email, formData.subject, formData.message);
+      toast.success(t('common:sent-success'));
+    } catch (error) {
+      toast.error(t('common:sent-error'));
+    }
+  };
+
   return (
     <form className="row y-gap-20 pt-20" onSubmit={handleSubmit}>
-      <div className="col-12">
-        <div className="form-input">
-          <input type="text" id="name" required />
-          <label htmlFor="name" className="lh-1 text-16 text-light-1">
-          {t('contact:form-name')}
-          </label>
+      <Toaster position="top-right" richColors />
+      {['name', 'email', 'subject'].map((field) => (
+        <div key={field} className="col-12">
+          <div className="form-input">
+            <input
+              type={field === 'email' ? 'email' : 'text'}
+              id={field}
+              required
+              name={field}
+              value={formData[field]}
+              onChange={handleChange}
+            />
+            <label htmlFor={field} className="lh-1 text-16 text-light-1">
+              {t(`contact:form-${field}`)}
+            </label>
+          </div>
         </div>
-      </div>
+      ))}
       <div className="col-12">
         <div className="form-input">
-          <input type="email" id="email" required />
-          <label htmlFor="email" className="lh-1 text-16 text-light-1">
-          {t('contact:form-email')}
-          </label>
-        </div>
-      </div>
-      <div className="col-12">
-        <div className="form-input">
-          <input type="text" id="subject" required />
-          <label htmlFor="subject" className="lh-1 text-16 text-light-1">
-          {t('contact:form-subject')}
-          </label>
-        </div>
-      </div>
-      <div className="col-12">
-        <div className="form-input">
-          <textarea id="message" required rows="4"></textarea>
+          <textarea
+            id="message"
+            required
+            rows="4"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+          ></textarea>
           <label htmlFor="message" className="lh-1 text-16 text-light-1">
-          {t('contact:form-request-message')}
+            {t('contact:form-request-message')}
           </label>
         </div>
       </div>
       <div className="col-auto">
-        <button
-          type="submit"
-          className="button px-24 h-50 -dark-1 bg-blue-1 text-white"
-        >
+        <button type="submit" className="button px-24 h-50 -dark-1 bg-blue-1 text-white">
           {t('contact:form-send-button')} <div className="icon-arrow-top-right ml-15"></div>
         </button>
       </div>
