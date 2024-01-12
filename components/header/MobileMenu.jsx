@@ -25,7 +25,7 @@ import Social from "../common/social/Social";
 import ContactInfo from "./ContactInfo";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState, useTransition } from "react";
-
+import LanguageMegaMenu from "./LanguageMegaMenu";
 const MobileMenu = ({ locale }) => {
   const pathname = usePathname();
   console.log("🚀 ~ MobileMenu ~ pathname:", pathname)
@@ -116,14 +116,9 @@ const MobileMenu = ({ locale }) => {
           >
             {t('main-menu:contact')}
           </MenuItem>
-
         </Menu>
       </Sidebar>
-
-
-
       <div className="mobile-footer px-20 py-5 border-top-light"></div>
-
       <div className="pro-footer">
         <ContactInfo t={t}/>
         <div className="mt-10">
@@ -132,6 +127,7 @@ const MobileMenu = ({ locale }) => {
             <Social />
           </div>
         </div>
+            <LanguageMegaMenu textClass="text-dark-1 mt-20" locale={locale} />
       </div>
       {/* End pro-footer */}
     </>
