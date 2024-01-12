@@ -97,7 +97,6 @@ const Header1 = () => {
                       aria-controls="mobile-sidebar_menu"
                       data-bs-target="#mobile-sidebar_menu"
                     />
-
                     <div
                       className="offcanvas offcanvas-start  mobile_menu-contnet"
                       tabIndex="-1"

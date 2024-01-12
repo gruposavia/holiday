@@ -24933,7 +24933,7 @@ table.table-5 td {
 }
 
 .menu-active-link {
-  color: var(--color-blue-1);
+  color: var(--color-yellow-1);
 }
 .menu-active-link .inactive-menu {
   color: #051036 !important;
