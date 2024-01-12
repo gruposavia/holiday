@@ -36,7 +36,7 @@ const Header1 = ({locale}) => {
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center">
-                <Link href="/" className="header-logo mr-50">
+                <Link href={`/${locale}`} className="header-logo mr-50">
                   <img src="/img/general/lightLogo.png" alt="logo icon" />
                   <img src="/img/general/lightLogo.png" alt="logo icon" />
                 </Link>
@@ -96,7 +96,7 @@ const Header1 = ({locale}) => {
                       aria-labelledby="offcanvasMenuLabel"
                       data-bs-scroll="true"
                     >
-                      <MobileMenu />
+                      <MobileMenu locale={locale}/>
                       {/* End MobileMenu */}
                     </div>
                   </div>

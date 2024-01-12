@@ -22,7 +22,7 @@ const index = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Discover amzaing places at exclusive deals
+                Discover amazinging places at exclusive deals
               </p>
             </div>
             {/* End hero title */}

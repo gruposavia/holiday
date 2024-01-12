@@ -40,7 +40,7 @@ const BecomeExpert = () => {
                 Let&apos;s Show the Beauty of Your City to the World
               </h1>
               <div className="text-white mt-15">
-                Discover amzaing places at exclusive deals
+                Discover amazinging places at exclusive deals
               </div>
               <div className="d-inline-block">
                 <Link
