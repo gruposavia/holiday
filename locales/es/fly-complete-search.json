@@ -10,5 +10,10 @@
     "adult": "Adultos",
     "child": "Niños",
     "infant": "Infante",
-    "ages": "Edades {{ label }}"
+    "ages": "Edades {{ label }}",
+    "hero-reference": "Codigo de Reserva",
+    "hero-surname": "Apellido",
+    "hero-reference-placeholder": "Introduce el codigo de reserva",
+    "hero-surname-placeholder": "Introduce tu apellido"
+  
   }

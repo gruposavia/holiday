@@ -17,7 +17,7 @@ exports.modules = {
   \*********************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"depart":"Depart","return":"Return","flying-from":"Flying from","flying-to":"Flying to","travelers":"Travelers","going-from":"Where are you going?","going-to":"Where are you going?","button-search":"Search","adult":"Adult","child":"Children","infant":"Infant","ages":"Ages {{ label }}"}');
+module.exports = JSON.parse('{"depart":"Depart","return":"Return","flying-from":"Flying from","flying-to":"Flying to","travelers":"Travelers","going-from":"Where are you going?","going-to":"Where are you going?","button-search":"Search","button-check-in":"CHECK IN","adult":"Adult","child":"Children","infant":"Infant","ages":"Ages {{ label }}","hero-reference":"Booking reference","hero-surname":"Surname","hero-reference-placeholder":"Enter the booking code","hero-surname-placeholder":"Enter your surname"}');
 
 /***/ })
 

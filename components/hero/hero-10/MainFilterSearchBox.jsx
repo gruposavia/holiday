@@ -5,14 +5,17 @@ import { useSelector, useDispatch } from "react-redux";
 import { addCurrentTab } from "../../../features/hero/findPlaceSlice";
 import FlyCompleteSearch from './components/FlyCompleteSearch'
 import { useTranslation } from 'react-i18next';
-
+import BookingSearch from './components/BookingSearch'
+import CheckInSearch from './components/CheckInSearch'
 
 const MainFilterSearchBox = () => {
 
   const { tabs, currentTab } = useSelector((state) => state.hero) || {};
+
   const dispatch = useDispatch();
   const Router = useRouter()
   const { t } = useTranslation()
+  const tabObject = tabs.filter((e) => e.id === currentTab)
   return (
     <>
       <div className="tabs -bookmark js-tabs mt-40">
@@ -33,6 +36,8 @@ const MainFilterSearchBox = () => {
       </div>
       <div className="mainSearch -col-4 -w-1070 bg-white shadow-1 rounded-4 pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 ">
         {currentTab === 'flights' && <FlyCompleteSearch />}
+        {currentTab === 'booking'&& <BookingSearch/>}
+        {currentTab === 'check-in'&& <CheckInSearch/>}
       </div>
       {/* End .mainSearch */}
     </>
