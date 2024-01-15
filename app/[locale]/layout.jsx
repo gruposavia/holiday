@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 "use client";
 
 import Aos from "aos";
@@ -12,21 +13,28 @@ import "aos/dist/aos.css";
 import "../../styles/index.scss";
 import { Provider } from "react-redux";
 import { store } from "../../store/store";
-import Script from 'next/script';
-import i18nConfig from '@/i18nConfig';
+import Link from "next/link";
+import TagManager from 'react-gtm-module'
+import Head from 'next/head';
+
+const tagManagerArgs = {
+    gtmId: process.env.NEXT_PUBLIC_GTM_ID_PRODUCTION
+}
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
+  if(tagManagerArgs.gtmId) TagManager.initialize(tagManagerArgs)
 }
 
 
-export default function RootLayout({  children}) {
+export default function RootLayout({ children }) {
 
   useEffect(() => {
     Aos.init({
       duration: 1200,
       once: true,
     });
+    
   }, []);
 
   return (
