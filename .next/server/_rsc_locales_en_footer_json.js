@@ -17,7 +17,7 @@ exports.modules = {
   \********************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"app-title":"Your all-in-one travel app","follow-us":"Follow us on social media","updates":"Get Updates & More","contact-phone":"Toll Free Customer Care","need-assistance":"Need live support?","privacy":"Privacy","terms":"Terms","rights":" All rights reserved."}');
+module.exports = JSON.parse('{"app-title":"Your all-in-one travel app","follow-us":"Follow us on social media","updates":"Get Updates & More","contact-phone":"Toll Free Customer Care","need-assistance":"Need live support?","privacy":"Privacy","terms":"Terms","rights":" All rights reserved.","disclaimer":"Holiday Air, is a U.S. Indirect Air Carrier wich conducts a sense of Public Charter flights regulated by th U.S. Department of Transportation (\'DOT\'). All Public Charter flights are operated by ......... DOT Public Charter approval Numbers PC...... for Domestic Transportation between Miami, Florida (USA) with Buenos Aires (ARG), and Orlando, Florida (USA) with Buenos Aires (ARG).","company":"Company","about-us":"About Us","careers":"Careers","press":"Press","support":"Support","contact":"Contact","sitemap":"Sitemap","other":"Other Services","agents":"Travel Agents","operator":"Tour Operator","faq":"FAQ","accessibility":"Accessibility"}');
 
 /***/ })
 

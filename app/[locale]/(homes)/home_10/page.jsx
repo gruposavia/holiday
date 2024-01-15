@@ -122,7 +122,7 @@ const Home10 = async ({t, locale}) => {
       </section>
       {/* End blog Section */}
 
-      <Footer8 t={t}/>
+      <Footer8 t={t} locale={locale}/>
       {/* End Footer Section */}
     </>
   );

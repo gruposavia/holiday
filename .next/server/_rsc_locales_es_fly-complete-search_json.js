@@ -17,7 +17,7 @@ exports.modules = {
   \*********************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"depart":"Salida","return":"Regreso","flying-from":"Partiendo desde","flying-to":"Volando hacia","travelers":"Viajeros","going-from":"¿Desde dónde sales?","going-to":"¿Hacia dónde vas?","button-search":"Buscar","adult":"Adultos","child":"Niños","infant":"Infante","ages":"Edades {{ label }}"}');
+module.exports = JSON.parse('{"depart":"Salida","return":"Regreso","flying-from":"Partiendo desde","flying-to":"Volando hacia","travelers":"Viajeros","going-from":"¿Desde dónde sales?","going-to":"¿Hacia dónde vas?","button-search":"Buscar","adult":"Adultos","child":"Niños","infant":"Infante","ages":"Edades {{ label }}","hero-reference":"Codigo de Reserva","hero-surname":"Apellido","hero-reference-placeholder":"Introduce el codigo de reserva","hero-surname-placeholder":"Introduce tu apellido"}');
 
 /***/ })
 

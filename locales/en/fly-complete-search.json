@@ -7,8 +7,13 @@
     "going-from": "Where are you going?",
     "going-to": "Where are you going?",
     "button-search": "Search",
+    "button-check-in": "CHECK IN",
     "adult": "Adult",
     "child": "Children",
     "infant": "Infant",
-    "ages": "Ages {{ label }}"
+    "ages": "Ages {{ label }}",
+    "hero-reference": "Booking reference",
+    "hero-surname": "Surname",
+    "hero-reference-placeholder": "Enter the booking code",
+    "hero-surname-placeholder": "Enter your surname"
 }
