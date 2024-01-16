@@ -5,16 +5,16 @@ import FooterContent from "./FooterContent";
 import Social from "../../common/social/Social";
 import Subscribe from "./Subscribe";
 
-const index = ({t}) => {
+const index = ({ t , locale}) => {
   return (
     <footer className="footer -type-2 bg-dark-1 text-white">
       <div className="container">
         <div className="pt-60 pb-60">
           <div className="row y-gap-40 justify-between xl:justify-start">
             <div className="col-xl-4 col-lg-6">
-              <img src="/img/general/whiteLogo.png" alt="image" />
+              <img src="/img/general/whiteLogo.png" alt="brand" />
               <div className="row y-gap-30 justify-between pt-30">
-                <ContactInfo t={t}/>
+                <ContactInfo t={t} />
               </div>
               {/* End .row */}
 
@@ -30,7 +30,7 @@ const index = ({t}) => {
 
               <div className="mt-60">
                 <h5 className="text-16 fw-500 mb-10">
-                 {t('footer:follow-us')}
+                  {t('footer:follow-us')}
                 </h5>
                 <div className="d-flex x-gap-20 items-center">
                   <Social />
@@ -43,13 +43,13 @@ const index = ({t}) => {
               <div className="row y-gap-30">
                 <div className="col-12">
                   <h5 className="text-16 fw-500 mb-15">
-                  {t('footer:updates')}
+                    {t('footer:updates')}
                   </h5>
                   <Subscribe />
                 </div>
                 {/* End .col */}
-
-                <FooterContent />
+                <FooterContent t={t} locale={locale}/>
+                <p className="text-16 fw-500 mb-15">{t('footer:disclaimer')} </p>
               </div>
               {/* End .row */}
             </div>
@@ -60,7 +60,7 @@ const index = ({t}) => {
         {/* End footer top */}
 
         <div className="py-20 border-top-white-15">
-          <Copyright t={t}/>
+          <Copyright t={t} />
         </div>
         {/* End footer-copyright */}
       </div>

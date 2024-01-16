@@ -9,8 +9,8 @@ import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
 import LanguageMegaMenu from "../LanguageMegaMenu";
 import { useTranslation } from 'react-i18next';
 
-const Header1 = ({locale}) => {
-  
+const Header1 = ({ locale }) => {
+  const { t } = useTranslation();
   const [navbar, setNavbar] = useState(false);
 
   const changeBackground = () => {
@@ -27,7 +27,7 @@ const Header1 = ({locale}) => {
       window.removeEventListener("scroll", changeBackground);
     };
   }, []);
-  
+
   return (
     locale && <>
       {" "}
@@ -44,7 +44,7 @@ const Header1 = ({locale}) => {
 
                 <div className="header-menu">
                   <div className="header-menu__content">
-                    <MainMenu style="text-dark-1" locale={locale}/>
+                    <MainMenu style="text-dark-1" locale={locale} />
                   </div>
                 </div>
                 {/* End header-menu */}
@@ -56,7 +56,15 @@ const Header1 = ({locale}) => {
             <div className="col-auto">
               <div className="d-flex items-center">
 
-                <div className="d-flex items-center is-menu-opened-hide md:d-none">
+                <div className="d-flex items-center is-menu-opened-hide xl:d-none">
+                  <Link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://hla-stage.crane.aero/"
+                    className="button px-30 fw-400 text-14 -dark-2 bg-dark-4 h-50 text-white"
+                  >
+                    {t('main-menu:agency-access')}
+                  </Link>
                 </div>
                 <div className="row x-gap-20 items-center xxl:d-none ml-20">
                   <CurrenctyMegaMenu textClass="text-dark-1" />
@@ -89,7 +97,7 @@ const Header1 = ({locale}) => {
                       aria-labelledby="offcanvasMenuLabel"
                       data-bs-scroll="true"
                     >
-                      <MobileMenu locale={locale}/>
+                      <MobileMenu locale={locale} />
                       {/* End MobileMenu */}
                     </div>
                   </div>

@@ -4,6 +4,7 @@ import GuestSearch from "./GuestSearch";
 import FlyingFromLocation from "./FlyingFromLocation";
 import FlyingToLocation from "./FlyingToLocation";
 import { useTranslation } from 'react-i18next';
+import SearchButton from './SearchButton'
 
 export default function FlyCompleteSearch() {
   const { t } = useTranslation()
@@ -34,15 +35,7 @@ export default function FlyCompleteSearch() {
     <GuestSearch />
     {/* End guest */}
 
-    <div className="button-item">
-      <button
-        className="mainSearch__submit button -yellow-2 py-15 px-35 h-60 col-12 rounded-4 bg-yellow-1 text-white"
-        onClick={() => Router.push("/flight-list-v1")}
-      >
-        <i className="icon-search text-20 mr-10" />
-        {t('fly-complete-search:button-search')}
-      </button>
-    </div>
+    <SearchButton onSearch={() =>  {}} />
     {/* End search button_item */}
   </div>
   )

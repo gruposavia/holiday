@@ -16,7 +16,6 @@ const LanguageMegaMenu = ({ textClass, locale }) => {
 
   const router = useRouter();
   const currentPathname = usePathname();
-  console.log("🚀 ~ LanguageMegaMenu ~ currentPathname:", currentPathname.includes(locale))
 
   const [click, setClick] = useState(false);
   const handleCurrency = () => setClick((prevState) => !prevState);

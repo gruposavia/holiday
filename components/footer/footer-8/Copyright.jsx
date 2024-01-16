@@ -7,7 +7,7 @@ const Copyright = ({t}) => {
         <div className="row x-gap-30 y-gap-10">
           <div className="col-auto md:w-full md:d-flex md:justify-center">
             <div className="d-flex items-center">
-              © {new Date().getFullYear()} by
+              © {new Date().getFullYear()}
               <a
                 href="https://themeforest.net/user/ib-themes"
                 className="mx-2"

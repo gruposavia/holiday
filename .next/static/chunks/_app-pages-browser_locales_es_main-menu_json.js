@@ -15,7 +15,7 @@
   \***********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"home":"Home","membership":"Membresia","help-center":"Centro de ayuda","contact":"Contacto"}');
+module.exports = JSON.parse('{"home":"Home","membership":"Membresia","help-center":"Centro de ayuda","contact":"Contacto","agency-access":"Acceso Agencia de viajes"}');
 
 /***/ })
 

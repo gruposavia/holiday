@@ -8,6 +8,7 @@ import HelpBlock from "@/components/block/HelpBlock";
 import initTranslations from '../../../i18n';
 import TranslationsProvider from '../../../../components/TranslationProvider';
 
+
 export const metadata = {
   title: "Help Center || HolidayAir",
   description: "HolidayAir",
@@ -15,12 +16,12 @@ export const metadata = {
 
 const i18nNamespaces = [
   'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes'
+  'testimonials', 'common', 'popular-routes', 
 ]
 const HelpCenter = async({ params: { locale } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
   return (
-    <TranslationsProvider 
+    t && resources && locale && <TranslationsProvider 
     namespaces={i18nNamespaces}
     locale={locale}
     resources={resources}>
@@ -29,7 +30,7 @@ const HelpCenter = async({ params: { locale } }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header10 />
+      <Header10 locale={locale}/>
       {/* End Header 1 */}
 
       <section className="layout-pt-md">
@@ -94,10 +95,12 @@ const HelpCenter = async({ params: { locale } }) => {
       <CallToActions />
       {/* End Call To Actions Section */}
 
-      <DefaultFooter />
+      <DefaultFooter t={t} />
       {/* End Call To Actions Section */}
     </TranslationsProvider>
   );
 };
 
-export default dynamic(() => Promise.resolve(HelpCenter), { ssr: false });
+export default dynamic(() => {
+  return Promise.resolve(HelpCenter);
+}, { ssr: false });

@@ -1,14 +1,35 @@
-'use client'
+'use client';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { subscribeNewsletter } from '../../lib/senderEmail';
+import { Toaster, toast } from 'sonner';
 
 const CallToActions = () => {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
+  const [email, setEmail] = useState('');
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setEmail('');
+    try {
+      await subscribeNewsletter(email);
+      toast.success(t('common:sent-success'));
+    } catch (error) {
+      toast.error(t('common:sent-error'));
+    }
+  };
+
   return (
     <section className="layout-pt-md layout-pb-md bg-dark-2">
+      <Toaster position="top-right" richColors />
       <div className="container">
         <div className="row y-gap-30 justify-between items-center">
           <div className="col-auto">
-            <div className="row y-gap-20  flex-wrap items-center">
+            <div className="row y-gap-20 flex-wrap items-center">
               <div className="col-auto">
                 <div className="icon-newsletter text-60 sm:text-40 text-white" />
               </div>
@@ -17,33 +38,30 @@ const CallToActions = () => {
                   {t('common:call-to-action-title')}
                 </h4>
                 <div className="text-white">
-                {t('common:call-to-action-subtitle')}
+                  {t('common:call-to-action-subtitle')}
                 </div>
               </div>
             </div>
           </div>
-          {/* End .col */}
 
           <div className="col-auto">
             <div className="single-field -w-410 d-flex x-gap-10 y-gap-20">
-              <div>
-                <input
-                  className="bg-white h-60"
-                  type="text"
-                  placeholder={t('common:your-email')}
-                />
-              </div>
-              {/* End email input */}
-
-              <div>
-                <button className="button -md h-60 bg-blue-1 text-white">
+              <input
+                onChange={handleChange}
+                className="bg-white h-60"
+                required
+                type="email"
+                value={email}
+                placeholder={t('common:your-email')}
+              />
+              <button
+                className="button -md h-60 bg-blue-1 text-white"
+                onClick={handleSubmit}
+              >
                 {t('common:subscribe')}
-                </button>
-              </div>
-              {/* End subscribe btn */}
+              </button>
             </div>
           </div>
-          {/* End .col */}
         </div>
       </div>
     </section>

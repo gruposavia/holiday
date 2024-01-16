@@ -15,7 +15,7 @@
   \********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"more":"More","call-to-action-title":"Your Travel Journey Starts Here","call-to-action-subtitle":"Sign up and we\'ll send the best deals to you","your-email":"Your email","subscribe":"Subscribe","select-lng":"Select your language"}');
+module.exports = JSON.parse('{"more":"More","call-to-action-title":"Your Travel Journey Starts Here","call-to-action-subtitle":"Sign up and we\'ll send the best deals to you","your-email":"Your email","subscribe":"Subscribe","select-lng":"Select your language","sent-success":"It was sent successfully","sent-error":"Oops! There was an error. Please try again or contact us for assistance"}');
 
 /***/ })
 

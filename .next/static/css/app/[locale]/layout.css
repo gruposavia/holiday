@@ -13619,6 +13619,11 @@ button:focus {
   color: var(--color-blue-1) !important;
 }
 
+.button.-dark-2-05:hover {
+  background-color: rgba(50, 50, 132, 0.05) !important;
+  color: var(--color-dark-2) !important;
+}
+
 .button.-outline-white:hover {
   background-color: white !important;
   color: var(--color-dark-1) !important;

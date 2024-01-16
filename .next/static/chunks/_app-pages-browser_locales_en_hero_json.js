@@ -15,7 +15,7 @@
   \******************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"title":"Fly High, Live More.","subtitle":"Discover amazinging places at exclusive deals"}');
+module.exports = JSON.parse('{"title":"Fly High, Live More.","subtitle":"Discover amazing places at exclusive deals"}');
 
 /***/ })
 

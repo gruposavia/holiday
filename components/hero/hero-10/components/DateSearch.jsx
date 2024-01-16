@@ -12,7 +12,6 @@ const DateSearch = () => {
   // ]);
   const [dates, setDates] = useState([
     new DateObject().setDay(5),
-    new DateObject().setDay(14).add(1, "month"),
   ]);
 
   return (
