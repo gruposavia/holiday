@@ -31,6 +31,10 @@ var map = {
 		"(app-pages-browser)/./locales/en/contact.json",
 		"_app-pages-browser_locales_en_contact_json"
 	],
+	"./en/faq.json": [
+		"(app-pages-browser)/./locales/en/faq.json",
+		"_app-pages-browser_locales_en_faq_json"
+	],
 	"./en/flights.json": [
 		"(app-pages-browser)/./locales/en/flights.json",
 		"_app-pages-browser_locales_en_flights_json"
@@ -82,6 +86,10 @@ var map = {
 	"./es/contact.json": [
 		"(app-pages-browser)/./locales/es/contact.json",
 		"_app-pages-browser_locales_es_contact_json"
+	],
+	"./es/faq.json": [
+		"(app-pages-browser)/./locales/es/faq.json",
+		"_app-pages-browser_locales_es_faq_json"
 	],
 	"./es/flights.json": [
 		"(app-pages-browser)/./locales/es/flights.json",
