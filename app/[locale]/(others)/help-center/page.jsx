@@ -8,6 +8,7 @@ import HelpBlock from "@/components/block/HelpBlock";
 import initTranslations from '../../../i18n';
 import TranslationsProvider from '../../../../components/TranslationProvider';
 
+
 export const metadata = {
   title: "Help Center || HolidayAir",
   description: "HolidayAir",
@@ -15,7 +16,7 @@ export const metadata = {
 
 const i18nNamespaces = [
   'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact', 'faq'
+  'testimonials', 'common', 'popular-routes', 
 ]
 const HelpCenter = async({ params: { locale } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
@@ -81,7 +82,7 @@ const HelpCenter = async({ params: { locale } }) => {
                 className="accordion -simple row y-gap-20 js-accordion"
                 id="Faq1"
               >
-                <Faq t={t}/>
+                <Faq />
               </div>
             </div>
           </div>
@@ -100,4 +101,6 @@ const HelpCenter = async({ params: { locale } }) => {
   );
 };
 
-export default dynamic(() => Promise.resolve(HelpCenter), { ssr: false });
+export default dynamic(() => {
+  return Promise.resolve(HelpCenter);
+}, { ssr: false });

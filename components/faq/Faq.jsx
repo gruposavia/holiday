@@ -2,7 +2,7 @@ import faqContent from './faq'
 
 const Faq = ({t}) => {
   
-  console.log("🚀 ~ faqContent:", faqContent)
+
   return (
     <>
       {faqContent.map((item) => (
