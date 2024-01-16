@@ -16,7 +16,7 @@ export const metadata = {
 
 const i18nNamespaces = [
   'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes', 
+  'testimonials', 'common', 'popular-routes', 'faq'
 ]
 const HelpCenter = async({ params: { locale } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
@@ -82,7 +82,7 @@ const HelpCenter = async({ params: { locale } }) => {
                 className="accordion -simple row y-gap-20 js-accordion"
                 id="Faq1"
               >
-                <Faq />
+                {/* <Faq /> */}
               </div>
             </div>
           </div>
