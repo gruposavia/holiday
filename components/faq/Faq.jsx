@@ -1,46 +1,8 @@
-const Faq = () => {
-  const faqContent = [
-    {
-      id: 1,
-      collapseTarget: "One",
-      title: "What do I need to hire a car?",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco.`,
-    },
-    {
-      id: 2,
-      collapseTarget: "Two",
-      title: "How old do I have to be to rent a car?",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco.`,
-    },
-    {
-      id: 3,
-      collapseTarget: "Three",
-      title: "Can I book a hire car for someone else?",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco.`,
-    },
-    {
-      id: 4,
-      collapseTarget: "Four",
-      title: "How do I find the cheapest car hire deal?",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco.`,
-    },
-    {
-      id: 5,
-      collapseTarget: "Five",
-      title: "What should I look for when I'm choosing a car?",
-      content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco.`,
-    },
-  ];
+import faqContent from './faq'
+
+const Faq = ({t}) => {
+  
+  console.log("🚀 ~ faqContent:", faqContent)
   return (
     <>
       {faqContent.map((item) => (
@@ -55,7 +17,7 @@ const Faq = () => {
                 <i className="icon-plus" />
                 <i className="icon-minus" />
               </div>
-              <div className="button text-dark-1 text-start">{item.title}</div>
+              <div className="button text-dark-1 text-start">{t(`${item.title}`)}</div>
             </div>
             {/* End accordion button */}
 
@@ -65,7 +27,7 @@ const Faq = () => {
               data-bs-parent="#Faq1"
             >
               <div className="pt-15 pl-60">
-                <p className="text-15">{item.content}</p>
+                <p className="text-15">{t(`${item.content}`)}</p>
               </div>
             </div>
             {/* End accordion conent */}
