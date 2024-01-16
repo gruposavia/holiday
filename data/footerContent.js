@@ -12,8 +12,8 @@ module.exports = [
     id: 2,
     title: "support",
     menuList: [
-      { name: "Contact", routerPath: "/" },
-      { name: "Sitemap", routerPath: "/" },
+      { name: "contact", routerPath: "/contact" },
+      { name: "sitemap", routerPath: "/" },
     ],
   },
   {

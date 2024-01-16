@@ -7,6 +7,7 @@ import FlyCompleteSearch from './components/FlyCompleteSearch'
 import { useTranslation } from 'react-i18next';
 import BookingSearch from './components/BookingSearch'
 import CheckInSearch from './components/CheckInSearch'
+import FlyStatusSearch from './components/FlyStatusSearch'
 
 const MainFilterSearchBox = () => {
 
@@ -38,6 +39,7 @@ const MainFilterSearchBox = () => {
         {currentTab === 'flights' && <FlyCompleteSearch />}
         {currentTab === 'booking'&& <BookingSearch/>}
         {currentTab === 'check-in'&& <CheckInSearch/>}
+        {currentTab === 'status'&& <FlyStatusSearch/>}
       </div>
       {/* End .mainSearch */}
     </>

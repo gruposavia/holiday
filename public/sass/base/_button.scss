@@ -82,6 +82,13 @@ button {
   }
 }
 
+.button.-dark-2-05 {
+  &:hover {
+    background-color: color-opac(dark-2, 0.05) !important;
+    color: var(--color-dark-2) !important;
+  }
+}
+
 .button.-outline-white {
   &:hover {
     background-color: white !important;
