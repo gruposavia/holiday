@@ -27,7 +27,11 @@ const ContactForm = () => {
       message: '',
     })
     try {
-      await sendEmailContact(formData.name, formData.email, formData.subject, formData.message);
+      // await sendEmailContact(formData.name, formData.email, formData.subject, formData.message);
+            await fetch('/api/mail', {
+        method: 'POST',
+        body: JSON.stringify(formData)
+      });
       toast.success(t('common:sent-success'));
     } catch (error) {
       toast.error(t('common:sent-error'));

@@ -12,6 +12,7 @@
     "@faker-js/faker": "^8.1.0",
     "@popperjs/core": "2.11.8",
     "@reduxjs/toolkit": "^1.9.6",
+    "@sendgrid/mail": "^8.1.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "chart.js": "^4.4.0",
