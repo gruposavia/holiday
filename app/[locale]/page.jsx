@@ -10,7 +10,7 @@ export const metadata = {
 
 const i18nNamespaces = [
   'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact', 'faq'
+  'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact', 'faq', 'help-center'
 ]
 
 export default async function Home({ params: { locale } }) {
