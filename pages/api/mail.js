@@ -54,8 +54,10 @@ async function handleContactEmail(body, res) {
       template_id: process.env.SENDGRID_TEMPLATE_CONTACT_ADMIN
     }
 
-    await sgMail.send(emailFromUser);
-    await sgMail.send(emailFromAdmin);
+    await Promise.all([
+      sgMail.send(emailFromUser),
+      sgMail.send(emailFromAdmin)
+    ]);
 
     res.status(200).json({ success: true, message: 'Contact email sent successfully.' });
 
@@ -111,13 +113,15 @@ async function handleNewsletterEmail(body, res) {
       template_id: process.env.SENDGRID_TEMPLATE_NEWSLETTER_ADMIN
     }
 
-    await sgMail.send(emailFromUser);
-    await sgMail.send(emailFromAdmin);
+    await Promise.all([
+      sgMail.send(emailFromUser),
+      sgMail.send(emailFromAdmin)
+    ]);
 
     res.status(200).json({ success: true, message: 'Newsletter email sent successfully.' });
 
   } catch (error) {
-    res.status(error.status).json({ success: false, message: `Error sending the newsletter email. ${error.message}`});
+    res.status(error.status).json({ success: false, message: `Error sending the newsletter email. ${error.message}` });
   }
 }
 
