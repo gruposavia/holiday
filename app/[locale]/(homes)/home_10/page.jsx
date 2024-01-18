@@ -37,7 +37,7 @@ const Home10 = async ({t, locale}) => {
         </div>
         {/* End .container */}
       </section>
-      {/* Why choose Block Guide Section */}
+
 
       <section className="layout-pt-md layout-pb-md">
       <FlightsSection/>
