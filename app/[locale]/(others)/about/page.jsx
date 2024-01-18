@@ -84,31 +84,6 @@ const About = async ({ params: { locale } }) => {
       </section>
       {/* End about block section */}
 
-      <section className="layout-pt-lg layout-pb-lg">
-        <div className="container">
-          <div className="row y-gap-20 justify-between items-end">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">{t('about:our-team-title')}</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                {t('about:our-team-subtitle')}
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className=" pt-40 js-section-slider">
-            <div className="item_gap-x30">
-              <Team1 />
-            </div>
-          </div>
-          {/* End  js-section-slider */}
-        </div>
-        {/* End container */}
-      </section>
-      {/* End team section */}
-
       <CallToActions />
       {/* End Call To Actions Section */}
 
