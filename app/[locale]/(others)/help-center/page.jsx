@@ -39,10 +39,10 @@ const HelpCenter = async({ params: { locale } }) => {
             <div className="col-xl-6 col-lg-8 col-md-10">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Welcome to the Help Center
+                  {t('help-center:title')}
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Lorem ipsum is placeholder text commonly used in site.
+                {t('help-center:subtitle')}
                 </p>
               </div>
               {/* End .sectiontitle */}
@@ -53,7 +53,7 @@ const HelpCenter = async({ params: { locale } }) => {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-60 lg:pt-40">
-            <HelpBlock />
+            <HelpBlock t={t}/>
           </div>
           {/* End .row */}
         </div>
@@ -66,10 +66,10 @@ const HelpCenter = async({ params: { locale } }) => {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">
-                  Frequently Asked Questions
+                  {t('help-center:faq-title')}
                 </h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
+                {t('help-center:faq-subtitle')}
                 </p>
               </div>
             </div>

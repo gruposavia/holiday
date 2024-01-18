@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { sendEmailContact } from '../../lib/senderEmail';
+
 import { Toaster, toast } from 'sonner';
 
 const ContactForm = () => {
@@ -27,12 +27,19 @@ const ContactForm = () => {
       message: '',
     })
     try {
-      // await sendEmailContact(formData.name, formData.email, formData.subject, formData.message);
-            await fetch('/api/mail', {
-        method: 'POST',
-        body: JSON.stringify(formData)
-      });
-      toast.success(t('common:sent-success'));
+
+       const response = await fetch('/api/mail', {
+          method: 'POST',
+          body: JSON.stringify({
+            type: 'contact',
+            email: formData.email,
+            subject: formData.subject,
+            message: formData.message,
+            name: formData.name,
+          }),
+        });
+      
+      if (response.status === 200) toast.success(t('common:sent-success'));
     } catch (error) {
       toast.error(t('common:sent-error'));
     }

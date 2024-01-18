@@ -6,62 +6,142 @@ import sgMail from '@sendgrid/mail';
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-export default async function handler(req, res) {
-  const { method } = req;
 
-  if (method !== 'POST') {
-    return res.status(405).json({ success: false, message: 'Method Not Allowed' });
-  }
-  const body = JSON.parse(req.body);
+async function handleContactEmail(body, res) {
   try {
-    const msg = {
-      to: body.email, // Ajusta la dirección de correo del destinatario aquí
-      from: 'customerservice@holidayair.net', // Ajusta la dirección de correo del remitente aquí
-      subject: body.subject,
-      text: body.message,
-      html: `<strong>Contenido del correo ${body.message} en formato HTML</strong>`,
-    };
+    if (!body.email || !body.subject || !body.message) {
+      throw new Error('Missing required fields for contact email.')
+    }
+    let emailFromUser = {
+      from: {
+        email: process.env.SENDGRID_EMAIL,
+        name: 'Holiday Air'
+      },
+      personalizations: [
+        {
+          to: [{
+            email: body.email
+          }],
+          dynamic_template_data: {
+            "name": body.name,
+            "email": body.email,
+            "subject": body.subject,
+            "message": body.message
+          },
+        }
+      ],
+      template_id: process.env.SENDGRID_TEMPLATE_CONTACT_USER
 
-    if (!msg.to) {
-      throw new Error('El campo "to" en el objeto msg es obligatorio.');
+
+    }
+    let emailFromAdmin = {
+      from: {
+        email: process.env.SENDGRID_EMAIL
+      },
+      personalizations: [
+        {
+          to: [{
+            email: process.env.SENDGRID_EMAIL
+          }],
+          dynamic_template_data: {
+            "name": body.name,
+            "email": body.email,
+            "subject": body.subject,
+            "message": body.message
+          },
+        }
+      ],
+      template_id: process.env.SENDGRID_TEMPLATE_CONTACT_ADMIN
     }
 
-    await sgMail.send(msg);
-    res.status(200).json({ success: true });
+    await sgMail.send(emailFromUser);
+    await sgMail.send(emailFromAdmin);
+
+    res.status(200).json({ success: true, message: 'Contact email sent successfully.' });
+
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ success: false, message: 'Internal Server Error' });
+    res.status(500).json({ success: false, message: 'Error sending the contact email.' });
+  }
+
+}
+
+async function handleNewsletterEmail(body, res) {
+  try {
+    if (!body.email) {
+      throw new Error('Missing required fields for contact email.');
+    }
+    let emailFromUser = {
+      from: {
+        email: process.env.SENDGRID_EMAIL,
+        name: 'Holiday Air'
+      },
+      personalizations: [
+        {
+          to: [{
+            email: body.email
+          }],
+          dynamic_template_data: {
+            "name": body.name,
+            "email": body.email,
+            "subject": body.subject,
+            "message": body.message
+          },
+        }
+      ],
+      template_id: process.env.SENDGRID_TEMPLATE_NEWSLETTER_USER
+
+    }
+    let emailFromAdmin = {
+      from: {
+        email: process.env.SENDGRID_EMAIL
+      },
+      personalizations: [
+        {
+          to: [{
+            email: process.env.SENDGRID_EMAIL
+          }],
+          dynamic_template_data: {
+            "name": body.name,
+            "email": body.email,
+            "subject": body.subject,
+            "message": body.message
+          },
+        }
+      ],
+      template_id: process.env.SENDGRID_TEMPLATE_NEWSLETTER_ADMIN
+    }
+
+    await sgMail.send(emailFromUser);
+    await sgMail.send(emailFromAdmin);
+
+    res.status(200).json({ success: true, message: 'Newsletter email sent successfully.' });
+
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Error sending the newsletter email.'});
   }
 }
 
-// export async function emailNewsletterHandler(req, res) {
-//   const { method } = req;
+export default async function handleEmail(req, res) {
+  const body = JSON.parse(req.body);
 
-//   if (method !== 'POST') {
-//     return res.status(405).json({ success: false, message: 'Method Not Allowed' });
-//   }
-//   const body = JSON.parse(req.body);
-//   try {
-//     const msg = {
-//       to: body.email, // Ajusta la dirección de correo del destinatario aquí
-//       from: 'customerservice@holidayair.net', // Ajusta la dirección de correo del remitente aquí
-//       subject: 'Asunto del correo',
-//       text: 'Contenido del correo en formato de texto',
-//       html: '<strong>Contenido del correo en formato HTML</strong>',
-//     };
+  if (!body.type) {
+    return res.status(400).json({ success: false, message: 'Missing "type" field in the request body.' });
+  }
 
-//     if (!msg.to) {
-//       throw new Error('El campo "to" en el objeto msg es obligatorio.');
-//     }
+  if (!body.email) {
+    return res.status(400).json({ success: false, message: 'Missing required fields for newsletter email.' });
+  }
 
-//     await sgMail.send(msg);
-//     res.status(200).json({ success: true });
-//   } catch (error) {
-//     console.error(error);
-//     res.status(500).json({ success: false, message: 'Internal Server Error' });
-//   }
-// }
+  try {
+    if (body.type === 'contact') {
+      await handleContactEmail(body, res);
+    } else if (body.type === 'newsletter') {
+      await handleNewsletterEmail(body, res);
+    } else {
+      return res.status(400).json({ success: false, message: 'Invalid request type.' });
+    }
 
-
-
-
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Internal Server Error' });
+  }
+}
