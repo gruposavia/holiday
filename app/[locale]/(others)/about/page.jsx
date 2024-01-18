@@ -75,7 +75,7 @@ const About = async ({ params: { locale } }) => {
       </section>
       {/* End Why Choose Us section */}
 
-      <section className="layout-pt-md">
+      <section className="layout-pt-md mb-90">
         <div className="container">
           <div className="row y-gap-30 justify-between items-center">
             <Block1 t={t}/>
