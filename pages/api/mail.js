@@ -117,7 +117,7 @@ async function handleNewsletterEmail(body, res) {
     res.status(200).json({ success: true, message: 'Newsletter email sent successfully.' });
 
   } catch (error) {
-    res.status(500).json({ success: false, message: `Error sending the newsletter email. ${error.message}`});
+    res.status(error.status).json({ success: false, message: `Error sending the newsletter email. ${error.message}`});
   }
 }
 
@@ -142,6 +142,6 @@ export default async function handleEmail(req, res) {
     }
 
   } catch (error) {
-    res.status(500).json({ success: false, message: `Internal Server Error: ${error.message}` });
+    res.status(error.status).json({ success: false, message: `Internal Server Error: ${error.message}` });
   }
 }
