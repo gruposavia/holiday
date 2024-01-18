@@ -16,11 +16,18 @@ const Subscribe = () => {
     event.preventDefault();
     setEmail('');
     try {
-      await subscribeNewsletter(email);
-      toast.success(t('common:sent-success'));
-    } catch (error) {
-      toast.error(t('common:sent-error'));
-    }
+      const response = await fetch('/api/mail', {
+         method: 'POST',
+         body: JSON.stringify({
+           type: 'newsletter',
+           email: email,
+         }),
+       });
+     
+     if (response.status === 200) toast.success(t('common:sent-success'));
+   } catch (error) {
+     toast.error(t('common:sent-error'));
+   }
   };
   return (
     <div className="single-field relative d-flex justify-end items-center pb-30">
