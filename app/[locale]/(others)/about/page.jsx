@@ -5,11 +5,6 @@ import DefaultFooter from "@/components/footer/default";
 import WhyChoose from "@/components/block/BlockGuide";
 import Block1 from "@/components/about/Block1";
 import Image from "next/image";
-import Counter from "@/components/counter/Counter";
-import Team1 from "@/components/team/Team1";
-import Testimonial from "@/components/testimonial/Testimonial";
-import Counter2 from "@/components/counter/Counter2";
-import Brand from "@/components/brand/Brand";
 import initTranslations from '../../../i18n';
 import TranslationsProvider from '../../../../components/TranslationProvider';
 
