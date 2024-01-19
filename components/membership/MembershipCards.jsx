@@ -42,7 +42,7 @@ const MembershipCards = () => {
 
   return (
     <>
-      {rentalsData.slice(0,2).map((item) => (
+      {rentalsData.slice(0,3).map((item) => (
         <div
           className="col-lg-4 col-sm-6"
           key={item.id}
@@ -55,26 +55,13 @@ const MembershipCards = () => {
           >
             <div className="rentalCard__image">
               <div className="cardImage inside-slider">
-                <Slider
-                  {...itemSettings}
-                  arrows={true}
-                  nextArrow={<Arrow type="next" />}
-                  prevArrow={<Arrow type="prev" />}
-                >
-                  {item?.slideImg?.map((slide, i) => (
-                    <div className="cardImage ratio ratio-1:1" key={i}>
-                      <div className="cardImage__content ">
-                        <Image
+                <Image
                           width={300}
                           height={300}
                           className="rounded-4 col-12 js-lazy"
-                          src={slide}
+                          src={item?.slideImg}
                           alt="image"
                         />
-                      </div>
-                    </div>
-                  ))}
-                </Slider>
 
                 <div className="cardImage__wishlist">
                   <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
@@ -102,7 +89,7 @@ const MembershipCards = () => {
             {/* End image card */}
 
             <div className="rentalCard__content mt-10">
-              <div className="text-14 text-light-1 lh-14 mb-5">
+              {/* <div className="text-14 text-light-1 lh-14 mb-5">
                 {item?.location}
               </div>
               <h4 className="rentalCard__title text-dark-1 text-18 lh-16 fw-500">
@@ -134,7 +121,25 @@ const MembershipCards = () => {
                   <span className="fw-500 text-dark-1">US${item?.price}</span> /
                   per night
                 </div>
-              </div>
+              </div> */}
+                                <div className="y-gap-5 mt-20">
+                    <div className="d-flex items-center">
+                      <i className="icon-no-smoke text-20 mr-10" />
+                      <div className="text-15">Non-smoking rooms</div>
+                    </div>
+                    <div className="d-flex items-center">
+                      <i className="icon-wifi text-20 mr-10" />
+                      <div className="text-15">Free WiFi</div>
+                    </div>
+                    <div className="d-flex items-center">
+                      <i className="icon-parking text-20 mr-10" />
+                      <div className="text-15">Parking</div>
+                    </div>
+                    <div className="d-flex items-center">
+                      <i className="icon-kitchen text-20 mr-10" />
+                      <div className="text-15">Kitchen</div>
+                    </div>
+                  </div>
             </div>
           </Link>
         </div>

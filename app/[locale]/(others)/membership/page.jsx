@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import CallToActions from "@/components/common/CallToActions";
 import Header10 from "@/components/header/header-10";
 import DefaultFooter from "@/components/footer/default";
-
+import MembershipCards from "@/components/membership/MembershipCards";
 
 import RentalProperties from "@/components/rental-list/rental-list-v2/RentalProperties";
 
@@ -42,9 +42,9 @@ const Membership = async ({ params: { locale } }) => {
 
               <div className="mt-30"></div>
               {/* End mt--30 */}
-              <div className="row y-gap-30">
-                <RentalProperties />
-                {/* <MembershipCards/> */}
+              <div className="row y-gap-30 mx-4 w-full ">
+
+                <MembershipCards/>
 
               </div>
 
