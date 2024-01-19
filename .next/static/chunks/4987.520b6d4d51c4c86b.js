@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4987],{54987:function(s){s.exports=JSON.parse('{"flights":"Flights","booking":"Manage Booking","check-in":"Check-in","status":"Flight Status"}')}}]);

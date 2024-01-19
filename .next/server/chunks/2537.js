@@ -1,1 +1,0 @@
-"use strict";exports.id=2537,exports.ids=[2537],exports.modules={32537:e=>{e.exports=JSON.parse('{"title":"Descarga la aplicaci\xf3n","description":"Reserva con antelaci\xf3n o a \xfaltima hora con GoTrip. Recibe confirmaci\xf3n instant\xe1nea. Accede a la informaci\xf3n de tu reserva sin conexi\xf3n.","download":"Descargar en","get":"Obt\xe9n en"}')}};

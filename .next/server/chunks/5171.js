@@ -1,1 +1,0 @@
-"use strict";exports.id=5171,exports.ids=[5171],exports.modules={35171:e=>{e.exports=JSON.parse('{"title":"What our customers are \\t saying us?","description":"TODO: write a description","happy-people":"Happy people","rating":"Overall rating"}')}};

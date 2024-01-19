@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3019],{33019:function(e){e.exports=JSON.parse('{"title":"\xbfPor qu\xe9 elegirnos?","subtitle":"Estos destinos populares tienen mucho que ofrecer","img-1":"Garant\xeda del Mejor Precio","img-2":"Reservas F\xe1ciles y R\xe1pidas","img-3":"Atenci\xf3n al Cliente 24/7"}')}}]);
