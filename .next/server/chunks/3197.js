@@ -1,0 +1,1 @@
+"use strict";exports.id=3197,exports.ids=[3197],exports.modules={3197:e=>{e.exports=JSON.parse('{"title":"Why Choose Us","subtitle":"These popular destinations have a lot to offer","img-1":"Best Price Guarantee","img-2":"Easy & Quick Booking","img-3":"Customer Care 24/7"}')}};

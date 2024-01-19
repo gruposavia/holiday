@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[1248],{11248:function(e){e.exports=JSON.parse('{"title":"What our customers are \\t saying us?","description":"TODO: write a description","happy-people":"Happy people","rating":"Overall rating"}')}}]);
