@@ -82,7 +82,7 @@ const HelpCenter = async({ params: { locale } }) => {
                 className="accordion -simple row y-gap-20 js-accordion"
                 id="Faq1"
               >
-                <Faq />
+                <Faq t={t} locale={locale}/>
               </div>
             </div>
           </div>

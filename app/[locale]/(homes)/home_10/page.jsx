@@ -11,6 +11,9 @@ import TopDestinations from "@/components/home/home-10/TopDestinations";
 import TestimonialRating from "@/components/home/home-10/TestimonialRating";
 import Testimonial from "@/components/home/home-10/Testimonial";
 import PopularRoutes from "@/components/home/home-10/PopularRoutes";
+import getFaqContent from '@/lib/getFaqcontent';
+
+
 
 export const metadata = {
   title: "Home-10 || HolidayAir",
@@ -18,6 +21,8 @@ export const metadata = {
 };
 
 const Home10 = async ({t, locale}) => {
+  
+  
   return (
     t && locale && <>
       {/* End Page Title */}
