@@ -6,7 +6,7 @@ const nextConfig = {
     //     localeDetection: true,
     //   },
     //   trailingSlash: true,
-    
+    pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx', 'md'],
 }
 
 module.exports = nextConfig

@@ -19,7 +19,7 @@ const i18nNamespaces = [
 const About = async ({ params: { locale } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
   return (
-    t && locale && <TranslationsProvider 
+    t && locale && resources && <TranslationsProvider 
     namespaces={i18nNamespaces}
     locale={locale}
     resources={resources}>

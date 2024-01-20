@@ -1,0 +1,2 @@
+Holiday Air fares are non-refundable. However, we allow date/route changes within the year of validity of the ticket (penalties and/or fare differences may apply)
+In the event of extraordinary or force majeure situations, please contact your travel agent, or send an e-mail to our Commercial Department, **[reservation@holidayair.net](mailto:reservation@holidayair.net)**. We will analyse in detail your request.

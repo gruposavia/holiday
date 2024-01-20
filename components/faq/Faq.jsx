@@ -1,97 +1,99 @@
-'use client'
-import { useTranslation } from 'react-i18next';
-const Faq = () => {
+import getFaqContent from '@/lib/getFaqcontent';
+import ReactMarkdown from 'react-markdown';
+
+const Faq = async ({t, locale}) => {
+
   const faqContent = [
     {
       id: 1,
       collapseTarget: "One",
       title: "faq:title-one",
-      content: "faq:content-one",
+      content: "section1",
     },
     {
       id: 2,
       collapseTarget: "Two",
       title: "faq:title-two",
-      content: "faq:content-two",
+      content: "section2",
     },
     {
       id: 3,
       collapseTarget: "Three",
       title: "faq:title-three",
-      content: "faq:content-three",
+      content: "section3",
     },
     {
       id: 4,
       collapseTarget: "Four",
       title: "faq:title-four",
-      content: "faq:content-four",
+      content: "section4",
     },
     {
       id: 5,
       collapseTarget: "Five",
       title: "faq:title-five",
-      content: "faq:content-five",
+      content:  "section5",
     },
     {
       id: 6,
       collapseTarget: "Six",
       title: "faq:title-six",
-      content: "faq:content-six",
+      content:  "section6",
     },
     {
       id: 7,
       collapseTarget: "Seven",
       title: "faq:title-seven",
-      content: "faq:content-seven",
+      content:  "section7",
     },
     {
       id: 8,
       collapseTarget: "Eight",
       title: "faq:title-eight",
-      content: "faq:content-eight",
+      content:  "section8",
     },
     {
       id: 9,
       collapseTarget: "Nine",
       title: "faq:title-nine",
-      content: "faq:content-nine",
+      content:  "section9",
     },
     {
       id: 10,
       collapseTarget: "Ten",
       title: "faq:title-ten",
-      content: "faq:content-ten",
+      content:  "section10",
     },
     {
       id: 11,
       collapseTarget: "Eleven",
       title: "faq:title-eleven",
-      content: "faq:content-eleven",
+      content:  "section11",
     },
     {
       id: 12,
       collapseTarget: "Twelve",
       title: "faq:title-twelve",
-      content: "faq:content-twelve",
+      content:  "section12",
     },
     {
       id: 13,
       collapseTarget: "Thirteen",
       title: "faq:title-thirteen",
-      content: "faq:content-thirteen",
+      content:  "section13",
     },
     {
       id: 14,
       collapseTarget: "Fourteen",
       title: "faq:title-fourteen",
-      content: "faq:content-fourteen",
+      content: "section14"
     },
 ];
   
-  const { t } = useTranslation();
+
   return (
     <>
-      {faqContent.map((item) => (
+      {faqContent.map(async (item) => (
         <div className="col-12" key={item.id}>
           <div className="accordion__item px-20 py-20 border-light rounded-4">
             <div
@@ -113,7 +115,7 @@ const Faq = () => {
               data-bs-parent="#Faq1"
             >
               <div className="pt-15 pl-60">
-                <p className="text-15">{t(`${item.content}`)}</p>
+              <ReactMarkdown>{ await getFaqContent(item.content,locale)}</ReactMarkdown>
               </div>
             </div>
             {/* End accordion conent */}
