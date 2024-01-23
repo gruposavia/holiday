@@ -60,7 +60,7 @@ const index = ({ t , locale}) => {
         {/* End footer top */}
 
         <div className="py-20 border-top-white-15">
-          <Copyright t={t} />
+          <Copyright t={t} locale={locale} />
         </div>
         {/* End footer-copyright */}
       </div>

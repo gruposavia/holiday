@@ -102,7 +102,7 @@ const Contact = async ({ params: { locale } }) => {
       <CallToActions/>
       {/* End Call To Actions Section */}
 
-      <DefaultFooter t={t}/>
+      <DefaultFooter t={t} locale={locale}/>
       {/* End Call To Actions Section */}
     </TranslationsProvider>
   );
