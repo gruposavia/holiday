@@ -2,24 +2,18 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import getPrivacyTerms from '@/pages/api/getPrivacyTerms';
+import getPrivacy from '@lib/getPrivacy'
 import ReactMarkdown from 'react-markdown';
 
-export async function getStaticProps({locale}) {
-  const content = await getPrivacyTerms(locale);
-  return {
-    content,
-  }
-}
 const TermsContent = ({locale}) => {
   const [privacyTerms, setPrivacyTerms] = useState('');
 
   useEffect(() => {
     const fetchPrivacyTerms = async () => {
       try {
-        const response = await fetch(`/api/getPrivacyTerms?locale=${locale}`);
-        const data = await response.json();
-        setPrivacyTerms(data.content);
+        const response = await getPrivacy(locale);
+        console.log("🚀 ~ fetchPrivacyTerms ~ response:", response)
+
       } catch (error) {
         console.error('Error fetching privacy terms:', error);
       }
