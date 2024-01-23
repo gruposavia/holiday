@@ -4,7 +4,7 @@ import ContactInfo from "./ContactInfo";
 import Copyright from "./Copyright";
 import FooterContent from "./FooterContent";
 
-const index = ({t}) => {
+const index = ({t, locale}) => {
 
   return (
     <footer className="footer -type-1">
@@ -30,7 +30,7 @@ const index = ({t}) => {
 
 
         <div className="py-20 border-top-light">
-          <Copyright t={t}/>
+          <Copyright t={t} locale={locale}/>
         </div>
         {/* End footer-copyright */}
       </div>

@@ -1,46 +1,5 @@
 # **Política de privacidad**
 
-- [Cómo protegemos su privacidad](#cómo-protegemos-su-privacidad)
-- [La información que recopilamos y cómo la recopilamos](#la-información-que-recopilamos-y-cómo-la-recopilamos)
-- [Información personal confidencial](#información-personal-confidencial)
-- [Menores de edad](#menores-de-edad)
-
-- [Información recopilada automáticamente (incluyendo cookies y geolocalización)](#información-recopilada-automáticamente-incluyendo-cookies-y-geolocalización)
-
-- [Cookies y publicidad en línea](#cookies-y-publicidad-en-línea)
-
-- [¿Qué es una cookie?](#qué-es-una-cookie)
-
-- [¿Qué Cookies usamos?](#qué-cookies-usamos)
-
-- [Publicidad en línea basada en conductas/publicidad basada en intereses](#publicidad-en-línea-basada-en-conductaspublicidad-basada-en-intereses)
-
-- [Cómo gestionar las Cookies](#cómo-gestionar-las-cookies)
-
-- [Información recopilada por terceros en nuestros Servicios](#información-recopilada-por-terceros-en-nuestros-servicios)
-
-- [Cómo se usará su información](#cómo-se-usará-su-información)
-
-- [Nuestros Servicios](#nuestros-servicios)
-
-- [Fines administrativos, de marketing y de análisis](#fines-administrativos-de-marketing-y-de-análisis)
-
-- [Seguridad e integridad de los datos](#seguridad-e-integridad-de-los-datos)
-
-- [Política de retención de datos](#política-de-retención-de-datos)
-
-- [Con quién será compartida su información](#con-quién-será-compartida-su-información)
-
-- [Información general](#información-general)
-
-- [Requerimientos legales](#requerimientos-legales)
-
-- [Enlaces a otros sitios web](#enlaces-a-otros-sitios-web)
-
-- [Cómo elegir ser excluido de comunicaciones publicitarias y que su información no sea compartida con terceros](#cómo-elegir-ser-excluido-de-comunicaciones-publicitarias-y-que-su-información-no-sea-compartida-con-terceros)
-
-- [Aplicación de la legislación local](#aplicación-de-la-legislación-local)
-
 Última actualización: 19 de enero de 2024.
 
 ## Cómo protegemos su privacidad
@@ -166,7 +125,7 @@ tipo de sistema operativo, geolocalización, el nombre de su proveedor de
 servicio de internet, identificadores de publicidad móviles y las
 páginas visitadas en nuestros Servicios (tales como serán descritas más
 adelante en la sección llamada "Información recopilada automáticamente
-\[que incluye cookies y geolocalización\]")
+que incluye cookies y geolocalización")
 
 El contenido de correspondencia que usted nos haya enviado, que incluye
 información ofrecida a través de encuestas, focus groups u otros
@@ -429,20 +388,11 @@ anuncios, pero puede que no sean tan relevantes para usted y sus
 intereses. Los sitios web de HolidayAir no responden a las señales de
 "No rastrear" el navegador web.
 
-- [[Digital Advertising Alliance (en inglés)]{.underline} [Abre una
-  nueva ventana de otro sitio web que podría no]{.underline} [cumplir
-  con las normas de
-  accesibilidad.]{.underline}](http://www.aboutads.info/)
+- [Digital Advertising Alliance (en inglés)](http://www.aboutads.info/)
 
-- [[Network Advertising Initiative (en inglés)]{.underline} [Abre una
-  nueva ventana de otro sitio web que podría no]{.underline} [cumplir
-  con las normas de
-  accesibilidad.]{.underline}](http://www.networkadvertising.org/)
+- [Network Advertising Initiative (en inglés)](http://www.networkadvertising.org/)
 
-- [[Visitantes europeos]{.underline} [-]{.underline} [Sus opciones en
-  línea]{.underline} [Abre una nueva ventana de otro sitio web que
-  podría]{.underline} [no cumplir con las normas de
-  accesibilidad.]{.underline}](http://www.youronlinechoices.eu/)
+- [Visitantes europeos](http://www.youronlinechoices.eu/)
 
 Tenga en cuenta que deshabilitar la publicidad basada en intereses no
 significa que ya no recibirá avisos publicitarios. En cambio, la
@@ -841,17 +791,11 @@ dejar de recibir e-mails publicitarios, ingrese con su contraseña al
 sitio web de Business Extra y actualice sus preferencias.
 
 - Ingrese a su perfil de HoldayAirLoyalty® y administre sus
-  preferencias para e-mails [Abre una nueva]{.underline} [ventana de
-  otro sitio web que podría no cumplir con las normas de
-  accesibilidad]{.underline}
+  preferencias para e-mails
 
-- Comuníquese con Servicio al cliente HoldayAirLoyalty® [Abre una
-  nueva ventana de otro sitio web]{.underline} [que podría no cumplir
-  con las normas de accesibilidad]{.underline}
+- Comuníquese con Servicio al cliente HoldayAirLoyalty®
 
-- Actualice sus preferencias de Business Extra [Abre una nueva ventana
-  de otro sitio web que podría]{.underline} [no cumplir con las normas
-  de accesibilidad.]{.underline}
+- Actualice sus preferencias de Business Extra
 
 Si no es socio del programa HoldayAirLoyalty® y quiere dejar de recibir
 e-mails publicitarios, haga clic en el enlace dedicado a tal fin en el

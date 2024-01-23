@@ -1,49 +1,5 @@
 # **Privacy Policy**
 
-- [Protecting your privacy](#protecting-your-privacy)
-
--[Information we collect and how we collect it](#information-we-collect-and-how-we-collect-it)
-
-- [Sensitive personal information](#sensitive-personal-information)
-
-- [Minors](#minors)
-
-- [Automatically collected information (including cookies and geolocation)](#automatically-collected-information-including-cookies-and-geolocation)
-
-- [Cookies and online advertising](#cookies-and-online-advertising)
-
-- [What is a cookie? [6](#what-is-a-cookie)](#what-is-a-cookie)
-
-- [What Cookies do we use?](#what-cookies-do-we-use)
-
-- [Online behavioral advertising / interest-based advertising](#online-behavioral-advertising-interest-based-advertising)
-
-- [How to manage Cookies](#how-to-manage-cookies)
-
-- [Information collected by third parties on our Services](#information-collected-by-third-parties-on-our-services)
-
-- [How your information will be used](#how-your-information-will-be-used)
-
-- [Our Services](#our-services)
-
-- [Administrative, marketing, analytical purposes](#administrative-marketing-analytical-purposes)
-
-- [Data security and integrity](#data-security-and-integrity)
-
-- [Data retention policy](#data-retention-policy)
-
-- [With whom your information will be shared](#with-whom-your-information-will-be-shared)
-
-- [General](#general)
-
-- [Legal requirements](#legal-requirements)
-
-- [Links to other sites](#links-to-other-sites)
-
-- [Opting out of marketing communications and sharing your information with third parties](#opting-out-of-marketing-communications-and-sharing-your-information-with-third-parties)
-
-[Application of local laws](#application-of-local-laws)
-
 Updated January19, 2024
 
 ## Protecting your privacy
@@ -751,16 +707,11 @@ Business Extra member and you want to opt out of marketing emails, log
 in to the Business Extra website and update your preferences.
 
 - Log in to your HoldayAirLoyalty® profile and manage your email
-  preferences [Opens another site]{.underline} [in a new window that
-  may not meet accessibility guidelines]{.underline}
+  preferences
 
-- Contact HoldayAirLoyalty® Customer Service [Opens another site in a
-  new window that may not]{.underline} [meet accessibility
-  guidelines]{.underline}
+- Contact HoldayAirLoyalty® Customer Service
 
-- Update your Business Extra preferences [Opens another site in a new
-  window that may not meet]{.underline} [accessibility
-  guidelines.]{.underline}
+- Update your Business Extra preferences
 
 If you're not an HoldayAirLoyalty® program member and you want to opt
 out of marketing emails, you can click the opt-out or unsubscribe link
@@ -797,9 +748,9 @@ information.
 Where required by local law, you may have the right to access, request a
 copy of, update, transfer or port, restrict the processing of, or
 request that we delete your personal information. You may also have the
-right to object to our processing of your personal information. To
-exercise these rights please email us at [privacy@holidayair.net](mailto:privacy@holidayair.net). When we
-receive a request to exercise one of these rights, we will indicate what
+right to object to our processing of your personal information.
+To exercise these rights please email us at [privacy@holidayair.net](mailto:privacy@holidayair.net).
+When we receive a request to exercise one of these rights, we will indicate what
 personal information we require from you to validate your identity. We
 will also provide information on the action we intend to take on the
 request without undue delay and no later than 30 days from receipt of
@@ -808,3 +759,5 @@ law. This time may be extended by an additional two months in certain
 circumstances, for example, where requests are complex or onerous.
 Please note, these requests are subject to applicable legal, ethical
 reporting, or document retention obligations imposed on us.
+
+Email [privacy@holidayair.net.](mailto:privacy@holidayair.net)

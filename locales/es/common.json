@@ -9,5 +9,7 @@
     "sent-error": "¡Ups! Hubo un error. Por favor, inténtalo de nuevo o contáctanos para obtener asistencia",
     "not-found-title": "¡Ups! Parece que te has perdido.",
     "not-found-description": "La página que estás buscando no está disponible. Intenta buscar nuevamente o usa el enlace de regreso a la página de inicio.",
-    "not-found-button": "Volver a la página de inicio"
+    "not-found-button": "Volver a la página de inicio",
+    "terms-section-title": "Términos generales de uso",
+    "policies-section-title": "Política de privacidad y cookies"
 }

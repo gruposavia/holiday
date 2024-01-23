@@ -1,6 +1,6 @@
 import Social from "../../common/social/Social";
 
-const Copyright = ({t}) => {
+const Copyright = ({t, locale}) => {
   return (
     <div className="row justify-between items-center y-gap-10">
       <div className="col-auto">
@@ -22,8 +22,8 @@ const Copyright = ({t}) => {
           {/* End .col */}
           <div className="col-auto md:w-full md:d-flex md:justify-center">
             <div className="d-flex x-gap-15">
-            <a href="">{t('footer:privacy')}</a>
-              <a href="">{t('footer:terms')}</a>
+            <a href={`/${locale}/terms`}>{t('footer:privacy')}</a>
+              <a href={`/${locale}/terms`}>{t('footer:terms')}</a>
             </div>
           </div>
           {/* End .col */}

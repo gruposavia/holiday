@@ -1,0 +1,43 @@
+.markdown h2,h3 {
+    margin-bottom: 16px;
+    margin-top: 32px;
+  }
+  
+  .markdown ol {
+    margin-left: 16px;
+    list-style-type: decimal;
+  }
+  .markdown p {
+    margin-left: 16px;
+    margin-top: 1rem
+  }
+  .markdown ul li {
+    margin-left: 32px;
+    display: list-item;
+    list-style-type: circle;
+  }
+  .markdown{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .markdown h1 {
+    font-size: 26pt;
+  }
+  .markdown h2{
+    font-size:  22pt ;
+  }
+  .markdown h3{
+    font-size:  18pt ;
+  }
+  .markdown h4{
+    font-size:  16pt ;
+  }
+  .markdown h5{
+    font-size:  14pt ;
+  }
+  .markdown h6{
+    font-size:  12pt ;
+  }
+  .markdown li{
+    margin-top: 1rem
+  }
