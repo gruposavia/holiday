@@ -4,19 +4,22 @@ import path from 'path';
 import { defaultLocale } from '@/i18nConfig';
 
 const baseDirectory = process.cwd();
-const postsDirectory = path.join(baseDirectory, 'mdx', 'terms');
+const policyDirectory = path.join(baseDirectory, 'mdx', 'policy');
+const termsDirectory = path.join(baseDirectory, 'mdx', 'terms');
 
 export default async function handler(req, res) {
   const { locale = defaultLocale } = req.query;
 
   try {
-    const fullPath = path.join(postsDirectory, `${locale}.md`);
-    console.log('Full path:', fullPath);
+    const fullPolicyPath = path.join(policyDirectory, `${locale}.md`);
+    const policyContents = await fsPromises.readFile(fullPolicyPath, 'utf8');
+    const policyMatterResult = matter(policyContents);
 
-    const fileContents = await fsPromises.readFile(fullPath, 'utf8');
-    const matterResult = matter(fileContents);
+    const fullTermsPath = path.join(termsDirectory, `${locale}.md`);
+    const termsContents = await fsPromises.readFile(fullTermsPath, 'utf8');
+    const termsMatterResult = matter(termsContents);
 
-    res.status(200).json({ content: matterResult.content });
+    res.status(200).json({ policyContent: policyMatterResult.content, termsContent: termsMatterResult.content });
   } catch (error) {
     console.error('Error reading privacy terms:', error.message);
     res.status(500).json({ error: 'Internal Server Error' });
