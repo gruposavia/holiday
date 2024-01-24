@@ -119,7 +119,7 @@ const Home10 = async ({t, locale}) => {
           </div>
           {/* End .row  */}
           <div className="row y-gap-30 pt-40">
-            <Blog t={t}/>
+            <Blog t={t} locale={locale}/>
           </div>
           {/* End .row */}
         </div>

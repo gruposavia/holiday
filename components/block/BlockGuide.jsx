@@ -1,24 +1,42 @@
 'use client'
 import { useTranslation } from 'react-i18next';
 
-const BlockGuide = async () => {
+const BlockGuide = () => {
   const { t } = useTranslation()
   const blockContent = [
     {
       id: 1,
-      icon: "/img/featureIcons/1/1.svg",
+      icon: "/img/featureIcons/new/2.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "100",
     },
     {
       id: 2,
-      icon: "/img/featureIcons/1/2.svg",
+      icon: "/img/featureIcons/new/4.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "200",
     },
     {
       id: 3,
-      icon: "/img/featureIcons/1/3.svg",
+      icon: "/img/featureIcons/new/6.svg",
+      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      delayAnim: "300",
+    },
+    {
+      id: 4,
+      icon: "/img/featureIcons/new/8.svg",
+      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      delayAnim: "300",
+    },
+    {
+      id: 5,
+      icon: "/img/featureIcons/new/10.svg",
+      text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      delayAnim: "300",
+    },
+    {
+      id: 6,
+      icon: "/img/featureIcons/new/13.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "300",
     },
@@ -37,7 +55,7 @@ const BlockGuide = async () => {
       </div>
       {blockContent.map((item) => (
         <div
-          className="col-lg-3 col-sm-6"
+          className="col-lg-4 col-sm-6"
           data-aos="fade"
           data-aos-delay={item.delayAnim}
           key={item.id}
@@ -48,7 +66,6 @@ const BlockGuide = async () => {
             </div>
             <div className="text-center mt-30">
               <h4 className="text-18 fw-500">{t(`choose-us:img-${item.id}`)}</h4>
-              {/* //<p className="text-15 mt-10">{item.text}</p> */}
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ exports.modules = {
   \***********************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"title":"¿Por qué elegirnos?","subtitle":"Estos destinos populares tienen mucho que ofrecer","img-1":"Garantía del Mejor Precio","img-2":"Reservas Fáciles y Rápidas","img-3":"Atención al Cliente 24/7"}');
+module.exports = JSON.parse('{"title":"Comuníquese con nosotros.","subtitle":"Estos destinos populares tienen mucho que ofrecer","img-1":"Reservas y ventas ","img-2":"Gestión de Equipaje","img-3":"Operadores y Agencias","img-4":"Atención a Proveedores","img-5":"Membresías","img-6":"Carga aérea"}');
 
 /***/ })
 
