@@ -23,6 +23,10 @@ var map = {
 		"(app-pages-browser)/./locales/en/block.json",
 		"_app-pages-browser_locales_en_block_json"
 	],
+	"./en/cargo.json": [
+		"(app-pages-browser)/./locales/en/cargo.json",
+		"_app-pages-browser_locales_en_cargo_json"
+	],
 	"./en/choose-us.json": [
 		"(app-pages-browser)/./locales/en/choose-us.json",
 		"_app-pages-browser_locales_en_choose-us_json"
@@ -86,6 +90,10 @@ var map = {
 	"./es/block.json": [
 		"(app-pages-browser)/./locales/es/block.json",
 		"_app-pages-browser_locales_es_block_json"
+	],
+	"./es/cargo.json": [
+		"(app-pages-browser)/./locales/es/cargo.json",
+		"_app-pages-browser_locales_es_cargo_json"
 	],
 	"./es/choose-us.json": [
 		"(app-pages-browser)/./locales/es/choose-us.json",

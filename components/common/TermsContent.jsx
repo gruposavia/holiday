@@ -7,7 +7,9 @@ import ReactMarkdown from 'react-markdown';
 import { useTranslation } from 'react-i18next';
 
 const TermsContent = ({locale}) => {
-  const [privacyTerms, setPrivacyTerms] = useState();
+  const [termsContent, setTermsContent] = useState();
+  const [privacyContent, setPrivacyContent] = useState();
+
   const { t } = useTranslation()
 
   useEffect(() => {
@@ -15,17 +17,17 @@ const TermsContent = ({locale}) => {
       try {
         const response = await fetch(`/api/getPrivacyTerms?locale=${locale}`);
         const data = await response.json();
-        setPrivacyTerms(data.content);
+        setTermsContent(data.termsContent)
+        setPrivacyContent(data.policyContent);
       } catch (error) {
         console.error('Error fetching privacy terms:', error);
       }
     };
-
     fetchPrivacyTerms();
   }, [locale]);
 
   return (
-    privacyTerms && <Tabs>
+    privacyContent && termsContent && <Tabs>
       <div className="row y-gap-30">
         <div className="col-lg-3">
           <div className="px-30 py-30 rounded-4 border-light">
@@ -43,7 +45,7 @@ const TermsContent = ({locale}) => {
         <div className="col-lg-9">
           <TabPanel>
             <div className="tabs__content js-tabs-content" data-aos="fade">
-              <h1 className="text-30 fw-600 mb-15">General Terms of Use</h1>
+            <ReactMarkdown className='markdown'>{termsContent}</ReactMarkdown>
             </div>
           </TabPanel>
           {/* End  General Terms of Use */}
@@ -51,7 +53,7 @@ const TermsContent = ({locale}) => {
           <TabPanel>
             <div className="tabs__content js-tabs-content" data-aos="fade">
 
-              <ReactMarkdown className='markdown'>{privacyTerms}</ReactMarkdown>
+              <ReactMarkdown className='markdown'>{privacyContent}</ReactMarkdown>
 
             </div>
           </TabPanel>

@@ -15,7 +15,7 @@
   \***********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"title":"Why Choose Us","subtitle":"These popular destinations have a lot to offer","img-1":"Best Price Guarantee","img-2":"Easy & Quick Booking","img-3":"Customer Care 24/7"}');
+module.exports = JSON.parse('{"title":"Get in touch with us","subtitle":"These popular destinations have a lot to offer","img-1":"Reservations and Sales","img-2":"Baggage Management","img-3":"Operator and Agency","img-4":"Supplier Relations","img-5":"Memberships","img-6":"Air cargo"}');
 
 /***/ })
 

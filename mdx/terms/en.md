@@ -1,763 +1,692 @@
-# **Privacy Policy**
+**General conditions of carriage.**
 
-Updated January19, 2024
+All transportation of passengers and baggage provided by Holiday Air is
+subject to the terms of these conditions of carriage, in addition to:
 
-## Protecting your privacy
+- The terms printed on any ticket, itinerary and/or ticket receipt
 
-This Privacy Policy explains how HolidayAir, Inc. (\"we,\" \"us,\"
-\"our,\" \"HolidayAir\") collects, uses, shares, and protects
-information both in connection with HolidayAir's online and offline
-services, systems, websites, and apps that refer or link to this Privacy
-Policy (our \"Services\"), and as explained below, including without
-limitation, the collection and processing of personal information in
-connection with bookings and travel on HolidayAir or flights operated by
-our regional carriers (for example, Envoy Air, Piedmont Airlines and PSA
-Airlines), as well as loyalty data collected and processed in connection
-with the HoldayAirLoyalty® program. This Privacy Policy applies
-regardless of the way you interact with our Services or the type of
-device or other means you use to access our Services.
+- Published fare rules
 
-HolidayAir reserves the right to change this Privacy Policy at any time
-by posting the updated Policy here along with the date on which the
-Policy was changed. If we make material changes to this Privacy Policy
-that affect the way we collect, use and/or share your personal
-information, we will notify you by including a \"NEWLY UPDATED\" label
-with the \"PRIVACY POLICY\" link on holidayair.net for 30 days after
-material changes are made. This Privacy Policy is not a contract and
-does not create any contractual rights or obligations.
+- Applicable fares presented by Holiday Air in accordance with US
+  Department of Transportation regulations.
 
-## Information we collect and how we collect it
+**Contract details**
 
-When we use the term 'personal information,' we are referring to
-information that identifies, relates to, describes, or can be associated
-with you, including the categories and specific types of information
-described in this Privacy Policy.
+When you purchase a ticket or fly on a flight operated by Holiday Air,
+you agree to:
 
-We collect and maintain personal information about you from many sources
-to understand and meet your needs, facilitate your travel, manage our
-business, and for other purposes disclosed to you. For example, we
-collect personal information about you from:
+- To the extent not prohibited by federal law, Florida law applies to
+  this agreement and any dispute arising from the purchase of your
+  Holiday Air ticket or travel without regard to conflict of law
+  principles.
 
-You, when you voluntarily provide us with information
+- This contract is non-waivable and cannot be modified unless
+  authorized in writing by Holiday Air management.
 
-Your transactions with HolidayAir
+- Even if you have not paid for your ticket, for example if you are
+  part of a group of passengers on the same booking, this contract is
+  an agreement between you and us.
 
-Other third-party sources, such as travel agents, law enforcement
-agencies, other airlines (e.g., code share and alliance partners) and
-travel and hospitality service providers (e.g., transportation or tour
-operators).
+- We provide links to other pages on our site to provide more
+  information, but those pages are not part of this agreement.
 
-If the information is to be collected directly from you, you may in some
-cases have the option to decline providing that information. However,
-your choice to not provide information may impact your use of certain
-features or services.
+- This contract governs your rights and responsibilities as a
+  passenger. Our failure to assert a right under this agreement in one
+  case does not constitute a waiver of our right to enforce the
+  agreement later.
 
-The personal information we collect about you through these various
-sources may include, but is not limited to:
+- Limitation of Liability: You agree that we are not liable for any
+  consequential, incidental, punitive or special damages caused by
+  this contract, even if we knew, or should have known or been advised
+  of such damages, including lost, damaged, or delayed baggage
+  (including lost or business interruption).
 
-General information about you, including name, title, gender, date of
-birth, HoldayAirLoyalty® account number, driver\'s license number,
-passport number, nationality, and country of residence
+- Class Action Waiver: You agree that any legal action against us or
+  any of our affiliated entities, agents, directors and/or officers,
+  in connection with these Conditions of Carriage, your ticket and/or
+  your use of the Holiday Air website, customer service or other call
+  centers or Holiday Air will do so solely in your individual capacity
+  and not as part of a class action.
 
-Contact information, including addresses and telephone numbers, email
-addresses, fax numbers, pager numbers, and social media handles Travel
-information, including:
+**Passenger responsibilities**
 
-booking and itinerary information:
+As a passenger, you must act in a manner consistent with the safety of
+all people on board. This includes compliance with the laws and travel
+requirements of the countries we fly to, from, or over.
 
-HolidayAir creates a record for each booking that involves travel on
-HolidayAir, even if the ticket is sold under another airline's booking
-code, including whether you booked your flight on holidayair.net or
-through another sales channel (such as a travel agency)
+Traveling can be stressful, so we appreciate your patience and courtesy
+toward other passengers and Holiday Air team members.
 
-HolidayAir will also collect information about changes to your booking,
-including a cancellation or failure to complete your travel, upgrades,
-your baggage requirements, airport disruption, and lost baggage
+**Compliance with law and government regulations**
 
-If you book travel for someone else, HolidayAir may collect your billing
-information but may communicate with the passenger directly about their
-flight other information required to facilitate travel services, such as
-requests for assistance, dietary restrictions, interactions with staff
-and cabin crew, travel companion name(s), emergency contacts,
-photographs, information about your prior flights and travel-related
-issues
+To fly with Holiday Air, you must:
 
-Payment information, including credit or debit card number(s),
-associated billing address(es), and expiration date(s)
+- Have a valid passport and visa, and the mandatory travel documents
+  required by government authorities.
 
-Sensitive information, Some examples of this type of information
+- Some countries require your passport to be valid for 3 to 6 months
+  after your departure date, so check the rules before you travel.
+
+- Allow Customs, TSA, or other government officials to inspect your
+  luggage.
+
+- Release us of any liability for any loss, damage, or expense if you
+  fail to comply with the travel document requirements.
+
+**Compliance with airline safety regulations**
+
+The safety and comfort of our customers and employees is our top
+priority. We will respond seriously to any language or behavior that
+threatens the well-being or functions of our crew or any member of the
+Holiday Air team. Violent or inappropriate actions may result in denied
+boarding, expulsion from the terminal, or legal action.
+
+In order to ensure a safe environment for everyone, you will:
+
+- Allow search of you and your luggage in search of explosives,
+  dangerous weapons or prohibited substances.
+
+- Show a valid ID.
+
+- Understand and comply with all safety instructions.
+
+- Release us of liability for any loss, damage, or expense if you do
+  not comply with the travel document requirements.
+
+- Behave appropriately and respectfully with other passengers, crew,
+  and any member of the Holiday Air team.
+
+- Postpone your flight if you have a dangerous illness considered
+  contagious by a federal health authority.
+
+- Make sure your body odor is not offensive.
+
+- Dress appropriately: going barefoot is not allowed.
+
+- Do not put the safety of the flight at risk in any way.
+
+- Have the necessary flight documents and be authorized to travel
+  between all countries listed on your itinerary.
+
+- Be able to sit with your seat belt fastened.
+
+- If, in Holiday Air\'s sole discretion, your physical or mental
+  condition renders you or is likely to render you unable to
+  understand or comply with safety instructions without the assistance
+  of an attendant, Holiday Air may refuse to transport you.
+
+- Additionally, you may be asked to give up your seat if a government
+  official requires space, weather conditions require a reduction in
+  flight load, or other circumstances beyond our control.
+
+Infringement.
+
+We may not allow you to fly (temporarily or permanently) for any reason,
+if you:
+
+- Do not respect the law.
+
+- Do not cooperate, engage in offensive, abusive behavior on board.
+
+- Pose a security risk.
+
+- Appear to be under the influence of alcohol or drugs.
+
+- Attempt to interfere with the flight crew or do not obey
+  instructions.
+
+- Do not comply with Holiday Air rules or policies.
+
+- Need to be removed for your safety or the safety of other passengers
+  or crew.
+
+- Have a contagious disease or virus or if we suspect that you have a
+  contagious disease or virus.
+
+- Travel with an animal that causes a delay or damage to the plane or
+  other passengers.
+
+- You may also be liable for any loss, damage or expense resulting
+  from your conduct. For example, you may be liable for costs if we
+  have to detour to another city due to your conduct. Additionally,
+  under US law, you may be liable if you attack an employee performing
+  security duties, whether federal, airport, or airline staff.
+
+Failure to comply with the passengers\' responsibilities constitutes a
+material breach of this contract.
+
+**Your ticket**
+
+Each passenger must have a valid ticket to fly. A ticket is not
+transferable; It cannot be used by or refunded to another passenger.
+
+If the ticket has not been used, you must start travel within 1 year
+from the date it was issued. If the ticket has been partially used, you
+must complete the trip within 1 year from the first completed flight.
+
+Tickets are only valid for travel if used in accordance with all terms
+and conditions of sale. Airline ticket coupons must be used in the
+sequence specified on the ticket.
+
+Holiday Air fares are non-refundable; however, depending on the
+respective fare provisions in force at the time of issuance of the
+ticket or the acquisition of an Elite Club membership, your ticket can
+be modified with validity of up to 1 year. Please note that, at the time
+of making the new reservation, we will make a new calculation of the
+applicable fare, based on the requested itinerary change. If the
+originally reserved price category is not available for the modified
+itinerary, said calculation will be made based on the lowest price
+category available on the aforementioned date for your modified
+itinerary.
+
+Your ticket is only valid when:
+
+- The trip has as its origin or destination the cities that appear on
+  your ticket and in your travel record
+
+- Complies with all tariff requirements.
+
+Your ticket is not valid when:
+
+- It does not meet the requirements of minimum stay, purpose or
+  condition of the fare
+
+- We found out that the ticket was purchased through abusive practices
+
+- Prohibited booking methods: Reservations made for the purpose of
+  misusing fares or circumventing fare and ticket rules are strictly
+  prohibited (for example, combining two or more round-trip fares in
+  order to circumvent minimum stay requirements)
+
+If we find evidence that you or your agent are engaging in abusive
+practices, we reserve the right to cancel any unused portion of the
+ticket and/or deny flight and baggage check-in to the passenger and/or
+refuse to refund a ticket that otherwise would have been refundable
+and/or charge you the amount equivalent to what the ticket would have
+cost if you had not booked it fraudulently and/or request the return of
+any compensation that we may have provided.
+
+**Confidentiality**
+
+We process your personal data in accordance with all relevant data
+privacy regulations and only for the following purposes: making flight
+reservations, purchasing tickets, obtaining additional services,
+developing and providing services, facilitating immigration and entry
+procedures; as well as make the information associated with the
+organization of your trip available to the relevant government agencies
+and other airlines, or other providers of the aforementioned services.
+
+**Prepare to fly**
+
+- When it comes to checking in and arriving at the airport, it is best
+  to do it in advance. If you are checking in luggage, consider even
+  more time.
+
+- Before heading to the airport, you can check which travel alerts are
+  in effect for the cities on your itinerary and check flight status
+  information, such as boarding times and gates.
+
+- You can check-in online 24 hours before departure. All airports have
+  minimum check-in hours. If check-in has not been completed within
+  the minimum period, we may reassign your seat to another passenger.
+
+- Seat assignment during check-in is random. Free seat selection will
+  only be enabled for those passengers who purchase an Elite Club
+  membership, once the ticket is issued.
+
+- On our flights, you must check-in at least 60 minutes before the
+  scheduled flight departure. At some airports, it is mandatory to
+  check-in further in advance.
+
+- You must be at the gate and ready to board the plane at least 45
+  minutes before departure. You must have a boarding pass with a valid
+  seat assignment and an ID to board the aircraft.
+
+- Boarding ends 15 minutes before departure. If you have not boarded
+  by that time, we can reassign your seat to another passenger. Once
+  the doors are closed, you will not be allowed to board.
+
+Sometimes we have to make adjustments to our operations and, in the
+interval between the day you make your reservation and the day of
+departure, changes may occur to:
+
+- Your flight number
+
+- The type of aircraft you fly on and the services available
+
+- Your seat assignment
+
+- The airline that operates your flight
+
+- The number of stops or transfer cities
+
+- Departure and arrival times
+
+When changes or cancellations affect your travel, we will try to contact
+you in advance and allocate you to another flight or a similar seat,
+although we cannot guarantee this will be the case.
+
+We do our best to be punctual, but our flight schedule is not guaranteed
+and is not part of this contract. We will not take any responsibility
+if:
+
+- We are late or you cannot make your connection
+
+- We change the schedule of any flight
+
+- We cancel a flight or route
+
+- Your checked baggage arrives late (except as required by statute,
+  regulation, or convention)
+
+- Special, incidental, or consequential damages occur due to these
+  changes.
+
+**Traveling with babies and children**
+
+Babies (under 2 years old)
+
+Children under 2 years old can ride on your lap. Children under 2 years
+old must be accompanied in the same cabin by a parent, of any age, or by
+a person at least 18 years old.
+
+Children (over 2 years old, up to and including 11 years old)
+
+Children ages 2 and up must have a seat purchased. If your child turns 2
+during the trip, you must purchase a ticket with a confirmed seat for
+the entire route.
+
+[Unaccompanied minor service]{.underline}
+
+Children under 8 years old cannot travel alone.
+
+Minor children, from 8 years to 14 years old, as well as young people
+traveling alone, between 15 and 17 years old, obligatorily require the
+service for unaccompanied minors.
+
+Contact with a guardian and escort to the boarding gate is required.
+
+Our service for unaccompanied minors ensures that the minor is escorted
+to the plane, presented to a flight attendant and handed over to the
+authorized person upon arrival at their destination. Please note that
+our flight attendants will be busy with their on-board duties and cannot
+monitor the child all the time during the flight. Inform your children
+that they can use the call button if they need anything.
+
+The charge for unaccompanied minors is USD 175 each way, in addition to
+the applicable fare.
+
+**Refunds**
+
+Rules on international travel delays are governed by the Montreal
+Convention and the Warsaw Convention.
+
+**_Liability on international flights - Montreal Convention and Warsaw
+Convention_**
+
+_If the customer\'s trip includes a final destination or a stopover in a
+country other than the country of departure, Holiday Air\'s liability
+for death or personal injury and for loss or damage to baggage may be
+governed by the Warsaw Convention or the Montreal Convention. . In such
+cases, the following terms, which are dictated by the US Department of
+Transportation, will apply:_
+
+_The Carrier shall be liable under Article 17 of the Warsaw Convention
+or the Montreal Convention, as applicable, for compensable damages
+suffered in the event of death or bodily injury of a Passenger, as
+provided in the following paragraphs:_
+
+_The Carrier may not exclude or limit its liability for damages not
+exceeding 113,100 Special Drawing Rights for each Passenger._
+
+_The Carrier will not be liable for damages to the extent that they
+exceed 113,100 Special Drawing Rights for each Passenger if the Carrier
+proves that:_
+
+_Such damages were not due to the negligence or other wrongful act or
+omission of the Carrier or its employees or agents; or such damages were
+due solely to the negligence or other wrongful act or omission of a
+third party._
+
+_The Carrier reserves all other defenses and limitations available under
+the Warsaw Convention or the Montreal Convention, as applicable, to such
+claims including, without limitation, the defense of exoneration of
+Article 21 of the Warsaw Convention and Article 20 of the Montreal
+Convention, except that the Carrier shall not invoke Articles 20 of the
+Montreal Convention and 21 of the Warsaw Convention in a manner
+inconsistent with paragraphs (1) and (2) of this text. With respect to
+third parties, the Carrier reserves all rights of recourse against any
+other person, including, without limitation, the rights of contribution
+and compensation._
+
+_The Carrier agrees that, in accordance with applicable law,
+compensatory damages for such claims may be determined by reference to
+the laws of the country of domicile or country of permanent residence of
+the Passenger._
+
+_In the event of bodily injury or death, the Carrier will make an
+advance payment when the Carrier determines that it is necessary to meet
+the immediate financial needs of a Passenger and the hardship suffered
+by the Passenger, as provided in the following paragraphs:_
+
+_Unless a dispute arises as to the identity of the person to whom a
+prepayment will be made, the Carrier will make the prepayment to the
+Passenger immediately in the amount or amounts determined by the Carrier
+in its sole discretion. In the event of the death of a Passenger, the
+amount of the advance payment will not be less than 16,000 Special
+Drawing Rights, which will be paid to a representative of the
+Passenger\'s next of kin entitled to receive such advance payment as
+determined by the Carrier. your sole discretion._
+
+_The Carrier shall make advance payment as an advance against the
+Carrier\'s liability under the Warsaw Convention or the Montreal
+Convention, as applicable. An advance payment will not constitute
+acknowledgment of liability. An advance payment will be offset or
+deducted from the payment of any agreement or decision regarding any
+claim for compensation on behalf of the Passenger._
+
+_The Carrier, by making a prepayment, does not waive any right, defense
+or limitation available under the Warsaw Convention or the Montreal
+Convention, as applicable, to any claim on behalf of the Passenger, nor
+will the acceptance of a prepayment constitute a waiver of any claim by
+any person._
+
+_The Carrier will be responsible for damages caused by the delay in the
+Transportation of Passengers by air, in accordance with the provisions
+of the following paragraphs:_
+
+_The Carrier shall not be liable if it proves that it and its employees
+and agents took all measures that may_ _reasonably be necessary to avoid
+the damage, or that it was impossible for it or them to take such
+measures._
+
+_The airport, air traffic control, security and other facilities or
+personnel, public or private, not under the control and direction of the
+Carrier, are not employees or agents of the Carrier, and the Carrier is
+not responsible to the extent that the delay is caused by this type of
+facilities or personnel._
+
+_Damages caused by delays are subject to the terms, limitations and
+defenses set out in the Warsaw Convention and the Montreal Convention,
+as applicable. They include foreseeable compensatory damage suffered by
+the passenger and do not include damages for mental injuries._
+
+_The Carrier reserves all defenses and limitations available under the
+Warsaw Convention or the Montreal Convention, as applicable, to claims
+for damages caused by delay._
+
+_The Carrier will be responsible for damages suffered in the event of
+destruction or loss, damage or delay of Checked Baggage and Unchecked
+Baggage, as provided in the following paragraphs._
+
+_Except as provided below, the Carrier\'s liability is limited in most
+cases to 1,288 Special Drawing Rights for each Passenger in the event of
+destruction, loss, damage, or delay of Baggage, whether checked or
+unchecked, in accordance with the Convention. Warsaw or the Montreal
+Convention, as appropriate. This applies unless the Passenger proves
+otherwise._
+
+_All Baggage checked by a Passenger will be considered the property of
+said Passenger._
+
+_A particular piece of Baggage, whether checked or unchecked, will not
+be considered the property of more than one Passenger._
+
+_Unchecked Baggage, including personal items, will be considered the
+property of the Passenger in possession of the Baggage at the time of
+boarding._
+
+_If a Passenger makes, at the time of delivery of the Checked Baggage to
+the Carrier, a special declaration of interest and has paid an
+additional sum, if applicable, the Carrier will be responsible for the
+destruction, loss, damage or delay of said Checked Baggage in an amount
+that does not exceed the declared amount, unless the Carrier
+demonstrates that the declared amount is greater than the Passenger\'s
+actual interest in delivery at Destination. The declared amount, and the
+Carrier\'s liability, will not exceed the total declaration amount
+permitted under the Carrier\'s regulations, including the limitation of
+paragraph D. (1) of this text. In the case of carriage under the Warsaw
+Convention, no additional sum shall be applied unless the declared
+amount exceeds 17 Special Drawing Rights per kilogram of the total
+recorded weight of the Checked Baggage at the time of delivery of the
+Baggage to the Carrier. However, the Carrier may impose charges for
+pieces of Baggage that exceed the allowance allowed by the Carrier._
+
+_In the case of Unchecked Baggage, the Carrier will only be liable to
+the extent that the damage was caused by its fault or that of its
+employees or agents._
+
+_The Carrier is not responsible for the destruction, loss, damage, or
+delay of Baggage not under the responsibility of the Carrier, including
+Baggage that is subject to security inspections or measures not under
+the control and direction of the Carrier._
+
+_The Carrier reserves all defenses and limitations available under the
+Warsaw Convention, except Article 22(3) thereof and the Montreal
+Convention, as applicable, to such claims._
+
+_Under the Warsaw Convention and the Montreal Convention, as applicable,
+an action for damages must be brought within two (2) years and a claim
+must be made to the Carrier within seven (7) calendar days. in case of
+damage to the Luggage, and twenty-one (21) calendar days in case of
+delay thereof._
+
+_Any exclusion or limitation of liability of the Carrier under these
+Conditions of Carriage or the Ticket shall apply to agents, employees or
+representatives of the Carrier acting within the scope of their
+employment_ _and also to any person whose aircraft is used by the
+Carrier and its agents, employees or representatives acting within the
+scope of their employment._
+
+_The Carrier will not be responsible for any loss, damage or delay of
+any kind resulting from the transport or delivery of the Checked
+Baggage, to the extent that it is a consequence of the defect, quality
+or inherent vice of the Baggage, or in case of delay, in the to the
+extent that the Carrier, its agents and employees have taken reasonable
+measures to avoid the damage, or it has been impossible to take such
+measures._
+
+When circumstances beyond our control occur, such as weather, a strike
+or other public disorder, we may have to cancel, divert or delay
+flights.
+
+Such "force majeure" events include:
+
+- Meteorological or climatological conditions
+
+- Public unrest, such as wars, embargoes, or unstable international
+  conditions (actual or potential)
+
+- Acts of terrorism
+
+- Public health emergencies at the national or international level
+
+- Labor disputes that involve or affect our service
+
+- Government regulations or requirements
+
+- Shortage of labor, fuel or facilities belonging to Holiday Air or
+  third parties
+
+- Any circumstance that Holiday Air cannot reasonably foresee or
+  anticipate
+
+**Voluntary Denied Boarding**
+
+We may require passengers who are willing to voluntarily give up their
+seats in exchange for compensation in an amount and manner to be
+determined solely at the discretion of Holiday Air.
+
+If you volunteer to give up your confirmed seat on a flight, we will
+compensate you in a manner and amount that we consider fair.
+
+**Involuntary Denied Boarding**
+
+If there are not enough volunteers, we will have to choose which
+customers will change flights against their will and deny them boarding.
+
+Certain customers have priority boarding, including those who:
+
+- Have special assistance needs
+
+- Are minors and do not travel accompanied
+
+- Have Diamond, Emerald or Sapphire status from Holiday Air -- Elite
+  Club
+
+- Have paid for Business class
+
+- Have checked-in first
+
+The selection of customers who are denied seats against their will is
+solely at the discretion of Holiday Air.
+
+You will not receive compensation for denied boarding against your will
+if:
+
+- You do not meet Holiday Air\'s ticketing, check-in and
+  reconfirmation requirements, or are not suitable for carriage in
+  accordance with Holiday Air\'s usual standards and practices.
+
+- Your flight is cancelled.
+
+- We switched to using a smaller plane for safety and operational
+  reasons.
+
+- The aircraft has safety-related weight/balance restrictions.
+
+- You have been offered accommodation in a different section of the
+  plane than that specified in your original ticket.
+
+**Compensation for denied boarding against your will for international
+flights**
+
+**Delays,** **cancellations and diversions**
+
+Our goal is to provide up-to-date, frequent and useful information from
+the moment you have your ticket, both at the airport and on board, when
+there are delays, cancellations and diversions.
+
+If your flight is canceled or there is a delay causing you to miss your
+connection, we will reserve you a place on the next Holiday Air flight
+with available seats. We will reserve your place in the class or cabin
+of your original ticket with your original payment method. If your
+flight is delayed or canceled and you do not accept our alternatives, or
+none were available, we will refund the remaining value of the ticket in
+accordance with our involuntary refund policy. Beyond that, we have no
+other contractual obligations.
+
+We will do our best to ensure the greatest possible comfort for
+passengers who experience delays. Gate staff are instructed to serve
+customers with special needs, such as unaccompanied minors, customers
+with disabilities, and the elderly.
+
+In the event of substantial delays, we will do our best to ensure you
+have food (such as snacks), water and access to toilets. We will not be
+liable for any special, incidental or consequential damages in the event
+we are unable to fulfill this promise.
+
+**Compensation for delays on international flights**
+
+- Arrival delay of up to 1 hour: no compensation.
+
+- Arrival delay of 1 to 4 hours: USD 150
+
+- Arrival delay of more than 4 hours: USD 300
+
+**Your luggage**
+
+[Checked baggage]{.underline}
+
+All luggage is subject to inspection. We will not accept checked or
+carry-on baggage that we believe is unsuitable for transportation due to
+size, weight or nature.
+
+Before you head to the airport, be sure to check out our webpage for
+information on all of our checked and carry-on baggage policies.
+
+You can only check luggage on the same day of travel and your luggage
+must travel to the last destination indicated on your ticket. Make sure
+your name is on all pieces of luggage before checking it in.
+
+If you are flying from Orlando (MCO) you will not be able to check in
+your luggage more than 4 hours before departure.
+
+The number of pieces of baggage you can check depends on your fare and
+membership category Elite Club Holiday Air. Baggage fees are
+non-refundable and apply to each person, each way. Additional fees may
+apply for overweight or oversized bags and special items.
+
+Please do not misplace your baggage claim tag as you may need to show it
+to collect your baggage. The airport baggage office will only deliver
+the baggage to the person with the corresponding baggage tag.
+
+When you arrive in the US on an international flight, you will collect
+your checked luggage before clearing customs.
+
+If you arrive with Holiday Air at your final destination and your
+luggage has not arrived with you, our goal is to get it to you within 48
+hours. Reasons why it may take us longer to get your luggage to you
 include:
 
-You have sought clearance from us to fly with a medical condition or
-device
+- We do not know your name, address, or local telephone number.
 
-Biometric information, including a scan of your face, fingerprint, or
-other biometric identifiers, as disclosed to you when you participate in
-one of our biometric authentication programs
+- You are on a cruise, camping in a remote location, or somewhere
+  where we cannot contact you by reasonable means.
 
-You have otherwise chosen to provide such information to us or it has
-been passed onto us by a third party, such as the travel agent through
-which you made your booking or other entity, including information about
-whether you have symptoms of a communicable disease or virus (such as
-COVID-19), an appropriate vaccination, or a negative test result
+- Your delivery address has changed.
 
-Digital identity credentials, including credentials linked to
-vaccination status or negative test results that you provide for
-specific purposes, such as compliance with customs and immigration
-requirements during international travel or services in which you choose
-to participate
+- The flights we have to your destination are limited.
 
-Technical information, including browser type, IP address, type of
-operating system, geolocation, the name of your internet service
-provider, mobile advertising identifiers, and pages visited on our
-Services (as further described in the section titled "Automatically
-collected information (including cookies and geolocation)")
+- Weather conditions or other operational issues interfere.
 
-The content of correspondence you send to us, including information
-provided via survey, focus group or other marketing research efforts,
-the content of emails or online customer service requests you send to
-us, the content of chat, text message, social media, or other
-communications with us, and our responses to you
+[Hand luggage & personal item]{.underline}
 
-Business information, including corporate-contract, employer name,
-corporate affiliation, and Business Extra® account information when you
-conduct business on behalf of your employer or when you travel or use
-our Services that are funded by your employer
+Your carry-on bag must fit into the airport size gauge.
 
-## Sensitive personal information
+The personal item must fit under the front seat.
 
-To the extent that the personal information we collect constitutes
-sensitive personal information under applicable law, HolidayAir will
-collect and process this sensitive personal information within the
-limits provided by applicable law. Where required by law, and where no
-other lawful bases exist for processing such data (such as to fulfill
-laws promoting a substantial public interest), HolidayAir will seek your
-specific consent before processing sensitive personal information.
+All luggage must be stowed before takeoff.
 
-You may submit a request for services (such as a meal preference, or a
-request for wheelchair assistance) which is not sensitive personal
-information. HolidayAir does not consider such data to reliably imply or
-suggest sensitive personal information.
+Diaper bags, child safety seats or strollers do not count as personal or
+carry-on items. Strollers must be checked in at the counters. If you are
+traveling with medical and mobility devices, please check with Holiday
+Air in advance.
 
-## Minors
+In all cases, we reserve the right to decide whether your hand luggage
+is suitable to take on board and whether there is sufficient space in
+the overhead bins.
 
-HolidayAir does not knowingly collect personal information directly from
-children -- persons under the age of 13, or another age if required by
-applicable law -- other than when required to comply with the law or for
-safety and security reasons. Due to the nature of our Services, we may
-collect travel information, which may include personal information,
-about children when it is required to comply with the law, including
-federal aviation or security regulations, as otherwise required to
-provide transportation needs and services, or for safety or security
-reasons. We may retain personal information when required to provide
-transportation and related services to a child, or in connection with
-services purchased or enrolled by the parent or guardian on the child's
-behalf (such as a parent or guardian's enrollment of their child in the
-HoldayAirLoyalty® program).
+If you need to check your hand luggage, make sure you bring any fragile
+or valuable items, such as keys, medicines or computers, on board. In
+addition, you must carry on board, and not check in, electronic
+cigarettes and spare batteries for laptops, cameras, or other mobile
+devices.
 
-If you are a parent or guardian of a child who has provided personal
-information without your knowledge and consent, you may request we
-remove this child's information by emailing [privacy@holidayair.net](mailto:privacy@holidayair.net).
+Certain fares, aircraft and airports have additional restrictions
+regarding carry-on baggage.
 
-## Automatically collected information (including cookies and geolocation)
+We may have to check your luggage at the gate if the overhead bins are
+full or if there are restrictions. The size of overhead bins varies and
+some aircraft have smaller bins.
 
-When you use our Services, we may receive technical information such as
-your browser type, the type of operating system you use, your
-geolocation, the name of your internet service provider, mobile
-advertising identifiers, and pages visited on our Services. HolidayAir
-gets this information by using technologies, including cookies, web
-beacons, and mobile device geolocation to provide and improve our
-Services and advertising, including across browsers and devices (also
-known as cross-device linking). We also use this information to verify
-that visitors meet the criteria required to process their requests and
-for reporting activity on our Services. For example, we may want to know
-how long the average user spends on our Services or which pages or
-features get the most attention. This technical information may be
-combined with information that is personally identifiable in order to
-personalize our Services and advertising to your interests, including
-across browsers and devices. For example, if you spend time reviewing a
-particular flight or destination but do not complete a travel
-reservation, we may use this information to show you targeted
-advertising about similar flights or destinations on our Services or on
-third-party websites. Some of this information may be shared with third
-parties, as described in the section titled "Information collected by
-third parties on our Services."
+**Restricted items**
 
-Additionally, and with your specific consent where required by law,
-HolidayAir may combine the information we receive from you with
-information collected from other sources. This information may be used
-to provide offers and / or services specifically tailored to your
-interests in accordance with applicable laws.
+For the safety of everyone on board, the TSA and Air Force restrict some
+common items on airplanes. Make sure you know what you can bring in the
+cabin and what you can check in with your luggage before you go to the
+airport.
 
-## Cookies and online advertising
+[Dangerous materials]{.underline}
 
-When you use our Services, we and third parties on our Services may
-automatically receive information using tracking technologies such as
-cookies, web beacons, pixel tags, and similar technologies
-(collectively, "Cookies"). This information includes your browser type,
-IP address, type of operating system you use, the name of your internet
-service provider, mobile advertising identifiers, and pages visited on
-our Services.
+We do not transport hazardous materials, except for small amounts of dry
+ice. We can remove and dispose of any hazardous materials in your
+luggage.
 
-We use Cookies for a variety of reasons, including to provide and
-improve our Services and advertising and to show you advertising that is
-relevant to you, including across browsers and devices (also known as
-crossdevice linking). Some Cookies are necessary to keep our Services
-secure. Others make sure you get a highquality experience and receive
-relevant advertising.
+[Firearms]{.underline}
 
-Some of our Services include social network or other third-party
-plug-ins (such as Facebook's \"Like\" button) that enable you to log in
-to certain Services, to comment on content available on our Services,
-and to share things you find on our Services with your social network.
-The providers of these plug-ins may be able to collect information about
-you even if you do not click on or otherwise interact with the plug-in
-or widget and regardless of whether you have an account or other
-relationship with these social networks and third parties. If you use
-social network tools or visit social networking sites, you should read
-their privacy disclosures to learn what information they collect, use,
-and share.
+You can travel with firearms only in checked luggage. Firearms must be
+declared to our agents during check-in.
 
-## What is a cookie?
-
-A cookie is a small text file (often including a unique identifier),
-that is sent to a user's browser from a website's computers and stored
-on a user's computer's hard drive, tablet, or mobile device. The cookie
-stores a small amount of data on your device about your visit to the
-Services. Some Cookies are "session cookies," which expire at the end of
-the browser session and can capture your activities during the browser
-session. Other Cookies are "persistent cookies" which remain on your
-device for the period specified in the Cookie and are able to capture
-your settings or activities on multiple websites.
-
-Cookies allow websites to recognize your browser or device during your
-use of our Services and some Cookies also allow us to track your
-behavior when you use the services (e.g., websites or apps) of other
-entities.
-
-[Managing cookies](http://www.allaboutcookies.org/manage-cookies/)
-
-### What Cookies do we use?
-
-1. _Essential Cookies:_
-
-These Cookies enable you to use our Services. These Cookies are
-essential to enable you to browse our Services and use certain features
-you have specifically requested. Disabling them may prevent you from
-using certain parts of the Services. For example, without these Cookies,
-services such as shopping activity and paying activity cannot be
-provided. These types of Cookies allow us to:
-
-- record that you are logged into your account;
-
-- record when you give consent to our use of Cookies, when applicable;
-
-- provide products and service to you and manage transactions,
-  including enabling the Services you use to remember the items that
-  you add to your shopping cart or the information you provided in
-  forms;
-
-- display the product reviews that you submit to us; and
-
-- provide the necessary security the Services require, for example, to
-  monitor traffic flow and visits in order to let us know of potential
-  security threats (e.g., in case of unusually high or rapid traffic).
-
-We want you to understand these essential Cookies, and why we use them,
-but your consent is not required for us to use them as we use these
-Cookies only to provide you with services that you have requested.
-
-2. _Preference Cookies:_
-
-These Cookies store information such as your preferred country and
-language selection, HoldayAirLoyalty® login data and website
-preferences. Without these Cookies, our Services may not be able to
-remember certain choices you\'ve previously made (such as a saved
-country / language preference) or personalize your browsing experience
-by providing you with relevant information (such as saved reservation
-preferences or HoldayAirLoyalty® award miles balance). These Cookies can
-recognize your device and offer you a more personal experience so that
-you do not have to provide the same information more than once. We also
-use these Cookies to enable you to comment on a discussion in a forum or
-provide enhanced services such as enabling you to view a video on our
-website. Disabling these Cookies means that you will be asked to reenter
-this information every time you use our Services.
-
-3. _Performance Cookies:_
-
-These Cookies collect information about how you use our Services such as
-which pages you visit regularly. They allow us to understand:
-
-- which device and/or website you come from;
-
-- which of our Services and their functions you use most often so that
-  we can use this information to improve their functionality;
-
-- your preferences to ensure that more relevant content (including
-  advertising content) is delivered to you;
-
-- page load and site response times; and
-
-- if you get error messages.
-
-4. _Content / advertising Cookies:_
-
-These cookies gather information about your use of our Services so we
-may improve your experience and provide you with more relevant content
-and advertising. They are also used to gather feedback on customer
-satisfaction through surveys. They remember that you\'ve visited our
-Services and help us understand usage of our Services and tailor
-advertisements to you. These Cookies are also used to limit the number
-of times you see an advertisement as well as to help measure the
-effectiveness of advertising campaigns. Some of these Cookies are from
-third parties that collect information about users of our Services (as
-described in the section titled "Online behavioral advertising /
-interest-based advertising") in order to provide advertising (on our
-Services and elsewhere) based on users' online activities (so-called
-\"interest-based advertising\") on our Services and elsewhere online.
-
-## Online behavioral advertising / interest-based advertising
-
-Online behavioral advertising, also known as interest-based advertising,
-is a way of serving advertisements on the websites you visit and making
-them more relevant to you and your interests. The third parties involved
-in interest-based advertising collect internet browsing information
-(e.g., websites visited, time of visit) across different websites and
-over time, and they may use the information they collect on our Services
-to provide you ads (from us and other companies) across the internet.
-This may include anonymized or de-identified information about you, such
-as travel destinations that you search for while using our Services.
-These third parties may use the information they collect on our Services
-to make predictions about your interests in order to provide you ads
-(from us and other companies) across the internet (for example, travel
-products and services that are available at a destination you searched
-for online). Some of these third parties may participate in an industry
-organization that gives users the opportunity to opt out of receiving
-ads that are tailored based on online activities.
-
-To opt out of interest-based advertising across browsers and devices,
-please opt out through the Digital Advertising Alliance or Network
-Advertising Initiative website and also through the settings within the
-mobile app or your mobile device. Your opt-out choice may apply only to
-the browser or device you are using when you opt out, so you should opt
-out on each of your browsers and devices if you want to disable all
-cross-device linking for interest-based advertising. If you opt out, you
-will still receive ads but they may not be as relevant to you and your
-interests. HolidayAir\'s websites do not honor web browsers\'
-Do-NotTrack signals.
-
-- [Digital Advertising Alliance](http://www.aboutads.info/)
-
-- [Network Advertising Initiative](http://www.networkadvertising.org/)
-
-- [European visitors](http://www.youronlinechoices.eu/)
-
-Please note that opting out of interest-based advertising does not mean
-that you will no longer receive advertisements. Instead, the advertising
-you do see will likely be less relevant to your interests. Due to
-differences between using apps and websites on mobile devices, you may
-need to take additional steps to disable targeted ad technologies in
-mobile apps. Many mobile devices allow you to opt out of targeted
-advertising for mobile apps using the settings within the mobile app or
-your mobile device. For more information, please check your mobile
-settings. You also may uninstall our apps using the standard uninstall
-process available on your mobile device or app marketplace.
-
-## How to manage Cookies
-
-If you do not wish to receive Cookies, you may set your browser to
-reject Cookies or to alert you when a Cookie is placed on your device.
-You may also delete Cookies as soon as you leave the Services. Although
-you are not required to accept Cookies when you visit our Services, if
-you set your browser to reject Cookies, you may not be able to use all
-of the features and functionalities of the Services.
-
-For example, the Help portion of the toolbar on most web browsers will
-tell you how to prevent your browser from accepting new Cookies, how to
-have the browser notify you when new Cookies are dropped, and how to
-entirely disable Cookies. With regard to some of the popular browsers
-you can find more information for:
-
-- [Apple Safari](https://support.apple.com/en-gb/guide/safari/sfri11471/mac)
-
-- [Google Chrome](https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&hl=en)
-
-- [Microsoft Edge](https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy)
-
-- [Microsoft Internet Explorer](https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies)
-
-- [Mozilla Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
-
-- [Opera](https://www.opera.com/help/tutorials/security/privacy/)
-
-We may use Adobe Analytics or Google Analytics to aggregate and analyze
-data about your use of our Services.
-
-- [Opt out of Adobe Analytics](http://metrics.aa.com/optout.html)
-
-- [Opt out of Google Analytics](https://tools.google.com/dlpage/gaoptout/)
-
-- [Google privacy and terms](https://www.google.com/policies/privacy/partners/)
-
-Where required by law, we will present you with a Cookie banner the
-first time you visit our Services that explains what type of Cookies we
-use and which asks for your consent for some of the Cookies we use.
-
-# Information collected by third parties on our Services
-
-Some of the content, advertising, and functionality on our Services may
-be provided by third parties, including third parties that are not
-affiliated with us. As noted above, these third parties may collect or
-receive technical information about your use of our Services, including
-through the use of Cookies, and this information may be collected over
-time and combined with information collected on different websites and
-online services. Also, some third parties collect information about
-users of our Services in order to provide interest-based advertising (on
-our Services and elsewhere, including across browsers and devices, also
-known as cross-device linking).
-
-For example, we may use third parties to collect, and share with us,
-usage information about how you interact with our Services, including
-personal information that you provide, website or app visits and
-interactions, and user inputs such as mouse clicks or keystrokes.
-
-# How your information will be used
-
-## Our Services
-
-We use personal information to complete transactions and fulfill
-requests for our products and services. For example, we require you to
-provide personal information when making a reservation to purchase
-airline tickets or related products and services such as renting cars or
-booking hotel rooms through an HolidayAir Reservations Agent, travel
-agent, the holidayair.net website or other travel-related website, or
-enrolling in the HoldayAirLoyalty® and Business Extra programs. We may
-also use personal information to verify your identity, including for
-security purposes.
-
-In the event of a flight delay, cancellation, or other service
-disruption, we may use the contact information provided in your booking
-to notify you, and the individuals traveling on the same booking, about
-the disruption.
-
-## Administrative, marketing, analytical purposes
-
-In addition to processing, confirming and fulfilling the travel or other
-services or products you request, HolidayAir may use personal
-information for administrative, analytical, and marketing purposes such
-as employee training, information systems management, accounting,
-billing and audits, credit card processing and verification,
-customer-relations correspondence, and/or operation of the
-HoldayAirLoyalty® and Business Extra programs. HolidayAir also uses
-personal information to identify, develop and market products and
-services that we believe you will value, including across browsers and
-devices, in accordance with applicable laws. Where we are required by
-applicable law, we will seek your consent prior to sending you
-communications for marketing purposes. More specifically, we may use
-your personal information for the following purposes:
-
-- Business purposes and communication: To provide flight services or
-  information you requested, to communicate with you for business or
-  customer service reasons (such as sending messages related to flight
-  tracking or delays), or for other such reasons such as changes to
-  our policies or in response to your inquiry
-
-- Personalized airport service: To provide personalized service, such
-  as wheelchair assistance or access to our lounges; to check whether
-  you have passed through airport security, whether you are on a
-  connecting flight, and to contact you about boarding a flight, if
-  you have not arrived at the gate; and to monitor where you are in
-  the airport to assist you with flight connections and boarding our
-  aircraft
-
-- Financials transaction management: To facilitate payment for
-  services or provide refunds
-
-- Legal and regulatory obligations: To comply with legal, regulatory,
-  or fiscal obligations, or in connection with litigation or an
-  internal investigation or audit
-
-- Tailored web experience: To personalize your advertising experience
-  when visiting our sites, and to manage details about your accounts
-  (such as an HoldayAirLoyalty®, Business Extra, or AirPass℠ account),
-  including when security updates are available, or when an action is
-  required to keep the account active
-
-- Improve our operations: To improve our route and service offerings
-  as an airline operator, including reviewing our travel destinations,
-  fare classes, loyalty program offerings, and operations more
-  generally, as well as compiling statistics on international air
-  traffic and statistics to improve products and services
-
-- Marketing and analytics: To perform data analyses and other
-  processing for marketing purposes, including to offer you specific
-  services, applications, events, sweepstakes and special campaigns
-
-- Site maintenance: To improve content, functionality, and usability
-  of our sites and to offer opportunities to participate in surveys
-  and provide feedback to us
-
-- Security management: To secure HolidayAir's premises, assets, and
-  information, and to test and evaluate the effectiveness of
-  HolidayAir's security
-
-- Third party requests: To respond to and comply with outside requests
-  initiated by you, as well as in response to legal requests
-
-- Audit and controls: To evaluate internal controls and audits for
-  compliance (including those conducted by HolidayAir's internal and
-  external audit service providers)
-
-There are Closed Circuit Television (CCTV) cameras in operation within
-and around our stations and other premises, which are used for these
-purposes:
-
-- to prevent and detect criminal, malicious, or fraudulent activity;
-
-- to protect the health and safety of HolidayAir's customers and
-  employees;
-
-- to manage and protect HolidayAir's property and the property of
-  HolidayAir's guests and other visitors; and
-
-- for quality assurance purposes
-
-## Data security and integrity
-
-We take reasonable measures to protect the personal information you
-provide to us.
-
-HolidayAir uses reasonable technical, administrative, and physical
-measures to protect your personal information from loss, interference,
-misuse, unauthorized access, disclosure, alteration or destruction, both
-during transmission and once we receive it. We also maintain reasonable
-procedures to help ensure that such data is reliable for its intended
-use and is accurate, complete and current. When your personal
-information is shared, HolidayAir will take a reasonable approach to
-prevent the unauthorized use of personal information.
-
-Please note, however, that while HolidayAir attempts to safeguard your
-personal information, no method of transmitting or storing electronic
-information is ever completely secure, and thus we make no warranty,
-express, implied, or otherwise, that your information will never be
-accessed, used or released in a manner that is inconsistent with this
-Privacy Policy.
-
-Here are some things you can do to keep your information secure.
-
-_Keep your confirmation code confidential:_
-
-When you make a booking, you will be given a 6-character confirmation
-code. This will appear on the email confirmation or ticket of each
-person in your booking. You should keep your record locator
-confidential, as giving it to others may allow them to access your
-booking details through our systems. If you are traveling with others
-and do not want them to have access to your booking details, you should
-have each person make their own bookings.
-
-_Keep your HoldayAirLoyalty® account number and login information
-confidential:_
-
-To make sure your access to our Services is secure; you should not share
-your log in details with anyone else. You should always log out of the
-Services after each use if others have access to your computer or
-device, especially if you are using a publicly accessible computer such
-as at a library or internet café.
-
-# Data retention policy
-
-Your personal information will be retained only for so long as
-reasonably necessary for the purposes set out above and consistent with
-our retention policies, considering criteria such as applicable rules on
-statute of limitations, legal requirements and the duration of your use
-of our website and receipt of our Services. In general, this retention
-will be at least for the duration of your customer relationship with us
-and a longer period as necessary for legal defense purposes or as
-required by tax, aviation, and other applicable laws and regulations.
-
-To the extent it is required to do so by law, HolidayAir will
-permanently destroy any biometric data or identifiers in our possession
-once the initial purpose for collecting or obtaining them has been
-satisfied, or within three years of your last interaction with
-HolidayAir, whichever comes first. This applies to any biometric
-identifiers or information received by HolidayAir from any source, even
-if that source does not refer or link to this Privacy Policy.
-
-## With whom your information will be shared
-
-General
-
-We may disclose or share information about you to provide the products
-and services you have requested or for administrative, analytical, and
-marketing purposes, including to:
-
-- third parties to distribute promotions, sweepstakes, marketing
-  surveys and messages, focus groups, interviews and other
-  opportunities offered by HolidayAir;
-
-- third parties who have arranged for discounts, and pre-paid travel
-  or other services on your behalf, such as your employer if your
-  employer purchased your ticket, or a travel agent if you book
-  through a travel agency;
-
-- HolidayAir\'s group companies (including any entity that directly or
-  indirectly controls, or is controlled by, or is under common control
-  with, HolidayAir), for uses in accordance with this Privacy Policy;
-
-- other airlines in order to fulfill your booking requests relating to
-  your flights, or in connection with your use of alliance or partner
-  benefits such as airport lounge access, or with codeshare partners,
-  so that you can earn and redeem miles with our partner airlines (you
-  may have an independent relationship with the partner airline, and
-  the partner airline is separately responsible for how they obtain
-  and process your personal information);
-
-[How other airlines process your personal information](https://www.iatatravelcentre.com/privacy)
-
-- hotels, car rental companies, or other travel industry partners in
-  order to fulfill your booking requests relating to vacation packages
-  or other travel services booked using our Services;
-
-- our co-branded credit card partners, in connection with a co-branded
-  credit or debit card that is linked to your HoldayAirLoyalty®
-  account;
-
-- third parties such as government and law enforcement agencies when
-  required by law (as further described in the section titled "Legal
-  requirements");
-
-- third-party vendors that assist HolidayAir with respect to providing
-  our Services and managing our HoldayAirLoyalty® program enrollments
-  and HoldayAirLoyalty® travel partnerships; and
-
-- another entity in the event of a bankruptcy, or as part of the due
-  diligence or business integration process, in the event we undergo a
-  business transition involving another company, such as a merger,
-  corporate reorganization, acquisition, or lease or sale of all or a
-  portion of our assets
-
-In addition, from time to time, we may share information with certain
-third party companies with which we have a business relationship,
-including HoldayAirLoyalty® and Business Extra participants. These
-companies may send you offers based on the information you have provided
-us. Where we are required by applicable law, we will seek your consent
-prior to sharing your personal information with such third parties for
-marketing purposes. Also, as described in the section titled "Opting out
-of marketing communications and sharing your information with third
-parties", you can opt out of having your information shared with third
-parties for those parties\' direct marketing purposes by emailing us at
-[privacy@holidayair.net](mailto:privacy@holidayair.net).
-
-If your booking includes emergency contact information, we may share
-personal information with your emergency contact or attempt to collect
-information about you from your emergency contact, as appropriate based
-on the nature of the emergency.
-
-## Legal requirements
-
-Please note that the laws and regulations of several countries,
-including without limitation, the requirements imposed under the
-Transportation Security Administration Secure Flight program, require us
-to provide foreign and domestic government agencies with access to the
-personal information you disclose to us and data that we have about you
-and your travel plans, history, or status, including both before and
-after a flight arrives. For example, HolidayAir and other airlines
-comply with legal obligations in the United States (U.S.), United
-Kingdom (UK), member states of the European Union, Uruguay, Brazil (BR),
-and other countries to provide border control agencies and customs
-authorities with access to booking and travel data when you fly to and
-from such countries, including stopover or layover destinations or
-countries that you may overfly en route to your destination. HolidayAir
-does not have control or knowledge of the storage and use of that data
-after it has been delivered to the respective government entity.
-Further, to the extent required by law, we may disclose personal
-information to government or law enforcement agencies, such as customs
-and immigration authorities, or to third parties pursuant to a subpoena
-or other legal process, and we may also use or disclose your information
-to law firms and courts, as permitted by law, to enforce or apply a
-contract with you or protect the rights or property of HolidayAir, our
-customers, our employees, our Services, or its users, including, without
-limitations, sharing personal data with public health authorities for
-purposes of combating infectious disease.
-
-[Learn more about the Secure Flight program](http://www.tsa.gov/stakeholders/secure-flight-program)
-
-## Links to other sites
-
-We\'d also like to remind you that we provide additional links to
-resources we think you\'ll find useful. These links will lead you to
-sites that are not affiliated with HolidayAir and may operate under
-different privacy practices. Our visitors are responsible for reviewing
-the privacy policies for such other websites, as we have no control over
-information that is submitted to these companies.
-
-## Opting out of marketing communications and sharing your information with third parties
-
-We provide you with options to stop receiving marketing messages from
-us. Regardless of your opt-out preferences, we reserve the right to send
-you certain communications and share your information with third parties
-for administrative, transactional, and analytical purposes.
-
-If you're an HoldayAirLoyalty® member and you want to opt out of
-receiving marketing emails, log in to your HoldayAirLoyalty® profile and
-update your preferences, or contact HoldayAirLoyalty® Customer Service.
-Please note, you'll continue to receive HoldayAirLoyalty® program
-updates and email products for which you've subscribed. If you're a
-Business Extra member and you want to opt out of marketing emails, log
-in to the Business Extra website and update your preferences.
-
-- Log in to your HoldayAirLoyalty® profile and manage your email
-  preferences
-
-- Contact HoldayAirLoyalty® Customer Service
-
-- Update your Business Extra preferences
-
-If you're not an HoldayAirLoyalty® program member and you want to opt
-out of marketing emails, you can click the opt-out or unsubscribe link
-in the marketing email you receive to manage your marketing preferences.
-You can also send an email from the email address you wish to
-unsubscribe with the word "unsubscribe" in the subject line to
-[privacy@holidayair.net](mailto:privacy@holidayair.net). When you do this, we will unsubscribe all users
-with the same email address, even if they are registered
-HoldayAirLoyalty® members or Business Extra members with registered
-preferences.
-
-If you want to opt out of receiving forms of communication from
-HolidayAir other than marketing emails, please email
-[privacy@holidayair.net](mailto:privacy@holidayair.net) with your request.
-
-If you want HolidayAir to stop sharing your personal information with
-third parties for those parties\' direct marketing purposes, please opt
-out of third-party data sharing.
-
-Opt out of third-party data sharing (Page to fill data)
-
-When you use our Services, you may receive Cookies from us and the third
-parties that collect information on our Services. Please see the
-"Cookies and online advertising" section above for additional details.
-
-Other companies or programs of HolidayAir partners (such as
-HoldayAirLoyalty® program participating companies) may require different
-steps to change your preferences for participation. Please consult the
-privacy policies of the relevant companies or programs for further
-information.
-
-## Application of local laws
-
-Where required by local law, you may have the right to access, request a
-copy of, update, transfer or port, restrict the processing of, or
-request that we delete your personal information. You may also have the
-right to object to our processing of your personal information.
-To exercise these rights please email us at [privacy@holidayair.net](mailto:privacy@holidayair.net).
-When we receive a request to exercise one of these rights, we will indicate what
-personal information we require from you to validate your identity. We
-will also provide information on the action we intend to take on the
-request without undue delay and no later than 30 days from receipt of
-the request, or within a shorter period of time where required by local
-law. This time may be extended by an additional two months in certain
-circumstances, for example, where requests are complex or onerous.
-Please note, these requests are subject to applicable legal, ethical
-reporting, or document retention obligations imposed on us.
-
-Email [privacy@holidayair.net.](mailto:privacy@holidayair.net)
+Other temporary rules or policies may apply. Make sure you understand
+the rules before you go to the airport.

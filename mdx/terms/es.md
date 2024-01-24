@@ -1,852 +1,740 @@
-# **Política de privacidad**
-
-Última actualización: 19 de enero de 2024.
-
-## Cómo protegemos su privacidad
-
-Esta Política de privacidad explica cómo HolidayAir, Inc. ("nosotros",
-"nos", "nuestro/a", "HolidayAir") recopila, usa, comparte y protege la
-información vinculada a los servicios en línea y fuera de línea,
-sistemas, sitios web y apps de HolidayAir que hacen referencia o tienen
-un enlace a esta Política de privacidad (nuestros "Servicios"), y según
-se explica líneas bajo, incluyendo entre otros, la recopilación y
-procesamiento de información personal vinculada a reservaciones y viajes
-en HolidayAir o en vuelos operados por nuestras aerolíneas regionales
-(por ejemplo, Envoy Air, Piedmont Airlines y PSA Airlines), así como
-datos del programa de lealtad recopilados y procesados en relación con
-el programa HoldayAirLoyalty®. Esta Política de privacidad aplica
-independientemente del modo de interacción que tenga con nuestros
-Servicios o el tipo de dispositivo o medio que use para acceder a
-nuestros Servicios.
-
-HolidayAir se reserva el derecho de cambiar en cualquier momento esta
-Política de privacidad, publicando aquí la Política actualizada junto
-con la fecha en la que fue cambiada. Si hacemos cambios importantes a
-esta Política de privacidad que afecten la manera cómo recopilamos,
-usamos o compartimos su información personal, se lo notificaremos
-incluyendo en holidayair.net la etiqueta "RECIÉN ACTUALIZADA" en el
-enlace a la "POLÍTICA DE PRIVACIDAD", por un periodo de 30 días a partir
-de la fecha en que tales cambios importantes sean hechos. Esta Política
-de privacidad no es un contrato ni crea derechos u obligaciones
-contractuales.
-
-## La información que recopilamos y cómo la recopilamos
-
-Al usar el término "información personal" nos estamos refiriendo a
-información que lo identifica, se relaciona con usted, lo describe o
-puede asociarse a usted, incluyendo las categorías y tipos específicos
-de información descritas en esta Política de privacidad.
-
-Recopilamos y mantenemos la información personal sobre usted desde
-muchas fuentes para entender y satisfacer sus necesidades, facilitar su
-viaje, administrar nuestro negocio y para otros fines que le indicamos.
-Por ejemplo, recopilamos información personal sobre usted a través de:
-
-Usted, cuando nos brinda información voluntariamente
-
-Sus transacciones con HolidayAir
-
-Otras fuentes de terceros, tales como agentes de viajes, organismos de
-seguridad, otras aerolíneas (p. ej. aerolíneas asociadas de código
-compartido y socias de la alianza) y proveedores de servicios de viajes
-y alojamiento (p. ej. operadores de transporte o turísticos).
-
-Si la información es recopilada directamente de usted, en algunos casos
-usted podría tener la opción de negarse a proporcionar dicha
-información. Sin embargo, su elección de no proporcionar dicha
-información podría afectar el uso que pueda hacer de determinadas
-funciones o servicios.
-
-La información personal que recopilamos acerca de usted a través de
-estas diversas fuentes puede incluir, entre otras:
-
-Su información general, como nombre, cargo, género, fecha de nacimiento,
-número de cuenta HoldayAirLoyalty®, número de licencia de conducir,
-número de pasaporte, nacionalidad y país de residencia
-
-Información de contacto, que incluye dirección y número de teléfono,
-dirección de e-mail, números de fax, números de localizadores y
-seudónimos en redes sociales
-
-Información de viaje, que incluye:
-
-información de reservación e itinerario:
-
-HolidayAir crea un registro para cada reservación que involucre viajes
-en HolidayAir, Incluso si el boleto es vendido bajo el código de
-reservación de otra aerolínea, incluyendo que haya reservado su vuelo en
-holidayair.net o a través de algún otro canal de ventas (tal como una
-agencia de viajes)
-
-HolidayAir también recopilará información sobre los cambios en su
-reservación, que incluyen alguna cancelación o el no haber completado su
-viaje, actualizaciones, sus requisitos de equipaje, interrupciones en el
-aeropuerto y equipaje perdido
-
-Si compra un viaje para otra persona, HolidayAir podría recopilar su
-información de facturación, pero podría comunicarse directamente con el
-pasajero acerca de su vuelo
-
-otra información necesaria para ofrecer servicios de viaje, como
-solicitudes de asistencia, restricciones dietéticas, interacciones con
-el personal y tripulantes, nombre(s) de acompañante(s) de viaje,
-contactos de emergencia, fotografías, información acerca de vuelos
-anteriores y asuntos relacionados con viajes
-
-Información de pago que incluye números(s) de tarjeta(s) de crédito o
-débito, la(s) respectiva(s) dirección(es) de facturación y fecha(s) de
-expiración
-
-Información sensible. Algunos ejemplos de este tipo de información:
-
-Usted nos ha solicitado autorización para viajar con una condición
-médica o un dispositivo médico
-
-Información de identificadores biométricos, que incluyen un escaneo de
-su rostro, huellas digitales u otro identificador biométrico tal como le
-fue indicado al participar en uno de nuestros programas de
-identificación por autenticación biométrica
-
-Usted, por el contrario, ha elegido proporcionarnos dicha información o
-nos la ha proporcionado un tercero, como el agente de viajes a través
-del cual hizo su reservación u otra entidad, que incluye información
-sobre si usted tiene síntomas de alguna enfermedad contagiosa o virus
-(como COVID-19), una vacunación apropiada o un resultado negativo de
-prueba
-
-Credenciales de identidad digital que incluyen credenciales vinculadas a
-su estado de vacunación o resultados negativos de pruebas, que usted
-proporcione para fines específicos, como el cumplimiento de los
-requisitos de aduanas e inmigración durante viajes internacionales o
-servicios en los que usted elija participar
-
-Información técnica, que incluye el tipo de navegador, dirección IP,
-tipo de sistema operativo, geolocalización, el nombre de su proveedor de
-servicio de internet, identificadores de publicidad móviles y las
-páginas visitadas en nuestros Servicios (tales como serán descritas más
-adelante en la sección llamada "Información recopilada automáticamente
-que incluye cookies y geolocalización")
-
-El contenido de correspondencia que usted nos haya enviado, que incluye
-información ofrecida a través de encuestas, focus groups u otros
-esfuerzos de investigación de marketing, el contenido de e-mails o
-solicitudes en línea de servicio al cliente que nos haya enviado, el
-contenido de chats, mensajes de texto, redes sociales u otras
-comunicaciones con nosotros así como nuestras respuestas a usted
-
-Información comercial, que incluye contratos corporativos, nombre del
-empleador, afiliación corporativa e información de cuenta Business
-Extra® al hacer negocios de parte de su empleador o al viajar o usar
-nuestros Servicios financiados por su empleador
-
-## Información personal confidencial
-
-En la medida en que la información personal que recopilemos constituya
-información personal confidencial, según la ley aplicable, HolidayAir
-recopilará y procesará esta información personal confidencial dentro de
-los límites establecidos por la ley aplicable. Donde la ley lo exija y
-donde no exista ninguna otra base legal para el procesamiento de datos
-(tales como el cumplimiento de leyes que promuevan un importante interés
-público), HolidayAir buscará su consentimiento específico antes de
-procesar información personal confidencial.
-
-Usted puede enviar una solicitud por servicios (como una preferencia de
-comidas o una solicitud de asistencia con una silla de ruedas), los
-cuales no son información personal confidencial. HolidayAir no considera
-dichos datos para implicar o sugerir de manera fiable datos personales
-confidenciales.
-
-## Menores de edad
-
-HolidayAir no recopila intencionalmente información personal
-directamente de niños -- personas menores de 13 años u otra edad si así
-lo exige la ley aplicable -- a menos que resulte necesario para cumplir
-con la ley o por motivos de seguridad. Debido a la naturaleza de
-nuestros Servicios, podríamos recopilar información de viajes, que puede
-incluir información personal, relativa a niños cuando sea solicitado
-para cumplir con la ley, lo que incluye las regulaciones federales de
-aviación de Estados Unidos o de seguridad, según sea solicitado para la
-prestación de servicios y cobertura de las necesidades de transporte.
-Podemos retener información personal cuando sea necesario para ofrecer
-transporte y servicios en relación con un niño o en conexión con
-servicios comprados o suscritos por el padre/madre o tutor legal, a
-nombre del niño (tales como la inscripción del niño en el programa
-HoldayAirLoyalty® por parte del padre/madre o tutor legal).
-
-Si usted es el padre/madre o tutor legal de algún niño que nos haya
-brindado información personal sin su conocimiento ni autorización, puede
-solicitar que eliminemos la información de este niño enviando un email a
-[privacy@holidayair.net](mailto:privacy@holidayair.net).
-
-## Información recopilada automáticamente (incluyendo cookies y geolocalización)
-
-Cuando usted utiliza nuestros Servicios, nosotros podríamos recibir
-información técnica, como por ejemplo el tipo de navegador y de sistema
-operativo que usted utiliza, su geolocalización, el nombre de su
-proveedor de servicios de Internet, identificadores de publicidad móvil
-y las páginas visitadas en nuestros Servicios. HolidayAir obtiene esta
-información mediante el uso de tecnologías, como cookies, web beacons y
-la geolocalización de los dispositivos móviles, para brindar y mejorar
-nuestros Servicios y publicidad en todos los navegadores y dispositivos
-(lo que se conoce también como conexión "cross-device"). También
-utilizamos esta información para verificar que los visitantes cumplan
-con los criterios requeridos para procesar sus solicitudes así como para
-reportar actividad en nuestros Servicios. Por ejemplo, tal vez queramos
-saber cuánto tiempo pasa un usuario promedio en nuestros Servicios o qué
-páginas u opciones reciben mayor atención. Esta información técnica
-podría combinarse con información que puede identificarle personalmente
-con el fin de personalizar nuestros Servicios y publicidad según sus
-intereses, incluso a través de diferentes navegadores y dispositivos.
-Por ejemplo, si usted pasa tiempo revisando un vuelo o destino
-particular, pero no completa una reservación de viaje, podríamos usar
-esta información para mostrarle publicidad dirigida sobre vuelos o
-destinos similares en nuestros Servicios o en sitios web de terceros.
-Parte de esta información podría ser compartida con terceros, según se
-describe en la sección llamada "Información recopilada por terceros en
-nuestros Servicios".
-
-Además, y con su consentimiento específico cuando la ley así lo exija,
-HolidayAir podría combinar la información que recibimos de usted con
-información recopilada a través de otras fuentes. Esta información
-podría usarse para otorgar ofertas o servicios que se ajusten
-específicamente a sus intereses, de conformidad con las leyes
-aplicables.
-
-## Cookies y publicidad en línea
-
-Al usar nuestros Servicios, nosotros y terceros en nuestros Servicios
-podríamos recibir automáticamente información usando tecnologías de
-rastreo tales como cookies, web beacons, etiquetas de píxel y
-tecnologías similares (colectivamente, "Cookies"). Esta información
-incluye su tipo de navegador, la dirección IP, el tipo de sistema
-operativo que usted utiliza, el nombre de su proveedor de servicios de
-internet, identificadores de publicidad móvil y las páginas visitadas en
-nuestros Servicios.
-
-Usamos Cookies por varios motivos como para poder ofrecerle y mejorar
-nuestros Servicios y publicidad, y mostrarle publicidad que sea
-relevante para usted, incluso en todos los navegadores y dispositivos
-(también se le conoce como conexión "cross-device"). Algunas Cookies son
-necesarias para mantener la seguridad de nuestros Servicios. Otras para
-asegurarnos de que usted reciba una experiencia de alta calidad y reciba
-publicidad relevante.
-
-Algunos de nuestros Servicios incluyen redes sociales u otros plug-ins
-de terceros (como el botón "Me gusta" de Facebook) que le permiten
-iniciar sesión en algunos de nuestros Servicios, comentar acerca del
-contenido disponible en nuestros Servicios y compartir en su red social
-cosas que encuentra en nuestros Servicios. Los proveedores de estos
-plug-ins podrían estar en capacidad de recopilar información acerca de
-usted incluso si usted no hace clic ni interactúa con el plug-in o
-widget e independientemente de si tiene una cuenta u otra relación con
-estas redes sociales y terceros. Si usted usa herramientas de redes
-sociales o visita sitios de redes sociales, debería leer sus avisos de
-privacidad para saber qué información están recopilando, usando y
-compartiendo.
-
-## ¿Qué es una cookie?
-
-Una cookie es un archivo de texto pequeño (frecuentemente incluye un
-identificador único) que se envía al navegador del usuario desde las
-computadoras de un sitio web y se almacena en el disco duro de la
-computadora, de la tablet o del dispositivo móvil de un usuario. La
-cookie almacena una pequeña cantidad de datos en su dispositivo acerca
-de su visita a los Servicios. Algunas Cookies son "cookies de sesión",
-las cuales expiran al final de la sesión en el navegador y pueden
-capturar sus actividades durante la sesión en el navegador. Otras
-Cookies son "cookies persistentes" las cuales permanecen en su
-dispositivo por un período especificado en la Cookie y son capaces de
-capturar sus ajustes o actividades en diversos sitios web.
-
-Las Cookies permiten que los sitios web reconozcan su navegador o
-dispositivo durante su uso de nuestros Servicios y algunas Cookies nos
-permiten rastrear su comportamiento al usar los servicios (p. ej. sitios
-web o apps) de otras entidades.
-
-[Cómo administrar cookies (en inglés)](http://www.allaboutcookies.org/manage-cookies/)
-
-### ¿Qué Cookies usamos?
-
-1. _Cookies esenciales:_
-
-Estas Cookies le permiten a usted utilizar nuestros Servicios. Estas
-Cookies son esenciales, ya que le permiten navegar por nuestros
-Servicios y usar determinadas opciones que usted haya requerido de
-manera específica. Si las inhabilita, tal vez no pueda usar ciertas
-partes de los Servicios. Por ejemplo, sin estas Cookies, no tendrá
-acceso a algunos servicios como actividades de compra y pago. Estos
-tipos de Cookies nos permiten:
-
-- registrar que usted ha iniciado sesión en su cuenta;
-
-- registrar su consentimiento para que usemos Cookies, cuando
-  corresponda;
-
-- ofrecerle productos y servicios así como gestionar transacciones que
-  incluyen la habilitación de los Servicios que use para recordar los
-  productos que agrega a su carrito de compras o la información que
-  ofreció en formularios;
-
-- mostrar las reseñas de productos que usted nos envíe; y
-
-- ofrecer la seguridad necesaria que los Servicios requieren, por
-  ejemplo, el monitoreo de flujo del tráfico y visitas con el fin de
-  conocer las amenazas potenciales de seguridad (p. ej. en caso de
-  tráfico inusualmente alto o rápido).
-
-Deseamos que comprenda estas Cookies esenciales y el motivo por el cual
-las usamos; sin embargo, no necesitamos su consentimiento para usarlas,
-ya que solo usamos estas Cookies para ofrecerle los servicios que usted
-ha requerido.
-
-2.  _Cookies sobre sus preferencias:_
-
-Estas Cookies almacenan información tal como su país e idioma preferido,
-datos para iniciar sesión en HoldayAirLoyalty® y preferencias de sitios
-web. Sin estas Cookies, nuestros Servicios tal vez no podrían recordar
-ciertas elecciones que realizó anteriormente (como una preferencia de
-país/idioma guardada) ni personalizar su experiencia de navegación
-proporcionándole información relevante (como preferencias guardadas para
-reservaciones o su saldo de millas premio HoldayAirLoyalty®). Estas
-Cookies pueden reconocer su dispositivo y ofrecerle una experiencia más
-personalizada, para que así no tenga que proporcionar la misma
-información una y otra vez. Además, usamos estas Cookies para permitirle
-comentar en una discusión en algún foro u ofrecer servicios mejorados
-tales como permitirle ver un video en nuestro sitio web. Si deshabilita
-estas Cookies deberá volver a ingresar esta información cada vez que use
-nuestros Servicios.
-
-3.  _Cookies de desempeño:_
-
-Estas Cookies reúnen información sobre cómo usted usa nuestros Servicios
-tales como qué páginas visita regularmente. Nos permiten comprender:
-
-- desde qué dispositivo o sitio web entra;
-
-- cuáles de nuestros Servicios y sus funciones usa con mayor
-  frecuencia de modo que podamos usar esta información para mejorar su
-  funcionalidad;
-
-- sus preferencias para asegurar que se le brinde contenido más
-  relevante (incluyendo contenido publicitario);
-
-- carga de página y tiempos de respuesta del sitio; y
-
-- si recibe mensajes de error.
-
-4.  _Cookies de contenido y publicidad:_
-
-Estas cookies reúnen información acerca del uso que usted hace de
-nuestros Servicios, para que así podamos mejorar su experiencia y
-brindarle un contenido y publicidad más relevantes. También son usadas
-para reunir información sobre la satisfacción del cliente, a través de
-encuestas. Además, estas recuerdan si ya ha visitado nuestros Servicios
-y nos ayudan a entender el uso que se hace de nuestros Servicios y
-personalizan la publicidad. Estas Cookies también se usan para limitar
-la cantidad de veces que usted ve una publicidad así como para ayudar a
-medir la efectividad de las campañas de publicidad. Algunas de estas
-Cookies son de terceros que recopilan información acerca de los usuarios
-de nuestros Servicios (tal como se describe en la sección "Publicidad en
-línea basada en conductas/publicidad basada en intereses"), a fin de
-ofrecer (en nuestros Servicios y en otros sitios), publicidad basada en
-las actividades que realizan en línea los usuarios (también conocida
-como "publicidad basada en intereses") en nuestros Servicios y en otros
-sitios en línea.
-
-## Publicidad en línea basada en conductas/publicidad basada en intereses
-
-La publicidad en línea basada en conductas, también conocida como
-publicidad basada en intereses, es una manera de hacer llegar avisos
-publicitarios en los sitios web que usted visita y hacerlos más
-relevantes para usted y sus intereses. Los terceros involucrados en la
-publicidad basada en intereses recopilan información acerca de la
-navegación por Internet (p. ej. sitios web visitados, tiempo de visita)
-en distintos sitios web y a lo largo del tiempo podrían usar la
-información que recopilan en nuestros Servicios para ofrecerle anuncios
-(de nosotros y otras empresas) a través de Internet. Esto podría incluir
-información anonimizada o sin datos identificativos sobre usted, como
-los destinos de viaje que busca mientras utiliza nuestros Servicios.
-Estos terceros pueden usar la información que recopilan en nuestros
-Servicios para predecir los intereses que usted tiene y así ofrecerle
-anuncios (nuestros y de otras empresas) en Internet (por ejemplo,
-productos y servicios de viajes que están disponibles en un destino que
-usted buscó en línea). Algunos de estos terceros podrían formar parte de
-una organización del sector que da a los usuarios la opción de elegir ya
-no recibir anuncios personalizados de acuerdo con su actividad en línea.
-
-Para elegir no recibir publicidad basada en intereses en todos los
-navegadores y dispositivos, elija no hacerlo a través del sitio web de
-la Digital Advertising Alliance o de la Network Advertising Initiative y
-también a través de la configuración dentro del app móvil o de su
-dispositivo móvil. Es posible que su elección de dejar de recibir dicha
-publicidad solo se aplique al navegador o dispositivo que esté
-utilizando en el momento de la solicitud, por lo que debería realizarla
-en cada uno de los navegadores y dispositivos si desea deshabilitar la
-totalidad de la conexión "cross-device" para la publicidad basada en
-intereses. Si elige dejar de recibir publicidad, continuará recibiendo
-anuncios, pero puede que no sean tan relevantes para usted y sus
-intereses. Los sitios web de HolidayAir no responden a las señales de
-"No rastrear" el navegador web.
-
-- [Digital Advertising Alliance (en inglés)](http://www.aboutads.info/)
-
-- [Network Advertising Initiative (en inglés)](http://www.networkadvertising.org/)
-
-- [Visitantes europeos](http://www.youronlinechoices.eu/)
-
-Tenga en cuenta que deshabilitar la publicidad basada en intereses no
-significa que ya no recibirá avisos publicitarios. En cambio, la
-publicidad que verá será menos relevante a sus intereses. Debido a las
-diferencias existentes entre el uso de apps y sitios web en dispositivos
-móviles, es posible que deba realizar otras acciones para deshabilitar
-tecnologías de anuncios específicos en apps móviles. Muchos dispositivos
-móviles le permiten elegir dejar de recibir publicidad específica en
-apps móviles mediante los ajustes de configuración del app móvil o de su
-dispositivo móvil. Para obtener mayor información, revise la
-configuración de su dispositivo móvil. Asimismo, también podría
-desinstalar nuestros apps mediante el proceso de desinstalación estándar
-disponible en su dispositivo móvil o en la tienda de apps.
-
-## Cómo gestionar las Cookies
-
-Si no desea recibir Cookies, puede ajustar su navegador para rechazar
-las Cookies o alertarlo cuando se coloque una Cookie en su dispositivo.
-Además, puede borrar Cookies tan pronto como deje los Servicios. A pesar
-de que no está obligado a aceptar las Cookies cuando visite nuestros
-Servicios, si ajusta su navegador para rechazar las Cookies, no podrá
-usar todas las funciones y funcionalidades de los Servicios.
-
-Por ejemplo, la sección Ayuda de la barra de herramientas en la mayoría
-de navegadores le dirá cómo prevenir que su navegador acepte nuevas
-Cookies y cómo hacer para que su navegador le notifique cuando caigan
-nuevas Cookies y cómo deshabilitar las Cookies por completo. Respecto a
-los navegadores más populares, podrá encontrar más información para:
-
-- [Apple Safari](https://support.apple.com/en-gb/guide/safari/sfri11471/mac)
-
-- [Google Chrome](https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&hl=en)
-
-- [Microsoft Edge](https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy)
-
-- [Microsoft Internet Explorer](https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies)
-
-- [Mozilla Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
-
-- [Opera](https://www.opera.com/help/tutorials/security/privacy/)
-
-Podríamos utilizar Adobe Analytics o Google Analytics para agregar y
-analizar datos sobre el uso que usted hace de nuestros Servicios.
-
-- [Exclusión de Adobe Analytics](http://metrics.aa.com/optout.html)
-
-- [Exclusión de Google Analytics](https://tools.google.com/dlpage/gaoptout/)
-
-- [Privacidad y condiciones de Google](https://www.google.com/policies/privacy/partners/)
-
-Cuando la ley así lo exija, le ofreceremos un banner de Cookies la
-primera vez que visite nuestros Servicios, en el que explicamos qué tipo
-de Cookies usamos y que le pedirá su consentimiento para algunas de las
-Cookies que usamos.
-
-## Información recopilada por terceros en nuestros Servicios
-
-Parte del contenido, publicidad y funcionalidad en nuestros Servicios
-podría ser ofrecida por terceros, que incluyen a terceros no afiliados a
-nosotros. Según se indicó anteriormente, estos terceros podrían
-recopilar o recibir información técnica sobre el uso que usted hace de
-nuestros Servicios, ya sea a través del uso de
-
-Cookies y tal información podría ser recopilada a lo largo del tiempo y
-combinada con información recopilada en distintos sitios web y servicios
-en línea. Además, algunos terceros recopilan información sobre los
-usuarios de nuestros Servicios para proporcionar publicidad basada en
-intereses (en nuestros Servicios y en otros lugares, incluidos todos los
-navegadores y dispositivos, lo que se conoce como conexión
-"cross-device").
-
-Por ejemplo, podríamos usar terceros para recopilar y compartir con
-nosotros, información de uso acerca de cómo usted interacciona con
-nuestros Servicios, incluyendo información personal que ofrezca, visitas
-e interacciones a sitios web o apps así como registros de clics al mouse
-o al teclado.
-
-## Cómo se usará su información
-
-### Nuestros Servicios
-
-Utilizamos información personal para llevar a cabo transacciones y
-atender el pedido de nuestros productos y servicios. Por ejemplo, le
-pedimos que brinde información personal al momento de hacer una
-reservación para comprar boletos aéreos o productos y servicios
-relacionados, tales como alquileres de autos o reservaciones de
-habitaciones de hotel, a través de representantes de Reservaciones de
-HolidayAir, de agentes de viajes, de holidayair.net u otros sitios web
-relacionados a viajes o al inscribirse en los programas
-HoldayAirLoyalty® y Business Extra. También podríamos usar información
-personal para verificar su identidad, incluso con fines de seguridad.
-
-En el caso de demora, cancelación de un vuelo u otra interrupción del
-servicio, podríamos utilizar la información de contacto proporcionada en
-su reservación para notificarle a usted y a las personas que viajan en
-la misma reservación, sobre dicha interrupción.
-
-### Fines administrativos, de marketing y de análisis
-
-Además de utilizarla para procesar, confirmar y proporcionar el servicio
-de viaje o algún otro servicio o producto que usted solicite, HolidayAir
-puede utilizar información personal para fines administrativos,
-analíticos y de marketing, como capacitación de empleados,
-administración de sistemas de información, contabilidad, facturación y
-auditorías, procesamiento y verificación de tarjetas de crédito,
-correspondencia con el equipo de relaciones con el cliente u operación
-de los programas HoldayAirLoyalty® y Business Extra. HolidayAir también
-utiliza información personal para identificar, desarrollar y
-comercializar productos y servicios que consideramos serán valiosos para
-usted, incluidos todos los navegadores y dispositivos, de conformidad
-con las leyes aplicables. Cuando la ley aplicable nos lo exija,
-buscaremos su consentimiento antes de enviarle comunicaciones con fines
-de marketing. En concreto, podemos utilizar su información personal con
-los siguientes fines:
-
-- Fines comerciales y comunicación: para ofrecer servicios de vuelos o
-  información que solicite, para comunicarse con usted por motivos
-  comerciales o relacionados con servicio al cliente (tales como
-  enviar mensajes acerca de seguimiento de vuelos o demoras), o por
-  cualquier otro motivo como por ejemplo cambios en nuestras políticas
-  o en respuesta a una consulta que realice
-
-- Servicio personalizado de aeropuerto: para ofrecer servicio
-  personalizado, tales como asistencia con sillas de ruedas o acceso a
-  nuestros salones; revisar si ya pasó el control de seguridad del
-  aeropuerto, ya sea que esté en un vuelo de conexión y para
-  contactarlo acerca del embarque de
-
-> un vuelo, en caso no haya llegado a la puerta de embarque; y para
-> monitorear donde se encuentra en el aeropuerto para asistirlo con
-> conexiones de vuelos y embarque de nuestros aviones
-
-- Gestión de transacciones financieras: para facilitar el pago de
-  servicios u ofrecer reembolsos
-
-- Obligaciones legales y normativas: para cumplir con las obligaciones
-  legales, normativas o fiscales, o relacionadas con litigios o una
-  investigación o auditoría interna
-
-- Experiencia web personalizada: para personalizar su experiencia
-  publicitaria cuando visite nuestros sitios, así como para
-  administrar los detalles de sus cuentas (como una cuenta
-  HoldayAirLoyalty®, Business Extra o AirPass℠), incluyendo cuando
-  haya actualizaciones de seguridad disponibles o cuando se requiera
-  alguna acción para mantener la cuenta activa
-
-- Mejora de nuestras operaciones: para mejorar nuestras ofertas de
-  rutas y servicios como operador de aerolínea, incluyendo la revisión
-  de destinos de viaje, clases de tarifas, ofertas de programas de
-  lealtad y operaciones en general, así como para recopilar
-  estadísticas acerca del tráfico aéreo internacional y estadísticas
-  para mejorar productos y servicios
-
-- Marketing y análisis: para realizar análisis de datos y otros
-  procesamientos con fines de marketing, incluyendo ofrecerle
-  servicios específicos, apps, eventos, sorteos y campañas especiales
-
-- Mantenimiento del sitio: para mejorar el contenido, la funcionalidad
-  y el uso de nuestros sitios, así como para ofrecer oportunidades de
-  participación en encuestas y de darnos su opinión
-
-- Administración de seguridad: para proteger las instalaciones, los
-  activos y la información de HolidayAir, así como para probar y
-  evaluar la efectividad de la seguridad de HolidayAir
-
-- Solicitudes de terceros: para responder y cumplir las solicitudes
-  externas iniciadas por usted, así como en respuesta a solicitudes
-  legales
-
-- Auditoría y controles: para evaluar el cumplimiento de controles y
-  auditorías internas (incluidas las realizadas por proveedores de
-  servicios de auditoría externos e internos de HolidayAir)
-
-Tanto en el interior como en el exterior de nuestros establecimientos y
-de otras instalaciones hay instaladas cámaras de circuito cerrado de
-televisión (CCTV, por sus siglas en inglés), que se utilizan con los
-siguientes fines:
-
-- para prevenir y detectar actividad criminal, maliciosa o
-  fraudulenta;
-
-- para proteger la salud y la seguridad de los clientes y empleados de
-  HolidayAir;
-
-- para administrar y proteger las propiedades de HolidayAir y de los
-  invitados y otros visitantes; y
-
-- para garantizar la calidad
-
-## Seguridad e integridad de los datos
-
-Tomamos medidas razonables para proteger la información personal que
-usted nos proporciona.
-
-HolidayAir utiliza medidas técnicas, administrativas y físicas
-razonables para proteger su información personal de pérdidas,
-interferencias, mal uso, acceso no autorizado, divulgación, alteración o
-destrucción, tanto durante la transmisión como una vez que la recibimos.
-También mantenemos procedimientos razonables para ayudar a asegurar que
-dichos datos sean fiables para el uso al que están destinados y que sean
-exactos, completos y actuales. Cuando su información personal se
-comparta, HolidayAir adoptará una conducta razonable para prevenir el
-uso no autorizado de la información personal.
-
-No obstante, tenga en cuenta que, si bien HolidayAir trata de
-salvaguardar su información personal, ningún método de transmisión o
-almacenamiento de información electrónica es completamente seguro y, por
-consiguiente, no garantizamos de ninguna manera, expresa, implícita ni
-de ninguna otra, que sea imposible que alguien pueda tener acceso a su
-información, la utilice o la divulgue de forma incompatible con esta
-Política de privacidad.
-
-Aquí le mostramos algunos ejemplos de lo que puede hacer para mantener
-su información segura.
-
-No divulgue su código de confirmación:
-
-Al hacer una reservación, se le dará un código de confirmación de 6
-caracteres. Este aparecerá en el e-mail de confirmación o en el boleto
-de cada persona de su reservación. No debe compartir su código de
-reservación con nadie, ya que al dárselo a otras personas, podría
-permitirles el acceso a los detalles de su reservación a través de
-nuestros sistemas. Si está viajando con otras personas y no quiere que
-tengan acceso a los detalles de su reservación, cada persona deberá
-hacer su propia reservación.
-
-No divulgue su número de cuenta HoldayAirLoyalty® ni sus datos de inicio
-de sesión:
-
-Para asegurarse de que sea seguro su acceso a nuestros Servicios, usted
-no debe compartir con nadie sus detalles de inicio de sesión. Siempre
-deberá cerrar la sesión de los Servicios después de cada uso si otras
-personas tienen acceso a su computadora o dispositivo, especialmente si
-está utilizando una computadora de acceso público como en una biblioteca
-o cibercafé.
-
-## Política de retención de datos
-
-Su información personal se retendrá únicamente por el tiempo que sea
-razonablemente necesario para los fines establecidos líneas arriba y en
-consistencia con nuestras políticas de retención, teniendo en cuenta
-criterios como las reglas aplicables en materia de plazos de
-prescripción, los requisitos legales y la duración del uso que usted
-haga de nuestro sitio web y de la recepción de nuestros Servicios. En
-general, esta retención será al menos durante su relación como cliente
-nuestro y por un período más largo, de ser necesario, con fines de
-defensa legal o como sea requerido por las leyes y regulaciones de
-impuestos, aviación y otras leyes y regulaciones que apliquen.
-
-En la medida que así lo requiera la ley, HolidayAir destruirá
-permanentemente todo dato o identificadores biométricos en nuestra
-posesión una vez que el propósito inicial para su recopilación u
-obtención haya sido satisfecho, o dentro de un plazo de tres años desde
-su última interacción con HolidayAir, lo que ocurra primero. Esto aplica
-a cualquier identificador biométrico o informacion recibida por
-HolidayAir desde cualquier fuente, incluso si dicha fuente no se refiere
-o se vincula a la presente Política de privacidad.
-
-## Con quién será compartida su información
-
-Información general
-
-Es posible que divulguemos o compartamos información acerca de usted
-para ofrecerle los productos y servicios que haya solicitado o con fines
-administrativos, analíticos y de marketing, incluyendo a:
-
-- terceros para que distribuyan promociones, sorteos, encuestas y
-  mensajes publicitarios, focus groups, entrevistas y otras
-  oportunidades que ofrezca HolidayAir;
-
-- terceros que hayan acordado descuentos y viajes prepagados u otros
-  servicios de parte suya, tales como su empleador, en caso de que su
-  empleador haya comprado su boleto, o un agente de viajes si reservó
-  a través de una agencia de viajes;
-
-- Empresas del grupo de HolidayAir (que incluyen cualquier entidad que
-  controle directa o indirectamente, o sea controlada por, o esté bajo
-  el control común con, HolidayAir), para usos de conformidad con esta
-  Política de privacidad;
-
-- otras aerolíneas con el fin de cumplir con su solicitud de
-  reservación en relación con sus vuelos o en conexión con su uso de
-  beneficios de alianza o de aerolínea asociada, tales como acceso a
-  salones de aeropuerto o con socios de código compartido, de modo que
-  pueda obtener y canjear millas con nuestras aerolíneas asociadas
-  (usted puede tener una relación independiente con la aerolínea
-  asociada y esta es responsable de manera independiente por la manera
-  en la que obtiene y procesa su información personal);
-
-[[Cómo procesan su información personal las otras aerolíneas (en
-inglés)]{.underline} [Abre una nueva ventana de otro]{.underline} [sitio
-web que podría no cumplir con las normas de
-accesibilidad]{.underline}](https://www.iatatravelcentre.com/privacy)
-
-- hoteles, empresas de alquiler de autos u otras empresas asociadas de
-  la industria de viajes para cumplir con sus solicitudes de
-  reservación relacionadas con paquetes vacacionales u otros servicios
-  de viajes reservados utilizando nuestros Servicios;
-
-- nuestros socios de tarjetas de crédito de marca compartida, en
-  conexión con una tarjeta de crédito o débito de marca compartida que
-  esté vinculada a su cuenta HoldayAirLoyalty®;
-
-- terceros tales como agencias gubernamentales y del orden público de
-  ser requeridos por ley (tal como se describe con más detalle en la
-  sección titulada "Requisitos legales");
-
-- empresa de terceros que asistan a HolidayAir con la prestación de
-  nuestros Servicios y gestión de las inscripciones en nuestro
-  programa HoldayAirLoyalty® y asociaciones de viaje de
-  HoldayAirLoyalty®; y
-
-- otras entidades en caso de bancarrota, o como parte del debido
-  proceso o proceso de integración comercial, en caso que debamos
-  someternos a una transición comercial que involucre a otra empresa,
-  tales como una fusión, reorganización corporativa, adquisición o
-  arriendo o venta de toda o de una parte de nuestros activos
-
-Asimismo, podemos compartir en ocasiones información con terceras
-empresas con las que tenemos una relación comercial, incluidas las que
-participan en HoldayAirLoyalty® y Business Extra. Estas empresas podrían
-enviarle ofertas en función de la información que usted nos haya
-proporcionado. En los lugares en los que la ley aplicable lo exija,
-solicitaremos su consentimiento antes de compartir su información
-personal con estos terceros con fines de marketing. Asimismo, según se
-menciona en la sección "Cómo elegir ser excluido de comunicaciones
-publicitarias y que su información no sea compartida con terceros",
-usted puede elegir que su información no sea compartida con terceros con
-fines de marketing directo de estos, enviándonos un e-mail a
-[privacy@holidayair.net.](mailto:privacy@holidayair.net)
-
-Si su reservación incluye información de contacto de emergencia,
-podríamos compartir información personal con su contacto de emergencia o
-tratar de recopilar información sobre usted de su contacto de
-emergencia, según sea apropiado, en función de la naturaleza de la
-emergencia.
-
-## Requerimientos legales
-
-Tenga en cuenta que las leyes y regulaciones de diversos países,
-incluyendo, entre otros, los requerimientos impuestos de conformidad con
-el programa Secure Flight de la Administración de Seguridad en el
-Transporte de EE. UU. (Transportation Security Administration), nos
-exigen que proporcionemos a agencias gubernamentales de Estados Unidos y
-extranjeras acceso a la información personal que usted nos entrega así
-como a los datos que tengamos sobre usted y sus planes, historial o
-status de viaje, antes y después de la llegada de un vuelo. Por ejemplo,
-HolidayAir y otras aerolíneas cumplen con las obligaciones legales en
-los Estados Unidos (EE. UU.), el Reino Unido (RU), los estados miembros
-de la Unión Europea, Uruguay, Brasil (BR) y otros países de proporcionar
-a las agencias de control fronterizo y a las autoridades aduaneras
-acceso a los datos de reservaciones y viajes cuando usted vuela hacia
-dichos países y desde ellos, incluidas las paradas y escalas o los
-países que sobrevuele en ruta hacia su destino. HolidayAir no tiene
-ningún control o conocimiento sobre el almacenamiento y uso de esos
-datos después de haber sido entregados a la respectiva entidad
-gubernamental. Además, en la medida que lo exija la ley, podríamos
-divulgar información personal a las autoridades gubernamentales o del
-orden público, tales como autoridades aduaneras e inmigración, o a
-terceros en virtud de una citación legal u otro tipo de proceso legal.
-De la misma manera, también podríamos usar o revelar su información a
-bufetes de abogados y juzgados, según lo permita la ley, para hacer
-cumplir o aplicar un contrato con usted o para proteger los derechos o
-la propiedad de HolidayAir, nuestros clientes, nuestros Servicios o sus
-usuarios, incluyendo, entre otros, compartir datos personales con
-autoridades de salud pública con el fin de combatir enfermedades
-infecciosas.
-
-[Sepa más sobre el programa "Secure Flight" - Vuelo Seguro (en inglés)](http://www.tsa.gov/stakeholders/secure-flight-program)
-
-## Enlaces a otros sitios web
-
-Asimismo, quisiéramos recordarle que proporcionamos enlaces adicionales
-a recursos que creemos le serán de utilidad. Estos enlaces lo llevarán a
-sitios web que no están afiliados a HolidayAir y que podrían funcionar
-en virtud de distintas políticas de privacidad. Nuestros visitantes
-serán responsables de leer las políticas de privacidad de dichos sitios
-web, ya que no tenemos control sobre la información que se envía a esas
-empresas.
-
-## Cómo elegir ser excluido de comunicaciones publicitarias y que su información no sea compartida con terceros
-
-Le ofrecemos opciones para dejar de recibir nuestros mensajes
-publicitarios. Independientemente de sus preferencias de suscripción,
-nos reservamos el derecho a enviarle determinadas comunicaciones y a
-compartir su información con terceros con fines administrativos,
-transaccionales y analíticos.
-
-Si usted es socio HoldayAirLoyalty® y desea dejar de recibir e-mails
-publicitarios, ingrese con su contraseña a su perfil de
-HoldayAirLoyalty® y actualice sus preferencias o comuníquese con el
-Servicio al cliente HoldayAirLoyalty®. Tenga en cuenta que usted seguirá
-recibiendo novedades e e-mails sobre el programa HoldayAirLoyalty® al
-que ya estaba suscrito. Si usted es miembro de Business Extra y desea
-dejar de recibir e-mails publicitarios, ingrese con su contraseña al
-sitio web de Business Extra y actualice sus preferencias.
-
-- Ingrese a su perfil de HoldayAirLoyalty® y administre sus
-  preferencias para e-mails
-
-- Comuníquese con Servicio al cliente HoldayAirLoyalty®
-
-- Actualice sus preferencias de Business Extra
-
-Si no es socio del programa HoldayAirLoyalty® y quiere dejar de recibir
-e-mails publicitarios, haga clic en el enlace dedicado a tal fin en el
-e-mail publicitario que ha recibido para administrar sus preferencias de
-recepción de publicidad. Alternativamente, puede enviarnos un e-mail a
-[privacy@holidayair.net](mailto:privacy@holidayair.net) desde la dirección cuya suscripción desea
-cancelar con la palabra "unsubscribe" (darse de baja) en la línea de
-asunto. Al hacerlo, todos los usuarios con la misma dirección de e-mail
-dejarán de recibir correos publicitarios, incluso si son socios
-HoldayAirLoyalty® o Business Extra con preferencias de recepción de
-publicidad guardadas.
-
-Si desea dejar de recibir comunicados de HolidayAir (que no sean e-mails
-publicitarios), envíe su solicitud por e-mail a [privacy@holidayair.net.](mailto:privacy@holidayair.net)
-
-Si desea que HolidayAir deje de compartir su información personal con
-terceros para los fines de marketing directo de estos, elija que sus
-datos dejen de ser compartidos con terceros.
-
-Optar por no compartir datos con terceros (Pagina para que ponga la
-información)
-
-Cuando usted usa nuestros Servicios, podría recibir Cookies por parte de
-nosotros así como de terceros que recopilan información en nuestros
-Servicios. Vea la sección "Cookies y publicidad en línea" para obtener
-más información.
-
-Otras empresas o programas de las empresas asociadas de HolidayAir (como
-las empresas participantes del programa HoldayAirLoyalty®) podrían
-requerir otros pasos distintos para cambiar sus preferencias de
-participación. Para obtener más información, consulte las políticas de
-privacidad de las empresas o programas pertinentes.
-
-## Aplicación de la legislación local
-
-En los casos previstos por la legislación local, usted tiene derecho a
-acceder al procesamiento de su información personal, solicitar una
-copia, actualizar, transferir o portar, restringir o solicitar que lo
-eliminemos. Asimismo, usted tiene derecho a oponerse a que procesemos su
-información personal. Para ejercer estos derechos, envíenos un e-mail a
-[privacy@holidayair.net.](mailto:privacy@holidayair.net) Cuando recibamos una solicitud para ejercer
-alguno de estos derechos, indicaremos qué información personal
-necesitaremos que nos proporcione para validar su identidad. También
-proporcionaremos información sobre las acciones que pretendemos tomar en
-torno a la solicitud sin excesivo retraso y a más tardar dentro de los
-30 días posteriores a haber recibido la solicitud o en un plazo menor de
-tiempo en los casos previstos por la legislación local. En algunos
-casos, este plazo podría extenderse a dos meses adicionales, por
-ejemplo, cuando las solicitudes sean complejas u onerosas. Tenga en
-cuenta que estas solicitudes están sujetas a la legislación aplicable,
-las normas éticas de comunicación de información o las obligaciones de
-conservación de documentos que se nos imponen.
-
-Enviar un e-mail a [privacy@holidayair.net.](mailto:privacy@holidayair.net)
+**Condiciones generales de transporte**
+
+Todo transporte de pasajeros y equipaje brindado por Holiday Air está
+sujeto a los términos de estas condiciones de transporte, además de:
+
+- Los términos impresos en cualquier billete, itinerario y/o recibo de
+  billete
+
+- Las reglas de tarifas publicadas
+
+- Las tarifas aplicables presentadas por Holiday Air de acuerdo con
+  las regulaciones del Departamento de Transporte de EE. UU.
+
+**Detalles del contrato**
+
+Cuando compre un billete o vuele en un vuelo operado por Holiday Air,
+acepta:
+
+- En la medida que no esté prohibido por las leyes federales, se
+  aplica la legislación de Florida a este contrato y a cualquier
+  disputa derivada de la compra de su billete o viaje en Holiday Air
+  sin considerar los conflictos de principios de leyes.
+
+- Este contrato es irrenunciable y no se puede modificar a menos que
+  lo autorice por escrito la dirección de Holiday Air.
+
+- Incluso si no ha pagado su billete, por ejemplo, si forma parte de
+  un grupo de pasajeros en la misma reserva, este contrato es un
+  acuerdo entre usted y nosotros.
+
+- Proporcionamos vínculos a otras páginas en nuestro sitio para
+  proporcionar más información, pero dichas páginas no son parte de
+  este contrato.
+
+- Este contrato rige sus derechos y responsabilidades como pasajero.
+  Si no hacemos valer un derecho de acuerdo con este contrato en un
+  caso, no significa una renuncia a hacer valer nuestro derecho a
+  aplicar el contrato más adelante.
+
+- Limitación de responsabilidad: Acepta que no somos responsables por
+  ningún daño resultante, incidental, punitivo o especial ocasionado
+  por este contrato, incluso si supiéramos, o debiéramos saber o
+  estuviéramos avisados de dichos daños, incluido el equipaje perdido,
+  dañado o retrasado (incluidos los ingresos perdidos o la
+  interrupción de la actividad comercial).
+
+- Renuncia a demanda colectiva: Acepta que cualquier acción judicial
+  contra nosotros o cualquiera de sus entidades afiliadas, agentes,
+  directores, responsables y/o ejecutivos, en relación con estas
+  Condiciones de transporte, su billete y/o su uso de la página web de
+  Holiday Air, el servicio de atención al cliente u otros centros de
+  llamadas o Holiday Air, la realizará exclusivamente mediante su
+  capacidad individual y no como parte de una demanda colectiva.
+
+**Responsabilidades del pasajero**
+
+Como pasajero, usted debe actuar de manera coherente con la seguridad de
+todas las personas a bordo. Esto incluye el cumplimiento de las leyes y
+requisitos de viaje de los países a los que volamos, desde los que
+volamos, o sobre los que volamos.
+
+Viajar puede ser estresante, por lo que agradecemos su paciencia y
+cortesía hacia los otros pasajeros y los miembros del equipo de Holiday
+Air.
+
+**Cumplimiento de la ley y la normativa gubernamental**
+
+Para volar con Holiday Air, usted debe:
+
+- Tener un pasaporte y un visado válidos, y los documentos de viaje
+  obligatorios requeridos por las autoridades gubernamentales.
+
+- Algunos países requieren que el pasaporte sea válido de 3 a 6 meses
+  después de la fecha de salida, así que compruebe que conoce las
+  normas antes de viajar.
+
+- Permitir que la Aduana, la TSA u otros funcionarios gubernamentales
+  inspeccionen su equipaje.
+
+- Exonerarnos de cualquier responsabilidad por cualquier pérdida, daño
+  o gasto si no cumple con los requisitos de los documentos de viaje.
+
+**Cumplimiento de las normas de seguridad de la línea aérea**
+
+La seguridad y comodidad de nuestros clientes y empleados es nuestra
+principal prioridad. Responderemos seriamente a cualquier lenguaje o
+comportamiento que amenace el bienestar o las funciones de nuestra
+tripulación o de cualquier miembro del equipo de Holiday Air. Las
+acciones violentas o inapropiadas pueden conllevar la denegación del
+embarque, expulsión de la terminal o acciones legales.
+
+Con el fin de garantizar un entorno seguro para todos, deberá:
+
+- Permitir su registro y el de su equipaje en busca de explosivos,
+  armas peligrosas o sustancias prohibidas.
+
+- Mostrar una identificación válida.
+
+- Entender y cumplir con todas las instrucciones de seguridad.
+
+- Exonerarnos de responsabilidad por cualquier pérdida, daño o gasto
+  si no cumple con los requisitos de los documentos de viaje.
+
+- Comportarse apropiada y respetuosamente con los demás pasajeros, la
+  tripulación y cualquier miembro del equipo de Holiday Air.
+
+- Posponer su vuelo si tiene una enfermedad peligrosa considerada
+  contagiosa por una autoridad sanitaria federal.
+
+- Procurar que su olor corporal no resulte ofensivo.
+
+- Vestirse adecuadamente: no está permitido ir descalzo.
+
+- No poner en riesgo la seguridad del vuelo de ninguna manera.
+
+- Tener los documentos de vuelo necesarios y tener autorización para
+  viajar entre todos los países que figuren en su itinerario.
+
+- Ser capaz de sentarse con su cinturón de seguridad abrochado.
+
+- Si, a discreción única de Holiday Air, su estado físico o mental lo
+  incapacita o es probable que lo incapacite para comprender o cumplir
+  las instrucciones de seguridad sin la ayuda de un asistente, Holiday
+  Air puede negarse a transportarlo.
+
+- Además, es posible que se le pida que renuncie a su asiento si un
+  funcionario del gobierno necesita espacio, si por las condiciones
+  meteorológicas es necesario reducir la carga del vuelo, o si se
+  producen otras circunstancias ajenas a nuestro control.
+
+Incumplimiento
+
+Es posible que no le permitamos volar (temporal o permanentemente) por
+cualquier motivo, si usted:
+
+- No respeta la ley.
+
+- No coopera, tiene un comportamiento ofensivo, abusivo o parece que
+  va a tenerlo a bordo.
+
+- Supone un riesgo para la seguridad.
+
+- Parece encontrarse bajo los efectos del alcohol o las drogas.
+
+- Intenta interferir con la tripulación del vuelo o no obedece las
+  instrucciones.
+
+- No cumple las reglas o políticas de Holiday Air.
+
+- Necesita ser extraído por su seguridad o la seguridad de otros
+  pasajeros o de la tripulación.
+
+- Tiene una enfermedad o virus contagiosos o si sospechamos que tiene
+  una enfermedad o virus contagiosos.
+
+- Viaja con un animal que produzca un retraso o daño al avión u otros
+  pasajeros.
+
+- También puede ser responsable por cualquier pérdida, daño o gasto
+  resultante de su conducta. Por ejemplo, puede ser responsable de los
+  costes si tenemos que desviarnos a otra ciudad debido a su conducta.
+  Asimismo, según la ley de EE. UU., podrá ser responsable si ataca a
+  un empleado que desempeñe funciones de seguridad, tanto si es
+  federal, aeroportuario o de una línea aérea.
+
+No cumplir con las responsabilidades del pasajero constituye un
+incumplimiento material de este contrato.
+
+**Su billete**
+
+Cada pasajero debe tener un billete válido para volar. Un billete no es
+transferible; no puede ser usado por otro pasajero o reembolsado a este.
+
+Si el billete no se ha utilizado, debe iniciar el viaje en un plazo de 1
+año desde la fecha en que se emitió. Si el billete se ha utilizado
+parcialmente, debe completar el viaje en un plazo de 1 año a partir del
+primer vuelo completado.
+
+Los billetes únicamente son válidos para el viaje si se utilizan de
+acuerdo con todos los términos y condiciones de venta. Los cupones del
+billete de avión deben ser utilizados en la secuencia especificada en el
+billete.
+
+Las tarifas de Holiday Air no son reembolsables; sin embargo,
+dependiendo de las respectivas disposiciones tarifarias vigentes en el
+momento de la emisión del billete de avión o de la adquisición de una
+membresía Elite Club, su billete se podrá modificar con validez de hasta
+1 año. Tenga en cuenta que, al momento de efectuar la nueva reserva,
+realizaremos un nuevo cálculo de la tarifa aplicable en función del
+cambio de itinerario solicitado. En el caso de que la categoría de
+precios originalmente reservada no estuviese disponible para el
+itinerario modificado, dicho cálculo se realizará a partir de la
+categoría de precios más reducida disponible en la citada fecha para su
+itinerario modificado.
+
+Su billete es válido únicamente cuando:
+
+- El viaje tiene como origen o destino las ciudades que figuran en su
+  billete y en su registro de viaje
+
+- Cumple con todos los requisitos de la tarifa.
+
+Su billete no es válido cuando:
+
+- No cumple con los requisitos de las fechas de estancia, el propósito
+  o la condición de la tarifa
+
+- Nos enteramos de que el billete fue comprado con prácticas abusivas
+
+- Métodos de reserva prohibidos: Están totalmente prohibidas las
+  reservas realizadas con el fin de realizar un uso abusivo de las
+  tarifas o eludir las normas de la tarifa y el billete (por ejemplo,
+  combinar dos o más tarifas de ida y vuelta con el fin de eludir los
+  requisitos de estadía mínima)
+
+Si encontramos pruebas de que usted o su agente están realizando
+prácticas abusivas, nos reservamos el derecho a cancelar toda parte no
+utilizada del billete y/o a negar el vuelo y la facturación de equipaje
+al pasajero y/o a negarnos a reembolsar un billete que en otras
+circunstancias habría sido reembolsable y/o a cobrarle la cuantía
+equivalente a lo que le habría costado el billete si no lo hubiese
+reservado de manera fraudulenta y/o a solicitarle la devolución de
+cualquier compensación que le hayamos podido proporcionar.
+
+**Confidencialidad**
+
+Tratamos sus datos personales de acuerdo con todas las normas de
+privacidad de datos pertinentes y sólo para los siguientes fines:
+realizar reservas de vuelos, comprar billetes, obtener servicios
+adicionales, desarrollar y prestar servicios, facilitar los
+procedimientos de inmigración y entrada; así como poner la información
+asociada a la organización de su viaje a disposición de los organismos
+gubernamentales pertinentes y de otras compañías aéreas, o de otros
+proveedores de los servicios mencionados.
+
+**Prepárese para volar**
+
+- Cuando se trata de facturar y llegar al aeropuerto, es mejor hacerlo
+  con antelación. Si va a facturar equipaje, calcule aún más tiempo.
+
+- Antes de dirigirse al aeropuerto, puede comprobar qué alertas de
+  viaje están en efecto en las ciudades de su itinerario y comprobar
+  la información del estado del vuelo, como, por ejemplo, horas y
+  puertas de embarque.
+
+- Puede facturar en línea 24 horas antes de la salida. Todos los
+  aeropuertos tienen un horario de facturación mínimo. Si la
+  facturación no se ha realizado dentro del plazo mínimo, podremos
+  reasignar su asiento a otro pasajero.
+
+- La asignación de los asientos durante la facturación es aleatoria.
+  Solo se habilitará la selección de butacas sin cargo a aquellos
+  pasajeros que adquieran una membresía Elite Club, una vez emitido el
+  pasaje.
+
+- En nuestros vuelos, usted debe facturar al menos 60 minutos antes de
+  la salida programada del vuelo. En algunos aeropuertos, es
+  obligatorio facturar con más antelación.
+
+- Debe estar en la puerta de embarque y listo para embarcar en el
+  avión al menos 45 minutos antes de la salida. Debe tener una tarjeta
+  de embarque con una asignación de asiento válida y una
+  identificación para embarcar al avión.
+
+- El embarque finaliza 15 minutos antes de la salida. Si no ha
+  embarcado para esa hora, podemos reasignar su asiento a otro
+  pasajero Una vez que se cierren las puertas, no se le permitirá
+  embarcar.
+
+En ocasiones tenemos que hacer ajustes a nuestras operaciones y, en el
+intervalo entre el día que hace su reserva y el día de salida, pueden
+producirse cambios en:
+
+- Su número de vuelo
+
+- El tipo de avión en el que vuela y los servicios disponibles
+
+- Su asignación de asiento
+
+- La línea aérea que opera su vuelo
+
+- El número de paradas o las ciudades de parada intermedia
+
+- Los horarios de salida y de llegada
+
+Cuando se produzcan cambios o cancelaciones que afecten su viaje,
+intentaremos comunicarnos con usted con antelación y asignarle otro
+vuelo o un asiento similar, aunque no podemos garantizar que sea así.
+
+Hacemos todo lo posible por ser puntuales, pero nuestro horario de
+vuelos no está garantizado y no forma parte de este contrato. No
+asumiremos ninguna responsabilidad si:
+
+- Vamos con retraso o usted no puede realizar su conexión
+
+- Cambiamos el horario de cualquier vuelo
+
+- Nosotros cancelamos un vuelo o ruta
+
+- Su equipaje facturado llega tarde (excepto según lo exigido de
+  acuerdo con el estatuto, normativa o convenio)
+
+- Se producen daños especiales, accidentales o consecuentes debido a
+  estos cambios.
+
+**Viajar con bebés y niños**
+
+Bebés (menores de 2 años)
+
+Los niños menores de 2 años pueden viajar en su regazo. Los niños
+menores de 2 años deben ir acompañados en la misma cabina de un
+progenitor, de cualquier edad, o de una persona de al menos 18 años.
+
+Niños (mayores de 2 años, hasta 11 años inclusive)
+
+Los niños de 2 años en adelante deben tener un asiento comprado. Si su
+hijo cumple 2 años durante el viaje, deberá adquirir un pasaje con
+asiento confirmado para toda la ruta.
+
+[Servicio de menores no acompañados]{.underline}
+
+Los niños menores de 8 años no pueden viajar solos.
+
+Los niños menores, de 8 años a 14 años, así como los jóvenes viajando
+solos, entre 15 y 17 años, requieren obligatoriamente el servicio para
+menores no acompañados.
+
+Se necesita un contacto con un tutor y escolta hasta la puerta de
+embarque.
+
+Nuestro servicio para menores no acompañados garantiza que se acompañe
+al menor hasta el avión, se le presente a un asistente de vuelo y se le
+entregue a la persona autorizada al llegar a su destino. Tenga en cuenta
+que nuestros asistentes de vuelo estarán ocupados con sus labores de a
+bordo y no pueden vigilar al niño todo el rato durante el vuelo. Informe
+al niño de que puede usar el botón de llamada si necesita algo.
+
+El cargo por menor no acompañado es de USD 175 por trayecto, además de
+la tarifa aplicable.
+
+**Reembolsos**
+
+Las normas sobre los retrasos en los viajes internacionales se rigen por
+el Convenio de Montreal y el Convenio de Varsovia.
+
+**_Responsabilidad en los vuelos internacionales - Convenio de Montreal
+y Convenio de Varsovia_**
+
+_Si el viaje del cliente incluye un destino final o una escala en un
+país distinto del país de salida, la responsabilidad de Holiday Air por
+muerte o lesiones personales y por pérdida o daño del equipaje puede
+regirse por el Convenio de Varsovia o el Convenio de Montreal. En tales
+casos, se aplicarán los siguientes términos, que son dictados por el
+Departamento de Transporte de los EE. UU.:_
+
+_El Transportista será responsable en virtud del artículo 17 del
+Convenio de Varsovia o del Convenio de Montreal, según corresponda, de
+los daños indemnizables sufridos en caso de muerte o lesiones corporales
+de un Pasajero, según lo dispuesto en los párrafos siguientes:_
+
+_El Transportista no podrá excluir o limitar su responsabilidad por
+daños que no excedan de 113 100 Derechos Especiales de Giro por cada
+Pasajero._
+
+_El Transportista no será responsable de los daños en la medida en que
+excedan de 113 100 Derechos Especiales de Giro por cada Pasajero si el
+Transportista prueba que:_
+
+_tales daños no se debieron a la negligencia u otro acto u omisión
+ilícita del Transportista o de sus empleados o agentes; o bien tales
+daños se debieron únicamente a la negligencia u otro acto u omisión
+ilícitos de un tercero._
+
+_El Transportista se reserva todas las demás defensas y limitaciones
+disponibles en virtud del Convenio de Varsovia o del Convenio de
+Montreal, según corresponda, a tales reclamaciones entre las que se
+encuentran, sin limitación, la defensa de exoneración del Artículo 21
+del Convenio de Varsovia y el Artículo 20 del Convenio de Montreal,
+excepto que el Transportista no invocará los Artículos 20 del Convenio
+de Montreal y 21 del Convenio de Varsovia de manera no compatible con
+los párrafos (1) y (2) del presente texto. Con respecto a terceros, el
+Transportista se reserva todos los derechos de recurso contra cualquier
+otra persona, incluidos, sin limitación, los derechos de contribución e
+indemnización._
+
+_El Transportista conviene que, de acuerdo con la legislación vigente,
+los daños compensatorios de tales reclamaciones pueden ser determinados
+por referencia a las leyes del país de domicilio o país de residencia
+permanente del Pasajero._
+
+_En caso de lesiones corporales o muerte, el Transportista efectuará un
+pago anticipado cuando el Transportista determine que es necesario para
+satisfacer las necesidades económicas inmediatas de un Pasajero y las
+penurias sufridas por este, según lo dispuesto en los párrafos
+siguientes:_
+
+_A menos que surja una disputa sobre la identidad de la persona a la que
+se le hará un pago anticipado, el Transportista efectuará el pago
+anticipado al Pasajero de inmediato en la cuantía o cuantías
+determinadas por el Transportista a su entera discreción. En caso de
+fallecimiento de un Pasajero, el importe del pago anticipado no será
+inferior a 16 000 Derechos Especiales de Giro, que se pagarán a un
+representante de los parientes más cercanos del Pasajero con derecho a
+recibir dicho pago anticipado según lo determine el Transportista a su
+entera discreción._
+
+_El Transportista efectuará el pago anticipado como anticipo contra la
+responsabilidad del Transportista en virtud del Convenio de Varsovia o
+del Convenio de Montreal, según corresponda. Un pago anticipado no
+constituirá reconocimiento de responsabilidad. Un pago anticipado se
+compensará o deducirá del pago de cualquier acuerdo o decisión con
+respecto a cualquier reclamación de indemnización en nombre del
+Pasajero._
+
+_El Transportista, al efectuar un pago anticipado, no renuncia a ningún
+derecho, defensa o limitación disponibles en virtud del Convenio de
+Varsovia o del Convenio de Montreal, según corresponda, a cualquier
+reclamación en nombre del Pasajero, ni la aceptación de un pago
+anticipado constituirá una exención de ninguna reclamación por parte de
+ninguna persona._
+
+_El Transportista será responsable de los daños ocasionados por el
+retraso en el Transporte de Pasajeros por vía aérea, conforme a lo
+dispuesto en los párrafos siguientes:_
+
+_El Transportista no será responsable si prueba que él y sus empleados y
+agentes tomaron todas las medidas que razonablemente pudieran ser
+necesarias para evitar el daño, o que era imposible para él o ellos
+tomar tales medidas._
+
+_El aeropuerto, el control de tráfico aéreo, la seguridad y otras
+instalaciones o personal, públicos o privados, que no estén bajo el
+control y dirección del Transportista, no son empleados o agentes del
+Transportista, y el Transportista no es responsable en la medida en que
+el retraso sea causado por este tipo de instalaciones o personal._
+
+_Los daños ocasionados por retrasos están sujetos a los términos,
+limitaciones y defensas establecidos en el Convenio de Varsovia y el
+Convenio de Montreal, según corresponda. Incluyen los daños previsibles
+compensatorios sufridos por el pasajero y no incluyen los daños por
+lesiones mentales._
+
+_El Transportista se reserva todas las defensas y limitaciones
+disponibles en virtud del Convenio de Varsovia o el Convenio de
+Montreal, según corresponda, a las reclamaciones por daños ocasionados
+por retrasos._
+
+_El Transportista será responsable de los daños sufridos en caso de
+destrucción o pérdida, daño o retraso del Equipaje facturado y del
+Equipaje no facturado, según lo dispuesto en los párrafos siguientes._
+
+_Salvo lo dispuesto a continuación, la responsabilidad del Transportista
+se limita en la mayoría de los casos a 1288 Derechos Especiales de Giro
+por cada Pasajero en caso de destrucción, pérdida, daño o retraso del
+Equipaje, ya sea facturado o no, según el Convenio de Varsovia o el
+Convenio de Montreal, según corresponda. Esto es aplicable a menos que
+el Pasajero demuestre lo contrario._
+
+_Todo Equipaje facturado por un Pasajero se considerará propiedad de
+dicho Pasajero._
+
+_Una determinada pieza de Equipaje, facturada o no facturada, no se
+considerará propiedad de más de un Pasajero._
+
+_El Equipaje no facturado, incluidos los artículos personales, se
+considerará propiedad del Pasajero que posea el Equipaje en el momento
+del embarque._
+
+_Si un Pasajero hace, en el momento de la entrega del Equipaje facturado
+al Transportista, una declaración especial de interés y ha pagado una
+suma adicional, si procede, el Transportista será responsable de la
+destrucción, pérdida, daño o retraso de dicho Equipaje facturado en una
+cantidad que no exceda la cantidad declarada, a menos que el
+Transportista demuestre que la cantidad declarada es superior al interés
+real del Pasajero en la entrega en Destino. La cantidad declarada, y la
+responsabilidad del Transportista, no excederá la cantidad total de
+declaración permitida bajo la normativa del Transportista, incluida la
+limitación del párrafo D. (1) del presente texto. En el caso del
+transporte en virtud del Convenio de Varsovia, no se aplicará ninguna
+suma suplementaria a menos que la cantidad declarada supere los 17
+Derechos Especiales de Giro por kilogramo del peso total registrado del
+Equipaje facturado en el momento de la entrega del Equipaje al
+Transportista. No obstante, el Transportista podrá imponer cargos por
+piezas de Equipaje que excedan la franquicia permitida por el
+Transportista._
+
+_En el caso de Equipaje no facturado, el Transportista solo será
+responsable si los daños fueron causados por un fallo suyo o de sus
+empleados o agentes._
+
+_El Transportista no es responsable de la destrucción, pérdida, daño o
+retraso del Equipaje que no esté a cargo del Transportista, incluido el
+Equipaje que se someta a inspecciones de seguridad o medidas que no
+estén bajo el control y dirección del Transportista._
+
+_El Transportista se reserva todas las defensas y limitaciones
+disponibles en virtud del Convenio de Varsovia, excepto el Artículo
+22(3) del mismo y el Convenio de Montreal, según corresponda, a tales
+reclamaciones._
+
+_En virtud del Convenio de Varsovia y del Convenio de Montreal, según
+corresponda, se deberá interponer una acción de indemnización por daños
+en un plazo de dos (2) años y se presentará una reclamación al
+Transportista en un plazo de siete (7) días naturales en caso de daños
+al Equipaje, y de veintiún (21) días naturales en caso de retraso del
+mismo._
+
+_Cualquier exclusión o limitación de responsabilidad del Transportista
+conforme a estas Condiciones de transporte o al Billete se aplicará a
+los agentes, empleados o representantes del Transportista que actúen en
+el ámbito de su empleo y también a cualquier persona cuya aeronave sea
+utilizada por el Transportista y sus agentes, empleados o representantes
+que actúen en el ámbito de su empleo._
+
+_El Transportista no será responsable de ninguna pérdida, daño o retraso
+de ningún tipo que resulte del transporte o entrega del Equipaje
+facturado, en la medida en que sea consecuencia del defecto, calidad o
+vicio inherente al Equipaje, o en caso de retraso, en la medida en que
+el Transportista, sus agentes y empleados hayan tomado medidas
+razonables para evitar el daño, o que haya sido imposible tomar tales
+medidas._
+
+Cuando se produzcan circunstancias ajenas a nuestro control, como las
+relacionadas con el tiempo, una huelga u otro desorden público, podremos
+tener que anular, desviar o retrasar vuelos.
+
+Tales acontecimientos de "fuerza mayor" incluyen:
+
+- Condiciones meteorológicas o climatológicas
+
+- Disturbios públicos, como guerras, embargos o condiciones
+  internacionales inestables (reales o potenciales)
+
+- Actos de terrorismo
+
+- Emergencias de salud pública en el ámbito nacional o internacional
+
+- Conflictos de trabajo que implican o afectan a nuestro servicio
+
+- Normativa o requisitos gubernamentales
+
+- Escasez de mano de obra, combustible o instalaciones pertenecientes
+  a Holiday Air o a terceros
+
+- Cualquier circunstancia que Holiday Air no pueda prever o anticipar
+  de forma razonable
+
+**Embarque denegado voluntario**
+
+Podríamos requerir pasajeros que estén dispuestos a renunciar
+voluntariamente a sus asientos a cambio de una compensación por un
+importe y forma que será determinada exclusivamente a discreción de
+Holiday Air.
+
+Si usted se ofrece voluntaria/o a renunciar a su asiento confirmado en
+un vuelo, le compensaremos con una forma y una cuantía que consideremos
+justa.
+
+**Embarque denegado involuntario**
+
+Si no hay suficientes voluntarios, tendremos que elegir qué clientes
+cambiarán de vuelo en contra de su voluntad y denegarles el embarque.
+
+Determinados clientes tienen prioridad en el embarque, incluidos
+aquellos que:
+
+- Tienen necesidades de asistencia especial
+
+- Son menores y no viajan acompañados
+
+- Tienen categoría Diamante, Gold o Silver de Holiday Air -- Elite
+  Club
+
+- Han pagado por clase Business
+
+- Han facturado en primer lugar
+
+La selección de clientes a los que en contra de su voluntad se les
+deniegan asientos es exclusivamente a discreción de Holiday Air.
+
+No recibirá compensación por embarque denegado en contra de su voluntad
+si:
+
+- No cumple con los requisitos de emisión de billetes, facturación y
+  reconfirmación de Holiday Air, o no es apto para el transporte según
+  las normas y prácticas habituales de Holiday Air.
+
+- Se cancela su vuelo.
+
+- Pasamos a usar un avión más pequeño por motivos de seguridad y
+  operativos.
+
+- El avión tiene restricciones de peso/equilibrio relacionadas con la
+  seguridad.
+
+- Se le ha ofrecido acomodarle en una sección del avión distinta a la
+  especificada en su billete original.
+
+**Compensación por embarque denegado en contra de su voluntad para
+vuelos Internacionales**
+
+**Retrasos, cancelaciones y desvíos**
+
+Nuestro objetivo es proporcionar información actualizada, frecuente y de
+utilidad desde el momento en que tenga su billete, tanto en el
+aeropuerto como a bordo, cuando hay retrasos, cancelaciones y desvíos.
+
+Si se cancela su vuelo o se produce un retraso que haga que pierda la
+conexión, le reservaremos plaza en el siguiente vuelo de Holiday Air con
+asientos disponibles. Le reservaremos plaza en la clase o cabina de su
+billete original con su forma de pago original. Si su vuelo se retrasó o
+canceló y no acepta nuestras alternativas, o no había ninguno
+disponible, le reembolsaremos el valor restante del billete según
+nuestra política de reembolsos involuntarios. Más allá de eso, no
+tenemos ninguna otra obligación contractual.
+
+Haremos lo posible por asegurar la mayor comodidad posible a los
+pasajeros que sufren retrasos. El personal de la puerta de embarque
+tiene instrucciones de atender a los clientes con necesidades
+especiales, tales como los menores no acompañados, los clientes con
+discapacidades y los ancianos.
+
+Si hay retrasos sustanciales, haremos lo posible por garantizar que
+tenga comida (como tentempié), agua y acceso a aseos. No nos hacemos
+responsables de los daños especiales, accidentales o consecuentes si no
+podemos cumplir este compromiso.
+
+**Compensación por demoras para vuelos Internacionales**
+
+- Retraso de llegada de hasta 1 hora: no hay compensación.
+
+- Retraso de llegada de 1 a 4 horas: USD 150
+
+- Retraso de llegada de más de 4 horas: USD 300
+
+**Su equipaje**
+
+[Equipaje facturado]{.underline}
+
+Todo equipaje está sujeto a inspección. No aceptaremos equipaje
+facturado o de mano que creamos inadecuado para el transporte por
+razones de tamaño, peso o índole.
+
+Antes de ir al aeropuerto, asegúrese de consultar nuestra página de
+equipaje para obtener información sobre todas nuestras políticas de
+equipaje facturado y de mano.
+
+Solo puede facturar equipaje el mismo día del viaje y su equipaje debe
+viajar al destino último que indique su billete. Asegúrese de que su
+nombre está en todas las piezas de equipaje antes de facturarlo.
+
+Si vuela desde Orlando (MCO) no podrá facturar su equipaje más de 4
+horas antes de la salida.
+
+El número de piezas de equipaje que puede facturar depende de su tarifa
+y categoría de membresía Elite Club de Holiday Air. Las tarifas de
+equipaje no son reembolsables y se aplican a cada persona por cada
+trayecto. Se pueden aplicar tarifas adicionales para las piezas de
+equipaje con sobrepeso o de gran tamaño y los artículos especiales.
+
+No extravíe su etiqueta de recogida de equipajes, ya que puede ser
+necesario mostrarla para recoger su equipaje. La oficina de equipaje del
+aeropuerto solo entregará el equipaje a la persona con la etiqueta de
+equipaje correspondiente.
+
+Al llegar a EE. UU. en un vuelo internacional, recogerá su equipaje
+facturado antes de pasar el control de aduana.
+
+Si llega con Holiday Air a su destino final y su equipaje no ha llegado
+con usted, nuestro objetivo es hacérselo llegar en un plazo de 48 h.
+Entre las razones por las que puede llevarnos más tiempo hacerle llegar
+su equipaje están:
+
+- No nos consta su nombre, dirección o número de teléfono local.
+
+- Está en un crucero, de acampada en un lugar remoto o en algún lugar
+  en el que no nos podemos poner en contacto con usted por medios
+  razonables.
+
+- Ha cambiado su dirección de entrega.
+
+- Los vuelos a su destino de los que disponemos son limitados.
+
+- Interfieren las condiciones meteorológicas u otros asuntos
+  operativos.
+
+[Equipaje de mano & artículo personal]{.underline}
+
+Su pieza de equipaje de mano debe caber en el medidor de tamaño del
+aeropuerto.
+
+El artículo personal debe caber debajo del asiento delantero.
+
+Todo el equipaje debe estar guardado antes del despegue.
+
+Los bolsos para pañales, los asientos de seguridad infantiles, los
+cochecitos o sillas de paseo no cuentan como artículos personales ni de
+mano. Los cochecitos y sillas de paseo deben facturarse en los
+mostradores. Si viaja con dispositivos médicos y de movilidad, consulte
+previamente con Holiday Air.
+
+En todos los casos, nos reservamos el derecho a decidir si su equipaje
+de mano es adecuado para llevar a bordo y si hay suficiente espacio en
+los compartimentos superiores.
+
+Si necesita facturar su equipaje de mano, asegúrese de que lleva a bordo
+los objetos frágiles o valiosos, como llaves, medicamentos u
+ordenadores. Además, debe llevar a bordo, y no facturar, cigarrillos
+electrónicos y baterías de repuesto para ordenadores portátiles, cámaras
+u otros dispositivos móviles.
+
+Ciertas tarifas, aeronaves y aeropuertos presentan restricciones
+adicionales respecto al equipaje de mano.
+
+Es posible que tengamos que facturar su equipaje en la puerta de
+embarque si los compartimentos superiores están llenos o si existen
+restricciones. El tamaño de los compartimentos superiores varía y
+algunos aviones tienen compartimentos más pequeños.
+
+**Artículos restringidos**
+
+Por la seguridad de todos a bordo, la TSA y la Fuerza Aérea restringen
+algunos artículos comunes en los aviones. Asegúrese de saber lo que
+puede llevar en cabina y lo que puede facturar con el equipaje antes de
+ir al aeropuerto.
+
+[Materiales peligrosos]{.underline}
+
+No transportamos materiales peligrosos, a excepción de pequeñas
+cantidades de hielo seco. Podemos retirar y eliminar cualquier material
+peligroso en su equipaje.
+
+[Armas de fuego]{.underline}
+
+Puede viajar con armas de fuego únicamente en el equipaje facturado. Las
+armas de fuego deben ser declaradas ante nuestros agentes durante la
+facturación.
+
+Podría haber otras normas o políticas temporales aplicables. Asegúrese
+de entender las normas antes de ir al aeropuerto.

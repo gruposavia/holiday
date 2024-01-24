@@ -41,3 +41,7 @@
   .markdown li{
     margin-top: 1rem
   }
+  .markdown{
+    text-align: justify;
+    text-justify: inter-word;  
+  }
