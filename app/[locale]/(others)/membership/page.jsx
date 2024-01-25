@@ -38,19 +38,16 @@ const Membership = async ({ params: { locale } }) => {
 
 
       
-      <div className="col-xl-9 ">
+      <div className="col-xl-12 ">
 
               <div className="mt-30"></div>
               {/* End mt--30 */}
               <div className="row y-gap-30 mx-4 w-full ">
 
                 <MembershipCards/>
-
               </div>
 
-
             </div>
-
 
       {/* <section className="layout-pt-lg layout-pb-lg bg-blue-2">
         <div className="container">

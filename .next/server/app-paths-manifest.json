@@ -1,7 +1,5 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/(others)/terms/page": "app/[locale]/(others)/terms/page.js",
-  "/[locale]/(others)/cargo/page": "app/[locale]/(others)/cargo/page.js",
   "/[locale]/(others)/membership/page": "app/[locale]/(others)/membership/page.js"
 }

@@ -7,6 +7,9 @@ import Slider from "react-slick";
 import rentalsData from "../../data/rentals";
 import isTextMatched from "../../utils/isTextMatched";
 
+import { memberships } from "@/data/memberships";
+console.log("🚀 ~ memberships:", memberships)
+
 const MembershipCards = () => {
   var itemSettings = {
     dots: true,
@@ -42,106 +45,54 @@ const MembershipCards = () => {
 
   return (
     <>
-      {rentalsData.slice(0,3).map((item) => (
+      {memberships.map((item) => (
         <div
-          className="col-lg-4 col-sm-6"
+          className="col-lg-20 col-sm-6 mb-50"
           key={item.id}
           data-aos="fade"
           data-aos-delay={item.delayAnimation}
         >
-          <Link
-            href={`/rental-single/${item.id}`}
-            className="rentalCard -type-1 rounded-4 hover-inside-slider"
-          >
-            <div className="rentalCard__image">
-              <div className="cardImage inside-slider">
-                <Image
-                          width={300}
-                          height={300}
-                          className="rounded-4 col-12 js-lazy"
-                          src={item?.slideImg}
-                          alt="image"
-                        />
-
-                <div className="cardImage__wishlist">
-                  <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                    <i className="icon-heart text-12" />
-                  </button>
-                </div>
-
-                <div className="cardImage__leftBadge">
-                  <div
-                    className={`py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase  ${
-                      isTextMatched(item?.tag, "best seller")
-                        ? "bg-blue-1 text-white"
-                        : ""
-                    }  ${
-                      isTextMatched(item?.tag, "top rated")
-                        ? "bg-yellow-1 text-dark-1"
-                        : ""
-                    }`}
-                  >
-                    {item?.tag}
-                  </div>
-                </div>
+          <div className="rentalCard__image">
+            <div className="cardImage inside-slider">
+              <div>
+                <h2 className="text-center">{item.id}</h2>
               </div>
+              <div>
+                <p className="text-center">{item.price} USD/year</p>
+              </div>
+              <div><button
+              key={item.id}
+              className={`px-10 d-flex w-full bg-yellow-1
+               py-10  fw-600 text-dark-1`}
+            >
+              <i className={`text-20 mr-10`}></i>
+              BUY
+            </button></div>
+              
             </div>
-            {/* End image card */}
+            
+          </div>
+          {/* End image card */}
 
-            <div className="rentalCard__content mt-10">
-              {/* <div className="text-14 text-light-1 lh-14 mb-5">
-                {item?.location}
-              </div>
-              <h4 className="rentalCard__title text-dark-1 text-18 lh-16 fw-500">
-                <span>{item?.title}</span>
-              </h4>
-              <p className="text-light-1 lh-14 text-14 mt-5" />
-              <div className="d-flex items-center mt-5">
-                <div className="text-14 text-light-1">{item?.guest} guests</div>
-                <div className="size-3 bg-light-1 rounded-full ml-10 mr-10" />
-                <div className="text-14 text-light-1">
-                  {item?.bedroom} bedroom
-                </div>
-                <div className="size-3 bg-light-1 rounded-full ml-10 mr-10" />
-                <div className="text-14 text-light-1">{item?.bed} bed</div>
-              </div>
-              <div className="d-flex items-center mt-20">
-                <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">
-                  {item?.ratings}
-                </div>
-                <div className="text-14 text-dark-1 fw-500 ml-10">
-                  Exceptional
-                </div>
-                <div className="text-14 text-light-1 ml-10">
-                  {item?.numberOfReviews} reviews
-                </div>
-              </div>
-              <div className="mt-5">
-                <div className="text-light-1">
-                  <span className="fw-500 text-dark-1">US${item?.price}</span> /
-                  per night
-                </div>
-              </div> */}
-                                <div className="y-gap-5 mt-20">
-                    <div className="d-flex items-center">
-                      <i className="icon-no-smoke text-20 mr-10" />
-                      <div className="text-15">Non-smoking rooms</div>
-                    </div>
-                    <div className="d-flex items-center">
-                      <i className="icon-wifi text-20 mr-10" />
-                      <div className="text-15">Free WiFi</div>
-                    </div>
-                    <div className="d-flex items-center">
-                      <i className="icon-parking text-20 mr-10" />
-                      <div className="text-15">Parking</div>
-                    </div>
-                    <div className="d-flex items-center">
-                      <i className="icon-kitchen text-20 mr-10" />
-                      <div className="text-15">Kitchen</div>
-                    </div>
+          <div className="rentalCard__content justify-center mt-10">
+            <ul className="y-gap-5 mt-20">
+              {item.features.map((e, index) => (
+                <li key={index} className="d-flex items-center">
+                  <i className={`icon-${e.value !== undefined ? e.value === true ? 'check text-green-2' : 'close text-red-2' : 'like text-black'} text-12 mr-10`} />
+                  <p className="text-15 text-dark-2">
+                    {e.id}
+                  </p>
+                </li>
+              ))}
+
+              {/* <div className="d-flex items-center text-black-50">
+                  <i className="icon-play text-12 mr-10" />
+                  <div className="text-15">
+                    Free cancellation before April 1, 2022
                   </div>
-            </div>
-          </Link>
+                </div> */}
+            </ul>
+          </div>
         </div>
       ))}
     </>
