@@ -48,7 +48,6 @@ const Index =  () => {
               />
             </div>
             {/* End col-auto */}
-
             <div className="col-auto">
               <img
                 src="/img/masthead/10/test2.jpg"
