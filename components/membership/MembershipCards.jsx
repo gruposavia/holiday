@@ -6,11 +6,16 @@ import Link from "next/link";
 import Slider from "react-slick";
 import rentalsData from "../../data/rentals";
 import isTextMatched from "../../utils/isTextMatched";
-
+import { useTranslation } from 'react-i18next';
 import { memberships } from "@/data/memberships";
-console.log("🚀 ~ memberships:", memberships)
+
 
 const MembershipCards = () => {
+
+
+  const { t } = useTranslation()
+
+  
   var itemSettings = {
     dots: true,
     infinite: true,
@@ -20,34 +25,34 @@ const MembershipCards = () => {
   };
 
   // custom navigation
-  function Arrow(props) {
-    let className =
-      props.type === "next"
-        ? "slick_arrow-between slick_arrow -next arrow-md flex-center button -blue-1 bg-white shadow-1 size-30 rounded-full sm:d-none js-next"
-        : "slick_arrow-between slick_arrow -prev arrow-md flex-center button -blue-1 bg-white shadow-1 size-30 rounded-full sm:d-none js-prev";
-    className += " arrow";
-    const char =
-      props.type === "next" ? (
-        <>
-          <i className="icon icon-chevron-right text-12"></i>
-        </>
-      ) : (
-        <>
-          <span className="icon icon-chevron-left text-12"></span>
-        </>
-      );
-    return (
-      <button className={className} onClick={props.onClick}>
-        {char}
-      </button>
-    );
-  }
+  // function Arrow(props) {
+  //   let className =
+  //     props.type === "next"
+  //       ? "slick_arrow-between slick_arrow -next arrow-md flex-center button -blue-1 bg-white shadow-1 size-30 rounded-full sm:d-none js-next"
+  //       : "slick_arrow-between slick_arrow -prev arrow-md flex-center button -blue-1 bg-white shadow-1 size-30 rounded-full sm:d-none js-prev";
+  //   className += " arrow";
+  //   const char =
+  //     props.type === "next" ? (
+  //       <>
+  //         <i className="icon icon-chevron-right text-12"></i>
+  //       </>
+  //     ) : (
+  //       <>
+  //         <span className="icon icon-chevron-left text-12"></span>
+  //       </>
+  //     );
+  //   return (
+  //     <button className={className} onClick={props.onClick}>
+  //       {char}
+  //     </button>
+  //   );
+  // }
 
   return (
     <>
       {memberships.map((item) => (
         <div
-          className="col-lg-20 col-sm-6 mb-50"
+          className="col-xl-4 col-md-6 col-lg-4"
           key={item.id}
           data-aos="fade"
           data-aos-delay={item.delayAnimation}
@@ -55,22 +60,27 @@ const MembershipCards = () => {
           <div className="rentalCard__image">
             <div className="cardImage inside-slider">
               <div>
-                <h2 className="text-center">{item.id}</h2>
+                <h2 
+                style={{whiteSpace: 'nowrap'}}
+                className="text-center ">{t(`membership:title-${item.id}`)}</h2>
+              </div>
+              <div className="py-3">
+                <p className="text-center text-15 fw-500">{t(`membership:price-${item.id}`)}</p>
               </div>
               <div>
-                <p className="text-center">{item.price} USD/year</p>
+                <button
+                  key={item.id}
+                  style={{width: '100%'}}
+                  className={`px-10 d-flex justify-center bg-yellow-1 py-10  fw-600 text-dark-1 rounded-2`}
+
+                >
+                  <i className={`text-20 mr-10`}></i>
+                  {t(`membership:button-${item.id !== 'diamond'? 'buy': 'diamond'}`)}
+                </button>
               </div>
-              <div><button
-              key={item.id}
-              className={`px-10 d-flex w-full bg-yellow-1
-               py-10  fw-600 text-dark-1`}
-            >
-              <i className={`text-20 mr-10`}></i>
-              BUY
-            </button></div>
-              
+
             </div>
-            
+
           </div>
           {/* End image card */}
 
@@ -79,8 +89,8 @@ const MembershipCards = () => {
               {item.features.map((e, index) => (
                 <li key={index} className="d-flex items-center">
                   <i className={`icon-${e.value !== undefined ? e.value === true ? 'check text-green-2' : 'close text-red-2' : 'like text-black'} text-12 mr-10`} />
-                  <p className="text-15 text-dark-2">
-                    {e.id}
+                  <p className="text-15 text-dark-2" >
+                    {t(`membership:${e.id}-${item.id}`)}
                   </p>
                 </li>
               ))}
