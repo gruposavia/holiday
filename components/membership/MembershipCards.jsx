@@ -50,10 +50,10 @@ const MembershipCards = () => {
 
   return (
     <>
-      {memberships.slice(1,5).map((item) => (
+      {memberships.slice(1,4).map((item) => (
         <div
         
-          className="col-xl-3 col-md-6 col-lg-6 membership"
+          className="col-xl-3 col-md-6 col-lg-3 membership mr-30 rounded-16 shadow-md"
           key={item.id}
           data-aos="fade"
           data-aos-delay={item.delayAnimation}
@@ -72,7 +72,7 @@ const MembershipCards = () => {
                 <button
                   key={item.id}
                   style={{width: '100%'}}
-                  className={`px-10 d-flex justify-center bg-yellow-1 py-10  fw-600 text-dark-1 rounded-2`}
+                  className={`px-10 d-flex justify-center bg-yellow-1 py-6  fw-600 text-dark-1 rounded-2`}
 
                 >
                   <i className={`text-20 mr-10`}></i>
@@ -91,7 +91,7 @@ const MembershipCards = () => {
                 <li key={index} className="d-flex items-center">
                   <i style={{fontWeight: '1000'}}
                   className={`icon-${e.value === true ? 'check text-green-2' : 'close text-red-2'} text-13 fw-600 mr-10`} />
-                  <p className={` text-15 fw-400  ${e.value === true ? 'text-dark-2' : 'text-black-50'} `} >
+                  <p className={` text-15 fw-500  ${e.value === true ? 'text-dark-2' : 'text-black-50'} `} >
                     {t(`membership:${e.id}-${item.id}`)}
                   </p>
                 </li>
