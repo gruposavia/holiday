@@ -1669,10 +1669,6 @@ progress {
     flex: 0 0 auto;
     width: 100%;
   }
-  .col-lg-20 {
-    flex: 0 0 auto;
-    width: 20%;
-  }
   .offset-lg-0 {
     margin-left: 0;
   }

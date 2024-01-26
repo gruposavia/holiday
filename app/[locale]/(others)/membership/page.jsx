@@ -17,7 +17,7 @@ export const metadata = {
 };
 const i18nNamespaces = [
   'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact', 'faq', 'help-center'
+  'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact', 'faq', 'help-center', 'membership'
 ]
 const Membership = async ({ params: { locale } }) => {
 
@@ -38,11 +38,11 @@ const Membership = async ({ params: { locale } }) => {
 
 
       
-      <div className="col-xl-12 ">
+      <div className="col-xl-12 pl-10  pr-4 justify-center">
 
               <div className="mt-30"></div>
               {/* End mt--30 */}
-              <div className="row y-gap-30 mx-4 w-full ">
+              <div className="row y-gap-30 mx-4 w-full  justify-center mb-50 ">
 
                 <MembershipCards/>
               </div>

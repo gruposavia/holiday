@@ -1,7 +1,6 @@
 export const memberships = [
     {
         id: 'none',
-        price: 'xxxxx',
         callToAction: () => { },
         features: [
             {
@@ -73,7 +72,6 @@ export const memberships = [
     },
     {
         id: 'bronze',
-        price: 'xxxxx',
         callToAction: () => { },
         features: [
             {
@@ -141,7 +139,6 @@ export const memberships = [
     },
     {
         id: 'silver',
-        price: 'xxxxx',
         callToAction: () => { },
         features: [
             {
@@ -209,7 +206,6 @@ export const memberships = [
     },
     {
         id: 'gold',
-        price: 'xxxxx',
         callToAction: () => { },
         features: [
             {
@@ -277,7 +273,6 @@ export const memberships = [
     },
     {
         id: 'diamond',
-        price: 'xxxxx',
         callToAction: () => { },
         features: [
             {

@@ -71,6 +71,10 @@ var map = {
 		"(app-pages-browser)/./locales/en/main-menu.json",
 		"_app-pages-browser_locales_en_main-menu_json"
 	],
+	"./en/membership.json": [
+		"(app-pages-browser)/./locales/en/membership.json",
+		"_app-pages-browser_locales_en_membership_json"
+	],
 	"./en/popular-routes.json": [
 		"(app-pages-browser)/./locales/en/popular-routes.json",
 		"_app-pages-browser_locales_en_popular-routes_json"
@@ -138,6 +142,10 @@ var map = {
 	"./es/main-menu.json": [
 		"(app-pages-browser)/./locales/es/main-menu.json",
 		"_app-pages-browser_locales_es_main-menu_json"
+	],
+	"./es/membership.json": [
+		"(app-pages-browser)/./locales/es/membership.json",
+		"_app-pages-browser_locales_es_membership_json"
 	],
 	"./es/popular-routes.json": [
 		"(app-pages-browser)/./locales/es/popular-routes.json",
