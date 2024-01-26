@@ -75,6 +75,7 @@ export const memberships = [
     {
         id: 'bronze',
         callToAction: () => { },
+        delayAnimation: "100",
         features: [
             {
                 id: 'free-seat',
@@ -143,6 +144,8 @@ export const memberships = [
     },
     {
         id: 'silver',
+        recommend: true,
+        delayAnimation: "150",
         callToAction: () => { },
         features: [
             {
@@ -212,6 +215,7 @@ export const memberships = [
     },
     {
         id: 'gold',
+        delayAnimation: "200",
         callToAction: () => { },
         features: [
             {

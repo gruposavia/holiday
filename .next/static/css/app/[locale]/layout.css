@@ -427,7 +427,6 @@
   --bs-border-radius-pill:50rem;
   --bs-box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   --bs-box-shadow-sm:0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  --bs-box-shadow-md: 0 0.5625rem 1.625rem rgba(0, 0, 0, 0.125);
   --bs-box-shadow-lg:0 1rem 3rem rgba(0, 0, 0, 0.175);
   --bs-box-shadow-inset:inset 0 1px 2px rgba(0, 0, 0, 0.075);
   --bs-focus-ring-width:0.25rem;
@@ -7706,9 +7705,7 @@ textarea.form-control-lg {
 .shadow-sm {
   box-shadow: var(--bs-box-shadow-sm) !important;
 }
-.shadow-md {
-  box-shadow: var(--bs-box-shadow-md) !important;
-}
+
 .shadow-lg {
   box-shadow: var(--bs-box-shadow-lg) !important;
 }
