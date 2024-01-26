@@ -12,7 +12,7 @@ import TranslationsProvider from '../../../../components/TranslationProvider';
 
 
 export const metadata = {
-  title: "Contact || HolidayAir",
+  title: "Membership || HolidayAir",
   description: "HolidayAir",
 };
 const i18nNamespaces = [
@@ -39,11 +39,9 @@ const Membership = async ({ params: { locale } }) => {
 
       
       <div className="col-xl-12 pl-10  pr-4 justify-center">
-
-              <div className="mt-30"></div>
+        <div className=""></div>
               {/* End mt--30 */}
-              <div className="row y-gap-30 mx-4 w-full  justify-center mb-50 ">
-
+              <div className="row y-gap-30 mx-4 w-full  x-gap-30 justify-center px-lg-5 mb-50 mt-30">
                 <MembershipCards/>
               </div>
 
