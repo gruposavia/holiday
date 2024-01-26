@@ -9,6 +9,7 @@ export const memberships = [
             },
             {
                 id: 'book-seat',
+                value: true
             },
             {
                 id: 'waiting-list',
@@ -52,6 +53,7 @@ export const memberships = [
             },
             {
                 id: 'boarding-zone',
+                value: true
             },
             {
                 id: 'priority-baggage',
@@ -80,6 +82,7 @@ export const memberships = [
             },
             {
                 id: 'book-seat',
+                value: true
             },
             {
                 id: 'waiting-list',
@@ -87,7 +90,7 @@ export const memberships = [
             },
             {
                 id: 'extended-ticket',
-                value: 24
+                value: true
             },
             {
                 id: 'change-flight',
@@ -119,6 +122,7 @@ export const memberships = [
             },
             {
                 id: 'boarding-zone',
+                value: true
             },
             {
                 id: 'priority-baggage',
@@ -147,6 +151,7 @@ export const memberships = [
             },
             {
                 id: 'book-seat',
+                value: true
             },
             {
                 id: 'waiting-list',
@@ -154,7 +159,7 @@ export const memberships = [
             },
             {
                 id: 'extended-ticket',
-                value: 48
+                value: true
             },
             {
                 id: 'change-flight',
@@ -186,6 +191,7 @@ export const memberships = [
             },
             {
                 id: 'boarding-zone',
+                value: true
             },
             {
                 id: 'priority-baggage',
@@ -214,6 +220,7 @@ export const memberships = [
             },
             {
                 id: 'book-seat',
+                value: true
             },
             {
                 id: 'waiting-list',
@@ -221,7 +228,7 @@ export const memberships = [
             },
             {
                 id: 'extended-ticket',
-                value: 72
+                value: true
             },
             {
                 id: 'change-flight',
@@ -253,6 +260,7 @@ export const memberships = [
             },
             {
                 id: 'boarding-zone',
+                value: true
             },
             {
                 id: 'priority-baggage',
@@ -281,6 +289,7 @@ export const memberships = [
             },
             {
                 id: 'book-seat',
+                value: true
             },
             {
                 id: 'waiting-list',
@@ -288,7 +297,7 @@ export const memberships = [
             },
             {
                 id: 'extended-ticket',
-                value: 72
+                value: true
             },
             {
                 id: 'change-flight',
@@ -320,6 +329,7 @@ export const memberships = [
             },
             {
                 id: 'boarding-zone',
+                value: true
             },
             {
                 id: 'priority-baggage',
