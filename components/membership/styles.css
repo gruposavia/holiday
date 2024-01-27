@@ -12,3 +12,37 @@
 .divider{
     border-bottom: 1px solid #d3d4d5;
 }
+
+.badge{
+    display: initial;
+    position: absolute;
+    top: -45px;
+    background: black;
+    width: 60%;
+    height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 16px 16px 0 0;
+    overflow: visible;
+    z-index: 1;
+    padding: 0;
+    right: 0;
+}
+
+
+@media (min-width: 1201px) {
+    /* Reglas específicas para pantallas con un ancho mínimo de 992px */
+    .membership {
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* Reglas específicas para pantallas con un ancho máximo de 991px */
+    .membership {
+        margin-right: 0px;
+        margin-top: 60px;
+    }
+}

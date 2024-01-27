@@ -53,34 +53,34 @@ const [onMouseOver, setOnMouseOver] = useState(false)
   return (
     <>
       {memberships.slice(1,4).map((item) => (
-        <div
         
-          className={`col-xl-3 col-md-6 col-lg-3 membership mr-30 rounded-16 shadow-md ${onMouseOver ?  'membership:hover' : ''}`}
+        <div
+          className={`relative col-xl-3 col-lg-9 membership shadow-md ${onMouseOver ?  'membership:hover' : ''}`}
           key={item.id}
-          //data-aos="fade"
-          //data-aos-delay={item.delayAnimation}
+          style={{borderRadius: item.recommend ? "16px 0px 16px 0px" :"16px" }}
            onMouseOver={()=> setOnMouseOver(true)}
            onMouseLeave={()=> setOnMouseOver(false)}
         >
+         { item.recommend && <div className="badge bg-green-2 items-center d-flex justify-center text-15">{t(`membership:price-recommend`)}</div>}
           <div className="rentalCard__image divider">
             <div className="cardImage inside-slider">
               <div>
                 <h1 
                 style={{whiteSpace: 'nowrap'}}
-                className="text-center  text-20">{t(`membership:title-${item.id}`)}</h1>
+                className="text-center  text-30">{t(`membership:title-${item.id}`)}</h1>
               </div>
-              <div className="py-3">
-                <h3 className="text-center text-30 text-green-1 fw-500">{t(`membership:price-${item.id}`)}</h3>
+              <div className=" items-center justify-center d-flex text-16 text-green-1 fw-500">
+                USD
+                <span className="fw-700 text-40">{item.price}</span>
+                <span className="">{t(`membership:price-${item.id}`)}</span>
               </div>
               <div>
                 <button
                   key={item.id}
                   style={{width: '100%'}}
-                  className={`px-10 d-flex justify-center rounded-2 py-10 fw-600 mb-30 ${item.recommend ? 'text-dark-1 bg-yellow-1' : 'text-white bg-dark-3'}`}
-
+                  className={`px-10 d-flex justify-center rounded-2 fw-600 mb-30  text-dark-1 bg-green-5`}
                 >
-                  <i className={`text-20 mr-10`}></i>
-                  {t(`membership:button-${item.id !== 'diamond'? 'buy': 'diamond'}`)}
+                  <span className="text-22 my-0">{t(`membership:button-buy`)}</span>
                 </button>
               </div>
 
