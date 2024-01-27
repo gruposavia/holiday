@@ -1,5 +1,11 @@
 {
   "pages": {
+    "/[locale]/(others)/membership/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/(others)/membership/page.css",
+      "static/chunks/app/[locale]/(others)/membership/page.js"
+    ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -11,11 +17,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/not-found.js"
     ],
-    "/[locale]/(others)/membership/page": [
+    "/[locale]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/membership/page.css",
-      "static/chunks/app/[locale]/(others)/membership/page.js"
+      "static/chunks/app/[locale]/page.js"
+    ],
+    "/[locale]/(others)/help-center/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/help-center/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }
