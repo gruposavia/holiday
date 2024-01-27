@@ -61,7 +61,7 @@ const Header1 = ({ locale }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://hla-stage.crane.aero/"
-                    className="button px-30 fw-400 text-14 -dark-2 bg-dark-4 h-50 text-white"
+                    className="button px-30 fw-400 text-14 -dark-4 bg-dark-2 h-50 text-white"
                   >
                     {t('main-menu:agency-access')}
                   </Link>
@@ -91,7 +91,7 @@ const Header1 = ({ locale }) => {
                       data-bs-target="#mobile-sidebar_menu"
                     />
                     <div
-                      className="offcanvas offcanvas-start  mobile_menu-contnet"
+                      className="offcanvas offcanvas-start mobile_menu-contnet"
                       tabIndex="-1"
                       id="mobile-sidebar_menu"
                       aria-labelledby="offcanvasMenuLabel"

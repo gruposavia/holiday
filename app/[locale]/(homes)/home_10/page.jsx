@@ -7,11 +7,10 @@ import Blog from "@/components/blog/Blog3";
 import BlockGuide from "@/components/block/BlockGuide";
 import FlightsSection from "@/components/flight/FlightsSection";
 import AppBanner from "@/components/home/home-10/AppBanner";
-import TopDestinations from "@/components/home/home-10/TopDestinations";
 import TestimonialRating from "@/components/home/home-10/TestimonialRating";
 import Testimonial from "@/components/home/home-10/Testimonial";
 import PopularRoutes from "@/components/home/home-10/PopularRoutes";
-import getFaqContent from '@/lib/getFaqcontent';
+
 
 
 

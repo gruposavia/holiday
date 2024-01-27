@@ -1,6 +1,5 @@
 'use client'
 
-import FilterSelect from "./components/FilterSelect";
 import MainFilterSearchBox from "./MainFilterSearchBox";
 import { useTranslation } from 'react-i18next';
 const Index =  () => {
