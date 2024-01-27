@@ -33,10 +33,12 @@ const Membership = async ({ params: { locale } }) => {
       {/* End Header 1 */}
 
       <div className="col-xl-12 pl-10 pt-50 pr-4 justify-center">
-        <div className=""></div>
+
+          
+
         {/* End mt--30 */}
-        <div className="row y-gap-30 mx-4 w-full x-gap-30 justify-center px-lg-5 mb-50 mt-30">
-          <MembershipCards locale={locale}/>
+        <div className="row y-gap-30 mx-4 w-full x-gap-30 justify-center px-lg-6">
+          <MembershipCards locale={locale} />
         </div>
 
       </div>
