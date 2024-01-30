@@ -51,7 +51,7 @@
     "checked-baggage-bronze": "One free checked baggage",
     "checked-baggage-silver": "Two free checked baggage",
     "checked-baggage-gold": "Two free checked baggage",
-    "checked-baggage-diamond": "Two free checked baggage",
+    "checked-baggage-diamond": "Two free checked baggage (i)",
     "discounts-baggage-none": "Discounts on additional checked baggage",
     "discounts-baggage-bronze": "5% off additional checked baggage",
     "discounts-baggage-silver": "10% off additional checked baggage",
@@ -60,7 +60,7 @@
     "dedicated-checkin-none": "Dedicated check-in counters",
     "dedicated-checkin-bronze": "Dedicated check-in counters",
     "dedicated-checkin-silver": "Dedicated check-in counters",
-    "dedicated-checkin-gold": "Dedicated check-in counters",
+    "dedicated-checkin-gold": "Dedicated check-in counters (ii)",
     "dedicated-checkin-diamond": "Dedicated check-in counters",
     "access-vip-none": "Access to VIP Lounge",
     "access-vip-bronze": "Access to VIP Lounge",
@@ -91,5 +91,7 @@
     "discounts-equipament-bronze": "5% off on checked sport equipment",
     "discounts-equipament-silver": "10% off on checked sport equipment",
     "discounts-equipament-gold": "15% off on checked sport equipment",
-    "discounts-equipament-diamond": "20% off on checked sport equipment"
+    "discounts-equipament-diamond": "20% off on checked sport equipment",
+    "disclaimer-1": " (i) In addition of the baggage allowance included in the Business ticket fare",
+    "disclaimer-2": "(ii) Gold Members may use  Diamond check-in counters, subject to availability"
 }

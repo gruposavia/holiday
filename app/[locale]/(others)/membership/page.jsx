@@ -60,12 +60,17 @@ const Membership = async ({ params: { locale } }) => {
       {/* End About Banner Section */}
       <div className="col-xl-12 pl-10 pt-50 pr-4 justify-center">
 
-          
+
 
         {/* End mt--30 */}
         <div className="row y-gap-30 mx-4 w-full x-gap-30 justify-center px-lg-6">
           <MembershipCards locale={locale} />
+          
         </div>
+        <div className="w-full d-flex flex-column mb-60">
+        <p className="text-12 text-center ">{t('membership:disclaimer-1')}</p>
+          <p className="text-12 text-center" >{t('membership:disclaimer-2')}</p>
+          </div>
 
       </div>
       {/* End Why Choose Us section */}
