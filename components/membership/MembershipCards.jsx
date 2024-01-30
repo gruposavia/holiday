@@ -19,7 +19,7 @@ const MembershipCards = ({ locale }) => {
           }`}
           key={item.id}
           style={{
-            borderRadius: item.recommend ? "16px 0px 16px 0px" : "16px",
+            borderRadius: item.recommend ? "16px 0px 16px 16px" : "16px",
           }}
           onMouseOver={() => setOnMouseOver(true)}
           onMouseLeave={() => setOnMouseOver(false)}
@@ -86,7 +86,7 @@ const MembershipCards = ({ locale }) => {
         </div>
       ))}
       {memberships.slice(4, 5).map((item) => (
-        <div className={` diamond shadow-md mb-60`} key={item.id}>
+        <div className={` diamond shadow-md mb-30`} key={item.id}>
           <div className="image">
             <div className="">
               <img
@@ -146,10 +146,10 @@ const MembershipCards = ({ locale }) => {
               ))}
             </ul>
           </div>
-
           {/* End features card */}
         </div>
       ))}
+      
     </>
   );
 };

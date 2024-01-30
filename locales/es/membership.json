@@ -51,7 +51,7 @@
     "checked-baggage-bronze": "Un equipaje facturado gratuito",
     "checked-baggage-silver": "Dos equipajes facturados gratuitos",
     "checked-baggage-gold": "Dos equipajes facturados gratuitos",
-    "checked-baggage-diamond": "Dos equipajes facturados gratuitos",
+    "checked-baggage-diamond": "Dos equipajes facturados gratuitos (i)",
     "discounts-baggage-none": "Descuentos en equipaje adicional facturado",
     "discounts-baggage-bronze": "5% de descuento en equipaje adicional facturado",
     "discounts-baggage-silver": "10% de descuento en equipaje adicional facturado",
@@ -60,7 +60,7 @@
     "dedicated-checkin-none": "Mostradores de check-in dedicados",
     "dedicated-checkin-bronze": "Mostradores de check-in dedicados",
     "dedicated-checkin-silver": "Mostradores de check-in dedicados",
-    "dedicated-checkin-gold": "Mostradores de check-in dedicados",
+    "dedicated-checkin-gold": "Mostradores de check-in dedicados (ii)",
     "dedicated-checkin-diamond": "Mostradores de check-in dedicados",
     "access-vip-none": "Acceso a Sala VIP",
     "access-vip-bronze": "Acceso a Sala VIP",
@@ -91,5 +91,7 @@
     "discounts-equipament-bronze": "5% de descuento en equipo deportivo facturado",
     "discounts-equipament-silver": "10% de descuento en equipo deportivo facturado",
     "discounts-equipament-gold": "15% de descuento en equipo deportivo facturado",
-    "discounts-equipament-diamond": "20% de descuento en equipo deportivo facturado"
+    "discounts-equipament-diamond": "20% de descuento en equipo deportivo facturado",
+    "disclaimer-1": " (i) Además de la franquicia de equipaje incluida en la tarifa del billete Business",
+    "disclaimer-2": "(ii) Los miembros Gold pueden utilizar los mostradores de check-in Diamond, sujeto a disponibilidad"
 }
