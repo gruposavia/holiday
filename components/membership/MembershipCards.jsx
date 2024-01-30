@@ -14,7 +14,7 @@ const MembershipCards = ({ locale }) => {
     <>
       {memberships.slice(1, 4).map((item) => (
         <div
-          className={`relative col-xl-3 col-lg-9 membership shadow-md ${
+          className={`relative col-xl-3 col-lg-9 membership shadow-md  ${
             onMouseOver ? "membership:hover" : ""
           }`}
           key={item.id}
@@ -86,7 +86,7 @@ const MembershipCards = ({ locale }) => {
         </div>
       ))}
       {memberships.slice(4, 5).map((item) => (
-        <div className={` diamond shadow-md`} key={item.id}>
+        <div className={` diamond shadow-md mb-60`} key={item.id}>
           <div className="image">
             <div className="">
               <img
