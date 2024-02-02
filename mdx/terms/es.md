@@ -317,7 +317,7 @@ Los niños de 2 años en adelante deben tener un asiento comprado. Si su
 hijo cumple 2 años durante el viaje, deberá adquirir un pasaje con
 asiento confirmado para toda la ruta.
 
-[Servicio de menores no acompañados]{.underline}
+Servicio de menores no acompañados.
 
 Los niños menores de 8 años no pueden viajar solos.
 
@@ -635,7 +635,7 @@ podemos cumplir este compromiso.
 
 **Su equipaje**
 
-[Equipaje facturado]{.underline}
+Equipaje facturado
 
 Todo equipaje está sujeto a inspección. No aceptaremos equipaje
 facturado o de mano que creamos inadecuado para el transporte por
@@ -684,7 +684,7 @@ su equipaje están:
 - Interfieren las condiciones meteorológicas u otros asuntos
   operativos.
 
-[Equipaje de mano & artículo personal]{.underline}
+Equipaje de mano & artículo personal.
 
 Su pieza de equipaje de mano debe caber en el medidor de tamaño del
 aeropuerto.
@@ -724,13 +724,13 @@ algunos artículos comunes en los aviones. Asegúrese de saber lo que
 puede llevar en cabina y lo que puede facturar con el equipaje antes de
 ir al aeropuerto.
 
-[Materiales peligrosos]{.underline}
+- Materiales peligrosos
 
 No transportamos materiales peligrosos, a excepción de pequeñas
 cantidades de hielo seco. Podemos retirar y eliminar cualquier material
 peligroso en su equipaje.
 
-[Armas de fuego]{.underline}
+- Armas de fuego
 
 Puede viajar con armas de fuego únicamente en el equipaje facturado. Las
 armas de fuego deben ser declaradas ante nuestros agentes durante la

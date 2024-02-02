@@ -296,7 +296,7 @@ Children ages 2 and up must have a seat purchased. If your child turns 2
 during the trip, you must purchase a ticket with a confirmed seat for
 the entire route.
 
-[Unaccompanied minor service]{.underline}
+Unaccompanied minor service
 
 Children under 8 years old cannot travel alone.
 
@@ -596,7 +596,7 @@ we are unable to fulfill this promise.
 
 **Your luggage**
 
-[Checked baggage]{.underline}
+Checked baggage.
 
 All luggage is subject to inspection. We will not accept checked or
 carry-on baggage that we believe is unsuitable for transportation due to
@@ -640,7 +640,7 @@ include:
 
 - Weather conditions or other operational issues interfere.
 
-[Hand luggage & personal item]{.underline}
+Hand luggage & personal item.
 
 Your carry-on bag must fit into the airport size gauge.
 
@@ -677,13 +677,13 @@ common items on airplanes. Make sure you know what you can bring in the
 cabin and what you can check in with your luggage before you go to the
 airport.
 
-[Dangerous materials]{.underline}
+- Dangerous materials
 
 We do not transport hazardous materials, except for small amounts of dry
 ice. We can remove and dispose of any hazardous materials in your
 luggage.
 
-[Firearms]{.underline}
+- Firearms
 
 You can travel with firearms only in checked luggage. Firearms must be
 declared to our agents during check-in.
