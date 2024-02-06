@@ -14,6 +14,8 @@ Por ello, le informamos sobre la forma en que puede hacerlo.
   - **Líquidos:** En cantidades inferiores a 100 ml (3.4 oz). Deben colocarse en una bolsa de plástico transparente con cierre adhesivo o cremallera, cuya capacidad máxima total no supere 1 litro.
 - _Recuerde que estos objetos personales son responsabilidad del pasajero y deben ser manejados con cuidado. Si tiene dudas sobre algún artículo específico, le recomendamos ponerse en contacto con nuestro Servicio al Cliente para obtener mayor orientación._
 
+![Descripción de la imagen](/img/baggage/24.jpg)
+
 ##### **Equipaje de mano** (Carry-On)
 
 - Es un equipaje de cabina (carry-on, valija pequeña o bolso) de hasta 10 kg. El tamaño del mismo no puede superar los 55 cm x 35 cm x 25 cm. No se pueden comprar kilos extra para este tipo de equipaje; sin embargo, es posible comprar un carry-on adicional.
