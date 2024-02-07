@@ -34,7 +34,7 @@ const Luggage = async ({ params: { locale } }) => {
           <Image
             width={1920}
             height={600}
-            src={`/img/baggage/luggage-${locale}.jpg`}
+            src={`/img/luggage/luggage-${locale}.jpg`}
             alt="image"
             priority
           />
