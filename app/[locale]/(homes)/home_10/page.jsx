@@ -78,15 +78,6 @@ const Home10 = async ({t, locale}) => {
               </div>
             </div>
             {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                {t('common:more')} <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
           </div>
           {/* End .row */}
 
