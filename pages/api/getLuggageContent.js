@@ -4,7 +4,7 @@ import path from 'path';
 import { defaultLocale } from '@/i18nConfig';
 
 const baseDirectory = process.cwd();
-const baggageDirectory = path.join(baseDirectory, 'mdx', 'baggage');
+const baggageDirectory = path.join(baseDirectory, 'mdx', 'luggage');
 
 export default async function handler(req, res) {
   const { locale = defaultLocale } = req.query;

@@ -40,7 +40,7 @@ module.exports = [
     details: "popular-routes:details-4",
     tag: "explore",
     tags: ["beaches", "family_holidays"],
-    redirect: '/baggage'
+    redirect: '/luggage'
   },
   {
     id: 5,
