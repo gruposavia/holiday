@@ -15,6 +15,7 @@ const i18nNamespaces = [
   'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact', 'faq', 'help-center', 'about'
 ]
 const index = async ({ params: { locale } }) => {
+
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
   return (
     t && locale && resources && <TranslationsProvider 

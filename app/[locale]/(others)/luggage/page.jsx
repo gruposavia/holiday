@@ -51,7 +51,7 @@ const Luggage = async ({ params: { locale } }) => {
       </section>
       {/* End terms section */}
 
-      <DefaultFooter t={t}/>
+      <DefaultFooter t={t}  locale={locale}/>
       {/* End Call To Actions Section */}
     </TranslationsProvider>
   );

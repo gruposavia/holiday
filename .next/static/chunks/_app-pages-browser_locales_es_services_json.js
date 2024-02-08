@@ -15,7 +15,7 @@
   \**********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"title":"Servicios que te sorprenderán","description":"HACER: escribir una descripción"}');
+module.exports = JSON.parse('{"title":"Servicios que te sorprenderán","description":"Prepárate para vivir experiencias extraordinarias."}');
 
 /***/ })
 

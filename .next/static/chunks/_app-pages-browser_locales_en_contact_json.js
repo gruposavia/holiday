@@ -15,7 +15,7 @@
   \*********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"form-title":"Send a message","form-name":"Full Name","form-email":"Email","form-subject":"Subject","form-request-message":"Your Message","form-send-button":"Send Message","contact-phone":"Toll Free Customer Care","need-assistance":"Need live support?","contact-us-title":"Contact Us","follow-us":"Follow us on social media","address":"Address"}');
+module.exports = JSON.parse('{"form-title":"Send a message","form-name":"Full Name","form-email":"Email","form-subject":"Subject","form-request-message":"Your Message","form-send-button":"Send Message","contact-phone":"Contact Phone","need-assistance":"Need support?","contact-us-title":"Contact Us","follow-us":"Follow us on social media","address":"Address"}');
 
 /***/ })
 

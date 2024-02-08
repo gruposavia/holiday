@@ -546,15 +546,15 @@ $_displays: none, inline-block, block, flex;
 
 .modalGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 30px;
 
   @include media-below(lg) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
   }
 
   @include media-below(sm) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 10px;
   }
 }
@@ -590,7 +590,7 @@ $_displays: none, inline-block, block, flex;
     position: absolute;
     left: 50%;
     z-index: 1;
-    width: 1070px;
+    width: 500px;
     max-width: 100%;
     height: auto;
     transform: translateX(-50%);

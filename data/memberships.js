@@ -259,7 +259,7 @@ export const memberships = [
             },
             {
                 id: 'dedicated-checkin',
-                value: true
+                value: false
             },
             {
                 id: 'access-vip',
