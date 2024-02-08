@@ -15,7 +15,7 @@
   \**********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"title":"Services that will surprise you","description":"TODO: write a description"}');
+module.exports = JSON.parse('{"title":"Services that will surprise you","description":"Get ready to live extraordinary experiences."}');
 
 /***/ })
 

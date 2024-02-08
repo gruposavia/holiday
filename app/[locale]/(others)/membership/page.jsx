@@ -18,6 +18,7 @@ const i18nNamespaces = [
 const Membership = async ({ params: { locale } }) => {
 
   const { t, resources, } = await initTranslations(locale, i18nNamespaces);
+  console.log("🚀 ~ Membership ~ t:", t)
 
   return (
     t && resources && locale && <TranslationsProvider

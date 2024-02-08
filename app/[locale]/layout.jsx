@@ -34,7 +34,13 @@ export default function RootLayout({ children }) {
       duration: 1200,
       once: true,
     });
-    
+        // Dynamically load the script on the client side
+        const script = document.createElement("script");
+        script.src = "https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js";
+        script.defer = true;
+        script.id = "tcx-callus-js";
+        script.charset = "utf-8";
+        document.head.appendChild(script);
   }, []);
 
   return (
@@ -46,6 +52,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
+        
         <link
           href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
           rel="stylesheet"

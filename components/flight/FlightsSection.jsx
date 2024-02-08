@@ -13,9 +13,9 @@ export default function FlightsSection() {
             <div className="col-auto">
               <div className="sectionTitle -md">
                 <h2 className="sectionTitle__title">{t(`flights:title`)}</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
+                {/* <p className=" sectionTitle__text mt-5 sm:mt-0">
                 {t(`flights:subtitle`)}
-                </p>
+                </p> */}
               </div>
             </div>
             {/* End .col */}
