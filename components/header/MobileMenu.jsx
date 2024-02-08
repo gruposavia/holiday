@@ -10,18 +10,13 @@ import {
 import Social from "../common/social/Social";
 import ContactInfo from "./ContactInfo";
 import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
 import LanguageMegaMenu from "./LanguageMegaMenu";
-import Image from "next/image";
+
 
 const MobileMenu = ({ locale }) => {
   const pathname = usePathname();
   const { t } = useTranslation();
-  const [activeStates, setActiveStates] = useState({
-    parent: false,
-    nestedParentTwo: false,
-    nestedParent: false,
-  });
+
 
   const { push } = useRouter();
 
@@ -64,16 +59,17 @@ const MobileMenu = ({ locale }) => {
         </Menu>
       </Sidebar>
       <div className="mobile-footer px-20 py-5 border-top-light"></div>
-      <div className="pro-footer" style={{height :'100%'}}>
-      <div className="d-flex items-center justify-center w-full mb-40">
+      <div className="pro-footer" style={{ height: '100%' }}>
+        <div className="d-flex items-center justify-center w-full mb-40">
           <Link
-          target="_blank"
-          rel="noopener noreferrer"
             href="https://hla-stage.crane.aero/"
-            style={{width :'100%'}}
+            prefetch
+            rel="noopener noreferrer"
+
+            style={{ width: '100%' }}
             className="button px-30 w-full fw-400 text-14 -dark-2 bg-dark-4 h-50 text-white"
           >
-            {t('main-menu:agency-access')}
+            {t('main-menu:sign-in')}
           </Link>
         </div>
         <ContactInfo t={t} />

@@ -22390,7 +22390,7 @@ div[data-slider] > input[type=range]::-ms-tooltip {
   position: absolute;
   left: 50%;
   z-index: 1;
-  width: 1070px;
+  width: 500px;
   max-width: 100%;
   height: auto;
   transform: translateX(-50%);
