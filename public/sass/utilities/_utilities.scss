@@ -546,15 +546,15 @@ $_displays: none, inline-block, block, flex;
 
 .modalGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 30px;
 
   @include media-below(lg) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
   }
 
   @include media-below(sm) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 10px;
   }
 }
