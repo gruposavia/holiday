@@ -13,7 +13,6 @@ export default async function handler(req, res) {
     const fullPath = path.join(entertainmentDirectory, `${locale}.md`);
     const fileContents = await fsPromises.readFile(fullPath, 'utf8');
     const matterResult = matter(fileContents);
-    console.log("🚀 ~ handler ~ matterResult:", matterResult.content)
 
     res.status(200).json({ entertainment: matterResult.content });
   } catch (error) {
