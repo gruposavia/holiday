@@ -36,7 +36,7 @@ const Cargo = async ({ params: { locale } }) => {
       <section className="layout-pt-md mb-90">
         <div className="container">
           <div className="row y-gap-30 justify-center items-center">
-            <Block t={t}/>
+            <Block t={t} locale={locale}/>
           </div>
         </div>
       </section>

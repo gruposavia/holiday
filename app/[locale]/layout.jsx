@@ -58,10 +58,10 @@ export default function RootLayout({ children }) {
             <SrollTop />
           </Provider>
         </main>
-        <>
+        {/* <>
         <call-us-selector phonesystem-url="https://holidayair.3cx.lat:5001" party="LiveChat581014"></call-us-selector>
           <Script src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js" strategy="afterInteractive" charset="utf-8" defer />
-        </>
+        </> */}
       </body>
     </html>
   );

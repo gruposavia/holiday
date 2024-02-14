@@ -62,7 +62,7 @@ const About = async ({ params: { locale } }) => {
       <section className="layout-pt-lg layout-pb-md">
         <div className="container">
           <div className="row y-gap-40 justify-between pt-50">
-            <WhyChoose />
+            <WhyChoose locale={locale}/>
           </div>
           {/* End .row */}
         </div>

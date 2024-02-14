@@ -1,44 +1,51 @@
-'use client'
-import { useTranslation } from 'react-i18next';
+"use client";
+import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
-const BlockGuide = () => {
-  const { t } = useTranslation()
+const BlockGuide = ({ locale }) => {
+  const { t } = useTranslation();
   const blockContent = [
     {
       id: 1,
       icon: "/img/featureIcons/new/2.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "100",
+      redirect: "contact/reservations",
     },
     {
       id: 2,
       icon: "/img/featureIcons/new/4.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "200",
+      redirect: "contact/luggage",
     },
     {
       id: 3,
       icon: "/img/featureIcons/new/6.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "300",
+      redirect: "contact/agency",
     },
     {
       id: 4,
       icon: "/img/featureIcons/new/8.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "300",
+      redirect: "contact/supplier",
     },
     {
       id: 5,
       icon: "/img/featureIcons/new/10.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "300",
+      redirect: "contact/memberships",
     },
     {
       id: 6,
       icon: "/img/featureIcons/new/13.svg",
       text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
       delayAnim: "300",
+      redirect: "contact/cargo",
     },
   ];
   return (
@@ -60,14 +67,18 @@ const BlockGuide = () => {
           data-aos-delay={item.delayAnim}
           key={item.id}
         >
-          <div className="featureIcon -type-1 ">
-            <div className="d-flex justify-center">
-              <img src={item.icon} alt="image" className="js-lazy" />
+          <Link href={item.redirect ? `/${locale}/${item.redirect}` : ""}>
+            <div className="featureIcon -type-1 ">
+              <div className="d-flex justify-center">
+                <img src={item.icon} alt="image" className="js-lazy" />
+              </div>
+              <div className="text-center mt-30">
+                <h4 className="text-18 fw-500">
+                  {t(`choose-us:img-${item.id}`)}
+                </h4>
+              </div>
             </div>
-            <div className="text-center mt-30">
-              <h4 className="text-18 fw-500">{t(`choose-us:img-${item.id}`)}</h4>
-            </div>
-          </div>
+          </Link>
         </div>
       ))}
     </>

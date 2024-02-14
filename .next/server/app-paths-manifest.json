@@ -1,6 +1,7 @@
 {
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/[locale]/(others)/entertainment/page": "app/[locale]/(others)/entertainment/page.js",
+  "/[locale]/(others)/contact/reservations/page": "app/[locale]/(others)/contact/reservations/page.js",
   "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/(others)/luggage/page": "app/[locale]/(others)/luggage/page.js"
+  "/[locale]/(others)/contact/supplier/page": "app/[locale]/(others)/contact/supplier/page.js",
+  "/[locale]/(others)/contact/luggage/page": "app/[locale]/(others)/contact/luggage/page.js"
 }

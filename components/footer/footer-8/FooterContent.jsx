@@ -9,7 +9,7 @@ const FooterContent = ({t, locale}) => {
           <h5 className="text-16 fw-500 mb-30 ">{t(`footer:${item.title}`)}</h5>
           <div className="d-flex text-14 y-gap-10 flex-column">
             {item.menuList.map((menu, i) => (
-              <Link href={`/${locale}${menu.routerPath}`} key={i}>
+              <Link href={menu.routerPathExt ?  menu.routerPathExt : `/${locale}${menu.routerPath}`} key={i}>
                 {t(`footer:${menu.name}`)}
               </Link>
             ))}
