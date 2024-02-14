@@ -51,6 +51,7 @@ module.exports = [
     details: "popular-routes:details-5",
     tag: "holidays",
     tags: ["art_culture", "food_drink"],
+    redirect: '/entertainment'
   },
   {
     id: 6,
