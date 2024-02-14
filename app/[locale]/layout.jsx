@@ -18,12 +18,12 @@ import TagManager from 'react-gtm-module'
 import Head from 'next/head';
 import Script from 'next/script';
 const tagManagerArgs = {
-    gtmId: process.env.NEXT_PUBLIC_GTM_ID_PRODUCTION
+  gtmId: process.env.NEXT_PUBLIC_GTM_ID_PRODUCTION
 }
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
-  if(tagManagerArgs.gtmId) TagManager.initialize(tagManagerArgs)
+  if (tagManagerArgs.gtmId) TagManager.initialize(tagManagerArgs)
 }
 
 
@@ -34,13 +34,6 @@ export default function RootLayout({ children }) {
       duration: 1200,
       once: true,
     });
-        // Dynamically load the script on the client side
-        const script = document.createElement("script");
-        script.src = "https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js";
-        script.defer = true;
-        script.id = "tcx-callus-js";
-        script.charset = "utf-8";
-        document.head.appendChild(script);
   }, []);
 
   return (
@@ -52,7 +45,6 @@ export default function RootLayout({ children }) {
           href="https://fonts.gstatic.com"
           crossOrigin="true"
         />
-        
         <link
           href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
           rel="stylesheet"
@@ -67,9 +59,9 @@ export default function RootLayout({ children }) {
           </Provider>
         </main>
         <>
-      <call-us-selector phonesystem-url="https://holidayair.3cx.lat:5001" party="LiveChat581014"></call-us-selector>
-      <Script src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js" strategy="afterInteractive" charset="utf-8" defer />
-    </>
+        <call-us-selector phonesystem-url="https://holidayair.3cx.lat:5001" party="LiveChat581014"></call-us-selector>
+          <Script src="https://downloads-global.3cx.com/downloads/livechatandtalk/v1/callus.js" id="tcx-callus-js" strategy="afterInteractive" charset="utf-8" defer />
+        </>
       </body>
     </html>
   );
