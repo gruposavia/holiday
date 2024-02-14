@@ -24,7 +24,7 @@ const ContactCargo = () => {
 
   return (
     <>
-      <call-us-selector phonesystem-url="https://holidayair.3cx.lat:5001" party="LiveChat694649"></call-us-selector>
+      <call-us-selector phonesystem-url="https://holidayair.3cx.lat:5001" party="LiveChat507572"></call-us-selector>
     </>
   );
 };
