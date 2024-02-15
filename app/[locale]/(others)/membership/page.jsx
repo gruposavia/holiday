@@ -43,19 +43,6 @@ const Membership = async ({ params: { locale } }) => {
         </div>
         {/* End section-bg__item */}
 
-        {/* <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-xl-6 col-lg-8 col-md-10">
-              <h1 className="text-40 md:text-25 fw-600 text-white">
-                {t('about:section-title')}
-              </h1>
-              <div className="text-white mt-15">
-              {t('about:section-subtitle')}
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* End .container */}
       </section>
       {/* End About Banner Section */}
       <div className="col-xl-12 pl-10 pt-50 pr-4 justify-center">

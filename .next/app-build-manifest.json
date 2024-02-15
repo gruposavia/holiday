@@ -1,5 +1,11 @@
 {
   "pages": {
+    "/[locale]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/page.css",
+      "static/chunks/app/[locale]/page.js"
+    ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -11,63 +17,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/not-found.js"
     ],
-    "/[locale]/(others)/entertainment/page": [
+    "/[locale]/(others)/contact/supplier/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/entertainment/page.css",
-      "static/chunks/app/[locale]/(others)/entertainment/page.js"
-    ],
-    "/[locale]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/page.js"
-    ],
-    "/[locale]/(others)/luggage/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/luggage/page.css",
-      "static/chunks/app/[locale]/(others)/luggage/page.js"
+      "static/chunks/app/[locale]/(others)/contact/supplier/page.js"
     ],
     "/[locale]/(others)/membership/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/(others)/membership/page.css",
       "static/chunks/app/[locale]/(others)/membership/page.js"
-    ],
-    "/[locale]/(others)/help-center/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/help-center/page.js"
-    ],
-    "/[locale]/(others)/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/page.js"
-    ],
-    "/[locale]/(others)/contact/reservations/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/reservations/page.js"
-    ],
-    "/[locale]/(others)/contact/supplier/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/supplier/page.js"
-    ],
-    "/[locale]/(others)/contact/luggage/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/luggage/page.js"
-    ],
-    "/[locale]/(others)/contact/memberships/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/memberships/page.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
     ]
   }
 }

@@ -56,33 +56,33 @@ const MembershipCards = ({ locale }) => {
                 </button>
               </div>
             </div>
-          </div>
-          {/* End header card */}
+            {/* End header card */}
 
-          <div className="rentalCard__content justify-center px-10 mt-10 ">
-            <ul className="y-gap-5 mt-20">
-              {item.features.map((e, index) => (
-                <li key={index} className="d-flex items-center">
-                  <i
-                    style={{ fontWeight: "1000" }}
-                    className={`icon-${
-                      e.value === true
-                        ? "check text-green-2"
-                        : "close text-red-2"
-                    } text-13 fw-600 mr-10`}
-                  />
-                  <p
-                    className={` text-15 fw-500  ${
-                      e.value === true ? "text-dark-2" : "text-black-50"
-                    } `}
-                  >
-                    {t(`membership:${e.id}-${item.id}`)}
-                  </p>
-                </li>
-              ))}
-            </ul>
+            <div className="rentalCard__content justify-center px-10 mt-10 ">
+              <ul className="y-gap-5 mt-20">
+                {item.features.map((e, index) => (
+                  <li key={index} className="d-flex items-center">
+                    <i
+                      style={{ fontWeight: "1000" }}
+                      className={`icon-${
+                        e.value === true
+                          ? "check text-green-2"
+                          : "close text-red-2"
+                      } text-13 fw-600 mr-10`}
+                    />
+                    <p
+                      className={` text-15 fw-500  ${
+                        e.value === true ? "text-dark-2" : "text-black-50"
+                      } `}
+                    >
+                      {t(`membership:${e.id}-${item.id}`)}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {/* End features card */}
           </div>
-          {/* End features card */}
         </div>
       ))}
       {memberships.slice(4, 5).map((item) => (
@@ -99,7 +99,6 @@ const MembershipCards = ({ locale }) => {
             </div>
           </div>
           {/* End header card */}
-
           <div className="diamondFeature">
             <ul className="y-gap-5">
               {item.features.slice(0, 9).map((e, index) => (
@@ -149,7 +148,6 @@ const MembershipCards = ({ locale }) => {
           {/* End features card */}
         </div>
       ))}
-      
     </>
   );
 };
