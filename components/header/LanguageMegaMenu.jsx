@@ -13,21 +13,28 @@ const LanguageMegaMenu = ({ textClass, locale }) => {
 
   const { i18n, t } = useTranslation();
   const currentLocale = i18n.language;
-
+  
   const router = useRouter();
   const currentPathname = usePathname();
-
+  
   const [click, setClick] = useState(false);
   const handleCurrency = () => setClick((prevState) => !prevState);
-
-
+  
+  
   const languageContent = [
     { id: 1, language: " 🇺🇸 English", country: "United States", code: 'en' },
     { id: 2, language: " 🇪🇸 Español", country: "Latinoamerica", code: 'es' },
   ];
   const langIndex = languageContent.findIndex((e) => e.code === currentLocale)
-
-  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[langIndex]);
+  const validateLanguage = () =>{
+    if (langIndex > 0) return langIndex;
+    else if (navigator.language.slice(0,2) === "en") return 0
+    else if (navigator.language.slice(0,2) === "es") return 1
+    return 1
+  }
+  
+  console.log("🚀 ~ LanguageMegaMenu ~ currentLocale:", languageContent[validateLanguage()])
+  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[validateLanguage()]);
 
   const handleItemClick = (item) => {
     setSelectedCurrency(item);
