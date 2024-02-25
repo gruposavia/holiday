@@ -7,27 +7,14 @@ import Address from "@/components/block/Address";
 import ContactForm from "@/components/common/ContactForm";
 import initTranslations from "../../../i18n";
 import TranslationsProvider from "../../../../components/TranslationProvider";
+import {
+  i18nNamespaces,
+} from "@/utils/translationsContansts";
 export const metadata = {
   title: "Contact || HolidayAir",
   description: "HolidayAir",
 };
-const i18nNamespaces = [
-  "main-menu",
-  "hero",
-  "main-filter-search",
-  "fly-complete-search",
-  "choose-us",
-  "flights",
-  "testimonials",
-  "common",
-  "popular-routes",
-  "services",
-  "block",
-  "footer",
-  "contact",
-  "faq",
-  "help-center",
-];
+
 const Contact = async ({ params: { locale } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
 

@@ -6,15 +6,15 @@ import MembershipCards from "@/components/membership/MembershipCards";
 import initTranslations from '../../../i18n';
 import TranslationsProvider from '../../../../components/TranslationProvider';
 import Image from "next/image";
+import {
+  i18nNamespaces,
+} from "@/utils/translationsContansts";
 
 export const metadata = {
   title: "Membership || HolidayAir",
   description: "HolidayAir",
 };
-const i18nNamespaces = [
-  'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes', 'services', 'block', 'footer', 'contact', 'faq', 'help-center', 'membership'
-]
+
 const Membership = async ({ params: { locale } }) => {
 
   const { t, resources, } = await initTranslations(locale, i18nNamespaces);

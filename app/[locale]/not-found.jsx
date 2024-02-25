@@ -7,7 +7,7 @@ export const metadata = {
 };
 const index = async ({params}) => {
 
-  console.log('ESTOY CAACACACACACA CUANDO FALLA')
+
   return (
     <NotFoundScreen/>
   );

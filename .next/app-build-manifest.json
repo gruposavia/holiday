@@ -1,10 +1,9 @@
 {
   "pages": {
-    "/[locale]/page": [
+    "/[locale]/(others)/contact/supplier/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/page.css",
-      "static/chunks/app/[locale]/page.js"
+      "static/chunks/app/[locale]/(others)/contact/supplier/page.js"
     ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
