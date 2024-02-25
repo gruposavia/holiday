@@ -5,7 +5,7 @@ import TranslationsProvider from '../../components/TranslationProvider';
 
 export const metadata = {
   title: "Home || HolidayAir",
-  description: "Explore the best holiday destinations with HolidayAir. Find exclusive travel deals, book flights, and create unforgettable memories.",
+  description: "Discover exclusive travel deals with HolidayAir. Book flights, plan your stay, and create unforgettable memories in the best holiday destinations. Your dream getaway starts here!",
 };
 
 const i18nNamespaces = [
