@@ -16,17 +16,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/not-found.js"
-    ],
-    "/[locale]/(others)/contact/supplier/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/supplier/page.js"
-    ],
-    "/[locale]/(others)/membership/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/membership/page.css",
-      "static/chunks/app/[locale]/(others)/membership/page.js"
     ]
   }
 }

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://holiday-tau.vercel.app/api/sitemap.xml
