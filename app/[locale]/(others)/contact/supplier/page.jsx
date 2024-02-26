@@ -64,13 +64,13 @@ const ContactSupplier = async ({ params: { locale } }) => {
               {/* End .col-lg-8 */}
             </div>
             {/* End .row */}
-            {/* <div className="col-xl-8">
+            <div className="col-xl-8">
               <p className="text-15 text-dark-1">
                 <br />
                 {t("contactSupport:supplier-end")}
                 <br />
               </p>
-            </div> */}
+            </div>
           </div>
 
           {/* End .container */}

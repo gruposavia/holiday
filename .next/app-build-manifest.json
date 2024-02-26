@@ -1,9 +1,10 @@
 {
   "pages": {
-    "/[locale]/(others)/contact/supplier/page": [
+    "/[locale]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/supplier/page.js"
+      "static/css/app/[locale]/page.css",
+      "static/chunks/app/[locale]/page.js"
     ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
@@ -15,6 +16,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/not-found.js"
+    ],
+    "/[locale]/(others)/contact/luggage/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/contact/luggage/page.js"
+    ],
+    "/[locale]/(others)/contact/reservations/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/contact/reservations/page.js"
+    ],
+    "/[locale]/(others)/contact/memberships/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/contact/memberships/page.js"
+    ],
+    "/[locale]/(others)/contact/cargo/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/contact/cargo/page.js"
     ]
   }
 }
