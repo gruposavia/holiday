@@ -9,14 +9,6 @@ import { useRouter } from 'next/router';
 
 const NotFoundScreen = ()  => {
 
-  // const router = useRouter();
-
-  // Accede al locale actual desde el objeto router
-  // const { locale  } = router;
-  // console.log("🚀 ~ NotFoundScreen ~ locale:", locale)
-
-  
-  //const { t } = useTranslation();
   return (
     <>
     <div className="header-margin"></div>
