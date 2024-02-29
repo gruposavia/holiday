@@ -1,0 +1,2 @@
+Las tarifas de Holiday Air no son reembolsables. Sin embargo, permitimos cambios de fecha/ruta dentro del año de validez del pasaje (con penalidad y/o diferencia de tarifa).
+Ante situaciones extraordinarias o de fuerza mayor, te pedimos que te pongas en contacto con nuestro Departamento Comercial, a través de tu agente de viajes o bien escribiendo a **[reservation@holidayair.net](mailto:reservation@holidayair.net)**, para poder analizar tu solicitud.

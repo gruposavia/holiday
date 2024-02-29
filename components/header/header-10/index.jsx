@@ -57,13 +57,21 @@ const Header1 = ({ locale }) => {
               <div className="d-flex items-center">
 
                 <div className="d-flex items-center is-menu-opened-hide xl:d-none">
-                  <Link
+                  {/* <Link
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://hla-stage.crane.aero/"
-                    className="button px-30 fw-400 text-14 -dark-2 bg-dark-4 h-50 text-white"
+                    className="button px-30 fw-400 text-14 -dark-4 bg-dark-2 h-50 text-white"
                   >
                     {t('main-menu:agency-access')}
+                  </Link> */}
+                  <Link
+                    href="https://hla-stage.crane.aero/"
+                    prefetch
+                    rel="noopener noreferrer"
+                    className="button px-30 fw-400 text-14 -dark-4 bg-dark-2 h-50 text-white"
+                  >
+                    {t('main-menu:sign-in')}
                   </Link>
                 </div>
                 <div className="row x-gap-20 items-center xxl:d-none ml-20">
@@ -91,7 +99,7 @@ const Header1 = ({ locale }) => {
                       data-bs-target="#mobile-sidebar_menu"
                     />
                     <div
-                      className="offcanvas offcanvas-start  mobile_menu-contnet"
+                      className="offcanvas offcanvas-start mobile_menu-contnet"
                       tabIndex="-1"
                       id="mobile-sidebar_menu"
                       aria-labelledby="offcanvasMenuLabel"

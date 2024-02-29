@@ -2,9 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { categorieMegaMenuItems } from "../../data/mainMenuData";
 import {
-  isActiveParent,
   isActiveLink,
-  isActiveParentChaild,
 } from "../../utils/linkActiveChecker";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";

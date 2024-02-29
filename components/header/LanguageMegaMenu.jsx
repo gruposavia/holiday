@@ -1,16 +1,11 @@
+"use client";
 
-'use client'
-
-import Image from "next/image";
 import { useState } from "react";
-import { useRouter } from 'next/navigation';
-import { usePathname } from 'next/navigation';
-import { useTranslation } from 'react-i18next';
-import i18nConfig from '@/i18nConfig';
+import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { useTranslation } from "react-i18next";
 
 const LanguageMegaMenu = ({ textClass, locale }) => {
-
-
   const { i18n, t } = useTranslation();
   const currentLocale = i18n.language;
 
@@ -20,55 +15,32 @@ const LanguageMegaMenu = ({ textClass, locale }) => {
   const [click, setClick] = useState(false);
   const handleCurrency = () => setClick((prevState) => !prevState);
 
-
   const languageContent = [
-    { id: 1, language: " 🇺🇸 English", country: "United States", code:'en'},
-    { id: 2, language: " 🇪🇸 Español", country: "Latinoamerica", code:'es'},
-    // { id: 2, language: "Türkçe", country: "Turkey" },
-    // { id: 4, language: "Français", country: "France" },
-    // { id: 5, language: "Italiano", country: "Italia" },
-    // { id: 6, language: "Dari, Pashto", country: "Afghanistan" },
-    // { id: 7, language: "Albanian", country: "Albania" },
-    // { id: 8, language: "Arabic, Berber", country: "	Algeria" },
-    // { id: 9, language: "Catalan", country: "Andorra" },
-    // { id: 10, language: "Kongo, Portuguese	", country: "Angola" },
-    // { id: 11, language: "Spanish", country: "Argentina" },
-    // { id: 12, language: "Armenian", country: "Armenia" },
-    // { id: 13, language: "English", country: "Australia" },
-    // { id: 14, language: "German", country: "Austria" },
-    // { id: 15, language: "Azerbaijani", country: "Azerbaijan" },
-    // { id: 16, language: "Bengali", country: "Bangladesh" },
-    // { id: 17, language: "English", country: "Barbados" },
-    // { id: 18, language: "Belarusian", country: "Belarus" },
-    // { id: 19, language: "Dutch, French", country: "Belgium" },
-    // { id: 20, language: "English", country: "Belize" },
+    { id: 1, language: " 🇺🇸 English", country: "United States", code: "en" },
+    { id: 2, language: " 🇪🇸 Español", country: "Latinoamerica", code: "es" },
   ];
-const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
-
-
-  const [selectedCurrency, setSelectedCurrency] = useState(languageContent[langIndex]);
-
-
+  const langIndex = languageContent.findIndex((e) => e.code === currentLocale);
+  const validateLanguage = () => {
+    if (langIndex > 0) return langIndex;
+    else if (navigator.language.slice(0, 2) === "en") return 0;
+    else if (navigator.language.slice(0, 2) === "es") return 1;
+    return 1;
+  };
+  const [selectedCurrency, setSelectedCurrency] = useState(
+    languageContent[validateLanguage()]
+  );
 
   const handleItemClick = (item) => {
     setSelectedCurrency(item);
     setClick(false);
     const newLocale = item.code;
-    if(newLocale !== currentLocale) {
-      if(currentPathname.includes(locale))router.push(currentPathname.replace(`/${currentLocale}`, `/${newLocale}`));
-      else router.push(currentPathname.replace('/', `/${newLocale}`))
+    if (newLocale !== currentLocale) {
+      if (currentPathname.includes(locale))
+        router.push(
+          currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
+        );
+      else router.push(currentPathname.replace("/", `/${newLocale}`));
     }
-    // if (
-    //   currentLocale === i18nConfig.defaultLocale &&
-    //   !i18nConfig.prefixDefault
-    // ) {
-    //   router.push('/' + currentPathname);
-    // } else {
-    //   router.push(
-    //     currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
-    //   );
-    // }
-    //router.refresh();
   };
 
   return (
@@ -92,7 +64,7 @@ const langIndex = languageContent.findIndex((e)=> e.code === currentLocale)
         <div className="currencyMenu__bg" onClick={handleCurrency}></div>
         <div className="langMenu__content bg-white rounded-4">
           <div className="d-flex items-center justify-between px-30 py-20 sm:px-15 border-bottom-light">
-            <div className="text-20 fw-500 lh-15">{t('common:select-lng')}</div>
+            <div className="text-20 fw-500 lh-15">{t("common:select-lng")}</div>
             {/* End title */}
             <button className="pointer" onClick={handleCurrency}>
               <i className="icon-close" />

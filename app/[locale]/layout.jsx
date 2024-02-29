@@ -13,17 +13,15 @@ import "aos/dist/aos.css";
 import "../../styles/index.scss";
 import { Provider } from "react-redux";
 import { store } from "../../store/store";
-import Link from "next/link";
 import TagManager from 'react-gtm-module'
-import Head from 'next/head';
 
 const tagManagerArgs = {
-    gtmId: process.env.NEXT_PUBLIC_GTM_ID_PRODUCTION
+  gtmId: process.env.NEXT_PUBLIC_GTM_ID_PRODUCTION
 }
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
-  if(tagManagerArgs.gtmId) TagManager.initialize(tagManagerArgs)
+  if (tagManagerArgs.gtmId) TagManager.initialize(tagManagerArgs)
 }
 
 
@@ -34,7 +32,6 @@ export default function RootLayout({ children }) {
       duration: 1200,
       once: true,
     });
-    
   }, []);
 
   return (

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import blogsData from "../../data/blogs";
 
-const Blog3 = ({t}) => {
+const Blog3 = ({t, locale}) => {
   return (
     <>
       {blogsData.slice(0, 6).map((item) => (
@@ -13,7 +13,7 @@ const Blog3 = ({t}) => {
           data-aos-delay={item.delayAnimation}
         >
           <Link
-            href={`/blog-details/${item.id}`}
+            href={item.redirect ? `/${locale}/${item.redirect}` : ''}
             className="blogCard -type-1 d-block "
           >
             <div className="blogCard__image">
@@ -22,7 +22,7 @@ const Blog3 = ({t}) => {
                   width={400}
                   height={300}
                   className="img-ratio js-lazy"
-                  src={item.img}
+                  src={`/img/services/${item.id}-${locale}.jpg`}
                   alt="image"
                 />
               </div>

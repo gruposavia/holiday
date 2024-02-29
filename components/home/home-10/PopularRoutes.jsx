@@ -18,6 +18,7 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "100",
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Miami`
     },
     {
       id: 2,
@@ -28,6 +29,7 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "200",
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Orlando`
     },
     {
       id: 3,
@@ -38,6 +40,7 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "300",
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Argentina`
     },
     {
       id: 4,
@@ -48,6 +51,7 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "400",
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Punta%20cana`
     },
     // {
     //   id: 5,
@@ -100,7 +104,8 @@ const PopularRoutes = () => {
         {rentalRoutes.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
-              href="/rental-list-v2"
+              href={item.href}
+              target="_blank"
               className="rentalCard -type-2"
               data-aos="fade"
               data-aos-delay={item.delayAnimation}
@@ -122,11 +127,7 @@ const PopularRoutes = () => {
                 <h4 className="rentalCard__title text-dark-1 text-18 lh-16 fw-500">
                   <span>{item.destination}</span>
                 </h4>
-                {/* <div className="d-flex items-center text-light-1">
-                  <div className="text-14">{item.tripType}</div>
-                  <div className="size-3 bg-light-1 rounded-full ml-10 mr-10" />
-                  <div className="text-14">{item.date}</div>
-                </div> */}
+
                 <div className="text-light-1  mt-5">
                 From <span className="fw-500 text-dark-1"> US${item.price} </span>
                   + tax

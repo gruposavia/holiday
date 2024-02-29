@@ -8,6 +8,7 @@ module.exports = [
     details: "popular-routes:details-1",
     tag: "art",
     tags: ["adventure_travel", "food_drink"],
+    redirect: '/membership'
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ module.exports = [
     details: "popular-routes:details-2",
     tag: "beaches",
     tags: ["beaches", "family_holidays"],
+    redirect: '/cargo'
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ module.exports = [
     details: "popular-routes:details-4",
     tag: "explore",
     tags: ["beaches", "family_holidays"],
+    redirect: '/luggage'
   },
   {
     id: 5,
@@ -48,6 +51,7 @@ module.exports = [
     details: "popular-routes:details-5",
     tag: "holidays",
     tags: ["art_culture", "food_drink"],
+    redirect: '/entertainment'
   },
   {
     id: 6,

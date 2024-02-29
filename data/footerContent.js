@@ -3,7 +3,7 @@ module.exports = [
     id: 1,
     title: "company",
     menuList: [
-      { name: "about-us", routerPath: "/" },
+      { name: "about-us", routerPath: "/about" },
       { name: "careers", routerPath: "/" },
       { name: "press", routerPath: "/" },
     ],
@@ -20,7 +20,7 @@ module.exports = [
     id: 3,
     title: "other",
     menuList: [
-      { name: "agents", routerPath: "/" },
+      { name: "agents", routerPathExt: 'https://hla-stage.crane.aero/' },
       { name: "operator", routerPath: "/" },
       { name: "faq", routerPath: "/help-center" },
       { name: "accessibility", routerPath: "/" },

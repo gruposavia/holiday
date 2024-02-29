@@ -15,7 +15,7 @@
   \********************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"more":"More","call-to-action-title":"Your Travel Journey Starts Here","call-to-action-subtitle":"Sign up and we\'ll send the best deals to you","your-email":"Your email","subscribe":"Subscribe","select-lng":"Select your language","sent-success":"It was sent successfully","sent-error":"Oops! There was an error. Please try again or contact us for assistance"}');
+module.exports = JSON.parse('{"more":"More","call-to-action-title":"Your Travel Journey Starts Here","call-to-action-subtitle":"Sign up and we\'ll send the best deals to you","your-email":"Your email","subscribe":"Subscribe","select-lng":"Select your language","sent-success":"It was sent successfully","sent-error":"Oops! There was an error. Please try again or contact us for assistance","not-found-title":"Oops! It looks like you\'re lost.","not-found-description":"The page you\'re looking for isn\'t available. Try to search again or use the go to.","not-found-button":"Go back to homepage","terms-section-title":"General Terms of Use","policies-section-title":"Privacy and Cookie policy","fly-sell-title":"{{ passengerName }} has purchased a ticket from {{ route1 }} to {{ route2 }}","fly-sell-description":"Don\'t miss your chance to explore these exciting destinations. Book now!"}');
 
 /***/ })
 
