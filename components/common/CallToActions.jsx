@@ -1,12 +1,12 @@
-'use client';
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { subscribeNewsletter } from '../../lib/senderEmail';
-import { Toaster, toast } from 'sonner';
+"use client";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { subscribeNewsletter } from "../../lib/senderEmail";
+import { Toaster, toast } from "sonner";
 
 const CallToActions = () => {
   const { t } = useTranslation();
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
 
   const handleChange = (e) => {
     setEmail(e.target.value);
@@ -14,25 +14,25 @@ const CallToActions = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    setEmail('');
+    setEmail("");
     try {
-      const response = await fetch('/api/mail', {
-         method: 'POST',
-         body: JSON.stringify({
-           type: 'newsletter',
-           email: email,
-         }),
-       });
-     
-     if (response.status === 200) toast.success(t('common:sent-success'));
-   } catch (error) {
-     toast.error(t('common:sent-error'));
-   }
+      const response = await fetch("/api/mail", {
+        method: "POST",
+        body: JSON.stringify({
+          type: "newsletter",
+          email: email,
+        }),
+      });
+
+      if (response.status === 200) toast.success(t("common:sent-success"));
+    } catch (error) {
+      toast.error(t("common:sent-error"));
+    }
   };
 
   return (
     <section className="layout-pt-md layout-pb-md bg-dark-2">
-      <Toaster position="top-right" richColors />
+      {/* <Toaster position="top-right" richColors /> */}
       <div className="container">
         <div className="row y-gap-30 justify-between items-center">
           <div className="col-auto">
@@ -42,10 +42,10 @@ const CallToActions = () => {
               </div>
               <div className="col-auto">
                 <h4 className="text-26 text-white fw-600">
-                  {t('common:call-to-action-title')}
+                  {t("common:call-to-action-title")}
                 </h4>
                 <div className="text-white">
-                  {t('common:call-to-action-subtitle')}
+                  {t("common:call-to-action-subtitle")}
                 </div>
               </div>
             </div>
@@ -59,13 +59,13 @@ const CallToActions = () => {
                 required
                 type="email"
                 value={email}
-                placeholder={t('common:your-email')}
+                placeholder={t("common:your-email")}
               />
               <button
                 className="button -md h-60 bg-blue-1 text-white"
                 onClick={handleSubmit}
               >
-                {t('common:subscribe')}
+                {t("common:subscribe")}
               </button>
             </div>
           </div>

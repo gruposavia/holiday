@@ -47,7 +47,7 @@ const ContactForm = () => {
 
   return (
     <form className="row y-gap-20 pt-20" onSubmit={handleSubmit}>
-      <Toaster position="top-right" richColors />
+      {/* <Toaster position="top-right" richColors /> */}
       {['name', 'email', 'subject'].map((field) => (
         <div key={field} className="col-12">
           <div className="form-input">

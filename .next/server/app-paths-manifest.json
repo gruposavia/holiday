@@ -1,7 +1,5 @@
 {
-  "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/(others)/contact/memberships/page": "app/[locale]/(others)/contact/memberships/page.js",
-  "/[locale]/(others)/contact/luggage/page": "app/[locale]/(others)/contact/luggage/page.js",
-  "/[locale]/(others)/contact/reservations/page": "app/[locale]/(others)/contact/reservations/page.js",
-  "/[locale]/(others)/contact/cargo/page": "app/[locale]/(others)/contact/cargo/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/[locale]/(others)/membership/page": "app/[locale]/(others)/membership/page.js",
+  "/[locale]/page": "app/[locale]/page.js"
 }
