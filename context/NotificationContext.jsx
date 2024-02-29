@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { createContext, useContext, useState } from "react";
 import { Toaster, toast } from "sonner";
-import { faker } from "@faker-js/faker";
+import faker from "Faker";
 import { useTranslation } from "react-i18next";
 import getRandomRoutes from "@/utils/getRandomRoutes";
 
@@ -38,7 +38,7 @@ export const NotificationProvider = ({ children }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       showNotification();
-    }, 20000);
+    }, 2000);
     return () => {
       clearInterval(interval);
     };
