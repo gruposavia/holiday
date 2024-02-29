@@ -54,13 +54,15 @@ async function handleContactEmail(body, res) {
       template_id: process.env.SENDGRID_TEMPLATE_CONTACT_ADMIN
     }
 
-    await sgMail.send(emailFromUser);
-    await sgMail.send(emailFromAdmin);
+    await Promise.all([
+      sgMail.send(emailFromUser),
+      sgMail.send(emailFromAdmin)
+    ]);
 
     res.status(200).json({ success: true, message: 'Contact email sent successfully.' });
 
   } catch (error) {
-    res.status(500).json({ success: false, message: 'Error sending the contact email.' });
+    res.status(500).json({ success: false, message: `Error sending the contact email. ${error.message}` });
   }
 
 }
@@ -111,13 +113,15 @@ async function handleNewsletterEmail(body, res) {
       template_id: process.env.SENDGRID_TEMPLATE_NEWSLETTER_ADMIN
     }
 
-    await sgMail.send(emailFromUser);
-    await sgMail.send(emailFromAdmin);
+    await Promise.all([
+      sgMail.send(emailFromUser),
+      sgMail.send(emailFromAdmin)
+    ]);
 
     res.status(200).json({ success: true, message: 'Newsletter email sent successfully.' });
 
   } catch (error) {
-    res.status(500).json({ success: false, message: 'Error sending the newsletter email.'});
+    res.status(error.status).json({ success: false, message: `Error sending the newsletter email. ${error.message}` });
   }
 }
 
@@ -142,6 +146,6 @@ export default async function handleEmail(req, res) {
     }
 
   } catch (error) {
-    res.status(500).json({ success: false, message: `Internal Server Error: ${error.message}` });
+    res.status(error.status).json({ success: false, message: `Internal Server Error: ${error.message}` });
   }
 }

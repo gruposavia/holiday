@@ -20,7 +20,7 @@ module.exports = [
     id: 3,
     title: "other",
     menuList: [
-      { name: "agents", routerPath: 'https://hla-stage.crane.aero/' },
+      { name: "agents", routerPathExt: 'https://hla-stage.crane.aero/' },
       { name: "operator", routerPath: "/" },
       { name: "faq", routerPath: "/help-center" },
       { name: "accessibility", routerPath: "/" },

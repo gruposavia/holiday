@@ -6,15 +6,15 @@ import MembershipCards from "@/components/membership/MembershipCards";
 import initTranslations from '../../../i18n';
 import TranslationsProvider from '../../../../components/TranslationProvider';
 import Image from "next/image";
+import {
+  i18nNamespaces,
+} from "@/utils/translationsContansts";
 
 export const metadata = {
   title: "Membership || HolidayAir",
   description: "HolidayAir",
 };
-const i18nNamespaces = [
-  'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes', 'services', 'block', 'footer', 'contact', 'faq', 'help-center', 'membership'
-]
+
 const Membership = async ({ params: { locale } }) => {
 
   const { t, resources, } = await initTranslations(locale, i18nNamespaces);
@@ -43,19 +43,6 @@ const Membership = async ({ params: { locale } }) => {
         </div>
         {/* End section-bg__item */}
 
-        {/* <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-xl-6 col-lg-8 col-md-10">
-              <h1 className="text-40 md:text-25 fw-600 text-white">
-                {t('about:section-title')}
-              </h1>
-              <div className="text-white mt-15">
-              {t('about:section-subtitle')}
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* End .container */}
       </section>
       {/* End About Banner Section */}
       <div className="col-xl-12 pl-10 pt-50 pr-4 justify-center">

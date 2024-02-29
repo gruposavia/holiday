@@ -22,7 +22,7 @@ const Blog3 = ({t, locale}) => {
                   width={400}
                   height={300}
                   className="img-ratio js-lazy"
-                  src={item.img}
+                  src={`/img/services/${item.id}-${locale}.jpg`}
                   alt="image"
                 />
               </div>

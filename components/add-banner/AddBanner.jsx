@@ -19,8 +19,21 @@ const AddBanner = () => {
     {
       id: 2,
       img: "/img/backgrounds/2.png",
+      title: (
+        <>
+          Let Your Curiosity
+          <br /> Do The Booking
+        </>
+      ),
+      // meta: "Enjoy Summer Deals",
+      routerPath: "/",
+      delayAnimation: "100",
+    },
+    {
+      id: 3,
+      img: "/img/backgrounds/3.png",
       title: "Up to 70% Discount!",
-      meta: "Enjoy Summer Deals",
+      //meta: "Enjoy Summer Deals",
       routerPath: "/",
       delayAnimation: "100",
     },
@@ -30,7 +43,7 @@ const AddBanner = () => {
     <>
       {addContent.map((item) => (
         <div
-          className="col-md-6"
+          className="col-lg-4 col-sm-6 "
           data-aos="fade-up"
           data-aos-delay={item.delayAnimation}
           key={item.id}
@@ -56,13 +69,13 @@ const AddBanner = () => {
                 ""
               )}
 
-              <h4 className="text-40 lg:text-26 text-white">{item.title}</h4>
+              <h4 className="text-30 lg:text-26 text-white">{item.title}</h4>
               <div className="d-inline-block mt-30">
                 <Link
                   href={item.routerPath}
                   className="button px-48 py-15 -blue-1 -min-180 bg-white text-dark-1"
                 >
-                  Learn More
+                  Expiriences
                 </Link>
               </div>
             </div>

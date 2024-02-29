@@ -4,13 +4,12 @@ import React, { useEffect, useState } from 'react';
 import { Tabs, TabPanel } from "react-tabs";
 import './styles.css';
 import ReactMarkdown from 'react-markdown';
-import { useTranslation } from 'react-i18next';
 import Loader from './Loader'
 
 const LuggageContent = ({ locale }) => {
   const [baggageContent, setBaggageContent] = useState();
   const [loading, setLoading] = useState(true);
-  const { t } = useTranslation();
+
 
   useEffect(() => {
     const fetchPrivacyTerms = async () => {

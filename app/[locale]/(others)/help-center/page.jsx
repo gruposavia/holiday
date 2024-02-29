@@ -1,17 +1,16 @@
 import dynamic from "next/dynamic";
 import initTranslations from '../../../i18n';
 import TranslationsProvider from '../../../../components/TranslationProvider';
-
+import {
+  i18nNamespaces,
+} from "@/utils/translationsContansts";
 import HelpCenterIndex from "@/components/help-center/index";
 export const metadata = {
   title: "Help Center || HolidayAir",
   description: "HolidayAir",
 };
 
-const i18nNamespaces = [
-  'main-menu', 'hero', 'main-filter-search', 'fly-complete-search', 'choose-us', 'flights',
-  'testimonials', 'common', 'popular-routes', 'services','block', 'footer', 'contact', 'faq', 'help-center'
-]
+
 const HelpCenter = async({ params: { locale } }) => {
   const { t, resources } = await initTranslations(locale, i18nNamespaces);
 

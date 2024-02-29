@@ -15,7 +15,7 @@
   \****************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = JSON.parse('{"title":"Rutas Populares","description":"Estos destinos populares tienen mucho que ofrecer","title-1":"Únete al Club Elite de Holiday Air.","details-1":"Membresías exclusivas","title-2":"Holiday Cargo.","details-2":"Sin escalas y en menos tiempo","title-3":"Experiencia Holiday Air.","details-3":"Magia en vuelo","title-4":"Información de equipaje de Holiday Air.","details-4":"De mano y en bodega","title-5":"Entretenimiento a bordo.","details-5":"","title-6":"Accede a nuestra Revista digital","details-6":"Evolución en el aire"}');
+module.exports = JSON.parse('{"title":"Rutas Populares","description":"Estos destinos populares tienen mucho que ofrecer","title-1":"Únete al Club Elite de Holiday Air.","details-1":"Membresías exclusivas","title-2":"Holiday Carga.","details-2":"Sin escalas y en menos tiempo","title-3":"Experiencia Holiday Air.","details-3":"Magia en vuelo","title-4":"Información de equipaje de Holiday Air.","details-4":"De mano y en bodega","title-5":"Entretenimiento a bordo.","details-5":"","title-6":"Accede a nuestra Revista digital","details-6":"Evolución en el aire"}');
 
 /***/ })
 
