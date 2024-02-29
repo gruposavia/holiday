@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { createContext, useContext, useState } from "react";
 import { Toaster, toast } from "sonner";
-import faker from "faker";
+import { faker } from "@faker-js/faker";
 import { useTranslation } from "react-i18next";
 import getRandomRoutes from "@/utils/getRandomRoutes";
 
