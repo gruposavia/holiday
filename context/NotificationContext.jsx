@@ -38,7 +38,7 @@ export const NotificationProvider = ({ children }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       showNotification();
-    }, 2000);
+    }, 20000);
     return () => {
       clearInterval(interval);
     };
