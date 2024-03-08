@@ -13,5 +13,7 @@
     "terms-section-title": "General Terms of Use",
     "policies-section-title": "Privacy and Cookie policy",
     "fly-sell-title": "{{ passengerName }} has purchased a ticket from {{ route1 }} to {{ route2 }}",
-    "fly-sell-description": "Don't miss your chance to explore these exciting destinations. Book now!"
+    "fly-sell-description": "Don't miss your chance to explore these exciting destinations. Book now!",
+    "membership-purchase-title": "{{ passengerName }} just purchased a {{ membershipType }} MEMBERSHIP!",
+    "membership-purchase-description": "Don't miss out on yours. Enjoy exclusive benefits."
 }

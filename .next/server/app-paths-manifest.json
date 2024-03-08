@@ -1,10 +1,8 @@
 {
-  "/not-found": "app/not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/[locale]/(others)/contact/agency/page": "app/[locale]/(others)/contact/agency/page.js",
-  "/[locale]/(others)/contact/page": "app/[locale]/(others)/contact/page.js",
-  "/[locale]/(others)/help-center/page": "app/[locale]/(others)/help-center/page.js",
-  "/[locale]/(others)/contact/reservations/page": "app/[locale]/(others)/contact/reservations/page.js",
   "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/(others)/contact/memberships/page": "app/[locale]/(others)/contact/memberships/page.js"
+  "/[locale]/(others)/contact/memberships/page": "app/[locale]/(others)/contact/memberships/page.js",
+  "/[locale]/(others)/luggage/page": "app/[locale]/(others)/luggage/page.js",
+  "/[locale]/(others)/terms/page": "app/[locale]/(others)/terms/page.js",
+  "/[locale]/(others)/membership/page": "app/[locale]/(others)/membership/page.js"
 }

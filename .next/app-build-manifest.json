@@ -48,10 +48,23 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/(others)/contact/memberships/page.js"
     ],
-    "/not-found": [
+    "/[locale]/(others)/luggage/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/css/app/[locale]/(others)/luggage/page.css",
+      "static/chunks/app/[locale]/(others)/luggage/page.js"
+    ],
+    "/[locale]/(others)/terms/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/(others)/terms/page.css",
+      "static/chunks/app/[locale]/(others)/terms/page.js"
+    ],
+    "/[locale]/(others)/membership/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/(others)/membership/page.css",
+      "static/chunks/app/[locale]/(others)/membership/page.js"
     ]
   }
 }
