@@ -1,5 +1,11 @@
 {
   "pages": {
+    "/[locale]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/page.css",
+      "static/chunks/app/[locale]/page.js"
+    ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -11,17 +17,41 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/not-found.js"
     ],
-    "/[locale]/(others)/membership/page": [
+    "/[locale]/(others)/contact/luggage/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/membership/page.css",
-      "static/chunks/app/[locale]/(others)/membership/page.js"
+      "static/chunks/app/[locale]/(others)/contact/luggage/page.js"
     ],
-    "/[locale]/page": [
+    "/[locale]/(others)/contact/agency/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/page.css",
-      "static/chunks/app/[locale]/page.js"
+      "static/chunks/app/[locale]/(others)/contact/agency/page.js"
+    ],
+    "/[locale]/(others)/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/(others)/contact/page.css",
+      "static/chunks/app/[locale]/(others)/contact/page.js"
+    ],
+    "/[locale]/(others)/help-center/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/help-center/page.js"
+    ],
+    "/[locale]/(others)/contact/reservations/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/contact/reservations/page.js"
+    ],
+    "/[locale]/(others)/contact/memberships/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(others)/contact/memberships/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

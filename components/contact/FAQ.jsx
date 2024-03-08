@@ -1,7 +1,8 @@
 "use client";
 import { useTranslation } from "react-i18next";
-const Faq = ({ faqContent, translationKey }) => {
 
+const Faq = ({ faqContent, translationKey, showIcon = true }) => {
+  console.log("🚀 ~ Faq ~ showIcon:", showIcon);
   const { t } = useTranslation();
   return (
     <>
@@ -10,13 +11,19 @@ const Faq = ({ faqContent, translationKey }) => {
           <div className="accordion__item px-20 py-20 border-light rounded-4">
             <div
               className="accordion__button d-flex items-center"
-              data-bs-toggle="collapse"
+              style={{ cursor: showIcon ? "pointer" : "" }}
+              data-bs-toggle={showIcon && "collapse"}
               data-bs-target={`#${item}`}
             >
-              <div className="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20">
-                <i className="icon-plus" />
-                <i className="icon-minus" />
-              </div>
+              {showIcon && (
+                <div
+                  className="accordion__icon size-40 flex-center bg-light-2 rounded-full mr-20"
+                  style={{ cursor: showIcon ? "pointer" : "none" }}
+                >
+                  <i className="icon-plus" />
+                  <i className="icon-minus" />
+                </div>
+              )}
               <div className="button text-dark-1 text-start">
                 {t(`${translationKey}-${item}`)}
               </div>

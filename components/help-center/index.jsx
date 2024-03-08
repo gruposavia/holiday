@@ -38,7 +38,7 @@ export default function HelpCenterIndex({ locale }) {
           {/* End .row */}
 
           <div className="row y-gap-30 pt-60 lg:pt-40">
-            <HelpBlock t={t} searchText={searchText} />
+            <HelpBlock t={t} searchText={searchText} locale={locale} />
           </div>
           {/* End .row */}
         </div>
