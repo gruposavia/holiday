@@ -72,7 +72,7 @@ export const NotificationProvider = ({ children, locale }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       showNotification(getRandomMessageType());
-    }, 2000);
+    }, 20000);
     return () => {
       clearInterval(interval);
     };
