@@ -66,6 +66,7 @@ export const NotificationProvider = ({ children, locale }) => {
       description,
       duration: 5000,
       position: "bottom-left",
+      onAutoClose: 7000,
     });
   };
 
