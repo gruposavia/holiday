@@ -17,36 +17,17 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/not-found.js"
     ],
-    "/[locale]/(others)/contact/luggage/page": [
+    "/[locale]/(others)/terms/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/luggage/page.js"
+      "static/css/app/[locale]/(others)/terms/page.css",
+      "static/chunks/app/[locale]/(others)/terms/page.js"
     ],
-    "/[locale]/(others)/contact/agency/page": [
+    "/[locale]/(others)/entertainment/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/agency/page.js"
-    ],
-    "/[locale]/(others)/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/contact/page.css",
-      "static/chunks/app/[locale]/(others)/contact/page.js"
-    ],
-    "/[locale]/(others)/help-center/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/help-center/page.js"
-    ],
-    "/[locale]/(others)/contact/reservations/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/reservations/page.js"
-    ],
-    "/[locale]/(others)/contact/memberships/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(others)/contact/memberships/page.js"
+      "static/css/app/[locale]/(others)/entertainment/page.css",
+      "static/chunks/app/[locale]/(others)/entertainment/page.js"
     ],
     "/[locale]/(others)/luggage/page": [
       "static/chunks/webpack.js",
@@ -54,17 +35,10 @@
       "static/css/app/[locale]/(others)/luggage/page.css",
       "static/chunks/app/[locale]/(others)/luggage/page.js"
     ],
-    "/[locale]/(others)/terms/page": [
+    "/[locale]/(others)/help-center/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/terms/page.css",
-      "static/chunks/app/[locale]/(others)/terms/page.js"
-    ],
-    "/[locale]/(others)/membership/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/[locale]/(others)/membership/page.css",
-      "static/chunks/app/[locale]/(others)/membership/page.js"
+      "static/chunks/app/[locale]/(others)/help-center/page.js"
     ]
   }
 }

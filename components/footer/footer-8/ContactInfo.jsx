@@ -11,7 +11,7 @@ const ContactInfo = ({ t }) => {
       textCRPhone: "(+506)400-19419",
       actionAR: "tel:(+506)400-19419",
       textARCountry: "Argentina:",
-      textARPhone: "(+54)115273-4075",
+      textARPhone: "(+54)11-52734075",
     },
     {
       id: 2,

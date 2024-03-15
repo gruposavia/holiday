@@ -16,19 +16,36 @@ const Subscribe = () => {
     event.preventDefault();
     setEmail("");
     try {
+      const { token } = await fetch("/api/getAuthToken").then((response) =>
+        response.json()
+      );
+      if (!token) {
+        throw new Error("Authentication token not received");
+      }
       const response = await fetch("/api/mail", {
         method: "POST",
         body: JSON.stringify({
           type: "newsletter",
           email: email,
         }),
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        credentials: "include",
       });
 
-      if (response.status === 200) showSuccessNotification();
+      if (response.status === 200) {
+        showSuccessNotification();
+      } else {
+        showErrorNotification();
+      }
     } catch (error) {
+      console.error("Error sending newsletter:", error);
       showErrorNotification();
     }
   };
+
   return (
     <div className="single-field relative d-flex justify-end items-center pb-30">
       <input

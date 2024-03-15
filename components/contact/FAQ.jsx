@@ -2,7 +2,7 @@
 import { useTranslation } from "react-i18next";
 
 const Faq = ({ faqContent, translationKey, showIcon = true }) => {
-  console.log("🚀 ~ Faq ~ showIcon:", showIcon);
+
   const { t } = useTranslation();
   return (
     <>
