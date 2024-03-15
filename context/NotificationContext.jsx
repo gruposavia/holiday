@@ -65,7 +65,7 @@ export const NotificationProvider = ({ children, locale }) => {
     toast.message(message, {
       description,
       duration: 5000,
-      position: "bottom-left",
+      position: "bottom-right",
       duration: 7000,
     });
   };

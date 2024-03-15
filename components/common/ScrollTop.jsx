@@ -39,9 +39,9 @@ export default function ScrollToTop() {
     <>
       {isVisible && (
         <>
-          <div className="scroll-to-top scroll-to-target" onClick={scrollToTop}>
+          {/* <div className="scroll-to-top scroll-to-target" onClick={scrollToTop}>
             <span className="icon icon-arrow-top-right"></span>
-          </div>
+          </div> */}
         </>
       )}
     </>
