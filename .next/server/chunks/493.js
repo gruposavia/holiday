@@ -1,0 +1,1 @@
+"use strict";exports.id=493,exports.ids=[493],exports.modules={10493:e=>{e.exports=JSON.parse('{"title":"Vuela alto, vive m\xe1s.","subtitle":"Descubre lugares incre\xedbles con ofertas exclusivas"}')}};

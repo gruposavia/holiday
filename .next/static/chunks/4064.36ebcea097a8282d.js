@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[4064],{4064:function(e){e.exports=JSON.parse('{"flights":"Vuelos","booking":"Gesti\xf3n de Reservas","check-in":"Check-in","status":"Estado del Vuelo"}')}}]);
