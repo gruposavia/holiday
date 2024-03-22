@@ -1,1 +1,0 @@
-"use strict";exports.id=3197,exports.ids=[3197],exports.modules={3197:e=>{e.exports=JSON.parse('{"title":"Get in touch with us","subtitle":"These popular destinations have a lot to offer","img-1":"Reservations and Sales","img-2":"Baggage Management","img-3":"Operator and Agency","img-4":"Supplier Relations","img-5":"Memberships","img-6":"Air cargo"}')}};

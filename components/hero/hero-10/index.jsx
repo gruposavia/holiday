@@ -2,7 +2,7 @@
 
 import MainFilterSearchBox from "./MainFilterSearchBox";
 import { useTranslation } from 'react-i18next';
-const Index =  () => {
+const Index =  ({locale}) => {
   const { t } = useTranslation()
   return (
     <section className="masthead -type-10">
@@ -23,7 +23,7 @@ const Index =  () => {
               <div data-aos="fade-up" data-aos-delay="300">
                 
                 {/* End .row */}
-                <MainFilterSearchBox />
+                <MainFilterSearchBox locale={locale}/>
                 {/* End filter content */}
               </div>
             </div>
