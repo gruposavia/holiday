@@ -62,7 +62,7 @@ const MobileMenu = ({ locale }) => {
       <div className="pro-footer" style={{ height: '100%' }}>
         <div className="d-flex items-center justify-center w-full mb-40">
           <Link
-            href="https://hla-stage.crane.aero/"
+            href="https://book-hla.crane.aero/"
             prefetch
             rel="noopener noreferrer"
 
