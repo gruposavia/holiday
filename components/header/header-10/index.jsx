@@ -66,7 +66,7 @@ const Header1 = ({ locale }) => {
                     {t('main-menu:agency-access')}
                   </Link> */}
                   <Link
-                    href="https://book-hla.crane.aero/"
+                    href="https://book-holidayair.crane.aero"
                     prefetch
                     rel="noopener noreferrer"
                     className="button px-30 fw-400 text-14 -dark-4 bg-dark-2 h-50 text-white"
