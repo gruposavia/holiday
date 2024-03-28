@@ -10,6 +10,7 @@ async function handleContactEmail(body, res) {
     if (!body.email || !body.subject || !body.message) {
       throw new Error("Missing required fields for contact email.");
     }
+
     let emailFromUser = {
       from: {
         email: process.env.SENDGRID_EMAIL,
@@ -32,6 +33,7 @@ async function handleContactEmail(body, res) {
       ],
       template_id: process.env.SENDGRID_TEMPLATE_CONTACT_USER,
     };
+
     let emailFromAdmin = {
       from: {
         email: process.env.SENDGRID_EMAIL,
@@ -97,6 +99,7 @@ async function handleNewsletterEmail(body, res) {
       ],
       template_id: process.env.SENDGRID_TEMPLATE_NEWSLETTER_USER,
     };
+
     let emailFromAdmin = {
       from: {
         email: process.env.SENDGRID_EMAIL,
@@ -118,6 +121,7 @@ async function handleNewsletterEmail(body, res) {
       ],
       template_id: process.env.SENDGRID_TEMPLATE_NEWSLETTER_ADMIN,
     };
+
     const contactData = {
       contacts: [
         {
@@ -125,6 +129,7 @@ async function handleNewsletterEmail(body, res) {
         },
       ],
     };
+
     await Promise.all([
       sgMail.send(emailFromUser),
       sgMail.send(emailFromAdmin),
