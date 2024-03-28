@@ -12,6 +12,7 @@ export default function HelpCenterIndex({ locale }) {
     const { t } = useTranslation();
   const [searchText, setSearchText] = useState("");
   return (
+    
     <div className="header-margin">
       {/* header top margin */}
 

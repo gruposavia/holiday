@@ -1,5 +1,8 @@
 import sgMail from "@sendgrid/mail";
+import client from "@sendgrid/client";
 import authenticate from "@/middleware/auth";
+
+client.setApiKey(process.env.SENDGRID_API_KEY);
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 async function handleContactEmail(body, res) {
@@ -115,10 +118,24 @@ async function handleNewsletterEmail(body, res) {
       ],
       template_id: process.env.SENDGRID_TEMPLATE_NEWSLETTER_ADMIN,
     };
-
+    const contactData = {
+      contacts: [
+        {
+          email: body.email,
+        },
+      ],
+    };
     await Promise.all([
       sgMail.send(emailFromUser),
       sgMail.send(emailFromAdmin),
+      await client.request({
+        method: "PUT",
+        url: "/v3/marketing/contacts",
+        body: contactData,
+        headers: {
+          Authorization: `Bearer ${process.env.SENDGRID_API_KEY}`,
+        },
+      }),
     ]);
 
     res
