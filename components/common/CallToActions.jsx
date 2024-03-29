@@ -1,13 +1,12 @@
 "use client";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { subscribeNewsletter } from "../../lib/senderEmail";
-import { Toaster, toast } from "sonner";
+import { useNotification } from "@/context/NotificationContext";
 
 const CallToActions = () => {
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
-
+  const { showSuccessNotification, showErrorNotification } = useNotification();
   const handleChange = (e) => {
     setEmail(e.target.value);
   };
@@ -16,17 +15,33 @@ const CallToActions = () => {
     event.preventDefault();
     setEmail("");
     try {
+      const { token } = await fetch("/api/getAuthToken").then((response) =>
+        response.json()
+      );
+      if (!token) {
+        throw new Error("Authentication token not received");
+      }
       const response = await fetch("/api/mail", {
         method: "POST",
         body: JSON.stringify({
           type: "newsletter",
           email: email,
         }),
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        credentials: "include",
       });
 
-      if (response.status === 200) toast.success(t("common:sent-success"));
+      if (response.status === 200) {
+        showSuccessNotification();
+      } else {
+        showErrorNotification();
+      }
     } catch (error) {
-      toast.error(t("common:sent-error"));
+      console.error("Error sending newsletter:", error);
+      showErrorNotification();
     }
   };
 

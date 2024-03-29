@@ -64,6 +64,7 @@ const ContactCargo = async ({ params: { locale } }) => {
                   <Faq
                     faqContent={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11,12]}
                     translationKey={"contactSupport:cargo-faq"}
+                    showIcon={false}
                   />
                 </div>
               </div>

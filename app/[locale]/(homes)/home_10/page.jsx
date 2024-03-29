@@ -26,7 +26,7 @@ const Home10 = async ({ t, locale }) => {
         <Header10 locale={locale} />
         {/* End Header 5 */}
 
-        <Hero10 />
+        <Hero10 locale={locale} />
         {/* End Hero 5 */}
 
         <section className="layout-pt-sm layout-pb-md">
