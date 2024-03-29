@@ -10,6 +10,8 @@ import TranslationsProvider from '../../../../components/TranslationProvider';
 import {
   i18nNamespaces,
 } from "@/utils/translationsContansts";
+import { NotificationProvider } from "@/context/NotificationContext";
+
 export const metadata = {
   title: "About || HolidayAir",
   description: "HolidayAir",
@@ -23,7 +25,7 @@ const About = async ({ params: { locale } }) => {
     locale={locale}
     resources={resources}>
       {/* End Page Title */}
-
+      <NotificationProvider locale={locale}>
       <div className="header-margin"></div>
       {/* header top margin */}
 
@@ -83,6 +85,7 @@ const About = async ({ params: { locale } }) => {
 
       <DefaultFooter t={t} locale={locale}/>
       {/* End Call To Actions Section */}
+      </NotificationProvider>
     </TranslationsProvider>
   );
 };

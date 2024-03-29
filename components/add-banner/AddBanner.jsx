@@ -75,7 +75,7 @@ const AddBanner = () => {
                   href={item.routerPath}
                   className="button px-48 py-15 -blue-1 -min-180 bg-white text-dark-1"
                 >
-                  Expiriences
+                  Experiences
                 </Link>
               </div>
             </div>

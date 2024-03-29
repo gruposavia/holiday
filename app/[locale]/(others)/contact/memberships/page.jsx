@@ -63,6 +63,7 @@ const ContactMembership = async ({ params: { locale } }) => {
                   <Faq
                     faqContent={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
                     translationKey={"contactSupport:membership-faq"}
+                    showIcon={false}
                   />
                 </div>
               </div>

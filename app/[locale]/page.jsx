@@ -23,7 +23,7 @@ export default async function Home({ params: { locale } }) {
           locale={locale}
           resources={resources}
         >
-          <NotificationProvider>
+          <NotificationProvider locale={locale}>
             <Wrapper>
               <MainHome t={t} locale={locale} />
             </Wrapper>

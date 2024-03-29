@@ -1,18 +1,21 @@
-const ContactInfo = ({t}) => {
+const ContactInfo = ({ t }) => {
   const contactContent = [
     {
       id: 1,
-      title: t('footer:contact-phone'),
+      title: t("footer:contact-phone"),
       actionUS: "tel:(+1)786-673-0640",
       textUSCountry: "United State:",
       textUSPhone: "(+1)786-673-0640",
       actionCR: "tel:(+506)400-19419",
       textCRCountry: "Costa Rica:",
       textCRPhone: "(+506)400-19419",
+      actionAR: "tel:(+506)400-19419",
+      textARCountry: "Argentina:",
+      textARPhone: "(+54)11-52734075",
     },
     {
       id: 2,
-      title: t('footer:need-assistance'),
+      title: t("footer:need-assistance"),
       action: "mailto:assistance@holidayair.net",
       text: "assistance@holidayair.net",
     },
@@ -27,7 +30,11 @@ const ContactInfo = ({t}) => {
         </a>
         <p className="text-18 fw-500 mt-5">{contactContent[0].textCRCountry}</p>
         <a href={contactContent[0].actionCR} className="text-18 fw-500 mt-5">
-          {contactContent[0].textCRPhone }
+          {contactContent[0].textCRPhone}
+        </a>
+        <p className="text-18 fw-500 mt-5">{contactContent[0].textARCountry}</p>
+        <a href={contactContent[0].actionAR} className="text-18 fw-500 mt-5">
+          {contactContent[0].textARPhone}
         </a>
       </div>
       <div className="col-sm-6" key={contactContent[1].id}>

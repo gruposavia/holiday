@@ -13,5 +13,7 @@
     "terms-section-title": "Términos generales de uso",
     "policies-section-title": "Política de privacidad y cookies",
     "fly-sell-title": "{{ passengerName }} ha comprado un pasaje con destino de {{ route1 }} a {{ route2 }}",
-    "fly-sell-description": "¡No te pierdas la oportunidad de explorar estos emocionantes destinos. Reserva ahora!"
+    "fly-sell-description": "¡No te pierdas la oportunidad de explorar estos emocionantes destinos. Reserva ahora!",
+    "membership-purchase-title": "¡{{ passengerName }} acaba de comprar una MEMBRESIA {{ membershipType }}!",
+    "membership-purchase-description": "No te quedes sin la tuya. Disfruta de beneficios exclusivos."
 }
