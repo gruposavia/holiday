@@ -1,8 +1,5 @@
-
-'use client'
-
+"use client";
 import Image from "next/image";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import Link from "next/link";
@@ -18,7 +15,7 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "100",
-      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Miami`
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Miami`,
     },
     {
       id: 2,
@@ -29,7 +26,7 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "200",
-      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Orlando`
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Orlando`,
     },
     {
       id: 3,
@@ -40,7 +37,7 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "300",
-      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Argentina`
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Argentina`,
     },
     {
       id: 4,
@@ -51,28 +48,8 @@ const PopularRoutes = () => {
       data: "Wed, Jun 1 - Sun, Jun 5",
       price: "250",
       delayAnimation: "400",
-      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Punta%20cana`
+      href: `https://wa.me/5492995172856?text=I'm%20interested%20in%20flights%20to%20Punta%20cana`,
     },
-    // {
-    //   id: 5,
-    //   tag: "",
-    //   img: "/img/rentals/1.png",
-    //   destination: "Istanbul - New York",
-    //   tripType: "Round-trip",
-    //   data: "Wed, Jun 1 - Sun, Jun 5",
-    //   price: "72",
-    //   delayAnimation: "500",
-    // },
-    // {
-    //   id: 6,
-    //   tag: "",
-    //   img: "/img/rentals/2.png",
-    //   destination: "Istanbul - Paris",
-    //   tripType: "Round-trip",
-    //   data: "Wed, Jun 1 - Sun, Jun 5",
-    //   price: "72",
-    //   delayAnimation: "600",
-    // },
   ];
   return (
     <>
@@ -103,14 +80,15 @@ const PopularRoutes = () => {
       >
         {rentalRoutes.map((item) => (
           <SwiperSlide key={item.id}>
-            <Link
-              href={item.href}
+            <div
+              href={""}
               target="_blank"
               className="rentalCard -type-2"
               data-aos="fade"
               data-aos-delay={item.delayAnimation}
+              style={{ cursor: "default" }}
             >
-              <div className="rentalCard__image">
+              <div className="rentalCard__image ">
                 <div className="cardImage ratio ratio-6:5">
                   <div className="cardImage__content">
                     <Image
@@ -128,12 +106,13 @@ const PopularRoutes = () => {
                   <span>{item.destination}</span>
                 </h4>
 
-                <div className="text-light-1  mt-5">
-                From <span className="fw-500 text-dark-1"> US${item.price} </span>
-                  + tax
-                </div>
+                {/* <div className="text-light-1  mt-5">
+                  From{" "}
+                  <span className="fw-500 text-dark-1"> US${item.price} </span>+
+                  tax
+                </div> */}
               </div>
-            </Link>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
