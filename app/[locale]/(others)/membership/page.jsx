@@ -52,12 +52,18 @@ const Membership = async ({ params: { locale } }) => {
             <div className="row y-gap-30 mx-4 w-full x-gap-30 justify-center px-lg-6">
               <MembershipCards locale={locale} />
             </div>
-            <div className="w-full d-flex flex-column mb-60">
+            <div className="w-full d-flex flex-column mb-60 ">
               <p className="text-12 text-center ">
                 {t("membership:disclaimer-1")}
               </p>
               <p className="text-12 text-center">
                 {t("membership:disclaimer-2")}
+              </p>
+              <p className="text-12 text-center">
+                {t("membership:disclaimer-3")}
+                <p className="text-12 text-center">
+                  {t("membership:disclaimer-4")}
+                </p>
               </p>
             </div>
           </div>

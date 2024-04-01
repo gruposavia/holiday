@@ -29,7 +29,7 @@ const MembershipCards = ({ locale }) => {
               {t(`membership:price-recommend`)}
             </div>
           )}
-          <div className="rentalCard__image divider">
+          <div className="rentalCard__image ">
             <div className="cardImage inside-slider">
               <div>
                 <h1
