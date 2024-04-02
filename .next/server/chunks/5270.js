@@ -1,0 +1,1 @@
+"use strict";exports.id=5270,exports.ids=[5270],exports.modules={45270:o=>{o.exports=JSON.parse('{"title":"Download the App","description":"Book in advance or last-minute with GoTrip. Receive instant confirmation. Access your booking info offline.","download":"Download on the","get":"Get in on"}')}};

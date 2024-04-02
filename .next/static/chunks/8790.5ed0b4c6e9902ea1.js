@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8790],{8790:function(o){o.exports=JSON.parse('{"title":"Download the App","description":"Book in advance or last-minute with GoTrip. Receive instant confirmation. Access your booking info offline.","download":"Download on the","get":"Get in on"}')}}]);

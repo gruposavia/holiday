@@ -1,7 +1,22 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/[locale]/(others)/cargo/page": "app/[locale]/(others)/cargo/page.js",
+  "/[locale]/(others)/404/page": "app/[locale]/(others)/404/page.js",
+  "/[locale]/(homes)/home_10/page": "app/[locale]/(homes)/home_10/page.js",
+  "/[locale]/(others)/about/page": "app/[locale]/(others)/about/page.js",
+  "/[locale]/(others)/contact/cargo/page": "app/[locale]/(others)/contact/cargo/page.js",
+  "/[locale]/(others)/contact/luggage/page": "app/[locale]/(others)/contact/luggage/page.js",
+  "/[locale]/(others)/contact/agency/page": "app/[locale]/(others)/contact/agency/page.js",
+  "/[locale]/(others)/contact/memberships/page": "app/[locale]/(others)/contact/memberships/page.js",
+  "/[locale]/(others)/entertainment/page": "app/[locale]/(others)/entertainment/page.js",
   "/[locale]/(others)/contact/page": "app/[locale]/(others)/contact/page.js",
-  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/(others)/contact/reservations/page": "app/[locale]/(others)/contact/reservations/page.js",
+  "/[locale]/(others)/contact/supplier/page": "app/[locale]/(others)/contact/supplier/page.js",
   "/[locale]/(others)/help-center/page": "app/[locale]/(others)/help-center/page.js",
+  "/[locale]/(others)/luggage/page": "app/[locale]/(others)/luggage/page.js",
+  "/[locale]/(others)/terms/page": "app/[locale]/(others)/terms/page.js",
+  "/[locale]/(others)/signup/page": "app/[locale]/(others)/signup/page.js",
   "/[locale]/(others)/membership/page": "app/[locale]/(others)/membership/page.js",
-  "/[locale]/(others)/contact/agency/page": "app/[locale]/(others)/contact/agency/page.js"
+  "/[locale]/page": "app/[locale]/page.js"
 }

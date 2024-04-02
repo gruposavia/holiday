@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[5571],{5571:function(e){e.exports=JSON.parse('{"title":"Vuela alto, vive m\xe1s.","subtitle":"Descubre lugares incre\xedbles con ofertas exclusivas"}')}}]);

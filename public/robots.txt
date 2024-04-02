@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://holiday-tau.vercel.app/
+
+# Sitemaps
+Sitemap: https://holiday-tau.vercel.app/sitemap.xml
