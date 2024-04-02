@@ -18,5 +18,9 @@
     "hero-date": "Date",
     "hero-reference-placeholder": "Enter the booking code",
     "hero-surname-placeholder": "Enter your surname",
-    "hero-flight-placeholder": "Enter the flight number"
+    "hero-flight-placeholder": "Enter the flight number",
+    "address-MIA": "Miami, Florida, United States",
+    "address-PUJ": "Punta Cana, Dominican Republic",
+    "address-EZE": "Ministro Pistarini International Airport, Buenos Aires, Argentina",
+    "address-MCO": "Orlando, Florida, United States"
 }

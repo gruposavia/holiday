@@ -31,7 +31,7 @@ export default function BookingSearch({ locale }) {
     }));
   };
 
-  ("reservation?PNRNo=fadsqe&surname=dafsfasdfasd&language=en");
+
   const handleSearch = () => {
     router.push(
       `${process.env.NEXT_PUBLIC_HITIT_URL}reservation?surname=${inputs.surname}&PNRNo=${inputs.surname}&lang=${locale}`

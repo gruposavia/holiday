@@ -1,44 +1,43 @@
-
-'use client'
+"use client";
 
 import { useState } from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
-const FlyingFromLocation = () => {
+const FlyingFromLocation = ({ flyingFrom, setFlyingFrom }) => {
   const [searchValue, setSearchValue] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   const locationSearchContent = [
     {
       id: 1,
-      name: "London",
-      address: "Greater London, United Kingdom",
+      name: "Miami",
+      code: "MIA",
     },
     {
       id: 2,
-      name: "New York",
-      address: "New York State, United States",
+      name: "Orlando",
+      code: "MCO",
     },
     {
       id: 3,
-      name: "Paris",
-      address: "France",
+      name: "Buenos Aires",
+      code: "EZE",
     },
     {
       id: 4,
-      name: "Madrid",
-      address: "Spain",
-    },
-    {
-      id: 5,
-      name: "Santorini",
-      address: "Greece",
+      name: "Punta Cana",
+      code: "PUJ",
     },
   ];
+
+  const filteredOptions = locationSearchContent.filter((item) =>
+    item.name.toLowerCase().includes(searchValue.toLowerCase())
+  );
 
   const handleOptionClick = (item) => {
     setSearchValue(item.name);
     setSelectedItem(item);
+    setFlyingFrom(item.code);
   };
 
   return (
@@ -49,12 +48,14 @@ const FlyingFromLocation = () => {
           data-bs-auto-close="true"
           data-bs-offset="0,22"
         >
-          <h4 className="text-15 fw-500 ls-2 lh-16">{t('fly-complete-search:flying-from')}</h4>
+          <h4 className="text-15 fw-500 ls-2 lh-16">
+            {t("fly-complete-search:flying-from")}
+          </h4>
           <div className="text-15 text-light-1 ls-2 lh-16">
             <input
               autoComplete="off"
               type="search"
-              placeholder={t('fly-complete-search:going-to')}
+              placeholder={t("fly-complete-search:going-to")}
               className="js-search js-dd-focus"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}
@@ -65,7 +66,7 @@ const FlyingFromLocation = () => {
         <div className="shadow-2 dropdown-menu min-width-400">
           <div className="bg-white px-20 py-20 sm:px-0 sm:py-15 rounded-4">
             <ul className="y-gap-5 js-results">
-              {locationSearchContent.map((item) => (
+              {filteredOptions.map((item) => (
                 <li
                   className={`-link d-block col-12 text-left rounded-4 px-20 py-15 js-search-option mb-1 ${
                     selectedItem && selectedItem.id === item.id ? "active" : ""
@@ -81,7 +82,7 @@ const FlyingFromLocation = () => {
                         {item.name}
                       </div>
                       <div className="text-14 lh-12 text-light-1 mt-5">
-                        {item.address}
+                        {t(`fly-complete-search:address-${item.code}`)}
                       </div>
                     </div>
                   </div>

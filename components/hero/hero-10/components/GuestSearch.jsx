@@ -1,13 +1,12 @@
-
-'use client'
+"use client";
 
 import React, { useState } from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const counters = [
-  { name: "adult", defaultValue: 2, label: '12+' },
-  { name: "child", defaultValue: 1, label: '2 - 11' },
-  { name: "infant", defaultValue: 1, label: '0 - 2' },
+  { name: "adult", defaultValue: 1, label: "12+" },
+  { name: "child", defaultValue: 0, label: "2 - 11" },
+  { name: "infant", defaultValue: 0, label: "0 - 2" },
 ];
 
 const Counter = ({ name, defaultValue, onCounterChange, label, t }) => {
@@ -23,15 +22,17 @@ const Counter = ({ name, defaultValue, onCounterChange, label, t }) => {
     }
   };
 
-
   return (
     <>
       <div className="row y-gap-10 justify-between items-center">
         <div className="col-auto">
-          <div className="text-15 lh-12 fw-500">{t(`fly-complete-search:${name}`)}</div>
+          <div className="text-15 lh-12 fw-500">
+            {t(`fly-complete-search:${name}`)}
+          </div>
 
-          <div className="text-14 lh-12 text-light-1 mt-5">{t(`fly-complete-search:ages`, { label })}</div>
-
+          <div className="text-14 lh-12 text-light-1 mt-5">
+            {t(`fly-complete-search:ages`, { label })}
+          </div>
         </div>
         {/* End .col-auto */}
         <div className="col-auto">
@@ -64,16 +65,11 @@ const Counter = ({ name, defaultValue, onCounterChange, label, t }) => {
   );
 };
 
-const GuestSearch = () => {
-  const [guestCounts, setGuestCounts] = useState({
-    adult: 2,
-    child: 0,
-    infant: 0,
-  });
+const GuestSearch = ({ guestCounts, setGuestCounts }) => {
   const handleCounterChange = (name, value) => {
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
   };
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   return (
     <div className="searchMenu-guests px-24 lg:py-20 lg:px-0 js-form-dd js-form-counters">
       <div
@@ -82,11 +78,13 @@ const GuestSearch = () => {
         aria-expanded="false"
         data-bs-offset="0,22"
       >
-        <h4 className="text-15 fw-500 ls-2 lh-16">{t('fly-complete-search:travelers')}</h4>
+        <h4 className="text-15 fw-500 ls-2 lh-16">
+          {t("fly-complete-search:travelers")}
+        </h4>
         <div className="text-15 text-light-1 ls-2 lh-16">
           {Object.entries(guestCounts).map(([type, count]) => (
             <span key={`js-count-${type}`} className={`js-count-${type}`}>
-              {count} {' '} {t(`fly-complete-search:${type}`) } {' '}
+              {count} {t(`fly-complete-search:${type}`)}{" "}
             </span>
           ))}
         </div>

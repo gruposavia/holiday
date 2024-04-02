@@ -64,7 +64,6 @@ export const NotificationProvider = ({ children, locale }) => {
     }
     toast.message(message, {
       description,
-      duration: 5000,
       position: "bottom-right",
       duration: 7000,
     });
@@ -73,7 +72,7 @@ export const NotificationProvider = ({ children, locale }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       showNotification(getRandomMessageType());
-    }, 40000);
+    }, 50000);
     return () => {
       clearInterval(interval);
     };
