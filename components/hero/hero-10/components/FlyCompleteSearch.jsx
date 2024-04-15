@@ -12,11 +12,11 @@ const buildDate = (date) => `${date.day}.${date.month}.${date.year}`;
 export default function FlyCompleteSearch() {
   const { t } = useTranslation();
   const router = useRouter();
-
+  const today = new DateObject();
   const [flyingFrom, setFlyingFrom] = useState("");
   const [flyingTo, setFlyingTo] = useState("");
-  const [departDate, setDepartDate] = useState(new DateObject());
-  const [returnDate, setReturnDate] = useState(new DateObject().setDay(7));
+  const [departDate, setDepartDate] = useState(today);
+  const [returnDate, setReturnDate] = useState(new DateObject().set(today).add(7, 'days'));
 
   const [guestCounts, setGuestCounts] = useState({
     adult: 1,
