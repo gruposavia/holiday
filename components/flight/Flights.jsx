@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import flightsData from "../../data/flights";
 
-const Flights = () => {
+const Flights = ({ onSelected, t }) => {
   return (
     <>
       {flightsData.slice(0, 4).map((item) => (
@@ -61,18 +61,24 @@ const Flights = () => {
 
               <div className="col-auto">
                 <div className="d-flex items-center">
-                  <div className="text-right mr-24">
+                  {/* <div className="text-right mr-24">
                     <div className="lh-15 fw-500">US${item?.price}</div>
                     <div className="text-15 lh-15 text-light-1">
                       {item?.deals} deals
                     </div>
-                  </div>
-                  <Link
-                    href="/flight-list-v1"
-                    className="button -outline-blue-1 px-30 h-50 text-blue-1"
+                  </div> */}
+                  <div
+                    className="button -outline-blue-1 px-30 h-50 text-blue-1 cursor-pointer"
+                    onClick={() =>
+                      onSelected(
+                        item.flightList[0].arrivalAirport,
+                        item.flightList[0].departureAirport
+                      )
+                    }
                   >
-                    View Deal <div className="icon-arrow-top-right ml-15" />
-                  </Link>
+                    {t(`flights:deal`)}
+                    <div className="icon-arrow-top-right ml-15" />
+                  </div>
                 </div>
               </div>
               {/* End .col */}

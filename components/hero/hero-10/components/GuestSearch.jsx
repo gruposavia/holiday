@@ -9,17 +9,38 @@ const counters = [
   { name: "infant", defaultValue: 0, label: "0 - 2" },
 ];
 
-const Counter = ({ name, defaultValue, onCounterChange, label, t }) => {
+const Counter = ({
+  name,
+  defaultValue,
+  onCounterChange,
+  label,
+  t,
+  guestCounts,
+}) => {
   const [count, setCount] = useState(defaultValue);
+
   const incrementCount = () => {
-    setCount(count + 1);
-    onCounterChange(name, count + 1);
+    // Calculate the total number of passengers after incrementing the current counter
+    const totalPassengers = Object.values(guestCounts).reduce(
+      (total, count) => total + count,
+      0
+    );
+
+    // If the total number of passengers exceeds 9, or the current counter is already 9
+    if (totalPassengers >= 9 || count >= 9) return;
+
+    //if infants exceed adults, it is not updated
+    const updatedCount = count + 1;
+    if (name === "infant" && updatedCount > guestCounts.adult) return;
+    setCount(updatedCount);
+    onCounterChange(name, updatedCount);
   };
+
   const decrementCount = () => {
-    if (count > 0) {
-      setCount(count - 1);
-      onCounterChange(name, count - 1);
-    }
+    if (count <= 0) return;
+    const updatedCount = count - 1;
+    setCount(updatedCount);
+    onCounterChange(name, updatedCount);
   };
 
   return (
@@ -66,10 +87,22 @@ const Counter = ({ name, defaultValue, onCounterChange, label, t }) => {
 };
 
 const GuestSearch = ({ guestCounts, setGuestCounts }) => {
+  const { t } = useTranslation();
+
   const handleCounterChange = (name, value) => {
+    const totalPassengers = Object.values(guestCounts).reduce(
+      (total, count) => total + count,
+      0
+    );
+    if (totalPassengers + value - guestCounts[name] > 9) {
+      return;
+    }
+    if (name === "infant" && value > guestCounts.adult) {
+      return;
+    }
     setGuestCounts((prevState) => ({ ...prevState, [name]: value }));
   };
-  const { t } = useTranslation();
+
   return (
     <div className="searchMenu-guests px-24 lg:py-20 lg:px-0 js-form-dd js-form-counters">
       <div
@@ -100,6 +133,7 @@ const GuestSearch = ({ guestCounts, setGuestCounts }) => {
               defaultValue={counter.defaultValue}
               onCounterChange={handleCounterChange}
               label={counter.label}
+              guestCounts={guestCounts}
               t={t}
             />
           ))}

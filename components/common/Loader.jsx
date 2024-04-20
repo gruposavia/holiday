@@ -1,6 +1,6 @@
 import { Oval } from "react-loader-spinner";
 
-export default function Loader({height, width}) {
+export default function Loader({height, width, className}) {
   return (
     <div
       style={{
@@ -9,6 +9,7 @@ export default function Loader({height, width}) {
         alignItems: "center",
         height: "100vh",
       }}
+      className={className}
     >
       <Oval
         visible={true}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import DateSearch from "./DateSearch";
 import GuestSearch from "./GuestSearch";
 import FlyingFromLocation from "./FlyingFromLocation";
@@ -7,17 +7,32 @@ import { useTranslation } from "react-i18next";
 import SearchButton from "./SearchButton";
 import { DateObject } from "react-multi-date-picker";
 import { useRouter } from "next/navigation";
-const buildDate = (date) => `${date.day}.${date.month}.${date.year}`;
+import evaluateErrors from "@/utils/flySearchErrors";
+import { useNotification } from "@/context/NotificationContext";
+
+export const buildDate = (date) => `${date.day}.${date.month}.${date.year}`;
 
 export default function FlyCompleteSearch() {
   const { t } = useTranslation();
+  const { showFlyErrorNotification } = useNotification();
   const router = useRouter();
+
   const today = new DateObject();
+
+  const [departDate, setDepartDate] = useState(today);
+  const [returnDate, setReturnDate] = useState(
+    new DateObject().set(today).add(7, "days")
+  );
+
+  const handleDateChange = (date, type) => {
+    if (type === "depart") {
+      setDepartDate(date);
+    } else if (type === "return") {
+      setReturnDate(date);
+    }
+  };
   const [flyingFrom, setFlyingFrom] = useState("");
   const [flyingTo, setFlyingTo] = useState("");
-  const [departDate, setDepartDate] = useState(today);
-  const [returnDate, setReturnDate] = useState(new DateObject().set(today).add(7, 'days'));
-
   const [guestCounts, setGuestCounts] = useState({
     adult: 1,
     child: 0,
@@ -33,6 +48,37 @@ export default function FlyCompleteSearch() {
   }&infant=${guestCounts.infant}&cabinClas=ECONOMY&currency=USD&language=EN`;
 
   const handleSearch = () => {
+    const flyErrors = evaluateErrors(
+      flyingFrom,
+      flyingTo,
+      departDate,
+      returnDate
+    );
+    if (flyErrors.hasErrors) {
+      return Object.entries(flyErrors.errors).forEach(([key, value]) => {
+        if (value) {
+          switch (key) {
+            case "flyingFrom":
+              showFlyErrorNotification(
+                "fly-complete-search:flyingFrom"
+              );
+              break;
+            case "flyingTo":
+              showFlyErrorNotification(
+                "fly-complete-search:flyingTo"
+              );
+              break;
+            case "returnBeforeDepart":
+              showFlyErrorNotification(
+                "fly-complete-search:returnBeforeDepart"
+              );
+              break;
+            default:
+              break;
+          }
+        }
+      });
+    }
     router.push(routeSearch);
   };
   return (
@@ -51,7 +97,10 @@ export default function FlyCompleteSearch() {
           <h4 className="text-15 fw-500 ls-2 lh-16">
             {t("fly-complete-search:depart")}
           </h4>
-          <DateSearch date={departDate} setDate={setDepartDate} />
+          <DateSearch
+            date={departDate}
+            setDate={(date) => handleDateChange(date, "depart")}
+          />
         </div>
       </div>
       {/* End Depart */}
@@ -61,7 +110,10 @@ export default function FlyCompleteSearch() {
           <h4 className="text-15 fw-500 ls-2 lh-16">
             {t("fly-complete-search:return")}
           </h4>
-          <DateSearch date={returnDate} setDate={setReturnDate} />
+          <DateSearch
+            date={returnDate}
+            setDate={(date) => handleDateChange(date, "return")}
+          />
         </div>
       </div>
       {/* End Return */}

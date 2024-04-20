@@ -2,10 +2,13 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNotification } from "@/context/NotificationContext";
+import Loader from "@/components/common/Loader";
 
 const ContactForm = () => {
   const { t } = useTranslation();
   const { showSuccessNotification, showErrorNotification } = useNotification();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  console.log("🚀 ~ ContactForm ~ isSubmitting:", isSubmitting);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -20,6 +23,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setIsSubmitting(true);
     setFormData({
       name: "",
       email: "",
@@ -57,6 +61,8 @@ const ContactForm = () => {
     } catch (error) {
       console.error("Error sending newsletter:", error);
       showErrorNotification();
+    } finally {
+      setIsSubmitting(false);
     }
   };
   return (
@@ -94,14 +100,24 @@ const ContactForm = () => {
           </label>
         </div>
       </div>
-      <div className="col-auto">
-        <button
-          type="submit"
-          className="button px-24 h-50 -dark-1 bg-blue-1 text-white"
-        >
-          {t("contact:form-send-button")}{" "}
-          <div className="icon-arrow-top-right ml-15"></div>
-        </button>
+      <div className="col-auto  ">
+        {isSubmitting ? (
+          <Loader
+            height={20}
+            width={20}
+            className={
+              "d-flex justify-center px-24 h-50 -dark-1 bg-blue-1 button"
+            }
+          />
+        ) : (
+          <button
+            type="submit"
+            className="button text-white d-flex justify-center px-24 h-50 -dark-1 bg-blue-1"
+          >
+            {t("contact:form-send-button")}
+            <div className="icon-arrow-top-right ml-15"></div>
+          </button>
+        )}
       </div>
     </form>
   );

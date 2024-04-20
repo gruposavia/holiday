@@ -79,7 +79,7 @@ const FlyingToLocation = ({ setFlyingTo }) => {
                     <div className="icon-location-2 text-light-1 text-20 pt-4" />
                     <div className="ml-10">
                       <div className="text-15 lh-12 fw-500 js-search-option-target">
-                        {item.name}
+                        {item.name + ` (${item.code})`}
                       </div>
                       <div className="text-14 lh-12 text-light-1 mt-5">
                         {t(`fly-complete-search:address-${item.code}`)}

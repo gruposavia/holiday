@@ -2,10 +2,12 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNotification } from "@/context/NotificationContext";
+import Loader from "@/components/common/Loader";
 
 const Subscribe = () => {
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { showSuccessNotification, showErrorNotification } = useNotification();
 
   const handleChange = (e) => {
@@ -15,6 +17,8 @@ const Subscribe = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setEmail("");
+    setIsSubmitting(true);
+
     try {
       const { token } = await fetch("/api/getAuthToken").then((response) =>
         response.json()
@@ -43,9 +47,16 @@ const Subscribe = () => {
     } catch (error) {
       console.error("Error sending newsletter:", error);
       showErrorNotification();
+    } finally {
+      setIsSubmitting(false);
     }
   };
-
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSubmit(e);
+    }
+  };
   return (
     <div className="single-field relative d-flex justify-end items-center pb-30">
       <input
@@ -55,14 +66,22 @@ const Subscribe = () => {
         required
         onChange={handleChange}
         value={email}
+        onKeyDown={handleKeyDown}
       />
-      <button
-        type="submit"
-        onClick={handleSubmit}
-        className="absolute px-20 h-full text-15 fw-500 underline text-dark-1"
-      >
-        {t("common:subscribe")}
-      </button>
+      <div className="absolute d-flex justify-center">
+        {isSubmitting ? (
+          <Loader height={20} width={20} className={"px-20"} />
+        ) : (
+          <button
+            type="submit"
+            onClick={handleSubmit}
+            className="px-20 h-full text-15 fw-500 underline text-dark-1"
+            disabled={isSubmitting}
+          >
+            {t("common:subscribe")}
+          </button>
+        )}
+      </div>
     </div>
   );
 };

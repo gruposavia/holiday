@@ -14,7 +14,17 @@ const TermsContent = ({ locale }) => {
   useEffect(() => {
     const fetchPrivacyTerms = async () => {
       try {
-        const response = await fetch(`/api/getPrivacyTerms?locale=${locale}`);
+        const { token } = await fetch("/api/getAuthToken").then((response) =>
+          response.json()
+        );
+        if (!token) {
+          throw new Error("Authentication token not received");
+        }
+        const response = await fetch(`/api/getPrivacyTerms?locale=${locale}`, {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        });
         const data = await response.json();
         setTermsContent(data.termsContent);
         setPrivacyContent(data.policyContent);

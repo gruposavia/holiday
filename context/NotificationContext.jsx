@@ -18,7 +18,7 @@ const NotificationContext = createContext();
 
 export const NotificationProvider = ({ children, locale }) => {
   const { t } = useTranslation();
-
+  const [showCloseButton, setShowCloseButton] = useState(false);
   const [notification, setNotification] = useState(null);
 
   const hideNotification = () => {
@@ -90,6 +90,22 @@ export const NotificationProvider = ({ children, locale }) => {
       position: "top-right",
     });
   };
+  const showFlyErrorNotification = (error) => {
+    setShowCloseButton(true);
+    toast.error(t(error), {
+      position: "top-center",
+      duration: 5000,
+    });
+  };
+  useEffect(() => {
+    let timer;
+    if (showCloseButton) {
+      timer = setTimeout(() => {
+        setShowCloseButton(false);
+      }, 15000);
+    }
+    return () => clearTimeout(timer);
+  }, [showCloseButton]);
 
   const contextValue = {
     notification,
@@ -97,11 +113,12 @@ export const NotificationProvider = ({ children, locale }) => {
     hideNotification,
     showErrorNotification,
     showSuccessNotification,
+    showFlyErrorNotification,
   };
   return (
     <NotificationContext.Provider value={contextValue}>
       {children}
-      <Toaster richColors />
+      <Toaster richColors closeButton={showCloseButton} />
     </NotificationContext.Provider>
   );
 };

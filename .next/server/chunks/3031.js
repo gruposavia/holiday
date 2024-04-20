@@ -1,1 +1,0 @@
-"use strict";exports.id=3031,exports.ids=[3031],exports.modules={93031:s=>{s.exports=JSON.parse('{"flights":"Vuelos","booking":"Gesti\xf3n de Reservas","check-in":"Check-in","status":"Estado del Vuelo"}')}};

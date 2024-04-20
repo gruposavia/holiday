@@ -2,10 +2,12 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNotification } from "@/context/NotificationContext";
+import Loader from "@/components/common/Loader";
 
 const CallToActions = () => {
   const { t } = useTranslation();
   const [email, setEmail] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const { showSuccessNotification, showErrorNotification } = useNotification();
   const handleChange = (e) => {
     setEmail(e.target.value);
@@ -14,6 +16,7 @@ const CallToActions = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setEmail("");
+    setIsSubmitting(true);
     try {
       const { token } = await fetch("/api/getAuthToken").then((response) =>
         response.json()
@@ -42,9 +45,16 @@ const CallToActions = () => {
     } catch (error) {
       console.error("Error sending newsletter:", error);
       showErrorNotification();
+    } finally {
+      setIsSubmitting(false);
     }
   };
-
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSubmit(e);
+    }
+  };
   return (
     <section className="layout-pt-md layout-pb-md bg-dark-2">
       {/* <Toaster position="top-right" richColors /> */}
@@ -75,13 +85,17 @@ const CallToActions = () => {
                 type="email"
                 value={email}
                 placeholder={t("common:your-email")}
+                onKeyDown={handleKeyDown}
               />
-              <button
-                className="button -md h-60 bg-blue-1 text-white"
-                onClick={handleSubmit}
-              >
-                {t("common:subscribe")}
-              </button>
+              <div className=" d-flex justify-center button -md h-60 bg-blue-1 ">
+                {isSubmitting ? (
+                  <Loader height={20} width={20} className={"px-20"} />
+                ) : (
+                  <button className="text-white" onClick={handleSubmit}>
+                    {t("common:subscribe")}
+                  </button>
+                )}
+              </div>
             </div>
           </div>
         </div>
