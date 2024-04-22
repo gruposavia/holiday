@@ -1,26 +1,38 @@
-const evaluateErrors = (flyingFrom, flyingTo, departDate, returnDate) => {
+const evaluateErrors = (flyingFrom, flyingTo, departDate, returnDate, today) => {
 
     let errors = {
       flyingFrom: false,
       flyingTo: false,
-      returnBeforeDepart: false
+      returnBeforeDepart: false,
+      equalLocations: false,
+      departDatePast: false,
+      returnDatePast: false
     };
   
 
     if (!flyingFrom) {
       errors.flyingFrom = true;
     }
-  
-    // Evaluar si flyingTo está vacío
+
     if (!flyingTo) {
       errors.flyingTo = true;
     }
   
-
     if (returnDate.toDate() <= departDate.toDate()) {
       errors.returnBeforeDepart = true;
     }
   
+    if (flyingFrom === flyingTo){
+      errors.equalLocations = true;
+    }
+    if (departDate < today) {
+      errors.departDatePast = true;
+
+    }
+
+    if (returnDate < today) {
+      errors.returnDatePast = true;
+    }
     const hasErrors = Object.values(errors).some((error) => error);
   
     return {

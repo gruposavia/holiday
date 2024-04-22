@@ -52,26 +52,32 @@ export default function FlyCompleteSearch() {
       flyingFrom,
       flyingTo,
       departDate,
-      returnDate
+      returnDate,
+      today
     );
     if (flyErrors.hasErrors) {
       return Object.entries(flyErrors.errors).forEach(([key, value]) => {
         if (value) {
           switch (key) {
             case "flyingFrom":
-              showFlyErrorNotification(
-                "fly-complete-search:flyingFrom"
-              );
+              showFlyErrorNotification("fly-complete-search:flyingFrom");
               break;
             case "flyingTo":
-              showFlyErrorNotification(
-                "fly-complete-search:flyingTo"
-              );
+              showFlyErrorNotification("fly-complete-search:flyingTo");
               break;
             case "returnBeforeDepart":
               showFlyErrorNotification(
                 "fly-complete-search:returnBeforeDepart"
               );
+              break;
+            case "equalLocations":
+              showFlyErrorNotification("fly-complete-search:equalLocations");
+              break;
+            case "departDatePast":
+              showFlyErrorNotification("fly-complete-search:departDatePast");
+              break;
+            case "returnDatePast":
+              showFlyErrorNotification("fly-complete-search:returnDatePast");
               break;
             default:
               break;

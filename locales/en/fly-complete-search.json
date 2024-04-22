@@ -25,5 +25,8 @@
     "address-MCO": "Orlando, Florida, United States",
     "flyingFrom": "Departure place to be selected.",
     "flyingTo": "Destination place to be selected.",
-    "returnBeforeDepart": "The return date must be after the departure date."
+    "returnBeforeDepart": "The return date must be after the departure date.",
+    "equalLocations": "Departure and arrival locations cannot be the same.",
+    "departDatePast": "Departure date cannot be in the past.",
+    "returnDatePast": "Return date cannot be in the past."
 }
