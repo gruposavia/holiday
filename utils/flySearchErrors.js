@@ -25,12 +25,12 @@ const evaluateErrors = (flyingFrom, flyingTo, departDate, returnDate, today) => 
     if (flyingFrom === flyingTo){
       errors.equalLocations = true;
     }
-    if (departDate < today) {
+    if (departDate.toDate() < today.toDate()) {
       errors.departDatePast = true;
 
     }
 
-    if (returnDate < today) {
+    if (returnDate.toDate() < today.toDate()) {
       errors.returnDatePast = true;
     }
     const hasErrors = Object.values(errors).some((error) => error);
