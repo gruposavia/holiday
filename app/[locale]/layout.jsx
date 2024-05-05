@@ -13,20 +13,18 @@ import "aos/dist/aos.css";
 import "../../styles/index.scss";
 import { Provider } from "react-redux";
 import { store } from "../../store/store";
-import TagManager from 'react-gtm-module'
+import TagManager from "react-gtm-module";
 
 const tagManagerArgs = {
-  gtmId: process.env.NEXT_PUBLIC_GTM_ID_PRODUCTION
-}
+  gtmId: process.env.NEXT_PUBLIC_GTM_ID_PRODUCTION,
+};
 
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
-  if (tagManagerArgs.gtmId) TagManager.initialize(tagManagerArgs)
+  if (tagManagerArgs.gtmId) TagManager.initialize(tagManagerArgs);
 }
 
-
 export default function RootLayout({ children }) {
-
   useEffect(() => {
     Aos.init({
       duration: 1200,
@@ -35,7 +33,7 @@ export default function RootLayout({ children }) {
   }, []);
 
   return (
-    <html lang='en' >
+    <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -50,6 +48,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="./favicon.ico" />
       </head>
       <body>
+
         <main>
           <Provider store={store}>
             {children}

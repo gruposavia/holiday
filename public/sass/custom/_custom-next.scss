@@ -170,6 +170,9 @@
 .custom_container-picker {
     display: flex !important;
 }
+.custom_container-picker.disabled {
+    cursor: not-allowed;
+  }
 @media (min-width: 1300px) {
     .rmdp-day span {
         font-size: 16px;

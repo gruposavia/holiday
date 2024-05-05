@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import DateSearch from "./DateSearch";
 import GuestSearch from "./GuestSearch";
 import FlyingFromLocation from "./FlyingFromLocation";
@@ -6,23 +6,22 @@ import FlyingToLocation from "./FlyingToLocation";
 import { useTranslation } from "react-i18next";
 import SearchButton from "./SearchButton";
 import { DateObject } from "react-multi-date-picker";
-import { useRouter } from "next/navigation";
-import evaluateErrors from "@/utils/flySearchErrors";
-import { useNotification } from "@/context/NotificationContext";
+import { useFlightService } from "@/context/FlightServiceContext";
 
 export const buildDate = (date) => `${date.day}.${date.month}.${date.year}`;
 
 export default function FlyCompleteSearch() {
   const { t } = useTranslation();
-  const { showFlyErrorNotification } = useNotification();
-  const router = useRouter();
-
+  const { searchFlights, loadingSearch, getAvailableFlightDates } =
+    useFlightService();
   const today = new DateObject();
 
   const [departDate, setDepartDate] = useState(today);
+
   const [returnDate, setReturnDate] = useState(
     new DateObject().set(today).add(7, "days")
   );
+  const [availableDates, setAvailableDates] = useState();
 
   const handleDateChange = (date, type) => {
     if (type === "depart") {
@@ -32,62 +31,42 @@ export default function FlyCompleteSearch() {
     }
   };
   const [flyingFrom, setFlyingFrom] = useState("");
+
   const [flyingTo, setFlyingTo] = useState("");
+
   const [guestCounts, setGuestCounts] = useState({
     adult: 1,
     child: 0,
     infant: 0,
   });
+  useEffect(() => {
+    const fetchAvailableDates = async () => {
+      if (flyingFrom && flyingTo) {
+        const dates = await getAvailableFlightDates(flyingFrom, flyingTo);
+        if (dates[0] > departDate) setDepartDate(dates[0]);
 
-  const routeSearch = `${
-    process.env.NEXT_PUBLIC_HITIT_URL
-  }availability?tripType=ROUND_TRIP&depPort=${flyingFrom}&arrPort=${flyingTo}&departureDate=${buildDate(
-    departDate
-  )}&returnDate=${buildDate(returnDate)}&adult=${guestCounts.adult}&child=${
-    guestCounts.child
-  }&infant=${guestCounts.infant}&cabinClas=ECONOMY&currency=USD&language=EN`;
+        if (!dates.includes(returnDate) || dates[1] > returnDate)
+          setReturnDate(dates[1]);
+        //if (dates[0] < departDate) setDepartDate(dates[0]);
 
-  const handleSearch = () => {
-    const flyErrors = evaluateErrors(
+        setAvailableDates(dates);
+      }
+    };
+    fetchAvailableDates();
+  }, [flyingFrom, flyingTo, getAvailableFlightDates]);
+
+  useEffect(() => {
+    if (departDate > returnDate) setReturnDate(departDate);
+  }, [departDate, returnDate]);
+
+  const handleSearch = async () =>
+    await searchFlights(
       flyingFrom,
       flyingTo,
       departDate,
       returnDate,
-      today
+      guestCounts
     );
-    if (flyErrors.hasErrors) {
-      return Object.entries(flyErrors.errors).forEach(([key, value]) => {
-        if (value) {
-          switch (key) {
-            case "flyingFrom":
-              showFlyErrorNotification("fly-complete-search:flyingFrom");
-              break;
-            case "flyingTo":
-              showFlyErrorNotification("fly-complete-search:flyingTo");
-              break;
-            case "returnBeforeDepart":
-              showFlyErrorNotification(
-                "fly-complete-search:returnBeforeDepart"
-              );
-              break;
-            case "equalLocations":
-              showFlyErrorNotification("fly-complete-search:equalLocations");
-              break;
-            case "departDatePast":
-              showFlyErrorNotification("fly-complete-search:departDatePast");
-              break;
-            case "returnDatePast":
-              showFlyErrorNotification("fly-complete-search:returnDatePast");
-              break;
-            default:
-              break;
-          }
-        }
-      });
-    }
-    router.push(routeSearch);
-  };
-
   return (
     <div className="button-grid items-center">
       <FlyingFromLocation
@@ -110,8 +89,13 @@ export default function FlyCompleteSearch() {
             {t("fly-complete-search:depart")}
           </h4>
           <DateSearch
+            availableDates={availableDates}
             date={departDate}
             setDate={(date) => handleDateChange(date, "depart")}
+            disabled={!availableDates}
+            maxDate={
+              availableDates && availableDates[availableDates.length - 1]
+            }
           />
         </div>
       </div>
@@ -123,9 +107,14 @@ export default function FlyCompleteSearch() {
             {t("fly-complete-search:return")}
           </h4>
           <DateSearch
+            availableDates={availableDates}
             date={returnDate}
             departDate={departDate}
             setDate={(date) => handleDateChange(date, "return")}
+            disabled={!availableDates}
+            maxDate={
+              availableDates && availableDates[availableDates.length - 1]
+            }
           />
         </div>
       </div>
@@ -134,7 +123,7 @@ export default function FlyCompleteSearch() {
       <GuestSearch guestCounts={guestCounts} setGuestCounts={setGuestCounts} />
       {/* End guest */}
 
-      <SearchButton onSearch={handleSearch} />
+      <SearchButton onSearch={handleSearch} isLoading={loadingSearch} />
       {/* End search button_item */}
     </div>
   );

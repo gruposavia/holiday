@@ -4,7 +4,7 @@ import initTranslations from "../i18n";
 import TranslationsProvider from "../../components/TranslationProvider";
 import { i18nNamespaces } from "@/utils/translationsContansts";
 import { NotificationProvider } from "@/context/NotificationContext";
-import { FlightsProvider } from "@/context/FlightsContext";
+import { FlightServiceProvider } from "@/context/FlightServiceContext";
 
 export const metadata = {
   title: "Home || HolidayAir",
@@ -25,11 +25,11 @@ export default async function Home({ params: { locale } }) {
           resources={resources}
         >
           <NotificationProvider locale={locale}>
-            <FlightsProvider>
+            <FlightServiceProvider>
               <Wrapper>
                 <MainHome t={t} locale={locale} />
               </Wrapper>
-            </FlightsProvider>
+            </FlightServiceProvider>
           </NotificationProvider>
         </TranslationsProvider>
       </>
