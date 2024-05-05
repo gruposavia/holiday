@@ -25,7 +25,7 @@ const DateSearch = ({
       <DatePicker
         inputClass="custom_input-picker"
         containerClassName="custom_container-picker"
-        value={date}
+        value={date || undefined}
         onChange={(date) => setDate(date)}
         numberOfMonths={1}
         offsetY={10}
@@ -44,6 +44,7 @@ const DateSearch = ({
         }}
         disabled={disabled}
         style={{ cursor: disabled && "not-allowed" }}
+        
       />
     </div>
   );

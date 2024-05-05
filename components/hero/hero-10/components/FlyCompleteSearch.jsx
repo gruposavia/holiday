@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import SearchButton from "./SearchButton";
 import { DateObject } from "react-multi-date-picker";
 import { useFlightService } from "@/context/FlightServiceContext";
+import Loader from "@/components/common/Loader";
 
 export const buildDate = (date) => `${date.day}.${date.month}.${date.year}`;
 
@@ -14,13 +15,12 @@ export default function FlyCompleteSearch() {
   const { t } = useTranslation();
   const { searchFlights, loadingSearch, getAvailableFlightDates } =
     useFlightService();
+
   const today = new DateObject();
 
-  const [departDate, setDepartDate] = useState(today);
+  const [departDate, setDepartDate] = useState(undefined);
 
-  const [returnDate, setReturnDate] = useState(
-    new DateObject().set(today).add(7, "days")
-  );
+  const [returnDate, setReturnDate] = useState(undefined);
   const [availableDates, setAvailableDates] = useState();
 
   const handleDateChange = (date, type) => {
@@ -43,11 +43,10 @@ export default function FlyCompleteSearch() {
     const fetchAvailableDates = async () => {
       if (flyingFrom && flyingTo) {
         const dates = await getAvailableFlightDates(flyingFrom, flyingTo);
-        if (dates[0] > departDate) setDepartDate(dates[0]);
+        setDepartDate(dates[0]);
 
         if (!dates.includes(returnDate) || dates[1] > returnDate)
           setReturnDate(dates[1]);
-        //if (dates[0] < departDate) setDepartDate(dates[0]);
 
         setAvailableDates(dates);
       }
@@ -88,15 +87,19 @@ export default function FlyCompleteSearch() {
           <h4 className="text-15 fw-500 ls-2 lh-16">
             {t("fly-complete-search:depart")}
           </h4>
-          <DateSearch
-            availableDates={availableDates}
-            date={departDate}
-            setDate={(date) => handleDateChange(date, "depart")}
-            disabled={!availableDates}
-            maxDate={
-              availableDates && availableDates[availableDates.length - 1]
-            }
-          />
+          {!availableDates && flyingFrom && flyingTo ? (
+            <Loader height={20} width={20} className={"px-20"} maxHeight={20} />
+          ) : (
+            <DateSearch
+              availableDates={availableDates}
+              date={departDate}
+              setDate={(date) => handleDateChange(date, "depart")}
+              disabled={!availableDates}
+              maxDate={
+                availableDates && availableDates[availableDates.length - 1]
+              }
+            />
+          )}
         </div>
       </div>
       {/* End Depart */}
@@ -106,16 +109,20 @@ export default function FlyCompleteSearch() {
           <h4 className="text-15 fw-500 ls-2 lh-16">
             {t("fly-complete-search:return")}
           </h4>
-          <DateSearch
-            availableDates={availableDates}
-            date={returnDate}
-            departDate={departDate}
-            setDate={(date) => handleDateChange(date, "return")}
-            disabled={!availableDates}
-            maxDate={
-              availableDates && availableDates[availableDates.length - 1]
-            }
-          />
+          {!availableDates && flyingFrom && flyingTo ? (
+            <Loader height={20} width={20} className={"px-20"} maxHeight={20} />
+          ) : (
+            <DateSearch
+              availableDates={availableDates}
+              date={returnDate}
+              departDate={departDate}
+              setDate={(date) => handleDateChange(date, "return")}
+              disabled={!availableDates}
+              maxDate={
+                availableDates && availableDates[availableDates.length - 1]
+              }
+            />
+          )}
         </div>
       </div>
       {/* End Return */}
