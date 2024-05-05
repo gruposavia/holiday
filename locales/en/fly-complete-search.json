@@ -28,5 +28,6 @@
     "returnBeforeDepart": "The return date must be after the departure date.",
     "equalLocations": "Departure and arrival locations cannot be the same.",
     "departDatePast": "Departure date cannot be in the past.",
-    "returnDatePast": "Return date cannot be in the past."
+    "returnDatePast": "Return date cannot be in the past.",
+    "select-departure": "Choose your departure location"
 }

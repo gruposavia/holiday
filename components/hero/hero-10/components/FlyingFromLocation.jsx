@@ -1,43 +1,31 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useFlights } from "@/context/FlightsContext";
 
-const FlyingFromLocation = ({ flyingFrom, setFlyingFrom }) => {
+const FlyingFromLocation = ({ flyingFrom, setFlyingFrom, filter }) => {
   const [searchValue, setSearchValue] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
+  const [filtered, setFiltered] = useState(filter);
+  const { flightsData, setDepartureLocation } = useFlights();
   const { t } = useTranslation();
-  const locationSearchContent = [
-    {
-      id: 1,
-      name: "Miami",
-      code: "MIA",
-    },
-    {
-      id: 2,
-      name: "Orlando",
-      code: "MCO",
-    },
-    {
-      id: 3,
-      name: "Buenos Aires",
-      code: "EZE",
-    },
-    {
-      id: 4,
-      name: "Punta Cana",
-      code: "PUJ",
-    },
-  ];
 
-  const filteredOptions = locationSearchContent.filter((item) =>
-    item.name.toLowerCase().includes(searchValue.toLowerCase())
-  );
+  const filteredOptions = flightsData
+    .filter((item) =>
+      item.name.toLowerCase().includes(searchValue.toLowerCase())
+    )
+    .filter((e) => e.id !== filtered);
+
+  useEffect(() => {
+    setFiltered(filter);
+  }, [filter]);
 
   const handleOptionClick = (item) => {
     setSearchValue(item.name);
     setSelectedItem(item);
     setFlyingFrom(item.code);
+    setDepartureLocation(item);
   };
 
   return (

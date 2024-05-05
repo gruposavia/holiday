@@ -1,39 +1,42 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { useFlights } from "@/context/FlightsContext";
 
-const FlyingToLocation = ({ setFlyingTo }) => {
+const FlyingToLocation = ({ setFlyingTo, filter }) => {
   const [searchValue, setSearchValue] = useState("");
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(undefined);
   const { t } = useTranslation();
-  const locationSearchContent = [
-    {
-      id: 1,
-      name: "Miami",
-      code: "MIA",
-    },
-    {
-      id: 2,
-      name: "Orlando",
-      code: "MCO",
-    },
-    {
-      id: 3,
-      name: "Buenos Aires",
-      code: "EZE",
-    },
-    {
-      id: 4,
-      name: "Punta Cana",
-      code: "PUJ",
-    },
-  ];
+  const [filtered, setFiltered] = useState(filter);
+  const [hasOptions, setHasOptions] = useState(false);
+
+
+  useEffect(() => {
+    setFiltered(filter);
+  }, [filter]);
+
+  const { getAvailableDestinations, departure } = useFlights();
+  const locationSearchContent = getAvailableDestinations();
+
 
   const filteredOptions = locationSearchContent.filter((item) =>
     item.name.toLowerCase().includes(searchValue.toLowerCase())
   );
+  useEffect(() => {
+    if (locationSearchContent.length > 0) setHasOptions(true);
+  }, [locationSearchContent]);
 
+  useEffect(() => {
+    const value =
+      selectedItem &&
+      locationSearchContent.some((e) => e.code === selectedItem.code);
+    if (!departure) setSelectedItem(undefined);
+    if (departure && !value) {
+      setSelectedItem(undefined);
+      setSearchValue("");
+    }
+  }, [selectedItem, departure, locationSearchContent]);
   const handleOptionClick = (item) => {
     setSearchValue(item.name);
     setSelectedItem(item);
@@ -66,28 +69,36 @@ const FlyingToLocation = ({ setFlyingTo }) => {
         <div className="shadow-2 dropdown-menu min-width-400">
           <div className="bg-white px-20 py-20 sm:px-0 sm:py-15 rounded-4">
             <ul className="y-gap-5 js-results">
-              {filteredOptions.map((item) => (
-                <li
-                  className={`-link d-block col-12 text-left rounded-4 px-20 py-15 js-search-option mb-1 ${
-                    selectedItem && selectedItem.id === item.id ? "active" : ""
-                  }`}
-                  key={item.id}
-                  role="button"
-                  onClick={() => handleOptionClick(item)}
-                >
-                  <div className="d-flex">
-                    <div className="icon-location-2 text-light-1 text-20 pt-4" />
-                    <div className="ml-10">
-                      <div className="text-15 lh-12 fw-500 js-search-option-target">
-                        {item.name + ` (${item.code})`}
-                      </div>
-                      <div className="text-14 lh-12 text-light-1 mt-5">
-                        {t(`fly-complete-search:address-${item.code}`)}
+              {hasOptions ? (
+                filteredOptions.map((item) => (
+                  <li
+                    className={`-link d-block col-12 text-left rounded-4 px-20 py-15 js-search-option mb-1 ${
+                      selectedItem && selectedItem.id === item.id
+                        ? "active"
+                        : ""
+                    }`}
+                    key={item.id}
+                    role="button"
+                    onClick={() => handleOptionClick(item)}
+                  >
+                    <div className="d-flex">
+                      <div className="icon-location-2 text-light-1 text-20 pt-4" />
+                      <div className="ml-10">
+                        <div className="text-15 lh-12 fw-500 js-search-option-target">
+                          {item.name + ` (${item.code})`}
+                        </div>
+                        <div className="text-14 lh-12 text-light-1 mt-5">
+                          {t(`fly-complete-search:address-${item.code}`)}
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-              ))}
+                  </li>
+                ))
+              ) : (
+                <div className="ml-10 text-15 lh-12 fw-500 js-search-option-target text-red-2">
+                  {t("fly-complete-search:select-departure")}
+                </div>
+              )}
             </ul>
           </div>
         </div>

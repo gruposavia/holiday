@@ -8,7 +8,6 @@ const ContactForm = () => {
   const { t } = useTranslation();
   const { showSuccessNotification, showErrorNotification } = useNotification();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  console.log("🚀 ~ ContactForm ~ isSubmitting:", isSubmitting);
   const [formData, setFormData] = useState({
     name: "",
     email: "",

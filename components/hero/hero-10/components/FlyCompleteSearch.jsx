@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import DateSearch from "./DateSearch";
 import GuestSearch from "./GuestSearch";
 import FlyingFromLocation from "./FlyingFromLocation";
@@ -87,15 +87,21 @@ export default function FlyCompleteSearch() {
     }
     router.push(routeSearch);
   };
+
   return (
     <div className="button-grid items-center">
       <FlyingFromLocation
+        filter={flyingTo}
         flyingFrom={flyingFrom}
         setFlyingFrom={setFlyingFrom}
       />
       {/* End Location Flying From */}
 
-      <FlyingToLocation flyingTo={flyingTo} setFlyingTo={setFlyingTo} />
+      <FlyingToLocation
+        flyingTo={flyingTo}
+        setFlyingTo={setFlyingTo}
+        filter={flyingTo}
+      />
       {/* End Location Flying To */}
 
       <div className="searchMenu-date px-30 lg:py-20 lg:px-0 js-form-dd js-calendar">
@@ -118,6 +124,7 @@ export default function FlyCompleteSearch() {
           </h4>
           <DateSearch
             date={returnDate}
+            departDate={departDate}
             setDate={(date) => handleDateChange(date, "return")}
           />
         </div>

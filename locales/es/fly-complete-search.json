@@ -27,5 +27,6 @@
   "returnBeforeDepart": "La fecha de regreso debe ser posterior a la fecha de partida.",
   "equalLocations": "Las ubicaciones de salida y llegada no pueden ser iguales.",
   "departDatePast": "La fecha de partida no puede ser anterior a la fecha actual.",
-  "returnDatePast": "La fecha de regreso no puede ser anterior a la fecha actual."
+  "returnDatePast": "La fecha de regreso no puede ser anterior a la fecha actual.",
+  "select-departure": "Elige tu ubicación de salida"
 }
