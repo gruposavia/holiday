@@ -23,6 +23,7 @@
     "address-PUJ": "Punta Cana, Dominican Republic",
     "address-EZE": "Ministro Pistarini International Airport, Buenos Aires, Argentina",
     "address-MCO": "Orlando, Florida, United States",
+    "address-JUJ": "Gobernador Horacio Guzmán International Airport, Jujuy, Argentina",
     "flyingFrom": "Departure place to be selected.",
     "flyingTo": "Destination place to be selected.",
     "returnBeforeDepart": "The return date must be after the departure date.",

@@ -9,6 +9,21 @@ const FlightServiceContext = createContext();
 
 export const buildDate = (date) => `${date.day}.${date.month}.${date.year}`;
 
+function getLastDayOfPreviousMonthWithYear(dateString) {
+  const [day, month, year] = dateString.split(".");
+  const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+  date.setDate(0);
+
+  const lastDay = date.getDate();
+  const lastMonth = date.getMonth() + 1;
+  let lastYear = date.getFullYear();
+
+  if (lastMonth === 12) {
+    lastYear += 1;
+  }
+  return `${lastDay}.${lastMonth}.${lastYear + 1}`;
+}
+
 export const FlightServiceProvider = ({ children }) => {
   const router = useRouter();
   const { showFlyErrorNotification } = useNotification();
@@ -20,6 +35,8 @@ export const FlightServiceProvider = ({ children }) => {
   const [loadingFlightData, setLoadingFlightData] = useState(false);
   const [loadingDestination, setLoadingDestination] = useState(false);
   const [loadingSearch, setloadingSearch] = useState(false);
+
+  const today = new DateObject();
 
   const fetchFlightData = async () => {
     try {
@@ -103,7 +120,7 @@ export const FlightServiceProvider = ({ children }) => {
     guestCounts
   ) => {
     setloadingSearch(true);
-    const today = new DateObject();
+
     try {
       const flyErrors = evaluateErrors(
         flyingFrom,
@@ -169,10 +186,13 @@ export const FlightServiceProvider = ({ children }) => {
   const getAvailableFlightDates = async (depCode, desCode) => {
     try {
       const response = await fetch(
-        `${process.env.NEXT_PUBLIC_HITIT_URL}search/availableFlightDates?depPort=${depCode}&arrPort=${desCode}&startDate=05.05.2024&endDate=30.04.2025`
+        `${
+          process.env.NEXT_PUBLIC_HITIT_URL
+        }search/availableFlightDates?depPort=${depCode}&arrPort=${desCode}&startDate=${buildDate(
+          today
+        )}&endDate=${getLastDayOfPreviousMonthWithYear(buildDate(today))}`
       );
       const data = await response.json();
-
       const dateObjectsArray = data.availableDates?.map((dateString) => {
         const [day, month, year] = dateString.split("."); // Dividimos la cadena de texto en día, mes y año
         return new DateObject({
